@@ -1,0 +1,10 @@
+<layout id="WatchFace">
+    <label id="BatteryLabel" font="@Fonts.textFont" />
+    <label id="DateLabel" font="@Fonts.textFont" />
+    <label id="DayNumberLabel" font="@Fonts.bigNumberFont" />
+    <label id="StepLabel" font="@Fonts.textFont" />
+    <label id="NotifLabel" font="@Fonts.textFont" />
+    <label id="BatteryIcon" font="@Fonts.iconFont" />
+    <label id="StepIcon" font="@Fonts.iconFont" />
+    <label id="NotifIcon" font="@Fonts.iconFont" />
+</layout>

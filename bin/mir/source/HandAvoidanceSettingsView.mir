@@ -1,0 +1,118 @@
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 1; ]
+import Toybox.Application.Storage;
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 7; ]
+class HandAvoidanceSettingsMenu extends WatchUi.Menu2{
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 10; ]
+    public
+    function initialize() as Void {
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_10_33_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 11 8 ]
+        %tmp.2 = getv ? :Menu2;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :title;
+        %tmp.7 = "Settings";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 12 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :addItem;
+        %tmp.14 = getm $.Toybox.WatchUi;
+        %tmp.15 = getv function ? %tmp.14 :ToggleMenuItem;
+        %tmp.16 = "Field 1";
+        %tmp.17 = null;
+        %tmp.18 = 1;
+        %tmp.19 = true;
+        %tmp.20 = null;
+        %tmp.12 = newc %tmp.15 (%tmp.16, %tmp.17, %tmp.18, %tmp.19, %tmp.20);
+        invoke %tmp.10 %tmp.11(%tmp.12);
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 13 8 ]
+        %tmp.21 = self;
+        %tmp.22 = getv function %tmp.21 :addItem;
+        %tmp.25 = getm $.Toybox.WatchUi;
+        %tmp.26 = getv function ? %tmp.25 :ToggleMenuItem;
+        %tmp.27 = "Field 2";
+        %tmp.28 = null;
+        %tmp.29 = 2;
+        %tmp.30 = true;
+        %tmp.31 = null;
+        %tmp.23 = newc %tmp.26 (%tmp.27, %tmp.28, %tmp.29, %tmp.30, %tmp.31);
+        invoke %tmp.21 %tmp.22(%tmp.23);
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 14 8 ]
+        %tmp.32 = self;
+        %tmp.33 = getv function %tmp.32 :addItem;
+        %tmp.36 = getm $.Toybox.WatchUi;
+        %tmp.37 = getv function ? %tmp.36 :ToggleMenuItem;
+        %tmp.38 = "Field 3";
+        %tmp.39 = null;
+        %tmp.40 = 1;
+        %tmp.41 = true;
+        %tmp.42 = null;
+        %tmp.34 = newc %tmp.37 (%tmp.38, %tmp.39, %tmp.40, %tmp.41, %tmp.42);
+        invoke %tmp.32 %tmp.33(%tmp.34);
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 15 8 ]
+        %tmp.43 = self;
+        %tmp.44 = getv function %tmp.43 :addItem;
+        %tmp.47 = getm $.Toybox.WatchUi;
+        %tmp.48 = getv function ? %tmp.47 :ToggleMenuItem;
+        %tmp.49 = "Date";
+        %tmp.50 = null;
+        %tmp.51 = 2;
+        %tmp.52 = true;
+        %tmp.53 = null;
+        %tmp.45 = newc %tmp.48 (%tmp.49, %tmp.50, %tmp.51, %tmp.52, %tmp.53);
+        invoke %tmp.43 %tmp.44(%tmp.45);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_10_33_stop:
+    }
+}
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 22; ]
+class HandAvoidanceSettingsMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 22; ]
+    <init> {
+    }
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 22; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 25; ]
+    public
+    function initialize() as Void {
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_25_33_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 26 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_25_33_stop:
+    }
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 29; ]
+    public
+    function onBack() as Void {
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_29_36_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc" 30 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceSettingsView_mc_29_36_stop:
+    }
+}
+[ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceSettingsView.mc"; @line = 1; ]
+<init> {
+}

@@ -21,6 +21,12 @@ class HandAvoidanceApp extends Application.AppBase {
         return [ new HandAvoidanceView() ] as Array<Views or InputDelegates>;
     }
 
+    public function getSettingsView() as Array<Views or InputDelegates>? {
+        var settingsView = new HandAvoidanceSettings();
+        var settingDelegate = new HandAvoidanceSettingsDelegate();
+        return [settingsView, settingDelegate] as Array<Views or InputDelegates>;
+    }
+
 }
 
 function getApp() as HandAvoidanceApp {

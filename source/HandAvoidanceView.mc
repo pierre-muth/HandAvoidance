@@ -11,32 +11,32 @@ import Toybox.Application.Storage;
 class HandAvoidanceView extends WatchUi.WatchFace {
 
     // x, y coordinate, justification, icon offset, for each 4 watch quadrants
-    const q0 = [95, 1, Graphics.TEXT_JUSTIFY_LEFT, 20];
-    const q1 = [95, 105, Graphics.TEXT_JUSTIFY_LEFT, 20];
-    const q2 = [80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -20];
-    const q3 = [80, 1, Graphics.TEXT_JUSTIFY_RIGHT, -20];
+    const q0 = [95, 1, Graphics.TEXT_JUSTIFY_LEFT, 18];
+    const q1 = [95, 105, Graphics.TEXT_JUSTIFY_LEFT, 18];
+    const q2 = [80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18];
+    const q3 = [80, 1, Graphics.TEXT_JUSTIFY_RIGHT, -18];
     
     // group 1 and group 2 coordinates to avoid watch hands
     const coordinates = [
-                        [q3, q2],
+                        [q3, q1],
                         [q3, q2],
                         [q3, q1],
                         [q2, q1],
 
                         [q3, q2],
-                        [q3, q0],
+                        [q2, q0],
                         [q3, q0],
                         [q2, q0],
 
                         [q3, q1],
                         [q3, q0],
-                        [q3, q0],
+                        [q3, q1],
                         [q1, q0],
                         
                         [q1, q2],
                         [q0, q2],
                         [q0, q1],
-                        [q1, q2]
+                        [q0, q2]
                         ];
 
     function initialize() {
@@ -54,6 +54,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var dateString = Lang.format("$1$", [today.day_of_week]);
         var dayString = Lang.format("$1$", [today.day]);
+        var todayUTC = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
+        var utcString =  Lang.format("$1$:$2$", [todayUTC.hour.format("%02d"), todayUTC.min.format("%02d")]);
 
         // Determine coordinate for hands avoidance
         var coordinatesIdx = (today.min/15)+(((today.hour%12)/3)*4);
@@ -78,7 +80,14 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // Get step count
         var info = ActivityMonitor.getInfo();
         var stepCountString = info.steps.format("%i");
-        // stepCountString = Storage.getValue("count") == null ? "null" : Storage.getValue("count").format("%i");
+
+        // Get heart beat
+        var info2 = Activity.getActivityInfo();
+        var heartRateString = "n.a.";
+        if (info2 != null && info2.currentHeartRate != null) {
+            heartRateString = info2.currentHeartRate.format("%i");
+        }
+        // System.println( "HR: "+heartRateString );
 
         // drawing
         var view;
@@ -89,7 +98,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setJustification(j1);
         view.setText(dateString);
         view = View.findDrawableById("DayNumberLabel") as Text;
-        view.setLocation(x1, y1+15);
+        view.setLocation(x1, y1+13);
         view.setJustification(j1);
         view.setText(dayString);
 
@@ -97,21 +106,37 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view = View.findDrawableById("NotifIcon") as Text;
         view.setLocation(x2, y2);
         view.setJustification(j2);
-        view.setText("F");
+        if (Storage.getValue(1)) {
+            view.setText("H");
+        } else {
+            view.setText("F");
+        }
         view = View.findDrawableById("NotifLabel") as Text;
         view.setLocation(x2+o2, y2);
         view.setJustification(j2);
-        view.setText(notifCountString);
+        if (Storage.getValue(1)) {
+            view.setText(utcString);
+        } else {
+            view.setText(notifCountString);
+        }
 
         //draw step count
         view = View.findDrawableById("StepIcon") as Text;
         view.setLocation(x2, y2+20);
         view.setJustification(j2);
-        view.setText("E");
+        if (Storage.getValue(2)) {
+            view.setText("G");
+        } else {
+            view.setText("E");
+        }
         view = View.findDrawableById("StepLabel") as Text;
         view.setLocation(x2+o2, y2+20);
         view.setJustification(j2);
-        view.setText(stepCountString);
+        if (Storage.getValue(2)) {
+            view.setText(heartRateString);
+        } else {
+            view.setText(stepCountString);
+        }
 
         // draw the battery info
         view = View.findDrawableById("BatteryIcon") as Text;

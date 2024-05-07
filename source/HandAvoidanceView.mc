@@ -101,6 +101,11 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         }
         var heartRateIconString = "G";
 
+        // Get the config
+        var field1value = Storage.getValue(1);
+        var field2value = Storage.getValue(2);
+        var field3value = Storage.getValue(3);
+
         // drawing
         var view;
 
@@ -110,7 +115,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setJustification(j1);
         view.setText(dateString);
         view = View.findDrawableById("DayNumberLabel") as Text;
-        view.setLocation(x1, y1+11);
+        view.setLocation(x1, y1+10);
         view.setJustification(j1);
         view.setText(dayString);
 
@@ -118,64 +123,64 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view = View.findDrawableById("Field1Icon") as Text;
         view.setLocation(x2, y2);
         view.setJustification(j2);
-        if (Storage.getValue(1) == 0) { view.setText(notificationIconString); }
-        if (Storage.getValue(1) == 1) { view.setText(stepIconString); }
-        if (Storage.getValue(1) == 2) { view.setText(batteryIconString); }
-        if (Storage.getValue(1) == 3) { view.setText(utcIconString); }
-        if (Storage.getValue(1) == 4) { view.setText(heartRateIconString); }
-        if (Storage.getValue(1) == 5) { view.setText(""); }
+        if (field1value == 0) { view.setText(notificationIconString); }
+        else if (field1value == 1) { view.setText(stepIconString); }
+        else if (field1value == 2) { view.setText(batteryIconString); }
+        else if (field1value == 3) { view.setText(utcIconString); }
+        else if (field1value == 4) { view.setText(heartRateIconString); }
+        else { view.setText(""); }
 
         view = View.findDrawableById("Field1Label") as Text;
         view.setLocation(x2+o2, y2);
         view.setJustification(j2);
-        if (Storage.getValue(1) == 0) { view.setText(notificationString); }
-        if (Storage.getValue(1) == 1) { view.setText(stepString); }
-        if (Storage.getValue(1) == 2) { view.setText(batteryString); }
-        if (Storage.getValue(1) == 3) { view.setText(utcString); }
-        if (Storage.getValue(1) == 4) { view.setText(heartRateString); }
-        if (Storage.getValue(1) == 5) { view.setText(""); }
+        if (field1value == 0) { view.setText(notificationString); }
+        else if (field1value == 1) { view.setText(stepString); }
+        else if (field1value == 2) { view.setText(batteryString); }
+        else if (field1value == 3) { view.setText(utcString); }
+        else if (field1value == 4) { view.setText(heartRateString); }
+        else { view.setText(""); }
 
         // draw field 2 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field2Icon") as Text;
         view.setLocation(x2, y2+20);
         view.setJustification(j2);
-        if (Storage.getValue(2) == 0) { view.setText(notificationIconString); }
-        if (Storage.getValue(2) == 1) { view.setText(stepIconString); }
-        if (Storage.getValue(2) == 2) { view.setText(batteryIconString); }
-        if (Storage.getValue(2) == 3) { view.setText(utcIconString); }
-        if (Storage.getValue(2) == 4) { view.setText(heartRateIconString); }
-        if (Storage.getValue(2) == 5) { view.setText(""); }
+        if (field2value == 0) { view.setText(notificationIconString); }
+        else if (field2value == 1) { view.setText(stepIconString); }
+        else if (field2value == 2) { view.setText(batteryIconString); }
+        else if (field2value == 3) { view.setText(utcIconString); }
+        else if (field2value == 4) { view.setText(heartRateIconString); }
+        else { view.setText(""); }
 
         view = View.findDrawableById("Field2Label") as Text;
         view.setLocation(x2+o2, y2+20);
         view.setJustification(j2);
-        if (Storage.getValue(2) == 0) { view.setText(notificationString); }
-        if (Storage.getValue(2) == 1) { view.setText(stepString); }
-        if (Storage.getValue(2) == 2) { view.setText(batteryString); }
-        if (Storage.getValue(2) == 3) { view.setText(utcString); }
-        if (Storage.getValue(2) == 4) { view.setText(heartRateString); }
-        if (Storage.getValue(2) == 5) { view.setText(""); }
+        if (field2value == 0) { view.setText(notificationString); }
+        else if (field2value == 1) { view.setText(stepString); }
+        else if (field2value == 2) { view.setText(batteryString); }
+        else if (field2value == 3) { view.setText(utcString); }
+        else if (field2value == 4) { view.setText(heartRateString); }
+        else { view.setText(""); }
 
-        // draw field 2 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
+        // draw field 3 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field3Icon") as Text;
         view.setLocation(x2, y2+40);
         view.setJustification(j2);
-        if (Storage.getValue(3) == 0) { view.setText(notificationIconString); }
-        if (Storage.getValue(3) == 1) { view.setText(stepIconString); }
-        if (Storage.getValue(3) == 2) { view.setText(batteryIconString); }
-        if (Storage.getValue(3) == 3) { view.setText(utcIconString); }
-        if (Storage.getValue(3) == 4) { view.setText(heartRateIconString); }
-        if (Storage.getValue(3) == 5) { view.setText(""); }
+        if (field3value == 0) { view.setText(notificationIconString); }
+        else if (field3value == 1) { view.setText(stepIconString); }
+        else if (field3value == 2) { view.setText(batteryIconString); }
+        else if (field3value == 3) { view.setText(utcIconString); }
+        else if (field3value == 4) { view.setText(heartRateIconString); }
+        else { view.setText(""); }
 
         view = View.findDrawableById("Field3Label") as Text;
         view.setLocation(x2+o2, y2+40);
         view.setJustification(j2);
-        if (Storage.getValue(3) == 0) { view.setText(notificationString); }
-        if (Storage.getValue(3) == 1) { view.setText(stepString); }
-        if (Storage.getValue(3) == 2) { view.setText(batteryString); }
-        if (Storage.getValue(3) == 3) { view.setText(utcString); }
-        if (Storage.getValue(3) == 4) { view.setText(heartRateString); }
-        if (Storage.getValue(3) == 5) { view.setText(""); }
+        if (field3value == 0) { view.setText(notificationString); }
+        else if (field3value == 1) { view.setText(stepString); }
+        else if (field3value == 2) { view.setText(batteryString); }
+        else if (field3value == 3) { view.setText(utcString); }
+        else if (field3value == 4) { view.setText(heartRateString); }
+        else { view.setText(""); }
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

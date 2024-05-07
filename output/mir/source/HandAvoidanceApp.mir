@@ -18,67 +18,167 @@ class HandAvoidanceApp extends Application.AppBase{
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_7_26_start:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 8 8 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_12_begin:
         %tmp.2 = getv ? :Storage;
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = 1;
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = null;
         %tmp.7 = eq %tmp.5 %tmp.6;
-        bf %tmp.7 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_end;
+        %tmp.8 = dup %tmp.7;
+        bt %tmp.8 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_43_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_43_false:
+        %tmp.10 = getv ? :Storage;
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = 1;
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.15 = getv ? :Number;
+        %tmp.16 = isa %tmp.13 %tmp.15;
+        %tmp.17 = not %tmp.16;
+        %tmp.18 = or %tmp.7 %tmp.17;
+        push %tmp.18;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_43_end:
+        %tmp.19 = phi [%tmp.8 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_12_begin] [%tmp.18 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_43_false] [%tmp.19 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_43_end];
+        bf %tmp.19 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_41_start:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_85_start:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 9 12 ]
-        %tmp.9 = getv ? :Storage;
-        %tmp.10 = getv function %tmp.9 :setValue;
-        %tmp.11 = 1;
-        %tmp.12 = false;
-        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_41_stop:
+        %tmp.21 = getv ? :Storage;
+        %tmp.22 = getv function %tmp.21 :setValue;
+        %tmp.23 = 1;
+        %tmp.24 = 1;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_85_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_8_8_if_end:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 11 8 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_stmt:
-        %tmp.14 = getv ? :Storage;
-        %tmp.15 = getv function %tmp.14 :getValue;
-        %tmp.16 = 2;
-        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
-        %tmp.18 = null;
-        %tmp.19 = eq %tmp.17 %tmp.18;
-        bf %tmp.19 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_12_begin:
+        %tmp.26 = getv ? :Storage;
+        %tmp.27 = getv function %tmp.26 :getValue;
+        %tmp.28 = 2;
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        %tmp.30 = null;
+        %tmp.31 = eq %tmp.29 %tmp.30;
+        %tmp.32 = dup %tmp.31;
+        bt %tmp.32 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_43_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_43_false:
+        %tmp.34 = getv ? :Storage;
+        %tmp.35 = getv function %tmp.34 :getValue;
+        %tmp.36 = 2;
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        %tmp.39 = getv ? :Number;
+        %tmp.40 = isa %tmp.37 %tmp.39;
+        %tmp.41 = not %tmp.40;
+        %tmp.42 = or %tmp.31 %tmp.41;
+        push %tmp.42;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_43_end:
+        %tmp.43 = phi [%tmp.32 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_12_begin] [%tmp.42 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_43_false] [%tmp.43 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_43_end];
+        bf %tmp.43 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_41_start:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_85_start:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 12 12 ]
-        %tmp.21 = getv ? :Storage;
-        %tmp.22 = getv function %tmp.21 :setValue;
-        %tmp.23 = 2;
-        %tmp.24 = false;
-        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_41_stop:
+        %tmp.45 = getv ? :Storage;
+        %tmp.46 = getv function %tmp.45 :setValue;
+        %tmp.47 = 2;
+        %tmp.48 = 2;
+        invoke %tmp.45 %tmp.46(%tmp.47, %tmp.48);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_85_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_11_8_if_end:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 14 8 ]
-        %tmp.26 = getv ? :AppBase;
-        %tmp.27 = getv function %tmp.26 :initialize;
-        invoke %tmp.26 %tmp.27();
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_8_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_12_begin:
+        %tmp.50 = getv ? :Storage;
+        %tmp.51 = getv function %tmp.50 :getValue;
+        %tmp.52 = 3;
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = null;
+        %tmp.55 = eq %tmp.53 %tmp.54;
+        %tmp.56 = dup %tmp.55;
+        bt %tmp.56 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_43_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_43_false:
+        %tmp.58 = getv ? :Storage;
+        %tmp.59 = getv function %tmp.58 :getValue;
+        %tmp.60 = 3;
+        %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
+        %tmp.63 = getv ? :Number;
+        %tmp.64 = isa %tmp.61 %tmp.63;
+        %tmp.65 = not %tmp.64;
+        %tmp.66 = or %tmp.55 %tmp.65;
+        push %tmp.66;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_43_end:
+        %tmp.67 = phi [%tmp.56 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_12_begin] [%tmp.66 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_43_false] [%tmp.67 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_43_end];
+        bf %tmp.67 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_85_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 15 12 ]
+        %tmp.69 = getv ? :Storage;
+        %tmp.70 = getv function %tmp.69 :setValue;
+        %tmp.71 = 3;
+        %tmp.72 = 3;
+        invoke %tmp.69 %tmp.70(%tmp.71, %tmp.72);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_85_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_14_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 17 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_8_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_12_begin:
+        %tmp.74 = getv ? :Storage;
+        %tmp.75 = getv function %tmp.74 :getValue;
+        %tmp.76 = 4;
+        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
+        %tmp.78 = null;
+        %tmp.79 = eq %tmp.77 %tmp.78;
+        %tmp.80 = dup %tmp.79;
+        bt %tmp.80 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_43_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_43_false:
+        %tmp.82 = getv ? :Storage;
+        %tmp.83 = getv function %tmp.82 :getValue;
+        %tmp.84 = 4;
+        %tmp.85 = invoke %tmp.82 %tmp.83(%tmp.84);
+        %tmp.87 = getv ? :Number;
+        %tmp.88 = isa %tmp.85 %tmp.87;
+        %tmp.89 = not %tmp.88;
+        %tmp.90 = or %tmp.79 %tmp.89;
+        push %tmp.90;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_43_end:
+        %tmp.91 = phi [%tmp.80 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_12_begin] [%tmp.90 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_43_false] [%tmp.91 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_43_end];
+        bf %tmp.91 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_85_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 18 12 ]
+        %tmp.93 = getv ? :Storage;
+        %tmp.94 = getv function %tmp.93 :setValue;
+        %tmp.95 = 4;
+        %tmp.96 = 4;
+        invoke %tmp.93 %tmp.94(%tmp.95, %tmp.96);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_85_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_17_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 20 8 ]
+        %tmp.98 = getv ? :AppBase;
+        %tmp.99 = getv function %tmp.98 :initialize;
+        invoke %tmp.98 %tmp.99();
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_7_26_stop:
     }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 18; ]
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 24; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_18_65_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 19 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_24_65_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 25 8 ]
         %tmp.1 = newa Array<Views> 1;
         %tmp.5 = getv ? :HandAvoidanceView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_18_65_stop:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_24_65_stop:
     }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 22; ]
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 28; ]
     public
     function getSettingsView() as Array<Views or InputDelegates> or Null {
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_22_73_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 23 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_28_73_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc" 29 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 2;
         %tmp.5 = getv ? :HandAvoidanceSettings;
         %tmp.2 = newc %tmp.5 ();
@@ -89,7 +189,7 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_22_73_stop:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceApp_mc_28_73_stop:
     }
 }
 [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 1; ]

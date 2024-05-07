@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
+const options = ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"] as Array<String>;
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
 
@@ -15,7 +16,7 @@ class HandAvoidanceSettings extends WatchUi.View {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, 5, Graphics.FONT_SMALL, "Settings\nstart / back", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2, 1, Graphics.FONT_SMALL, "Press start and\nnavigate with\n\n\nstart/back\nup/down", Graphics.TEXT_JUSTIFY_CENTER);
     }
 
 }
@@ -27,10 +28,14 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
 
     public function onSelect() as Boolean {
         var menu = new SettingsMenu();
-        var boolean = Storage.getValue(1) ? true : false;
-        menu.addItem(new WatchUi.ToggleMenuItem(" Field 1", "Notif. / T.Zone", 1, boolean, null));
-        boolean = Storage.getValue(2) ? true : false;
-        menu.addItem(new WatchUi.ToggleMenuItem(" Field 2", "Step. / H.Rate", 2, boolean, null));
+        var fieldOption = Storage.getValue(1) as Number;
+        menu.addItem(new WatchUi.MenuItem("  Field 1 value", options[fieldOption], 1,  null));
+        fieldOption = Storage.getValue(2);
+        menu.addItem(new WatchUi.MenuItem("  Field 2 value", options[fieldOption], 2,  null));
+        fieldOption = Storage.getValue(3);
+        menu.addItem(new WatchUi.MenuItem("  Field 3 value", options[fieldOption], 3,  null));
+        fieldOption = Storage.getValue(4);
+        menu.addItem(new WatchUi.MenuItem(" Set time zone", Lang.format("$1$", [fieldOption]), 4,  null));
 
         WatchUi.pushView(menu, new SettingsMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
         return true;
@@ -56,8 +61,27 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     //! Handle a menu item being selected
     //! @param menuItem The menu item selected
     public function onSelect(menuItem as MenuItem) as Void {
-        if (menuItem instanceof ToggleMenuItem) {
-            Storage.setValue(menuItem.getId() as Number, menuItem.isEnabled());
+        if (menuItem instanceof MenuItem) {
+            var id = menuItem.getId() as Number;
+            if (id < 4) {
+                var fieldOption = Storage.getValue(id);
+                if (fieldOption >=5) {
+                    fieldOption = 0;
+                } else {
+                    fieldOption++;
+                }
+                Storage.setValue(id, fieldOption);
+                menuItem.setSubLabel(options[fieldOption]);
+            } else if (id == 4) {
+                var fieldOption = Storage.getValue(id);
+                if (fieldOption >=12) {
+                    fieldOption = -12;
+                } else {
+                    fieldOption++;
+                }
+                Storage.setValue(id, fieldOption);
+                menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
+            }
         }
     }
 }

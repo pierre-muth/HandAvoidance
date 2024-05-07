@@ -2,156 +2,245 @@
 <debugInfo>
     <manifest filename="C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="1" lineNum="5" parent="globals/HandAvoidanceApp" pc="268435457" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="2" lineNum="22" parent="globals/HandAvoidanceApp" pc="268435476" symbol="getSettingsView"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="2" lineNum="23" parent="globals/HandAvoidanceApp" pc="268435478" symbol="getSettingsView"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="3" lineNum="18" parent="globals/HandAvoidanceApp" pc="268435553" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="3" lineNum="19" parent="globals/HandAvoidanceApp" pc="268435555" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="7" parent="globals/HandAvoidanceApp" pc="268435596" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="8" parent="globals/HandAvoidanceApp" pc="268435598" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="9" parent="globals/HandAvoidanceApp" pc="268435623" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="11" parent="globals/HandAvoidanceApp" pc="268435646" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="12" parent="globals/HandAvoidanceApp" pc="268435671" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="4" lineNum="14" parent="globals/HandAvoidanceApp" pc="268435694" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="5" lineNum="7" parent="globals/HandAvoidanceSettings" pc="268435713" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="6" lineNum="10" parent="globals/HandAvoidanceSettings" pc="268435732" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="6" lineNum="11" parent="globals/HandAvoidanceSettings" pc="268435734" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="7" lineNum="14" parent="globals/HandAvoidanceSettings" pc="268435753" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="7" lineNum="15" parent="globals/HandAvoidanceSettings" pc="268435755" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="7" lineNum="16" parent="globals/HandAvoidanceSettings" pc="268435777" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="7" lineNum="17" parent="globals/HandAvoidanceSettings" pc="268435789" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="7" lineNum="18" parent="globals/HandAvoidanceSettings" pc="268435811" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="8" lineNum="49" parent="globals/SettingsMenuDelegate" pc="268435861" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="9" lineNum="52" parent="globals/SettingsMenuDelegate" pc="268435880" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="9" lineNum="53" parent="globals/SettingsMenuDelegate" pc="268435882" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="58" parent="globals/SettingsMenuDelegate" pc="268435901" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="59" parent="globals/SettingsMenuDelegate" pc="268435903" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="60" parent="globals/SettingsMenuDelegate" pc="268435921" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="11" parent="globals/HandAvoidanceView" pc="268435960" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="14" parent="globals/HandAvoidanceView" pc="268435978" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="15" parent="globals/HandAvoidanceView" pc="268436044" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="16" parent="globals/HandAvoidanceView" pc="268436110" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="17" parent="globals/HandAvoidanceView" pc="268436176" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="11" lineNum="20" parent="globals/HandAvoidanceView" pc="268436242" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="12" lineNum="47" parent="globals/HandAvoidanceView" pc="268436993" symbol="onLayout"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="12" lineNum="48" parent="globals/HandAvoidanceView" pc="268436995" symbol="onLayout"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="13" lineNum="42" parent="globals/HandAvoidanceView" pc="268437037" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="13" lineNum="43" parent="globals/HandAvoidanceView" pc="268437039" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="52" parent="globals/HandAvoidanceView" pc="268437058" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="54" parent="globals/HandAvoidanceView" pc="268437062" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="55" parent="globals/HandAvoidanceView" pc="268437099" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="56" parent="globals/HandAvoidanceView" pc="268437143" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="57" parent="globals/HandAvoidanceView" pc="268437187" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="58" parent="globals/HandAvoidanceView" pc="268437224" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="61" parent="globals/HandAvoidanceView" pc="268437312" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="62" parent="globals/HandAvoidanceView" pc="268437355" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="63" parent="globals/HandAvoidanceView" pc="268437380" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="64" parent="globals/HandAvoidanceView" pc="268437405" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="65" parent="globals/HandAvoidanceView" pc="268437430" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="66" parent="globals/HandAvoidanceView" pc="268437455" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="67" parent="globals/HandAvoidanceView" pc="268437480" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="68" parent="globals/HandAvoidanceView" pc="268437505" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="69" parent="globals/HandAvoidanceView" pc="268437530" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="72" parent="globals/HandAvoidanceView" pc="268437555" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="73" parent="globals/HandAvoidanceView" pc="268437572" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="74" parent="globals/HandAvoidanceView" pc="268437602" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="77" parent="globals/HandAvoidanceView" pc="268437612" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="78" parent="globals/HandAvoidanceView" pc="268437629" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="81" parent="globals/HandAvoidanceView" pc="268437653" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="82" parent="globals/HandAvoidanceView" pc="268437670" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="85" parent="globals/HandAvoidanceView" pc="268437694" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="86" parent="globals/HandAvoidanceView" pc="268437713" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="87" parent="globals/HandAvoidanceView" pc="268437720" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="88" parent="globals/HandAvoidanceView" pc="268437743" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="93" parent="globals/HandAvoidanceView" pc="268437767" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="96" parent="globals/HandAvoidanceView" pc="268437767" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="97" parent="globals/HandAvoidanceView" pc="268437795" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="98" parent="globals/HandAvoidanceView" pc="268437811" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="99" parent="globals/HandAvoidanceView" pc="268437825" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="100" parent="globals/HandAvoidanceView" pc="268437839" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="101" parent="globals/HandAvoidanceView" pc="268437867" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="102" parent="globals/HandAvoidanceView" pc="268437889" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="103" parent="globals/HandAvoidanceView" pc="268437903" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="106" parent="globals/HandAvoidanceView" pc="268437917" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="107" parent="globals/HandAvoidanceView" pc="268437945" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="108" parent="globals/HandAvoidanceView" pc="268437961" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="109" parent="globals/HandAvoidanceView" pc="268437975" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="110" parent="globals/HandAvoidanceView" pc="268437998" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="112" parent="globals/HandAvoidanceView" pc="268438018" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="114" parent="globals/HandAvoidanceView" pc="268438035" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="115" parent="globals/HandAvoidanceView" pc="268438063" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="116" parent="globals/HandAvoidanceView" pc="268438082" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="117" parent="globals/HandAvoidanceView" pc="268438096" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="118" parent="globals/HandAvoidanceView" pc="268438119" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="120" parent="globals/HandAvoidanceView" pc="268438136" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="124" parent="globals/HandAvoidanceView" pc="268438150" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="125" parent="globals/HandAvoidanceView" pc="268438178" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="126" parent="globals/HandAvoidanceView" pc="268438200" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="127" parent="globals/HandAvoidanceView" pc="268438214" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="128" parent="globals/HandAvoidanceView" pc="268438237" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="130" parent="globals/HandAvoidanceView" pc="268438257" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="132" parent="globals/HandAvoidanceView" pc="268438274" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="133" parent="globals/HandAvoidanceView" pc="268438302" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="134" parent="globals/HandAvoidanceView" pc="268438327" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="135" parent="globals/HandAvoidanceView" pc="268438341" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="136" parent="globals/HandAvoidanceView" pc="268438364" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="138" parent="globals/HandAvoidanceView" pc="268438381" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="142" parent="globals/HandAvoidanceView" pc="268438395" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="143" parent="globals/HandAvoidanceView" pc="268438423" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="144" parent="globals/HandAvoidanceView" pc="268438445" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="145" parent="globals/HandAvoidanceView" pc="268438459" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="145" parent="globals/HandAvoidanceView" pc="268438470" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="146" parent="globals/HandAvoidanceView" pc="268438490" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="146" parent="globals/HandAvoidanceView" pc="268438501" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="147" parent="globals/HandAvoidanceView" pc="268438521" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="147" parent="globals/HandAvoidanceView" pc="268438532" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="148" parent="globals/HandAvoidanceView" pc="268438552" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="149" parent="globals/HandAvoidanceView" pc="268438569" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="150" parent="globals/HandAvoidanceView" pc="268438597" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="151" parent="globals/HandAvoidanceView" pc="268438622" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="152" parent="globals/HandAvoidanceView" pc="268438636" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="14" lineNum="155" parent="globals/HandAvoidanceView" pc="268438650" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="15" lineNum="41" parent="globals/SettingsMenu" pc="268438675" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="43" parent="globals/SettingsMenu" pc="268438694" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="44" parent="globals/SettingsMenu" pc="268438696" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="23" parent="globals/HandAvoidanceSettingsDelegate" pc="268438734" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="24" parent="globals/HandAvoidanceSettingsDelegate" pc="268438753" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="25" parent="globals/HandAvoidanceSettingsDelegate" pc="268438755" symbol="initialize"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="28" parent="globals/HandAvoidanceSettingsDelegate" pc="268438774" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="29" parent="globals/HandAvoidanceSettingsDelegate" pc="268438778" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="30" parent="globals/HandAvoidanceSettingsDelegate" pc="268438806" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="31" parent="globals/HandAvoidanceSettingsDelegate" pc="268438838" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="32" parent="globals/HandAvoidanceSettingsDelegate" pc="268438894" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="33" parent="globals/HandAvoidanceSettingsDelegate" pc="268438926" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="35" parent="globals/HandAvoidanceSettingsDelegate" pc="268438982" symbol="onSelect"/>
-        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="36" parent="globals/HandAvoidanceSettingsDelegate" pc="268439031" symbol="onSelect"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="20" lineNum="7" parent="globals/Rez" pc="268439034" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268439058" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="23" parent="globals/Rez/Layouts" pc="268439070" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268439111" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="25" parent="globals/Rez/Layouts" pc="268439152" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="26" parent="globals/Rez/Layouts" pc="268439193" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="28" parent="globals/Rez/Layouts" pc="268439250" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268439307" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="32" parent="globals/Rez/Layouts" pc="268439364" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="34" parent="globals/Rez/Layouts" pc="268439421" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="36" parent="globals/Rez/Layouts" pc="268439478" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="38" parent="globals/Rez/Layouts" pc="268439535" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="40" parent="globals/Rez/Layouts" pc="268439592" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268439649" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="2" lineNum="6" parent="globals" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="5" lineNum="5" parent="globals/HandAvoidanceApp" pc="268435550" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="6" lineNum="28" parent="globals/HandAvoidanceApp" pc="268435569" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="6" lineNum="29" parent="globals/HandAvoidanceApp" pc="268435571" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="7" lineNum="24" parent="globals/HandAvoidanceApp" pc="268435646" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="7" lineNum="25" parent="globals/HandAvoidanceApp" pc="268435648" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="7" parent="globals/HandAvoidanceApp" pc="268435689" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="8" parent="globals/HandAvoidanceApp" pc="268435691" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="9" parent="globals/HandAvoidanceApp" pc="268435756" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="11" parent="globals/HandAvoidanceApp" pc="268435782" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="12" parent="globals/HandAvoidanceApp" pc="268435847" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="14" parent="globals/HandAvoidanceApp" pc="268435873" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="15" parent="globals/HandAvoidanceApp" pc="268435938" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="17" parent="globals/HandAvoidanceApp" pc="268435964" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="18" parent="globals/HandAvoidanceApp" pc="268436029" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="8" lineNum="20" parent="globals/HandAvoidanceApp" pc="268436055" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="9" lineNum="8" parent="globals/HandAvoidanceSettings" pc="268436074" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="11" parent="globals/HandAvoidanceSettings" pc="268436093" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="12" parent="globals/HandAvoidanceSettings" pc="268436095" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="11" lineNum="15" parent="globals/HandAvoidanceSettings" pc="268436114" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="11" lineNum="16" parent="globals/HandAvoidanceSettings" pc="268436116" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="11" lineNum="17" parent="globals/HandAvoidanceSettings" pc="268436138" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="11" lineNum="18" parent="globals/HandAvoidanceSettings" pc="268436150" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="11" lineNum="19" parent="globals/HandAvoidanceSettings" pc="268436172" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="12" lineNum="54" parent="globals/SettingsMenuDelegate" pc="268436222" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="13" lineNum="57" parent="globals/SettingsMenuDelegate" pc="268436241" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="13" lineNum="58" parent="globals/SettingsMenuDelegate" pc="268436243" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="63" parent="globals/SettingsMenuDelegate" pc="268436262" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="64" parent="globals/SettingsMenuDelegate" pc="268436266" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="65" parent="globals/SettingsMenuDelegate" pc="268436284" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="66" parent="globals/SettingsMenuDelegate" pc="268436297" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="67" parent="globals/SettingsMenuDelegate" pc="268436308" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="68" parent="globals/SettingsMenuDelegate" pc="268436327" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="69" parent="globals/SettingsMenuDelegate" pc="268436338" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="71" parent="globals/SettingsMenuDelegate" pc="268436348" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="73" parent="globals/SettingsMenuDelegate" pc="268436358" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="74" parent="globals/SettingsMenuDelegate" pc="268436378" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="75" parent="globals/SettingsMenuDelegate" pc="268436404" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="76" parent="globals/SettingsMenuDelegate" pc="268436415" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="77" parent="globals/SettingsMenuDelegate" pc="268436434" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="78" parent="globals/SettingsMenuDelegate" pc="268436445" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="80" parent="globals/SettingsMenuDelegate" pc="268436455" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="82" parent="globals/SettingsMenuDelegate" pc="268436465" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="14" lineNum="83" parent="globals/SettingsMenuDelegate" pc="268436485" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="11" parent="globals/HandAvoidanceView" pc="268436534" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="14" parent="globals/HandAvoidanceView" pc="268436552" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="15" parent="globals/HandAvoidanceView" pc="268436618" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="16" parent="globals/HandAvoidanceView" pc="268436684" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="17" parent="globals/HandAvoidanceView" pc="268436750" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="15" lineNum="20" parent="globals/HandAvoidanceView" pc="268436816" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="17" lineNum="49" parent="globals/HandAvoidanceView" pc="268437567" symbol="onLayout"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="17" lineNum="50" parent="globals/HandAvoidanceView" pc="268437569" symbol="onLayout"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="19" lineNum="44" parent="globals/HandAvoidanceView" pc="268437611" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="19" lineNum="45" parent="globals/HandAvoidanceView" pc="268437613" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="54" parent="globals/HandAvoidanceView" pc="268437632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="56" parent="globals/HandAvoidanceView" pc="268437636" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="57" parent="globals/HandAvoidanceView" pc="268437673" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="58" parent="globals/HandAvoidanceView" pc="268437717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="59" parent="globals/HandAvoidanceView" pc="268437761" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="60" parent="globals/HandAvoidanceView" pc="268437798" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="61" parent="globals/HandAvoidanceView" pc="268437820" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="62" parent="globals/HandAvoidanceView" pc="268437839" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="63" parent="globals/HandAvoidanceView" pc="268437921" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="66" parent="globals/HandAvoidanceView" pc="268437928" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="67" parent="globals/HandAvoidanceView" pc="268437971" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="68" parent="globals/HandAvoidanceView" pc="268437996" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="69" parent="globals/HandAvoidanceView" pc="268438021" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="70" parent="globals/HandAvoidanceView" pc="268438046" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="71" parent="globals/HandAvoidanceView" pc="268438071" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="72" parent="globals/HandAvoidanceView" pc="268438096" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="73" parent="globals/HandAvoidanceView" pc="268438121" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="74" parent="globals/HandAvoidanceView" pc="268438146" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="77" parent="globals/HandAvoidanceView" pc="268438171" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="78" parent="globals/HandAvoidanceView" pc="268438188" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="79" parent="globals/HandAvoidanceView" pc="268438218" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="80" parent="globals/HandAvoidanceView" pc="268438228" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="81" parent="globals/HandAvoidanceView" pc="268438235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="81" parent="globals/HandAvoidanceView" pc="268438246" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="82" parent="globals/HandAvoidanceView" pc="268438256" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="82" parent="globals/HandAvoidanceView" pc="268438267" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="83" parent="globals/HandAvoidanceView" pc="268438277" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="83" parent="globals/HandAvoidanceView" pc="268438288" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="84" parent="globals/HandAvoidanceView" pc="268438298" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="87" parent="globals/HandAvoidanceView" pc="268438305" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="88" parent="globals/HandAvoidanceView" pc="268438322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="89" parent="globals/HandAvoidanceView" pc="268438346" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="92" parent="globals/HandAvoidanceView" pc="268438353" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="93" parent="globals/HandAvoidanceView" pc="268438370" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="94" parent="globals/HandAvoidanceView" pc="268438394" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="97" parent="globals/HandAvoidanceView" pc="268438401" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="98" parent="globals/HandAvoidanceView" pc="268438420" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="99" parent="globals/HandAvoidanceView" pc="268438427" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="100" parent="globals/HandAvoidanceView" pc="268438450" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="102" parent="globals/HandAvoidanceView" pc="268438474" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="105" parent="globals/HandAvoidanceView" pc="268438481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="108" parent="globals/HandAvoidanceView" pc="268438481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="109" parent="globals/HandAvoidanceView" pc="268438509" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="110" parent="globals/HandAvoidanceView" pc="268438525" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="111" parent="globals/HandAvoidanceView" pc="268438539" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="112" parent="globals/HandAvoidanceView" pc="268438553" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="113" parent="globals/HandAvoidanceView" pc="268438581" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="114" parent="globals/HandAvoidanceView" pc="268438603" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="115" parent="globals/HandAvoidanceView" pc="268438617" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="118" parent="globals/HandAvoidanceView" pc="268438631" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="119" parent="globals/HandAvoidanceView" pc="268438659" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="120" parent="globals/HandAvoidanceView" pc="268438675" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="121" parent="globals/HandAvoidanceView" pc="268438689" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="121" parent="globals/HandAvoidanceView" pc="268438718" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="122" parent="globals/HandAvoidanceView" pc="268438732" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="122" parent="globals/HandAvoidanceView" pc="268438761" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="123" parent="globals/HandAvoidanceView" pc="268438775" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="123" parent="globals/HandAvoidanceView" pc="268438804" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="124" parent="globals/HandAvoidanceView" pc="268438818" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="124" parent="globals/HandAvoidanceView" pc="268438847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="125" parent="globals/HandAvoidanceView" pc="268438861" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="125" parent="globals/HandAvoidanceView" pc="268438890" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="126" parent="globals/HandAvoidanceView" pc="268438904" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="126" parent="globals/HandAvoidanceView" pc="268438933" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="128" parent="globals/HandAvoidanceView" pc="268438950" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="129" parent="globals/HandAvoidanceView" pc="268438978" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="130" parent="globals/HandAvoidanceView" pc="268438997" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="131" parent="globals/HandAvoidanceView" pc="268439011" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="131" parent="globals/HandAvoidanceView" pc="268439040" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="132" parent="globals/HandAvoidanceView" pc="268439054" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="132" parent="globals/HandAvoidanceView" pc="268439083" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="133" parent="globals/HandAvoidanceView" pc="268439097" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="133" parent="globals/HandAvoidanceView" pc="268439126" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="134" parent="globals/HandAvoidanceView" pc="268439140" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="134" parent="globals/HandAvoidanceView" pc="268439169" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="135" parent="globals/HandAvoidanceView" pc="268439183" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="135" parent="globals/HandAvoidanceView" pc="268439212" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="136" parent="globals/HandAvoidanceView" pc="268439226" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="136" parent="globals/HandAvoidanceView" pc="268439255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="139" parent="globals/HandAvoidanceView" pc="268439272" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="140" parent="globals/HandAvoidanceView" pc="268439300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="141" parent="globals/HandAvoidanceView" pc="268439322" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="142" parent="globals/HandAvoidanceView" pc="268439336" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="142" parent="globals/HandAvoidanceView" pc="268439365" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="143" parent="globals/HandAvoidanceView" pc="268439379" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="143" parent="globals/HandAvoidanceView" pc="268439408" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="144" parent="globals/HandAvoidanceView" pc="268439422" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="144" parent="globals/HandAvoidanceView" pc="268439451" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="145" parent="globals/HandAvoidanceView" pc="268439465" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="145" parent="globals/HandAvoidanceView" pc="268439494" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="146" parent="globals/HandAvoidanceView" pc="268439508" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="146" parent="globals/HandAvoidanceView" pc="268439537" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="147" parent="globals/HandAvoidanceView" pc="268439551" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="147" parent="globals/HandAvoidanceView" pc="268439580" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="149" parent="globals/HandAvoidanceView" pc="268439597" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="150" parent="globals/HandAvoidanceView" pc="268439625" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="151" parent="globals/HandAvoidanceView" pc="268439650" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="152" parent="globals/HandAvoidanceView" pc="268439664" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="152" parent="globals/HandAvoidanceView" pc="268439693" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="153" parent="globals/HandAvoidanceView" pc="268439707" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="153" parent="globals/HandAvoidanceView" pc="268439736" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="154" parent="globals/HandAvoidanceView" pc="268439750" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="154" parent="globals/HandAvoidanceView" pc="268439779" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="155" parent="globals/HandAvoidanceView" pc="268439793" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="155" parent="globals/HandAvoidanceView" pc="268439822" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="156" parent="globals/HandAvoidanceView" pc="268439836" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="156" parent="globals/HandAvoidanceView" pc="268439865" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="157" parent="globals/HandAvoidanceView" pc="268439879" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="157" parent="globals/HandAvoidanceView" pc="268439908" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="160" parent="globals/HandAvoidanceView" pc="268439925" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="161" parent="globals/HandAvoidanceView" pc="268439953" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="162" parent="globals/HandAvoidanceView" pc="268439975" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="163" parent="globals/HandAvoidanceView" pc="268439989" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="163" parent="globals/HandAvoidanceView" pc="268440018" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="164" parent="globals/HandAvoidanceView" pc="268440032" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="164" parent="globals/HandAvoidanceView" pc="268440061" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="165" parent="globals/HandAvoidanceView" pc="268440075" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="165" parent="globals/HandAvoidanceView" pc="268440104" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="166" parent="globals/HandAvoidanceView" pc="268440118" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="166" parent="globals/HandAvoidanceView" pc="268440147" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="167" parent="globals/HandAvoidanceView" pc="268440161" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="167" parent="globals/HandAvoidanceView" pc="268440190" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="168" parent="globals/HandAvoidanceView" pc="268440204" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="168" parent="globals/HandAvoidanceView" pc="268440233" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="170" parent="globals/HandAvoidanceView" pc="268440250" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="171" parent="globals/HandAvoidanceView" pc="268440278" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="172" parent="globals/HandAvoidanceView" pc="268440303" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="173" parent="globals/HandAvoidanceView" pc="268440317" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="173" parent="globals/HandAvoidanceView" pc="268440346" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="174" parent="globals/HandAvoidanceView" pc="268440360" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="174" parent="globals/HandAvoidanceView" pc="268440389" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="175" parent="globals/HandAvoidanceView" pc="268440403" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="175" parent="globals/HandAvoidanceView" pc="268440432" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="176" parent="globals/HandAvoidanceView" pc="268440446" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="176" parent="globals/HandAvoidanceView" pc="268440475" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="177" parent="globals/HandAvoidanceView" pc="268440489" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="177" parent="globals/HandAvoidanceView" pc="268440518" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="178" parent="globals/HandAvoidanceView" pc="268440532" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="178" parent="globals/HandAvoidanceView" pc="268440561" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="181" parent="globals/HandAvoidanceView" pc="268440578" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="21" lineNum="46" parent="globals/SettingsMenu" pc="268440603" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="22" lineNum="48" parent="globals/SettingsMenu" pc="268440622" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="22" lineNum="49" parent="globals/SettingsMenu" pc="268440624" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="23" lineNum="24" parent="globals/HandAvoidanceSettingsDelegate" pc="268440662" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="24" lineNum="25" parent="globals/HandAvoidanceSettingsDelegate" pc="268440681" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="24" lineNum="26" parent="globals/HandAvoidanceSettingsDelegate" pc="268440683" symbol="initialize"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="29" parent="globals/HandAvoidanceSettingsDelegate" pc="268440702" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="30" parent="globals/HandAvoidanceSettingsDelegate" pc="268440706" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="31" parent="globals/HandAvoidanceSettingsDelegate" pc="268440734" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="32" parent="globals/HandAvoidanceSettingsDelegate" pc="268440756" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="33" parent="globals/HandAvoidanceSettingsDelegate" pc="268440816" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="34" parent="globals/HandAvoidanceSettingsDelegate" pc="268440838" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="35" parent="globals/HandAvoidanceSettingsDelegate" pc="268440898" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="36" parent="globals/HandAvoidanceSettingsDelegate" pc="268440920" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="37" parent="globals/HandAvoidanceSettingsDelegate" pc="268440980" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="38" parent="globals/HandAvoidanceSettingsDelegate" pc="268441002" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="40" parent="globals/HandAvoidanceSettingsDelegate" pc="268441087" symbol="onSelect"/>
+        <entry filename="C:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="41" parent="globals/HandAvoidanceSettingsDelegate" pc="268441136" symbol="onSelect"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="26" lineNum="7" parent="globals/Rez" pc="268441139" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="22" parent="globals/Rez/Layouts" pc="268441163" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="23" parent="globals/Rez/Layouts" pc="268441175" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="24" parent="globals/Rez/Layouts" pc="268441216" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="25" parent="globals/Rez/Layouts" pc="268441257" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="26" parent="globals/Rez/Layouts" pc="268441298" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="28" parent="globals/Rez/Layouts" pc="268441355" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="30" parent="globals/Rez/Layouts" pc="268441412" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="32" parent="globals/Rez/Layouts" pc="268441469" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="34" parent="globals/Rez/Layouts" pc="268441526" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="36" parent="globals/Rez/Layouts" pc="268441583" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="38" parent="globals/Rez/Layouts" pc="268441640" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="40" parent="globals/Rez/Layouts" pc="268441697" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\muthi\\Documents\\garmin-connect-IQ-sdk\\projects\\HandAvoidance\\output\\gen\\006-B4155-00\\source\\Rez.mcgen" id="27" lineNum="42" parent="globals/Rez/Layouts" pc="268441754" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="9" object="true" symbol="HandAvoidanceApp"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="25" symbol="textFont"/>
+        <entry field="true" id="28" symbol="textFont"/>
         <entry id="13" object="true" symbol="SettingsMenu"/>
         <entry id="8390424" module="true" symbol="Storage"/>
         <entry id="14" object="true" symbol="SettingsMenuDelegate"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="26" symbol="AppName"/>
+        <entry field="true" id="29" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -161,12 +250,12 @@
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="21" module="true" symbol="Menus"/>
+        <entry id="24" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="19" symbol="q3"/>
-        <entry field="true" id="18" symbol="q2"/>
-        <entry field="true" id="17" symbol="q1"/>
-        <entry field="true" id="16" symbol="q0"/>
+        <entry field="true" id="20" symbol="q3"/>
+        <entry field="true" id="19" symbol="q2"/>
+        <entry field="true" id="18" symbol="q1"/>
+        <entry field="true" id="17" symbol="q0"/>
         <entry id="10" object="true" symbol="HandAvoidanceSettings"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
@@ -178,66 +267,79 @@
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="24" symbol="iconFont"/>
-        <entry field="true" id="23" symbol="bigNumberFont"/>
+        <entry field="true" id="27" symbol="iconFont"/>
+        <entry field="true" id="26" symbol="bigNumberFont"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="22" symbol="LauncherIcon"/>
+        <entry field="true" id="25" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="21" method="true" symbol="updateIcon"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8391703" method="true" symbol="getSettingsView"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry id="20" module="true" symbol="Layouts"/>
+        <entry id="23" module="true" symbol="Layouts"/>
+        <entry field="true" id="15" symbol="options"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="22" method="true" symbol="updateLabel"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry field="true" id="15" symbol="coordinates"/>
+        <entry field="true" id="16" symbol="coordinates"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435860" name="dc" stackId="1" startPc="268435753"/>
-        <entry arg="true" endPc="268435959" name="menuItem" stackId="1" startPc="268435901"/>
-        <entry arg="true" endPc="268437036" name="dc" stackId="1" startPc="268436993"/>
-        <entry arg="true" endPc="268438674" name="dc" stackId="1" startPc="268437058"/>
-        <entry endPc="268438673" name="today" stackId="2" startPc="268437062"/>
-        <entry endPc="268438673" name="dateString" stackId="3" startPc="268437062"/>
-        <entry endPc="268438673" name="dayString" stackId="4" startPc="268437062"/>
-        <entry endPc="268438673" name="todayUTC" stackId="5" startPc="268437062"/>
-        <entry endPc="268438673" name="utcString" stackId="6" startPc="268437062"/>
-        <entry endPc="268438673" name="coordinatesIdx" stackId="7" startPc="268437062"/>
-        <entry endPc="268438673" name="x1" stackId="8" startPc="268437062"/>
-        <entry endPc="268438673" name="y1" stackId="9" startPc="268437062"/>
-        <entry endPc="268438673" name="j1" stackId="10" startPc="268437062"/>
-        <entry endPc="268438673" name="o1" stackId="11" startPc="268437062"/>
-        <entry endPc="268438673" name="x2" stackId="12" startPc="268437062"/>
-        <entry endPc="268438673" name="y2" stackId="13" startPc="268437062"/>
-        <entry endPc="268438673" name="j2" stackId="14" startPc="268437062"/>
-        <entry endPc="268438673" name="o2" stackId="15" startPc="268437062"/>
-        <entry endPc="268438673" name="sys" stackId="16" startPc="268437062"/>
-        <entry endPc="268438673" name="batteryString" stackId="17" startPc="268437062"/>
-        <entry endPc="268438673" name="batteryPercentage" stackId="18" startPc="268437062"/>
-        <entry endPc="268438673" name="settings" stackId="19" startPc="268437062"/>
-        <entry endPc="268438673" name="notifCountString" stackId="20" startPc="268437062"/>
-        <entry endPc="268438673" name="info" stackId="21" startPc="268437062"/>
-        <entry endPc="268438673" name="stepCountString" stackId="22" startPc="268437062"/>
-        <entry endPc="268438673" name="info2" stackId="23" startPc="268437062"/>
-        <entry endPc="268438673" name="heartRateString" stackId="24" startPc="268437062"/>
-        <entry endPc="268438673" name="view" stackId="25" startPc="268437062"/>
-        <entry endPc="268439033" name="menu" stackId="1" startPc="268438778"/>
-        <entry endPc="268439033" name="boolean" stackId="2" startPc="268438778"/>
-        <entry arg="true" endPc="268439735" name="dc" stackId="1" startPc="268439058"/>
-        <entry endPc="268439735" name="local_Rez_Fonts_textFont" stackId="2" startPc="268439070"/>
-        <entry endPc="268439735" name="local_Rez_Fonts_bigNumberFont" stackId="3" startPc="268439070"/>
-        <entry endPc="268439735" name="local_Rez_Fonts_iconFont" stackId="4" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_BatteryLabel" stackId="5" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_DateLabel" stackId="6" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_DayNumberLabel" stackId="7" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_StepLabel" stackId="8" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_NotifLabel" stackId="9" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_BatteryIcon" stackId="10" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_StepIcon" stackId="11" startPc="268439070"/>
-        <entry endPc="268439735" name="rez_cmp_local_text_NotifIcon" stackId="12" startPc="268439070"/>
+        <entry arg="true" endPc="268436221" name="dc" stackId="1" startPc="268436114"/>
+        <entry arg="true" endPc="268436533" name="menuItem" stackId="1" startPc="268436262"/>
+        <entry endPc="268436532" name="id" stackId="2" startPc="268436284"/>
+        <entry endPc="268436400" name="fieldOption" stackId="3" startPc="268436308"/>
+        <entry endPc="268436532" name="fieldOption" stackId="4" startPc="268436415"/>
+        <entry arg="true" endPc="268437610" name="dc" stackId="1" startPc="268437567"/>
+        <entry arg="true" endPc="268440602" name="dc" stackId="1" startPc="268437632"/>
+        <entry endPc="268440601" name="today" stackId="2" startPc="268437636"/>
+        <entry endPc="268440601" name="dateString" stackId="3" startPc="268437636"/>
+        <entry endPc="268440601" name="dayString" stackId="4" startPc="268437636"/>
+        <entry endPc="268440601" name="todayUTC" stackId="5" startPc="268437636"/>
+        <entry endPc="268440601" name="offset" stackId="6" startPc="268437636"/>
+        <entry endPc="268440601" name="timeZoneHour" stackId="7" startPc="268437636"/>
+        <entry endPc="268440601" name="utcString" stackId="8" startPc="268437636"/>
+        <entry endPc="268440601" name="utcIconString" stackId="9" startPc="268437636"/>
+        <entry endPc="268440601" name="coordinatesIdx" stackId="10" startPc="268437636"/>
+        <entry endPc="268440601" name="x1" stackId="11" startPc="268437636"/>
+        <entry endPc="268440601" name="y1" stackId="12" startPc="268437636"/>
+        <entry endPc="268440601" name="j1" stackId="13" startPc="268437636"/>
+        <entry endPc="268440601" name="o1" stackId="14" startPc="268437636"/>
+        <entry endPc="268440601" name="x2" stackId="15" startPc="268437636"/>
+        <entry endPc="268440601" name="y2" stackId="16" startPc="268437636"/>
+        <entry endPc="268440601" name="j2" stackId="17" startPc="268437636"/>
+        <entry endPc="268440601" name="o2" stackId="18" startPc="268437636"/>
+        <entry endPc="268440601" name="sys" stackId="19" startPc="268437636"/>
+        <entry endPc="268440601" name="batteryString" stackId="20" startPc="268437636"/>
+        <entry endPc="268440601" name="batteryPercentage" stackId="21" startPc="268437636"/>
+        <entry endPc="268440601" name="batteryIconString" stackId="22" startPc="268437636"/>
+        <entry endPc="268440601" name="settings" stackId="23" startPc="268437636"/>
+        <entry endPc="268440601" name="notificationString" stackId="24" startPc="268437636"/>
+        <entry endPc="268440601" name="notificationIconString" stackId="25" startPc="268437636"/>
+        <entry endPc="268440601" name="info" stackId="26" startPc="268437636"/>
+        <entry endPc="268440601" name="stepString" stackId="27" startPc="268437636"/>
+        <entry endPc="268440601" name="stepIconString" stackId="28" startPc="268437636"/>
+        <entry endPc="268440601" name="info2" stackId="29" startPc="268437636"/>
+        <entry endPc="268440601" name="heartRateString" stackId="30" startPc="268437636"/>
+        <entry endPc="268440601" name="heartRateIconString" stackId="31" startPc="268437636"/>
+        <entry endPc="268440601" name="view" stackId="32" startPc="268437636"/>
+        <entry endPc="268441138" name="menu" stackId="1" startPc="268440706"/>
+        <entry endPc="268441138" name="fieldOption" stackId="2" startPc="268440706"/>
+        <entry arg="true" endPc="268441840" name="dc" stackId="1" startPc="268441163"/>
+        <entry endPc="268441840" name="local_Rez_Fonts_textFont" stackId="2" startPc="268441175"/>
+        <entry endPc="268441840" name="local_Rez_Fonts_bigNumberFont" stackId="3" startPc="268441175"/>
+        <entry endPc="268441840" name="local_Rez_Fonts_iconFont" stackId="4" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_DayNumberLabel" stackId="6" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field1Icon" stackId="7" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field1Label" stackId="8" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field2Icon" stackId="9" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field2Label" stackId="10" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field3Icon" stackId="11" startPc="268441175"/>
+        <entry endPc="268441840" name="rez_cmp_local_text_Field3Label" stackId="12" startPc="268441175"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -248,83 +350,91 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/HandAvoidanceApp" offset="182" parentId="globals" symbolId="HandAvoidanceApp" type="class"/>
-        <dataEntry label="globals/HandAvoidanceSettings" offset="245" parentId="globals" symbolId="HandAvoidanceSettings" type="class"/>
-        <dataEntry label="globals/SettingsMenuDelegate" offset="300" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
-        <dataEntry label="globals/HandAvoidanceView" offset="355" parentId="globals" symbolId="HandAvoidanceView" type="class"/>
-        <dataEntry label="globals/SettingsMenu" offset="458" parentId="globals" symbolId="SettingsMenu" type="class"/>
-        <dataEntry label="globals/HandAvoidanceSettingsDelegate" offset="505" parentId="globals" symbolId="HandAvoidanceSettingsDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="560" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="639" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="678" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="717" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="748" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="803" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="842" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/HandAvoidanceApp" offset="261" parentId="globals" symbolId="HandAvoidanceApp" type="class"/>
+        <dataEntry label="globals/HandAvoidanceSettings" offset="324" parentId="globals" symbolId="HandAvoidanceSettings" type="class"/>
+        <dataEntry label="globals/SettingsMenuDelegate" offset="379" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/HandAvoidanceView" offset="434" parentId="globals" symbolId="HandAvoidanceView" type="class"/>
+        <dataEntry label="globals/SettingsMenu" offset="553" parentId="globals" symbolId="SettingsMenu" type="class"/>
+        <dataEntry label="globals/HandAvoidanceSettingsDelegate" offset="600" parentId="globals" symbolId="HandAvoidanceSettingsDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="655" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="734" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="773" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="812" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="843" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="898" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="937" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="HandAvoidanceApp" startPc="268435457">
+        <functionEntry accessMode="public" endPc="268435568" name="&lt;init&gt;" parent="HandAvoidanceApp" startPc="268435550">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435552" name="getSettingsView" parent="HandAvoidanceApp" startPc="268435476">
+        <functionEntry accessMode="public" endPc="268435645" name="getSettingsView" parent="HandAvoidanceApp" startPc="268435569">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435595" name="getInitialView" parent="HandAvoidanceApp" startPc="268435553">
+        <functionEntry accessMode="public" endPc="268435688" name="getInitialView" parent="HandAvoidanceApp" startPc="268435646">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435712" name="initialize" parent="HandAvoidanceApp" startPc="268435596">
+        <functionEntry accessMode="public" endPc="268436073" name="initialize" parent="HandAvoidanceApp" startPc="268435689">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435731" name="&lt;init&gt;" parent="HandAvoidanceSettings" startPc="268435713">
+        <functionEntry accessMode="public" endPc="268436092" name="&lt;init&gt;" parent="HandAvoidanceSettings" startPc="268436074">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435752" name="initialize" parent="HandAvoidanceSettings" startPc="268435732">
+        <functionEntry accessMode="public" endPc="268436113" name="initialize" parent="HandAvoidanceSettings" startPc="268436093">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435860" name="onUpdate" parent="HandAvoidanceSettings" startPc="268435753">
+        <functionEntry accessMode="public" endPc="268436221" name="onUpdate" parent="HandAvoidanceSettings" startPc="268436114">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435879" name="&lt;init&gt;" parent="SettingsMenuDelegate" startPc="268435861">
+        <functionEntry accessMode="public" endPc="268436240" name="&lt;init&gt;" parent="SettingsMenuDelegate" startPc="268436222">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435900" name="initialize" parent="SettingsMenuDelegate" startPc="268435880">
+        <functionEntry accessMode="public" endPc="268436261" name="initialize" parent="SettingsMenuDelegate" startPc="268436241">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435959" name="onSelect" parent="SettingsMenuDelegate" startPc="268435901">
+        <functionEntry accessMode="public" endPc="268436533" name="onSelect" parent="SettingsMenuDelegate" startPc="268436262">
             <param id="menuItem"/>
             <documentation><![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436992" name="&lt;init&gt;" parent="HandAvoidanceView" startPc="268435960">
+        <functionEntry accessMode="public" endPc="268437566" name="&lt;init&gt;" parent="HandAvoidanceView" startPc="268436534">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437036" name="onLayout" parent="HandAvoidanceView" startPc="268436993">
+        <functionEntry accessMode="public" name="updateIcon" parent="HandAvoidanceView">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437610" name="onLayout" parent="HandAvoidanceView" startPc="268437567">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437057" name="initialize" parent="HandAvoidanceView" startPc="268437037">
+        <functionEntry accessMode="public" name="updateLabel" parent="HandAvoidanceView">
+            <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438674" name="onUpdate" parent="HandAvoidanceView" startPc="268437058">
+        <functionEntry accessMode="public" endPc="268437631" name="initialize" parent="HandAvoidanceView" startPc="268437611">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440602" name="onUpdate" parent="HandAvoidanceView" startPc="268437632">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438693" name="&lt;init&gt;" parent="SettingsMenu" startPc="268438675">
+        <functionEntry accessMode="public" endPc="268440621" name="&lt;init&gt;" parent="SettingsMenu" startPc="268440603">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438733" name="initialize" parent="SettingsMenu" startPc="268438694">
+        <functionEntry accessMode="public" endPc="268440661" name="initialize" parent="SettingsMenu" startPc="268440622">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438752" name="&lt;init&gt;" parent="HandAvoidanceSettingsDelegate" startPc="268438734">
+        <functionEntry accessMode="public" endPc="268440680" name="&lt;init&gt;" parent="HandAvoidanceSettingsDelegate" startPc="268440662">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438773" name="initialize" parent="HandAvoidanceSettingsDelegate" startPc="268438753">
+        <functionEntry accessMode="public" endPc="268440701" name="initialize" parent="HandAvoidanceSettingsDelegate" startPc="268440681">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439033" name="onSelect" parent="HandAvoidanceSettingsDelegate" startPc="268438774">
+        <functionEntry accessMode="public" endPc="268441138" name="onSelect" parent="HandAvoidanceSettingsDelegate" startPc="268440702">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439057" name="&lt;init&gt;" parent="Rez" startPc="268439034">
+        <functionEntry accessMode="public" endPc="268441162" name="&lt;init&gt;" parent="Rez" startPc="268441139">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -345,7 +455,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439735" name="WatchFace" parent="Layouts" startPc="268439058">
+        <functionEntry accessMode="public" endPc="268441840" name="WatchFace" parent="Layouts" startPc="268441163">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

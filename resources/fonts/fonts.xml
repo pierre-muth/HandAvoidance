@@ -1,5 +1,5 @@
 <fonts>
     <font id="textFont" filename="textFont.fnt"/>
     <font id="iconFont" filename="iconFont.fnt"/>
-    <font id="bigNumberFont" filename="bigNumberFont.fnt"/>
+    <font id="bigNumberFont" filename="bigNumberFullFont.fnt"/>
 </fonts>

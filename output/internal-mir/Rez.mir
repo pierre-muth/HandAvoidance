@@ -85,12 +85,12 @@ c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_
             lputv %local_Rez_Fonts_iconFont.3 %tmp.24;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 26 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_BatteryLabel.4 = local;
+            %rez_cmp_local_text_DateLabel.4 = local;
             %tmp.27 = getm $.Toybox.WatchUi;
             %tmp.28 = getv function ? %tmp.27 :Text;
             %tmp.29 = newd 2;
             %tmp.31 = const :identifier;
-            %tmp.32 = "BatteryLabel";
+            %tmp.32 = "DateLabel";
             %tmp.33 = dup %tmp.29;
             %tmp.34 = aputv %tmp.33 %tmp.31 %tmp.32;
             %tmp.36 = const :font;
@@ -98,47 +98,47 @@ c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_
             %tmp.39 = dup %tmp.34;
             %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
             %tmp.25 = newc %tmp.28 (%tmp.40);
-            lputv %rez_cmp_local_text_BatteryLabel.4 %tmp.25;
+            lputv %rez_cmp_local_text_DateLabel.4 %tmp.25;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 28 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_DateLabel.5 = local;
+            %rez_cmp_local_text_DayNumberLabel.5 = local;
             %tmp.43 = getm $.Toybox.WatchUi;
             %tmp.44 = getv function ? %tmp.43 :Text;
             %tmp.45 = newd 2;
             %tmp.47 = const :identifier;
-            %tmp.48 = "DateLabel";
+            %tmp.48 = "DayNumberLabel";
             %tmp.49 = dup %tmp.45;
             %tmp.50 = aputv %tmp.49 %tmp.47 %tmp.48;
             %tmp.52 = const :font;
-            %tmp.54 = lgetv %local_Rez_Fonts_textFont.1;
+            %tmp.54 = lgetv %local_Rez_Fonts_bigNumberFont.2;
             %tmp.55 = dup %tmp.50;
             %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
             %tmp.41 = newc %tmp.44 (%tmp.56);
-            lputv %rez_cmp_local_text_DateLabel.5 %tmp.41;
+            lputv %rez_cmp_local_text_DayNumberLabel.5 %tmp.41;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 30 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_DayNumberLabel.6 = local;
+            %rez_cmp_local_text_Field1Icon.6 = local;
             %tmp.59 = getm $.Toybox.WatchUi;
             %tmp.60 = getv function ? %tmp.59 :Text;
             %tmp.61 = newd 2;
             %tmp.63 = const :identifier;
-            %tmp.64 = "DayNumberLabel";
+            %tmp.64 = "Field1Icon";
             %tmp.65 = dup %tmp.61;
             %tmp.66 = aputv %tmp.65 %tmp.63 %tmp.64;
             %tmp.68 = const :font;
-            %tmp.70 = lgetv %local_Rez_Fonts_bigNumberFont.2;
+            %tmp.70 = lgetv %local_Rez_Fonts_iconFont.3;
             %tmp.71 = dup %tmp.66;
             %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
             %tmp.57 = newc %tmp.60 (%tmp.72);
-            lputv %rez_cmp_local_text_DayNumberLabel.6 %tmp.57;
+            lputv %rez_cmp_local_text_Field1Icon.6 %tmp.57;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 32 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_StepLabel.7 = local;
+            %rez_cmp_local_text_Field1Label.7 = local;
             %tmp.75 = getm $.Toybox.WatchUi;
             %tmp.76 = getv function ? %tmp.75 :Text;
             %tmp.77 = newd 2;
             %tmp.79 = const :identifier;
-            %tmp.80 = "StepLabel";
+            %tmp.80 = "Field1Label";
             %tmp.81 = dup %tmp.77;
             %tmp.82 = aputv %tmp.81 %tmp.79 %tmp.80;
             %tmp.84 = const :font;
@@ -146,47 +146,47 @@ c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_
             %tmp.87 = dup %tmp.82;
             %tmp.88 = aputv %tmp.87 %tmp.84 %tmp.86;
             %tmp.73 = newc %tmp.76 (%tmp.88);
-            lputv %rez_cmp_local_text_StepLabel.7 %tmp.73;
+            lputv %rez_cmp_local_text_Field1Label.7 %tmp.73;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 34 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_NotifLabel.8 = local;
+            %rez_cmp_local_text_Field2Icon.8 = local;
             %tmp.91 = getm $.Toybox.WatchUi;
             %tmp.92 = getv function ? %tmp.91 :Text;
             %tmp.93 = newd 2;
             %tmp.95 = const :identifier;
-            %tmp.96 = "NotifLabel";
+            %tmp.96 = "Field2Icon";
             %tmp.97 = dup %tmp.93;
             %tmp.98 = aputv %tmp.97 %tmp.95 %tmp.96;
             %tmp.100 = const :font;
-            %tmp.102 = lgetv %local_Rez_Fonts_textFont.1;
+            %tmp.102 = lgetv %local_Rez_Fonts_iconFont.3;
             %tmp.103 = dup %tmp.98;
             %tmp.104 = aputv %tmp.103 %tmp.100 %tmp.102;
             %tmp.89 = newc %tmp.92 (%tmp.104);
-            lputv %rez_cmp_local_text_NotifLabel.8 %tmp.89;
+            lputv %rez_cmp_local_text_Field2Icon.8 %tmp.89;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 36 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_BatteryIcon.9 = local;
+            %rez_cmp_local_text_Field2Label.9 = local;
             %tmp.107 = getm $.Toybox.WatchUi;
             %tmp.108 = getv function ? %tmp.107 :Text;
             %tmp.109 = newd 2;
             %tmp.111 = const :identifier;
-            %tmp.112 = "BatteryIcon";
+            %tmp.112 = "Field2Label";
             %tmp.113 = dup %tmp.109;
             %tmp.114 = aputv %tmp.113 %tmp.111 %tmp.112;
             %tmp.116 = const :font;
-            %tmp.118 = lgetv %local_Rez_Fonts_iconFont.3;
+            %tmp.118 = lgetv %local_Rez_Fonts_textFont.1;
             %tmp.119 = dup %tmp.114;
             %tmp.120 = aputv %tmp.119 %tmp.116 %tmp.118;
             %tmp.105 = newc %tmp.108 (%tmp.120);
-            lputv %rez_cmp_local_text_BatteryIcon.9 %tmp.105;
+            lputv %rez_cmp_local_text_Field2Label.9 %tmp.105;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 38 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_StepIcon.10 = local;
+            %rez_cmp_local_text_Field3Icon.10 = local;
             %tmp.123 = getm $.Toybox.WatchUi;
             %tmp.124 = getv function ? %tmp.123 :Text;
             %tmp.125 = newd 2;
             %tmp.127 = const :identifier;
-            %tmp.128 = "StepIcon";
+            %tmp.128 = "Field3Icon";
             %tmp.129 = dup %tmp.125;
             %tmp.130 = aputv %tmp.129 %tmp.127 %tmp.128;
             %tmp.132 = const :font;
@@ -194,47 +194,47 @@ c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_
             %tmp.135 = dup %tmp.130;
             %tmp.136 = aputv %tmp.135 %tmp.132 %tmp.134;
             %tmp.121 = newc %tmp.124 (%tmp.136);
-            lputv %rez_cmp_local_text_StepIcon.10 %tmp.121;
+            lputv %rez_cmp_local_text_Field3Icon.10 %tmp.121;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 40 12 ]
             [ "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_start" "c_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_output_gen_006_B4155_00_source_Rez_mcgen_22_73_stop" ]
-            %rez_cmp_local_text_NotifIcon.11 = local;
+            %rez_cmp_local_text_Field3Label.11 = local;
             %tmp.139 = getm $.Toybox.WatchUi;
             %tmp.140 = getv function ? %tmp.139 :Text;
             %tmp.141 = newd 2;
             %tmp.143 = const :identifier;
-            %tmp.144 = "NotifIcon";
+            %tmp.144 = "Field3Label";
             %tmp.145 = dup %tmp.141;
             %tmp.146 = aputv %tmp.145 %tmp.143 %tmp.144;
             %tmp.148 = const :font;
-            %tmp.150 = lgetv %local_Rez_Fonts_iconFont.3;
+            %tmp.150 = lgetv %local_Rez_Fonts_textFont.1;
             %tmp.151 = dup %tmp.146;
             %tmp.152 = aputv %tmp.151 %tmp.148 %tmp.150;
             %tmp.137 = newc %tmp.140 (%tmp.152);
-            lputv %rez_cmp_local_text_NotifIcon.11 %tmp.137;
+            lputv %rez_cmp_local_text_Field3Label.11 %tmp.137;
 [ "c:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\output\gen\006-B4155-00\source\Rez.mcgen" 42 12 ]
             %tmp.153 = newa Array<WatchUi.Drawable> 8;
-            %tmp.155 = lgetv %rez_cmp_local_text_BatteryLabel.4;
+            %tmp.155 = lgetv %rez_cmp_local_text_DateLabel.4;
             %tmp.156 = dup %tmp.153;
             %tmp.157 = aputv %tmp.156 0 %tmp.155;
-            %tmp.159 = lgetv %rez_cmp_local_text_DateLabel.5;
+            %tmp.159 = lgetv %rez_cmp_local_text_DayNumberLabel.5;
             %tmp.160 = dup %tmp.157;
             %tmp.161 = aputv %tmp.160 1 %tmp.159;
-            %tmp.163 = lgetv %rez_cmp_local_text_DayNumberLabel.6;
+            %tmp.163 = lgetv %rez_cmp_local_text_Field1Icon.6;
             %tmp.164 = dup %tmp.161;
             %tmp.165 = aputv %tmp.164 2 %tmp.163;
-            %tmp.167 = lgetv %rez_cmp_local_text_StepLabel.7;
+            %tmp.167 = lgetv %rez_cmp_local_text_Field1Label.7;
             %tmp.168 = dup %tmp.165;
             %tmp.169 = aputv %tmp.168 3 %tmp.167;
-            %tmp.171 = lgetv %rez_cmp_local_text_NotifLabel.8;
+            %tmp.171 = lgetv %rez_cmp_local_text_Field2Icon.8;
             %tmp.172 = dup %tmp.169;
             %tmp.173 = aputv %tmp.172 4 %tmp.171;
-            %tmp.175 = lgetv %rez_cmp_local_text_BatteryIcon.9;
+            %tmp.175 = lgetv %rez_cmp_local_text_Field2Label.9;
             %tmp.176 = dup %tmp.173;
             %tmp.177 = aputv %tmp.176 5 %tmp.175;
-            %tmp.179 = lgetv %rez_cmp_local_text_StepIcon.10;
+            %tmp.179 = lgetv %rez_cmp_local_text_Field3Icon.10;
             %tmp.180 = dup %tmp.177;
             %tmp.181 = aputv %tmp.180 6 %tmp.179;
-            %tmp.183 = lgetv %rez_cmp_local_text_NotifIcon.11;
+            %tmp.183 = lgetv %rez_cmp_local_text_Field3Label.11;
             %tmp.184 = dup %tmp.181;
             %tmp.185 = aputv %tmp.184 7 %tmp.183;
             ret %tmp.185;

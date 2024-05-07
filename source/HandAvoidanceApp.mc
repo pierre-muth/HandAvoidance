@@ -5,11 +5,17 @@ import Toybox.WatchUi;
 class HandAvoidanceApp extends Application.AppBase {
 
     function initialize() {
-        if (Storage.getValue(1) == null) {
-            Storage.setValue(1, false);
+        if (Storage.getValue(1) == null || !(Storage.getValue(1) instanceof Number)) {
+            Storage.setValue(1, 1);
         }
-        if (Storage.getValue(2) == null) {
-            Storage.setValue(2, false);
+        if (Storage.getValue(2) == null || !(Storage.getValue(2) instanceof Number)) {
+            Storage.setValue(2, 2);
+        }
+        if (Storage.getValue(3) == null || !(Storage.getValue(3) instanceof Number)) {
+            Storage.setValue(3, 3);
+        }
+        if (Storage.getValue(4) == null || !(Storage.getValue(4) instanceof Number)) {
+            Storage.setValue(4, 4);
         }
         AppBase.initialize();
     }

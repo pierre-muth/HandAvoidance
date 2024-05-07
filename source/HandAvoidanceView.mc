@@ -39,6 +39,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
                         [q0, q2]
                         ];
 
+                        
+
     function initialize() {
         WatchFace.initialize();
     }
@@ -55,7 +57,10 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         var dateString = Lang.format("$1$", [today.day_of_week]);
         var dayString = Lang.format("$1$", [today.day]);
         var todayUTC = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
-        var utcString =  Lang.format("$1$:$2$", [todayUTC.hour.format("%02d"), todayUTC.min.format("%02d")]);
+        var offset = Storage.getValue(4);
+        var timeZoneHour = (todayUTC.hour + offset)%24;
+        var utcString =  Lang.format("$1$:$2$", [timeZoneHour.format("%02d"), todayUTC.min.format("%02d")]);
+        var utcIconString = "H";
 
         // Determine coordinate for hands avoidance
         var coordinatesIdx = (today.min/15)+(((today.hour%12)/3)*4);
@@ -72,22 +77,29 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         var sys = System.getSystemStats();
         var batteryString = sys.batteryInDays.format("%.0f")+"d";
         var batteryPercentage = sys.battery;
+        var batteryIconString = "D";
+        if (batteryPercentage > 80 ) {batteryIconString = "A";}
+        else if (batteryPercentage > 60 ) {batteryIconString = "B";}
+        else if (batteryPercentage > 21 ) {batteryIconString = "C";}
+        else {batteryIconString = "D";}
 
         // Get notifications count
         var settings = System.getDeviceSettings();
-        var notifCountString = settings.notificationCount.format("%i");
+        var notificationString = settings.notificationCount.format("%i");
+        var notificationIconString = "F";
 
         // Get step count
         var info = ActivityMonitor.getInfo();
-        var stepCountString = info.steps.format("%i");
+        var stepString = info.steps.format("%i");
+        var stepIconString = "E";
 
-        // Get heart beat
+        // Get heart rate
         var info2 = Activity.getActivityInfo();
         var heartRateString = "n.a.";
         if (info2 != null && info2.currentHeartRate != null) {
             heartRateString = info2.currentHeartRate.format("%i");
         }
-        // System.println( "HR: "+heartRateString );
+        var heartRateIconString = "G";
 
         // drawing
         var view;
@@ -98,61 +110,82 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setJustification(j1);
         view.setText(dateString);
         view = View.findDrawableById("DayNumberLabel") as Text;
-        view.setLocation(x1, y1+13);
+        view.setLocation(x1, y1+11);
         view.setJustification(j1);
         view.setText(dayString);
 
-        // draw notifications count
-        view = View.findDrawableById("NotifIcon") as Text;
+        // draw field 1 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
+        view = View.findDrawableById("Field1Icon") as Text;
         view.setLocation(x2, y2);
         view.setJustification(j2);
-        if (Storage.getValue(1)) {
-            view.setText("H");
-        } else {
-            view.setText("F");
-        }
-        view = View.findDrawableById("NotifLabel") as Text;
+        if (Storage.getValue(1) == 0) { view.setText(notificationIconString); }
+        if (Storage.getValue(1) == 1) { view.setText(stepIconString); }
+        if (Storage.getValue(1) == 2) { view.setText(batteryIconString); }
+        if (Storage.getValue(1) == 3) { view.setText(utcIconString); }
+        if (Storage.getValue(1) == 4) { view.setText(heartRateIconString); }
+        if (Storage.getValue(1) == 5) { view.setText(""); }
+
+        view = View.findDrawableById("Field1Label") as Text;
         view.setLocation(x2+o2, y2);
         view.setJustification(j2);
-        if (Storage.getValue(1)) {
-            view.setText(utcString);
-        } else {
-            view.setText(notifCountString);
-        }
+        if (Storage.getValue(1) == 0) { view.setText(notificationString); }
+        if (Storage.getValue(1) == 1) { view.setText(stepString); }
+        if (Storage.getValue(1) == 2) { view.setText(batteryString); }
+        if (Storage.getValue(1) == 3) { view.setText(utcString); }
+        if (Storage.getValue(1) == 4) { view.setText(heartRateString); }
+        if (Storage.getValue(1) == 5) { view.setText(""); }
 
-        //draw step count
-        view = View.findDrawableById("StepIcon") as Text;
+        // draw field 2 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
+        view = View.findDrawableById("Field2Icon") as Text;
         view.setLocation(x2, y2+20);
         view.setJustification(j2);
-        if (Storage.getValue(2)) {
-            view.setText("G");
-        } else {
-            view.setText("E");
-        }
-        view = View.findDrawableById("StepLabel") as Text;
+        if (Storage.getValue(2) == 0) { view.setText(notificationIconString); }
+        if (Storage.getValue(2) == 1) { view.setText(stepIconString); }
+        if (Storage.getValue(2) == 2) { view.setText(batteryIconString); }
+        if (Storage.getValue(2) == 3) { view.setText(utcIconString); }
+        if (Storage.getValue(2) == 4) { view.setText(heartRateIconString); }
+        if (Storage.getValue(2) == 5) { view.setText(""); }
+
+        view = View.findDrawableById("Field2Label") as Text;
         view.setLocation(x2+o2, y2+20);
         view.setJustification(j2);
-        if (Storage.getValue(2)) {
-            view.setText(heartRateString);
-        } else {
-            view.setText(stepCountString);
-        }
+        if (Storage.getValue(2) == 0) { view.setText(notificationString); }
+        if (Storage.getValue(2) == 1) { view.setText(stepString); }
+        if (Storage.getValue(2) == 2) { view.setText(batteryString); }
+        if (Storage.getValue(2) == 3) { view.setText(utcString); }
+        if (Storage.getValue(2) == 4) { view.setText(heartRateString); }
+        if (Storage.getValue(2) == 5) { view.setText(""); }
 
-        // draw the battery info
-        view = View.findDrawableById("BatteryIcon") as Text;
+        // draw field 2 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
+        view = View.findDrawableById("Field3Icon") as Text;
         view.setLocation(x2, y2+40);
         view.setJustification(j2);
-        if (batteryPercentage > 80 ) {view.setText("A");}
-        else if (batteryPercentage > 60 ) {view.setText("B");}
-        else if (batteryPercentage > 30 ) {view.setText("C");}
-        else {view.setText("D");}
-        view = View.findDrawableById("BatteryLabel") as Text;
+        if (Storage.getValue(3) == 0) { view.setText(notificationIconString); }
+        if (Storage.getValue(3) == 1) { view.setText(stepIconString); }
+        if (Storage.getValue(3) == 2) { view.setText(batteryIconString); }
+        if (Storage.getValue(3) == 3) { view.setText(utcIconString); }
+        if (Storage.getValue(3) == 4) { view.setText(heartRateIconString); }
+        if (Storage.getValue(3) == 5) { view.setText(""); }
+
+        view = View.findDrawableById("Field3Label") as Text;
         view.setLocation(x2+o2, y2+40);
         view.setJustification(j2);
-        view.setText(batteryString);
+        if (Storage.getValue(3) == 0) { view.setText(notificationString); }
+        if (Storage.getValue(3) == 1) { view.setText(stepString); }
+        if (Storage.getValue(3) == 2) { view.setText(batteryString); }
+        if (Storage.getValue(3) == 3) { view.setText(utcString); }
+        if (Storage.getValue(3) == 4) { view.setText(heartRateString); }
+        if (Storage.getValue(3) == 5) { view.setText(""); }
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
+    
+    function updateLabel(view as View) {
 
+    }
+
+    function updateIcon(view as View) {
+
+    }
 }

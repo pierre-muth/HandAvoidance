@@ -1,4 +1,5 @@
-<layout id="WatchFace">
+<layout id="WatchFaceLayout" >
+    <drawable id="BackgroundShape" />
     <label id="DateLabel" font="@Fonts.textFont" />
     <label id="DayNumberLabel" font="@Fonts.bigNumberFont" />
     <label id="Field1Icon" font="@Fonts.iconFont" />
@@ -7,10 +8,4 @@
     <label id="Field2Label" font="@Fonts.textFont" />
     <label id="Field3Icon" font="@Fonts.iconFont" />
     <label id="Field3Label" font="@Fonts.textFont" />
-    <!-- <label id="StepIcon" font="@Fonts.iconFont" />
-    <label id="StepLabel" font="@Fonts.textFont" />
-    <label id="NotifIcon" font="@Fonts.iconFont" />
-    <label id="NotifLabel" font="@Fonts.textFont" />
-    <label id="BatteryIcon" font="@Fonts.iconFont" />
-    <label id="BatteryLabel" font="@Fonts.textFont" /> -->
 </layout>

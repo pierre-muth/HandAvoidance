@@ -30,12 +30,14 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
         var menu = new SettingsMenu();
         var fieldOption = Storage.getValue(1) as Number;
         menu.addItem(new WatchUi.MenuItem("  Field 1 value", options[fieldOption], 1,  null));
-        fieldOption = Storage.getValue(2);
+        fieldOption = Storage.getValue(2) as Number;
         menu.addItem(new WatchUi.MenuItem("  Field 2 value", options[fieldOption], 2,  null));
-        fieldOption = Storage.getValue(3);
+        fieldOption = Storage.getValue(3) as Number;
         menu.addItem(new WatchUi.MenuItem("  Field 3 value", options[fieldOption], 3,  null));
-        fieldOption = Storage.getValue(4);
+        fieldOption = Storage.getValue(4) as Number;
         menu.addItem(new WatchUi.MenuItem(" Set time zone", Lang.format("$1$", [fieldOption]), 4,  null));
+        fieldOption = Storage.getValue(5) as Boolean;
+        menu.addItem(new WatchUi.MenuItem(" Invert colors", Lang.format("$1$", [fieldOption]), 5,  null));
 
         WatchUi.pushView(menu, new SettingsMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
         return true;
@@ -79,6 +81,11 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
                 } else {
                     fieldOption++;
                 }
+                Storage.setValue(id, fieldOption);
+                menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
+            } else if (id == 5) {
+                var fieldOption = Storage.getValue(id);
+                fieldOption = !fieldOption;
                 Storage.setValue(id, fieldOption);
                 menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
             }

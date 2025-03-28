@@ -17,16 +17,23 @@ class HandAvoidanceApp extends Application.AppBase {
         if (Storage.getValue(4) == null || !(Storage.getValue(4) instanceof Number)) {
             Storage.setValue(4, 4);
         }
+        if (Storage.getValue(5) == null || !(Storage.getValue(4) instanceof Boolean)) {
+            Storage.setValue(5, false);
+        }
         AppBase.initialize();
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new HandAvoidanceView() ] as Array<Views>;
+    function getInitialView()  {
+        return [ new HandAvoidanceView() ] ;
     }
 
-    public function getSettingsView() as Array<Views or InputDelegates>? {
-        return [new HandAvoidanceSettings(), new HandAvoidanceSettingsDelegate()] as Array<Views or InputDelegates>;
+    public function getSettingsView()  {
+        return [new HandAvoidanceSettings(), new HandAvoidanceSettingsDelegate()] ;
+    }
+
+    function onSettingsChanged() {
+        // System.println("Settings Changed");
     }
 
 }

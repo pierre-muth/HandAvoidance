@@ -17,6 +17,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     const q3 = [80, 1, Graphics.TEXT_JUSTIFY_RIGHT, -18];
     
     // group 1 and group 2 coordinates to avoid watch hands
+
     const coordinates = [
                         [q3, q1],
                         [q3, q2],
@@ -47,8 +48,19 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
+        setLayout(Rez.Layouts.WatchFaceLayout(dc));
+        
     }
+
+    // //! The user has just looked at their watch. Timers and animations may be started here.
+	// function onExitSleep() {
+	// 	System.println("Exiting Sleep");
+	// }
+	
+	// //! Terminate any active timers and prepare for slow updates.
+	// function onEnterSleep() {
+	// 	System.println("Entering Sleep");
+	// }
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
@@ -106,21 +118,33 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         var field2value = Storage.getValue(2);
         var field3value = Storage.getValue(3);
 
-        // drawing
+        var invertColor = Storage.getValue(5) as Boolean;
+        var textColor = Graphics.COLOR_WHITE;
+        if (invertColor) { textColor = Graphics.COLOR_BLACK; }
+
+        //// drawing
         var view;
+
+        // paint the background in white if inverted colors
+        view = View.findDrawableById("BackgroundShape");
+        view.setVisible(invertColor);
 
         // draw the date
         view = View.findDrawableById("DateLabel") as Text;
+        view.setColor(textColor);
         view.setLocation(x1, y1);
         view.setJustification(j1);
         view.setText(dateString);
+
         view = View.findDrawableById("DayNumberLabel") as Text;
+        view.setColor(textColor);
         view.setLocation(x1, y1+10);
         view.setJustification(j1);
         view.setText(dayString);
 
         // draw field 1 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field1Icon") as Text;
+        view.setColor(textColor);
         view.setLocation(x2, y2);
         view.setJustification(j2);
         if (field1value == 0) { view.setText(notificationIconString); }
@@ -131,6 +155,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else { view.setText(""); }
 
         view = View.findDrawableById("Field1Label") as Text;
+        view.setColor(textColor);
         view.setLocation(x2+o2, y2);
         view.setJustification(j2);
         if (field1value == 0) { view.setText(notificationString); }
@@ -142,6 +167,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         // draw field 2 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field2Icon") as Text;
+        view.setColor(textColor);
         view.setLocation(x2, y2+20);
         view.setJustification(j2);
         if (field2value == 0) { view.setText(notificationIconString); }
@@ -152,6 +178,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else { view.setText(""); }
 
         view = View.findDrawableById("Field2Label") as Text;
+        view.setColor(textColor);
         view.setLocation(x2+o2, y2+20);
         view.setJustification(j2);
         if (field2value == 0) { view.setText(notificationString); }
@@ -163,6 +190,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         // draw field 3 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field3Icon") as Text;
+        view.setColor(textColor);
         view.setLocation(x2, y2+40);
         view.setJustification(j2);
         if (field3value == 0) { view.setText(notificationIconString); }
@@ -173,6 +201,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else { view.setText(""); }
 
         view = View.findDrawableById("Field3Label") as Text;
+        view.setColor(textColor);
         view.setLocation(x2+o2, y2+40);
         view.setJustification(j2);
         if (field3value == 0) { view.setText(notificationString); }
@@ -184,6 +213,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
     }
     
     function updateLabel(view as View) {

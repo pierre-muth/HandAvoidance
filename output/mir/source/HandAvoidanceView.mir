@@ -246,19 +246,19 @@ class HandAvoidanceView extends WatchUi.WatchFace{
     const q3;
     [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 20; @position = 10; ]
     const coordinates;
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 44; ]
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 42; ]
     function initialize() as Void {
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_44_26_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 45 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_42_26_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 43 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_44_26_stop:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_42_26_stop:
     }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 49; ]
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 47; ]
     function onLayout(dc as Dc) as Void {
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_49_40_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 50 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_47_40_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 48 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -267,13 +267,13 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_49_40_stop:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_47_40_stop:
     }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 54; ]
+    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 52; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 56 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 54 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %today.1 = local;
         %tmp.1 = getm $.Toybox.Time.Gregorian;
         %tmp.2 = getv function %tmp.1 :info;
@@ -284,8 +284,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
         %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
         lputv %today.1 %tmp.8;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 57 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 55 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %dateString.2 = local;
         %tmp.9 = getm $.Toybox.Lang;
         %tmp.10 = getv function %tmp.9 :format;
@@ -297,8 +297,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.16 = aputv %tmp.15 0 %tmp.14;
         %tmp.17 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.16);
         lputv %dateString.2 %tmp.17;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 58 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 56 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %dayString.3 = local;
         %tmp.18 = getm $.Toybox.Lang;
         %tmp.19 = getv function %tmp.18 :format;
@@ -310,8 +310,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.25 = aputv %tmp.24 0 %tmp.23;
         %tmp.26 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.25);
         lputv %dayString.3 %tmp.26;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 59 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 57 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %todayUTC.4 = local;
         %tmp.27 = getm $.Toybox.Time.Gregorian;
         %tmp.28 = getv function %tmp.27 :utcInfo;
@@ -322,16 +322,16 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.33 = getv %tmp.32 :FORMAT_MEDIUM;
         %tmp.34 = invoke %tmp.27 %tmp.28(%tmp.31, %tmp.33);
         lputv %todayUTC.4 %tmp.34;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 60 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 58 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %offset.5 = local;
         %tmp.35 = getm $.Toybox.Application.Storage;
         %tmp.36 = getv function %tmp.35 :getValue;
         %tmp.37 = 4;
         %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
         lputv %offset.5 %tmp.38;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 61 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 59 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %timeZoneHour.6 = local;
         %tmp.39 = lgetv %todayUTC.4;
         %tmp.40 = getv %tmp.39 :hour;
@@ -340,8 +340,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.44 = 24;
         %tmp.45 = mod %tmp.43 %tmp.44;
         lputv %timeZoneHour.6 %tmp.45;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 62 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 60 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %utcString.7 = local;
         %tmp.46 = getm $.Toybox.Lang;
         %tmp.47 = getv function %tmp.46 :format;
@@ -362,13 +362,13 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.62 = aputv %tmp.61 1 %tmp.60;
         %tmp.63 = invoke %tmp.46 %tmp.47(%tmp.48, %tmp.62);
         lputv %utcString.7 %tmp.63;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 63 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 61 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %utcIconString.8 = local;
         %tmp.64 = "H";
         lputv %utcIconString.8 %tmp.64;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 66 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 64 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %coordinatesIdx.9 = local;
         %tmp.65 = lgetv %today.1;
         %tmp.66 = getv %tmp.65 :min;
@@ -384,8 +384,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.76 = mul %tmp.74 %tmp.75;
         %tmp.77 = add %tmp.68 %tmp.76;
         lputv %coordinatesIdx.9 %tmp.77;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 67 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 65 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %x1.10 = local;
         %tmp.79 = getv ? :coordinates;
         %tmp.81 = lgetv %coordinatesIdx.9;
@@ -395,8 +395,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.85 = 0;
         %tmp.86 = agetv %tmp.84 %tmp.85;
         lputv %x1.10 %tmp.86;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 68 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 66 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %y1.11 = local;
         %tmp.88 = getv ? :coordinates;
         %tmp.90 = lgetv %coordinatesIdx.9;
@@ -406,8 +406,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.94 = 1;
         %tmp.95 = agetv %tmp.93 %tmp.94;
         lputv %y1.11 %tmp.95;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 69 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 67 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %j1.12 = local;
         %tmp.97 = getv ? :coordinates;
         %tmp.99 = lgetv %coordinatesIdx.9;
@@ -417,8 +417,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.103 = 2;
         %tmp.104 = agetv %tmp.102 %tmp.103;
         lputv %j1.12 %tmp.104;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 70 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 68 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %o1.13 = local;
         %tmp.106 = getv ? :coordinates;
         %tmp.108 = lgetv %coordinatesIdx.9;
@@ -428,8 +428,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.112 = 3;
         %tmp.113 = agetv %tmp.111 %tmp.112;
         lputv %o1.13 %tmp.113;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 71 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 69 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %x2.14 = local;
         %tmp.115 = getv ? :coordinates;
         %tmp.117 = lgetv %coordinatesIdx.9;
@@ -439,8 +439,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.121 = 0;
         %tmp.122 = agetv %tmp.120 %tmp.121;
         lputv %x2.14 %tmp.122;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 72 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 70 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %y2.15 = local;
         %tmp.124 = getv ? :coordinates;
         %tmp.126 = lgetv %coordinatesIdx.9;
@@ -450,8 +450,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.130 = 1;
         %tmp.131 = agetv %tmp.129 %tmp.130;
         lputv %y2.15 %tmp.131;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 73 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 71 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %j2.16 = local;
         %tmp.133 = getv ? :coordinates;
         %tmp.135 = lgetv %coordinatesIdx.9;
@@ -461,8 +461,8 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.139 = 2;
         %tmp.140 = agetv %tmp.138 %tmp.139;
         lputv %j2.16 %tmp.140;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 74 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 72 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %o2.17 = local;
         %tmp.142 = getv ? :coordinates;
         %tmp.144 = lgetv %coordinatesIdx.9;
@@ -472,15 +472,15 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.148 = 3;
         %tmp.149 = agetv %tmp.147 %tmp.148;
         lputv %o2.17 %tmp.149;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 77 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 75 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %sys.18 = local;
         %tmp.150 = getm $.Toybox.System;
         %tmp.151 = getv function %tmp.150 :getSystemStats;
         %tmp.152 = invoke %tmp.150 %tmp.151();
         lputv %sys.18 %tmp.152;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 78 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 76 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %batteryString.19 = local;
         %tmp.153 = lgetv %sys.18;
         %tmp.154 = getv %tmp.153 :batteryInDays;
@@ -490,76 +490,76 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.158 = "d";
         %tmp.159 = add %tmp.157 %tmp.158;
         lputv %batteryString.19 %tmp.159;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 79 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 77 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %batteryPercentage.20 = local;
         %tmp.160 = lgetv %sys.18;
         %tmp.161 = getv %tmp.160 :battery;
         lputv %batteryPercentage.20 %tmp.161;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 80 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 78 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %batteryIconString.21 = local;
         %tmp.162 = "D";
         lputv %batteryIconString.21 %tmp.162;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 81 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 79 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_stmt:
         %tmp.164 = lgetv %batteryPercentage.20;
         %tmp.165 = 80;
         %tmp.166 = gt %tmp.164 %tmp.165;
-        bf %tmp.166 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_37_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 81 38 ]
+        bf %tmp.166 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_37_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 79 38 ]
         %tmp.167 = "A";
         lputv %batteryIconString.21 %tmp.167;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_37_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 82 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_37_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 80 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_stmt:
         %tmp.169 = lgetv %batteryPercentage.20;
         %tmp.170 = 60;
         %tmp.171 = gt %tmp.169 %tmp.170;
-        bf %tmp.171 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_42_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 82 43 ]
+        bf %tmp.171 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_42_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 80 43 ]
         %tmp.172 = "B";
         lputv %batteryIconString.21 %tmp.172;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_42_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 83 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_42_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 81 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_stmt:
         %tmp.174 = lgetv %batteryPercentage.20;
         %tmp.175 = 21;
         %tmp.176 = gt %tmp.174 %tmp.175;
-        bf %tmp.176 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_42_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 83 43 ]
+        bf %tmp.176 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_42_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 81 43 ]
         %tmp.177 = "C";
         lputv %batteryIconString.21 %tmp.177;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_42_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_84_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 84 14 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_42_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 82 14 ]
         %tmp.178 = "D";
         lputv %batteryIconString.21 %tmp.178;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_84_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_83_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 87 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_82_13_stop:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_81_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_80_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_79_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 85 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %settings.22 = local;
         %tmp.179 = getm $.Toybox.System;
         %tmp.180 = getv function %tmp.179 :getDeviceSettings;
         %tmp.181 = invoke %tmp.179 %tmp.180();
         lputv %settings.22 %tmp.181;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 88 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 86 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %notificationString.23 = local;
         %tmp.182 = lgetv %settings.22;
         %tmp.183 = getv %tmp.182 :notificationCount;
@@ -567,20 +567,20 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.185 = "%i";
         %tmp.186 = invoke %tmp.183 %tmp.184(%tmp.185);
         lputv %notificationString.23 %tmp.186;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 89 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 87 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %notificationIconString.24 = local;
         %tmp.187 = "F";
         lputv %notificationIconString.24 %tmp.187;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 92 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 90 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %info.25 = local;
         %tmp.188 = getm $.Toybox.ActivityMonitor;
         %tmp.189 = getv function %tmp.188 :getInfo;
         %tmp.190 = invoke %tmp.188 %tmp.189();
         lputv %info.25 %tmp.190;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 93 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 91 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %stepString.26 = local;
         %tmp.191 = lgetv %info.25;
         %tmp.192 = getv %tmp.191 :steps;
@@ -588,32 +588,32 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.194 = "%i";
         %tmp.195 = invoke %tmp.192 %tmp.193(%tmp.194);
         lputv %stepString.26 %tmp.195;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 94 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 92 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %stepIconString.27 = local;
         %tmp.196 = "E";
         lputv %stepIconString.27 %tmp.196;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 97 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 95 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %info2.28 = local;
         %tmp.198 = getv ? :Activity;
         %tmp.199 = getv function %tmp.198 :getActivityInfo;
         %tmp.200 = invoke %tmp.198 %tmp.199();
         lputv %info2.28 %tmp.200;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 98 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 96 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %heartRateString.29 = local;
         %tmp.201 = "n.a.";
         lputv %heartRateString.29 %tmp.201;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 99 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_8_if_stmt:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_12_begin:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 97 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_8_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_12_begin:
         %tmp.203 = lgetv %info2.28;
         %tmp.204 = null;
         %tmp.205 = ne %tmp.203 %tmp.204;
         %tmp.206 = dup %tmp.205;
-        bf %tmp.206 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_29_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_29_true:
+        bf %tmp.206 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_29_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_29_true:
         %tmp.207 = lgetv %info2.28;
         %tmp.208 = as %tmp.207 { (!Null) };
         %tmp.209 = getv %tmp.208 :currentHeartRate;
@@ -621,12 +621,12 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.211 = ne %tmp.209 %tmp.210;
         %tmp.212 = and %tmp.205 %tmp.211;
         push %tmp.212;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_29_end:
-        %tmp.213 = phi [%tmp.206 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_12_begin] [%tmp.212 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_29_true] [%tmp.213 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_29_end];
-        bf %tmp.213 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_61_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 100 12 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_29_end:
+        %tmp.213 = phi [%tmp.206 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_12_begin] [%tmp.212 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_29_true] [%tmp.213 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_29_end];
+        bf %tmp.213 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_61_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 98 12 ]
         %tmp.214 = lgetv %info2.28;
         %tmp.215 = as %tmp.214 { (!Null) };
         %tmp.216 = getv %tmp.215 :currentHeartRate;
@@ -634,72 +634,72 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.218 = "%i";
         %tmp.219 = invoke %tmp.216 %tmp.217(%tmp.218);
         lputv %heartRateString.29 %tmp.219;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_61_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_99_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 102 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_61_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_97_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 100 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %heartRateIconString.30 = local;
         %tmp.220 = "G";
         lputv %heartRateIconString.30 %tmp.220;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 105 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 103 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %field1value.31 = local;
         %tmp.221 = getm $.Toybox.Application.Storage;
         %tmp.222 = getv function %tmp.221 :getValue;
         %tmp.223 = 1;
         %tmp.224 = invoke %tmp.221 %tmp.222(%tmp.223);
         lputv %field1value.31 %tmp.224;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 106 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 104 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %field2value.32 = local;
         %tmp.225 = getm $.Toybox.Application.Storage;
         %tmp.226 = getv function %tmp.225 :getValue;
         %tmp.227 = 2;
         %tmp.228 = invoke %tmp.225 %tmp.226(%tmp.227);
         lputv %field2value.32 %tmp.228;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 107 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 105 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %field3value.33 = local;
         %tmp.229 = getm $.Toybox.Application.Storage;
         %tmp.230 = getv function %tmp.229 :getValue;
         %tmp.231 = 3;
         %tmp.232 = invoke %tmp.229 %tmp.230(%tmp.231);
         lputv %field3value.33 %tmp.232;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 110 8 ]
-        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop" ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 108 8 ]
+        [ "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_start" "C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop" ]
         %view.34 = local;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 113 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 111 8 ]
         %tmp.234 = getv ? :View;
         %tmp.235 = getv function %tmp.234 :findDrawableById;
         %tmp.236 = "DateLabel";
         %tmp.237 = invoke %tmp.234 %tmp.235(%tmp.236);
         %tmp.238 = as %tmp.237 Text;
         lputv %view.34 %tmp.238;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 114 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 112 8 ]
         %tmp.239 = lgetv %view.34;
         %tmp.240 = getv function %tmp.239 :setLocation;
         %tmp.242 = lgetv %x1.10;
         %tmp.244 = lgetv %y1.11;
         invoke %tmp.239 %tmp.240(%tmp.242, %tmp.244);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 115 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 113 8 ]
         %tmp.245 = lgetv %view.34;
         %tmp.246 = getv function %tmp.245 :setJustification;
         %tmp.248 = lgetv %j1.12;
         invoke %tmp.245 %tmp.246(%tmp.248);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 116 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 114 8 ]
         %tmp.249 = lgetv %view.34;
         %tmp.250 = getv function %tmp.249 :setText;
         %tmp.252 = lgetv %dateString.2;
         invoke %tmp.249 %tmp.250(%tmp.252);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 117 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 115 8 ]
         %tmp.254 = getv ? :View;
         %tmp.255 = getv function %tmp.254 :findDrawableById;
         %tmp.256 = "DayNumberLabel";
         %tmp.257 = invoke %tmp.254 %tmp.255(%tmp.256);
         %tmp.258 = as %tmp.257 Text;
         lputv %view.34 %tmp.258;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 118 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 116 8 ]
         %tmp.259 = lgetv %view.34;
         %tmp.260 = getv function %tmp.259 :setLocation;
         %tmp.262 = lgetv %x1.10;
@@ -707,134 +707,134 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.265 = 10;
         %tmp.266 = add %tmp.264 %tmp.265;
         invoke %tmp.259 %tmp.260(%tmp.262, %tmp.266);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 119 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 117 8 ]
         %tmp.267 = lgetv %view.34;
         %tmp.268 = getv function %tmp.267 :setJustification;
         %tmp.270 = lgetv %j1.12;
         invoke %tmp.267 %tmp.268(%tmp.270);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 120 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 118 8 ]
         %tmp.271 = lgetv %view.34;
         %tmp.272 = getv function %tmp.271 :setText;
         %tmp.274 = lgetv %dayString.3;
         invoke %tmp.271 %tmp.272(%tmp.274);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 123 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 121 8 ]
         %tmp.276 = getv ? :View;
         %tmp.277 = getv function %tmp.276 :findDrawableById;
         %tmp.278 = "Field1Icon";
         %tmp.279 = invoke %tmp.276 %tmp.277(%tmp.278);
         %tmp.280 = as %tmp.279 Text;
         lputv %view.34 %tmp.280;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 124 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 122 8 ]
         %tmp.281 = lgetv %view.34;
         %tmp.282 = getv function %tmp.281 :setLocation;
         %tmp.284 = lgetv %x2.14;
         %tmp.286 = lgetv %y2.15;
         invoke %tmp.281 %tmp.282(%tmp.284, %tmp.286);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 125 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 123 8 ]
         %tmp.287 = lgetv %view.34;
         %tmp.288 = getv function %tmp.287 :setJustification;
         %tmp.290 = lgetv %j2.16;
         invoke %tmp.287 %tmp.288(%tmp.290);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 126 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 124 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_stmt:
         %tmp.292 = lgetv %field1value.31;
         %tmp.293 = 0;
         %tmp.294 = eq %tmp.292 %tmp.293;
-        bf %tmp.294 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 126 32 ]
+        bf %tmp.294 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 124 32 ]
         %tmp.295 = lgetv %view.34;
         %tmp.296 = getv function %tmp.295 :setText;
         %tmp.298 = lgetv %notificationIconString.24;
         invoke %tmp.295 %tmp.296(%tmp.298);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 127 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 125 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_stmt:
         %tmp.300 = lgetv %field1value.31;
         %tmp.301 = 1;
         %tmp.302 = eq %tmp.300 %tmp.301;
-        bf %tmp.302 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 127 37 ]
+        bf %tmp.302 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 125 37 ]
         %tmp.303 = lgetv %view.34;
         %tmp.304 = getv function %tmp.303 :setText;
         %tmp.306 = lgetv %stepIconString.27;
         invoke %tmp.303 %tmp.304(%tmp.306);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 126 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_stmt:
+        %tmp.308 = lgetv %field1value.31;
+        %tmp.309 = 2;
+        %tmp.310 = eq %tmp.308 %tmp.309;
+        bf %tmp.310 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 126 37 ]
+        %tmp.311 = lgetv %view.34;
+        %tmp.312 = getv function %tmp.311 :setText;
+        %tmp.314 = lgetv %batteryIconString.21;
+        invoke %tmp.311 %tmp.312(%tmp.314);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 127 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_stmt:
+        %tmp.316 = lgetv %field1value.31;
+        %tmp.317 = 3;
+        %tmp.318 = eq %tmp.316 %tmp.317;
+        bf %tmp.318 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 127 37 ]
+        %tmp.319 = lgetv %view.34;
+        %tmp.320 = getv function %tmp.319 :setText;
+        %tmp.322 = lgetv %utcIconString.8;
+        invoke %tmp.319 %tmp.320(%tmp.322);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 128 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_stmt:
-        %tmp.308 = lgetv %field1value.31;
-        %tmp.309 = 2;
-        %tmp.310 = eq %tmp.308 %tmp.309;
-        bf %tmp.310 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 128 37 ]
-        %tmp.311 = lgetv %view.34;
-        %tmp.312 = getv function %tmp.311 :setText;
-        %tmp.314 = lgetv %batteryIconString.21;
-        invoke %tmp.311 %tmp.312(%tmp.314);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 129 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_stmt:
-        %tmp.316 = lgetv %field1value.31;
-        %tmp.317 = 3;
-        %tmp.318 = eq %tmp.316 %tmp.317;
-        bf %tmp.318 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 129 37 ]
-        %tmp.319 = lgetv %view.34;
-        %tmp.320 = getv function %tmp.319 :setText;
-        %tmp.322 = lgetv %utcIconString.8;
-        invoke %tmp.319 %tmp.320(%tmp.322);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 130 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_stmt:
         %tmp.324 = lgetv %field1value.31;
         %tmp.325 = 4;
         %tmp.326 = eq %tmp.324 %tmp.325;
-        bf %tmp.326 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 130 37 ]
+        bf %tmp.326 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 128 37 ]
         %tmp.327 = lgetv %view.34;
         %tmp.328 = getv function %tmp.327 :setText;
         %tmp.330 = lgetv %heartRateIconString.30;
         invoke %tmp.327 %tmp.328(%tmp.330);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_131_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 131 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 129 15 ]
         %tmp.331 = lgetv %view.34;
         %tmp.332 = getv function %tmp.331 :setText;
         %tmp.333 = "";
         invoke %tmp.331 %tmp.332(%tmp.333);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_131_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_130_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_129_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_128_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_127_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 133 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_126_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_125_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_124_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 131 8 ]
         %tmp.335 = getv ? :View;
         %tmp.336 = getv function %tmp.335 :findDrawableById;
         %tmp.337 = "Field1Label";
         %tmp.338 = invoke %tmp.335 %tmp.336(%tmp.337);
         %tmp.339 = as %tmp.338 Text;
         lputv %view.34 %tmp.339;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 134 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 132 8 ]
         %tmp.340 = lgetv %view.34;
         %tmp.341 = getv function %tmp.340 :setLocation;
         %tmp.343 = lgetv %x2.14;
@@ -842,111 +842,111 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.346 = add %tmp.343 %tmp.345;
         %tmp.348 = lgetv %y2.15;
         invoke %tmp.340 %tmp.341(%tmp.346, %tmp.348);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 135 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 133 8 ]
         %tmp.349 = lgetv %view.34;
         %tmp.350 = getv function %tmp.349 :setJustification;
         %tmp.352 = lgetv %j2.16;
         invoke %tmp.349 %tmp.350(%tmp.352);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 136 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 134 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_stmt:
         %tmp.354 = lgetv %field1value.31;
         %tmp.355 = 0;
         %tmp.356 = eq %tmp.354 %tmp.355;
-        bf %tmp.356 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 136 32 ]
+        bf %tmp.356 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 134 32 ]
         %tmp.357 = lgetv %view.34;
         %tmp.358 = getv function %tmp.357 :setText;
         %tmp.360 = lgetv %notificationString.23;
         invoke %tmp.357 %tmp.358(%tmp.360);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 137 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 135 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_stmt:
         %tmp.362 = lgetv %field1value.31;
         %tmp.363 = 1;
         %tmp.364 = eq %tmp.362 %tmp.363;
-        bf %tmp.364 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 137 37 ]
+        bf %tmp.364 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 135 37 ]
         %tmp.365 = lgetv %view.34;
         %tmp.366 = getv function %tmp.365 :setText;
         %tmp.368 = lgetv %stepString.26;
         invoke %tmp.365 %tmp.366(%tmp.368);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 136 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_stmt:
+        %tmp.370 = lgetv %field1value.31;
+        %tmp.371 = 2;
+        %tmp.372 = eq %tmp.370 %tmp.371;
+        bf %tmp.372 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 136 37 ]
+        %tmp.373 = lgetv %view.34;
+        %tmp.374 = getv function %tmp.373 :setText;
+        %tmp.376 = lgetv %batteryString.19;
+        invoke %tmp.373 %tmp.374(%tmp.376);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 137 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_stmt:
+        %tmp.378 = lgetv %field1value.31;
+        %tmp.379 = 3;
+        %tmp.380 = eq %tmp.378 %tmp.379;
+        bf %tmp.380 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 137 37 ]
+        %tmp.381 = lgetv %view.34;
+        %tmp.382 = getv function %tmp.381 :setText;
+        %tmp.384 = lgetv %utcString.7;
+        invoke %tmp.381 %tmp.382(%tmp.384);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 138 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_stmt:
-        %tmp.370 = lgetv %field1value.31;
-        %tmp.371 = 2;
-        %tmp.372 = eq %tmp.370 %tmp.371;
-        bf %tmp.372 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 138 37 ]
-        %tmp.373 = lgetv %view.34;
-        %tmp.374 = getv function %tmp.373 :setText;
-        %tmp.376 = lgetv %batteryString.19;
-        invoke %tmp.373 %tmp.374(%tmp.376);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 139 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_stmt:
-        %tmp.378 = lgetv %field1value.31;
-        %tmp.379 = 3;
-        %tmp.380 = eq %tmp.378 %tmp.379;
-        bf %tmp.380 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 139 37 ]
-        %tmp.381 = lgetv %view.34;
-        %tmp.382 = getv function %tmp.381 :setText;
-        %tmp.384 = lgetv %utcString.7;
-        invoke %tmp.381 %tmp.382(%tmp.384);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 140 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_stmt:
         %tmp.386 = lgetv %field1value.31;
         %tmp.387 = 4;
         %tmp.388 = eq %tmp.386 %tmp.387;
-        bf %tmp.388 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 140 37 ]
+        bf %tmp.388 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 138 37 ]
         %tmp.389 = lgetv %view.34;
         %tmp.390 = getv function %tmp.389 :setText;
         %tmp.392 = lgetv %heartRateString.29;
         invoke %tmp.389 %tmp.390(%tmp.392);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_141_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 141 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 139 15 ]
         %tmp.393 = lgetv %view.34;
         %tmp.394 = getv function %tmp.393 :setText;
         %tmp.395 = "";
         invoke %tmp.393 %tmp.394(%tmp.395);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_141_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_140_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_139_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_138_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_137_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 144 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_136_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_135_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_134_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 142 8 ]
         %tmp.397 = getv ? :View;
         %tmp.398 = getv function %tmp.397 :findDrawableById;
         %tmp.399 = "Field2Icon";
         %tmp.400 = invoke %tmp.397 %tmp.398(%tmp.399);
         %tmp.401 = as %tmp.400 Text;
         lputv %view.34 %tmp.401;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 145 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 143 8 ]
         %tmp.402 = lgetv %view.34;
         %tmp.403 = getv function %tmp.402 :setLocation;
         %tmp.405 = lgetv %x2.14;
@@ -954,111 +954,111 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.408 = 20;
         %tmp.409 = add %tmp.407 %tmp.408;
         invoke %tmp.402 %tmp.403(%tmp.405, %tmp.409);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 146 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 144 8 ]
         %tmp.410 = lgetv %view.34;
         %tmp.411 = getv function %tmp.410 :setJustification;
         %tmp.413 = lgetv %j2.16;
         invoke %tmp.410 %tmp.411(%tmp.413);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 147 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 145 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_stmt:
         %tmp.415 = lgetv %field2value.32;
         %tmp.416 = 0;
         %tmp.417 = eq %tmp.415 %tmp.416;
-        bf %tmp.417 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 147 32 ]
+        bf %tmp.417 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 145 32 ]
         %tmp.418 = lgetv %view.34;
         %tmp.419 = getv function %tmp.418 :setText;
         %tmp.421 = lgetv %notificationIconString.24;
         invoke %tmp.418 %tmp.419(%tmp.421);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 148 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 146 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_stmt:
         %tmp.423 = lgetv %field2value.32;
         %tmp.424 = 1;
         %tmp.425 = eq %tmp.423 %tmp.424;
-        bf %tmp.425 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 148 37 ]
+        bf %tmp.425 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 146 37 ]
         %tmp.426 = lgetv %view.34;
         %tmp.427 = getv function %tmp.426 :setText;
         %tmp.429 = lgetv %stepIconString.27;
         invoke %tmp.426 %tmp.427(%tmp.429);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 147 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_stmt:
+        %tmp.431 = lgetv %field2value.32;
+        %tmp.432 = 2;
+        %tmp.433 = eq %tmp.431 %tmp.432;
+        bf %tmp.433 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 147 37 ]
+        %tmp.434 = lgetv %view.34;
+        %tmp.435 = getv function %tmp.434 :setText;
+        %tmp.437 = lgetv %batteryIconString.21;
+        invoke %tmp.434 %tmp.435(%tmp.437);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 148 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_stmt:
+        %tmp.439 = lgetv %field2value.32;
+        %tmp.440 = 3;
+        %tmp.441 = eq %tmp.439 %tmp.440;
+        bf %tmp.441 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 148 37 ]
+        %tmp.442 = lgetv %view.34;
+        %tmp.443 = getv function %tmp.442 :setText;
+        %tmp.445 = lgetv %utcIconString.8;
+        invoke %tmp.442 %tmp.443(%tmp.445);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 149 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_stmt:
-        %tmp.431 = lgetv %field2value.32;
-        %tmp.432 = 2;
-        %tmp.433 = eq %tmp.431 %tmp.432;
-        bf %tmp.433 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 149 37 ]
-        %tmp.434 = lgetv %view.34;
-        %tmp.435 = getv function %tmp.434 :setText;
-        %tmp.437 = lgetv %batteryIconString.21;
-        invoke %tmp.434 %tmp.435(%tmp.437);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 150 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_stmt:
-        %tmp.439 = lgetv %field2value.32;
-        %tmp.440 = 3;
-        %tmp.441 = eq %tmp.439 %tmp.440;
-        bf %tmp.441 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 150 37 ]
-        %tmp.442 = lgetv %view.34;
-        %tmp.443 = getv function %tmp.442 :setText;
-        %tmp.445 = lgetv %utcIconString.8;
-        invoke %tmp.442 %tmp.443(%tmp.445);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 151 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_stmt:
         %tmp.447 = lgetv %field2value.32;
         %tmp.448 = 4;
         %tmp.449 = eq %tmp.447 %tmp.448;
-        bf %tmp.449 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 151 37 ]
+        bf %tmp.449 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 149 37 ]
         %tmp.450 = lgetv %view.34;
         %tmp.451 = getv function %tmp.450 :setText;
         %tmp.453 = lgetv %heartRateIconString.30;
         invoke %tmp.450 %tmp.451(%tmp.453);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_152_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 152 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 150 15 ]
         %tmp.454 = lgetv %view.34;
         %tmp.455 = getv function %tmp.454 :setText;
         %tmp.456 = "";
         invoke %tmp.454 %tmp.455(%tmp.456);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_152_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_151_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_150_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_149_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_148_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 154 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_147_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_146_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_145_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 152 8 ]
         %tmp.458 = getv ? :View;
         %tmp.459 = getv function %tmp.458 :findDrawableById;
         %tmp.460 = "Field2Label";
         %tmp.461 = invoke %tmp.458 %tmp.459(%tmp.460);
         %tmp.462 = as %tmp.461 Text;
         lputv %view.34 %tmp.462;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 155 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 153 8 ]
         %tmp.463 = lgetv %view.34;
         %tmp.464 = getv function %tmp.463 :setLocation;
         %tmp.466 = lgetv %x2.14;
@@ -1068,111 +1068,111 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.472 = 20;
         %tmp.473 = add %tmp.471 %tmp.472;
         invoke %tmp.463 %tmp.464(%tmp.469, %tmp.473);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 156 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 154 8 ]
         %tmp.474 = lgetv %view.34;
         %tmp.475 = getv function %tmp.474 :setJustification;
         %tmp.477 = lgetv %j2.16;
         invoke %tmp.474 %tmp.475(%tmp.477);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 157 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 155 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_stmt:
         %tmp.479 = lgetv %field2value.32;
         %tmp.480 = 0;
         %tmp.481 = eq %tmp.479 %tmp.480;
-        bf %tmp.481 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 157 32 ]
+        bf %tmp.481 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 155 32 ]
         %tmp.482 = lgetv %view.34;
         %tmp.483 = getv function %tmp.482 :setText;
         %tmp.485 = lgetv %notificationString.23;
         invoke %tmp.482 %tmp.483(%tmp.485);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 158 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 156 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_stmt:
         %tmp.487 = lgetv %field2value.32;
         %tmp.488 = 1;
         %tmp.489 = eq %tmp.487 %tmp.488;
-        bf %tmp.489 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 158 37 ]
+        bf %tmp.489 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 156 37 ]
         %tmp.490 = lgetv %view.34;
         %tmp.491 = getv function %tmp.490 :setText;
         %tmp.493 = lgetv %stepString.26;
         invoke %tmp.490 %tmp.491(%tmp.493);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 157 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_stmt:
+        %tmp.495 = lgetv %field2value.32;
+        %tmp.496 = 2;
+        %tmp.497 = eq %tmp.495 %tmp.496;
+        bf %tmp.497 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 157 37 ]
+        %tmp.498 = lgetv %view.34;
+        %tmp.499 = getv function %tmp.498 :setText;
+        %tmp.501 = lgetv %batteryString.19;
+        invoke %tmp.498 %tmp.499(%tmp.501);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 158 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_stmt:
+        %tmp.503 = lgetv %field2value.32;
+        %tmp.504 = 3;
+        %tmp.505 = eq %tmp.503 %tmp.504;
+        bf %tmp.505 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 158 37 ]
+        %tmp.506 = lgetv %view.34;
+        %tmp.507 = getv function %tmp.506 :setText;
+        %tmp.509 = lgetv %utcString.7;
+        invoke %tmp.506 %tmp.507(%tmp.509);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 159 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_stmt:
-        %tmp.495 = lgetv %field2value.32;
-        %tmp.496 = 2;
-        %tmp.497 = eq %tmp.495 %tmp.496;
-        bf %tmp.497 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 159 37 ]
-        %tmp.498 = lgetv %view.34;
-        %tmp.499 = getv function %tmp.498 :setText;
-        %tmp.501 = lgetv %batteryString.19;
-        invoke %tmp.498 %tmp.499(%tmp.501);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 160 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_stmt:
-        %tmp.503 = lgetv %field2value.32;
-        %tmp.504 = 3;
-        %tmp.505 = eq %tmp.503 %tmp.504;
-        bf %tmp.505 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 160 37 ]
-        %tmp.506 = lgetv %view.34;
-        %tmp.507 = getv function %tmp.506 :setText;
-        %tmp.509 = lgetv %utcString.7;
-        invoke %tmp.506 %tmp.507(%tmp.509);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 161 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_stmt:
         %tmp.511 = lgetv %field2value.32;
         %tmp.512 = 4;
         %tmp.513 = eq %tmp.511 %tmp.512;
-        bf %tmp.513 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 161 37 ]
+        bf %tmp.513 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 159 37 ]
         %tmp.514 = lgetv %view.34;
         %tmp.515 = getv function %tmp.514 :setText;
         %tmp.517 = lgetv %heartRateString.29;
         invoke %tmp.514 %tmp.515(%tmp.517);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_162_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 162 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 160 15 ]
         %tmp.518 = lgetv %view.34;
         %tmp.519 = getv function %tmp.518 :setText;
         %tmp.520 = "";
         invoke %tmp.518 %tmp.519(%tmp.520);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_162_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_161_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_160_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_159_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_158_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 165 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_157_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_156_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_155_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 163 8 ]
         %tmp.522 = getv ? :View;
         %tmp.523 = getv function %tmp.522 :findDrawableById;
         %tmp.524 = "Field3Icon";
         %tmp.525 = invoke %tmp.522 %tmp.523(%tmp.524);
         %tmp.526 = as %tmp.525 Text;
         lputv %view.34 %tmp.526;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 166 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 164 8 ]
         %tmp.527 = lgetv %view.34;
         %tmp.528 = getv function %tmp.527 :setLocation;
         %tmp.530 = lgetv %x2.14;
@@ -1180,111 +1180,111 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.533 = 40;
         %tmp.534 = add %tmp.532 %tmp.533;
         invoke %tmp.527 %tmp.528(%tmp.530, %tmp.534);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 167 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 165 8 ]
         %tmp.535 = lgetv %view.34;
         %tmp.536 = getv function %tmp.535 :setJustification;
         %tmp.538 = lgetv %j2.16;
         invoke %tmp.535 %tmp.536(%tmp.538);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 168 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 166 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_stmt:
         %tmp.540 = lgetv %field3value.33;
         %tmp.541 = 0;
         %tmp.542 = eq %tmp.540 %tmp.541;
-        bf %tmp.542 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 168 32 ]
+        bf %tmp.542 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 166 32 ]
         %tmp.543 = lgetv %view.34;
         %tmp.544 = getv function %tmp.543 :setText;
         %tmp.546 = lgetv %notificationIconString.24;
         invoke %tmp.543 %tmp.544(%tmp.546);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 169 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 167 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_stmt:
         %tmp.548 = lgetv %field3value.33;
         %tmp.549 = 1;
         %tmp.550 = eq %tmp.548 %tmp.549;
-        bf %tmp.550 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 169 37 ]
+        bf %tmp.550 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 167 37 ]
         %tmp.551 = lgetv %view.34;
         %tmp.552 = getv function %tmp.551 :setText;
         %tmp.554 = lgetv %stepIconString.27;
         invoke %tmp.551 %tmp.552(%tmp.554);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 168 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_stmt:
+        %tmp.556 = lgetv %field3value.33;
+        %tmp.557 = 2;
+        %tmp.558 = eq %tmp.556 %tmp.557;
+        bf %tmp.558 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 168 37 ]
+        %tmp.559 = lgetv %view.34;
+        %tmp.560 = getv function %tmp.559 :setText;
+        %tmp.562 = lgetv %batteryIconString.21;
+        invoke %tmp.559 %tmp.560(%tmp.562);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 169 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_stmt:
+        %tmp.564 = lgetv %field3value.33;
+        %tmp.565 = 3;
+        %tmp.566 = eq %tmp.564 %tmp.565;
+        bf %tmp.566 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 169 37 ]
+        %tmp.567 = lgetv %view.34;
+        %tmp.568 = getv function %tmp.567 :setText;
+        %tmp.570 = lgetv %utcIconString.8;
+        invoke %tmp.567 %tmp.568(%tmp.570);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 170 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_stmt:
-        %tmp.556 = lgetv %field3value.33;
-        %tmp.557 = 2;
-        %tmp.558 = eq %tmp.556 %tmp.557;
-        bf %tmp.558 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 170 37 ]
-        %tmp.559 = lgetv %view.34;
-        %tmp.560 = getv function %tmp.559 :setText;
-        %tmp.562 = lgetv %batteryIconString.21;
-        invoke %tmp.559 %tmp.560(%tmp.562);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 171 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_stmt:
-        %tmp.564 = lgetv %field3value.33;
-        %tmp.565 = 3;
-        %tmp.566 = eq %tmp.564 %tmp.565;
-        bf %tmp.566 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 171 37 ]
-        %tmp.567 = lgetv %view.34;
-        %tmp.568 = getv function %tmp.567 :setText;
-        %tmp.570 = lgetv %utcIconString.8;
-        invoke %tmp.567 %tmp.568(%tmp.570);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 172 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_stmt:
         %tmp.572 = lgetv %field3value.33;
         %tmp.573 = 4;
         %tmp.574 = eq %tmp.572 %tmp.573;
-        bf %tmp.574 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 172 37 ]
+        bf %tmp.574 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 170 37 ]
         %tmp.575 = lgetv %view.34;
         %tmp.576 = getv function %tmp.575 :setText;
         %tmp.578 = lgetv %heartRateIconString.30;
         invoke %tmp.575 %tmp.576(%tmp.578);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_173_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 173 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 171 15 ]
         %tmp.579 = lgetv %view.34;
         %tmp.580 = getv function %tmp.579 :setText;
         %tmp.581 = "";
         invoke %tmp.579 %tmp.580(%tmp.581);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_173_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_172_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_171_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_170_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_169_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 175 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_168_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_167_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_166_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 173 8 ]
         %tmp.583 = getv ? :View;
         %tmp.584 = getv function %tmp.583 :findDrawableById;
         %tmp.585 = "Field3Label";
         %tmp.586 = invoke %tmp.583 %tmp.584(%tmp.585);
         %tmp.587 = as %tmp.586 Text;
         lputv %view.34 %tmp.587;
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 176 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 174 8 ]
         %tmp.588 = lgetv %view.34;
         %tmp.589 = getv function %tmp.588 :setLocation;
         %tmp.591 = lgetv %x2.14;
@@ -1294,115 +1294,109 @@ C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_Hand
         %tmp.597 = 40;
         %tmp.598 = add %tmp.596 %tmp.597;
         invoke %tmp.588 %tmp.589(%tmp.594, %tmp.598);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 177 8 ]
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 175 8 ]
         %tmp.599 = lgetv %view.34;
         %tmp.600 = getv function %tmp.599 :setJustification;
         %tmp.602 = lgetv %j2.16;
         invoke %tmp.599 %tmp.600(%tmp.602);
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 178 8 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_stmt:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 176 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_stmt:
         %tmp.604 = lgetv %field3value.33;
         %tmp.605 = 0;
         %tmp.606 = eq %tmp.604 %tmp.605;
-        bf %tmp.606 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_30_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 178 32 ]
+        bf %tmp.606 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_30_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 176 32 ]
         %tmp.607 = lgetv %view.34;
         %tmp.608 = getv function %tmp.607 :setText;
         %tmp.610 = lgetv %notificationString.23;
         invoke %tmp.607 %tmp.608(%tmp.610);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_30_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 179 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_stmt:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_30_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 177 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_stmt:
         %tmp.612 = lgetv %field3value.33;
         %tmp.613 = 1;
         %tmp.614 = eq %tmp.612 %tmp.613;
-        bf %tmp.614 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 179 37 ]
+        bf %tmp.614 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 177 37 ]
         %tmp.615 = lgetv %view.34;
         %tmp.616 = getv function %tmp.615 :setText;
         %tmp.618 = lgetv %stepString.26;
         invoke %tmp.615 %tmp.616(%tmp.618);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 178 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_stmt:
+        %tmp.620 = lgetv %field3value.33;
+        %tmp.621 = 2;
+        %tmp.622 = eq %tmp.620 %tmp.621;
+        bf %tmp.622 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 178 37 ]
+        %tmp.623 = lgetv %view.34;
+        %tmp.624 = getv function %tmp.623 :setText;
+        %tmp.626 = lgetv %batteryString.19;
+        invoke %tmp.623 %tmp.624(%tmp.626);
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_false:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 179 13 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_stmt:
+        %tmp.628 = lgetv %field3value.33;
+        %tmp.629 = 3;
+        %tmp.630 = eq %tmp.628 %tmp.629;
+        bf %tmp.630 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 179 37 ]
+        %tmp.631 = lgetv %view.34;
+        %tmp.632 = getv function %tmp.631 :setText;
+        %tmp.634 = lgetv %utcString.7;
+        invoke %tmp.631 %tmp.632(%tmp.634);
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_35_stop:
         goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_end;
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_false:
 [ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 180 13 ]
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_stmt:
-        %tmp.620 = lgetv %field3value.33;
-        %tmp.621 = 2;
-        %tmp.622 = eq %tmp.620 %tmp.621;
-        bf %tmp.622 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 180 37 ]
-        %tmp.623 = lgetv %view.34;
-        %tmp.624 = getv function %tmp.623 :setText;
-        %tmp.626 = lgetv %batteryString.19;
-        invoke %tmp.623 %tmp.624(%tmp.626);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 181 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_stmt:
-        %tmp.628 = lgetv %field3value.33;
-        %tmp.629 = 3;
-        %tmp.630 = eq %tmp.628 %tmp.629;
-        bf %tmp.630 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 181 37 ]
-        %tmp.631 = lgetv %view.34;
-        %tmp.632 = getv function %tmp.631 :setText;
-        %tmp.634 = lgetv %utcString.7;
-        invoke %tmp.631 %tmp.632(%tmp.634);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_false:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 182 13 ]
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_stmt:
         %tmp.636 = lgetv %field3value.33;
         %tmp.637 = 4;
         %tmp.638 = eq %tmp.636 %tmp.637;
-        bf %tmp.638 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_false;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_true:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_35_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 182 37 ]
+        bf %tmp.638 @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_false;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_true:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_35_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 180 37 ]
         %tmp.639 = lgetv %view.34;
         %tmp.640 = getv function %tmp.639 :setText;
         %tmp.642 = lgetv %heartRateString.29;
         invoke %tmp.639 %tmp.640(%tmp.642);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_35_stop:
-        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_end;
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_false:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_183_13_start:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 183 15 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_35_stop:
+        goto @C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_end;
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_false:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_start:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 181 15 ]
         %tmp.643 = lgetv %view.34;
         %tmp.644 = getv function %tmp.643 :setText;
         %tmp.645 = "";
         invoke %tmp.643 %tmp.644(%tmp.645);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_183_13_stop:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_182_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_181_13_stop:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_180_13_if_end:
 C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_179_13_if_end:
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_8_if_end:
-[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 186 8 ]
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_178_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_177_13_if_end:
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_176_8_if_end:
+[ "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc" 184 8 ]
         %tmp.647 = getv ? :View;
         %tmp.648 = getv function %tmp.647 :onUpdate;
         %tmp.650 = lgetv %dc;
         invoke %tmp.647 %tmp.648(%tmp.650);
-C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_54_40_stop:
-    }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 189; ]
-    function updateLabel(view as View) {
-    }
-    [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 193; ]
-    function updateIcon(view as View) {
+C_Users_muthi_Documents_garmin_connect_IQ_sdk_projects_HandAvoidance_source_HandAvoidanceView_mc_52_40_stop:
     }
 }
 [ @file = "C:\Users\muthi\Documents\garmin-connect-IQ-sdk\projects\HandAvoidance\source\HandAvoidanceView.mc"; @line = 1; ]

@@ -17,7 +17,7 @@ class HandAvoidanceApp extends Application.AppBase {
         if (Storage.getValue(4) == null || !(Storage.getValue(4) instanceof Number)) {
             Storage.setValue(4, 4);
         }
-        if (Storage.getValue(5) == null || !(Storage.getValue(4) instanceof Boolean)) {
+        if (Storage.getValue(5) == null || !(Storage.getValue(5) instanceof Boolean)) {
             Storage.setValue(5, false);
         }
         AppBase.initialize();

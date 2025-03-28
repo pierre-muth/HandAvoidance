@@ -84,7 +84,7 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
                 Storage.setValue(id, fieldOption);
                 menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
             } else if (id == 5) {
-                var fieldOption = Storage.getValue(id);
+                var fieldOption = Storage.getValue(id) as Boolean;
                 fieldOption = !fieldOption;
                 Storage.setValue(id, fieldOption);
                 menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));

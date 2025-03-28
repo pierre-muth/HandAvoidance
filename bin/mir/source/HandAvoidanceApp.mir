@@ -193,7 +193,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp
         %tmp.97 = getv ? :Storage;
         symbol [ getValue %tmp.98 20 53 61 ];
         %tmp.98 = getv function %tmp.97 :getValue;
-        %tmp.99 = 4;
+        %tmp.99 = 5;
         %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
         symbol [ Boolean %tmp.102 20 76 83 ];
         %tmp.102 = getv ? :Boolean;

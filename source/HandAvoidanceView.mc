@@ -40,7 +40,20 @@ class HandAvoidanceView extends WatchUi.WatchFace {
                         [q0, q2]
                         ];
 
-                        
+    const dayofweekENG = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];     
+    const dayofweekGRE = ["Κυρ", "Δευ", "Τρι", "Τετ", "Πέμ", "Παρ", "Σαβ"];
+    const dayofweekCHS = ["日", "一", "二", "三", "四", "五", "六"]; 
+    const dayofweekFRE = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];  
+    const dayofweekJPN = ["日", "月", "火", "水", "木", "金", "土"]; 
+    const dayofweekKOR = ["일", "월", "화", "수", "목", "금", "토"];
+    const dayofweekUKR = ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
+    const dayofweekRUS = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
+    const dayofweekPOL = ["Nie", "Pn", "Wt", "Śr", "Cz", "Pt", "So"];  
+    const dayofweekDEU = ["So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."];  
+    const dayofweekITA = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];  
+    const dayofweekSPA = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];  
+
+    var dayofweek = dayofweekENG;
 
     function initialize() {
         WatchFace.initialize();
@@ -49,14 +62,28 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFaceLayout(dc));
-        
+        var watchSettings = System.getDeviceSettings();
+        var watchLanguage = watchSettings.systemLanguage;
+        if(watchLanguage == System.LANGUAGE_ENG) { dayofweek = dayofweekENG; }
+        if(watchLanguage == System.LANGUAGE_GRE) { dayofweek = dayofweekGRE; }
+        if(watchLanguage == System.LANGUAGE_CHS) { dayofweek = dayofweekCHS; }
+        if(watchLanguage == System.LANGUAGE_CHT) { dayofweek = dayofweekCHS; }
+        if(watchLanguage == System.LANGUAGE_FRE) { dayofweek = dayofweekFRE; }
+        if(watchLanguage == System.LANGUAGE_JPN) { dayofweek = dayofweekJPN; }
+        if(watchLanguage == System.LANGUAGE_KOR) { dayofweek = dayofweekKOR; }
+        if(watchLanguage == System.LANGUAGE_UKR) { dayofweek = dayofweekUKR; }
+        if(watchLanguage == System.LANGUAGE_RUS) { dayofweek = dayofweekRUS; }
+        if(watchLanguage == System.LANGUAGE_POL) { dayofweek = dayofweekPOL; }
+        if(watchLanguage == System.LANGUAGE_DEU) { dayofweek = dayofweekDEU; }
+        if(watchLanguage == System.LANGUAGE_ITA) { dayofweek = dayofweekITA; }
+        if(watchLanguage == System.LANGUAGE_SPA) { dayofweek = dayofweekSPA; }
+
     }
 
     // //! The user has just looked at their watch. Timers and animations may be started here.
 	// function onExitSleep() {
 	// 	System.println("Exiting Sleep");
 	// }
-	
 	// //! Terminate any active timers and prepare for slow updates.
 	// function onEnterSleep() {
 	// 	System.println("Entering Sleep");
@@ -65,8 +92,11 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Get the date
-        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var dateString = Lang.format("$1$", [today.day_of_week]);
+        // var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        // var dateString = Lang.format("$1$", [today.day_of_week]);
+        // System.println(dateString+", "+today.day_of_week);
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dateString = dayofweek[(today.day_of_week-1)%7];
         var dayString = Lang.format("$1$", [today.day]);
         var todayUTC = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
         var offset = Storage.getValue(4);

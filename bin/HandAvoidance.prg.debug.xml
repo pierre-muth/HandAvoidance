@@ -12,375 +12,431 @@
 <entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="16" parent="globals/HandAvoidanceView" pc="268435760" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="17" parent="globals/HandAvoidanceView" pc="268435826" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="21" parent="globals/HandAvoidanceView" pc="268435892" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="9" lineNum="48" parent="globals/SettingsMenu" pc="268436643" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="24" parent="globals/HandAvoidanceSettingsDelegate" pc="268436662" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268436681" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="12" lineNum="31" parent="globals/HandAvoidanceApp" pc="268436705" symbol="getSettingsView"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="12" lineNum="32" parent="globals/HandAvoidanceApp" pc="268436707" symbol="getSettingsView"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="14" lineNum="27" parent="globals/HandAvoidanceApp" pc="268436782" symbol="getInitialView"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="14" lineNum="28" parent="globals/HandAvoidanceApp" pc="268436784" symbol="getInitialView"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="7" parent="globals/HandAvoidanceApp" pc="268436825" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="8" parent="globals/HandAvoidanceApp" pc="268436827" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="9" parent="globals/HandAvoidanceApp" pc="268436888" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="11" parent="globals/HandAvoidanceApp" pc="268436917" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="12" parent="globals/HandAvoidanceApp" pc="268436978" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="14" parent="globals/HandAvoidanceApp" pc="268437007" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="15" parent="globals/HandAvoidanceApp" pc="268437068" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="17" parent="globals/HandAvoidanceApp" pc="268437097" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="18" parent="globals/HandAvoidanceApp" pc="268437158" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="20" parent="globals/HandAvoidanceApp" pc="268437187" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="21" parent="globals/HandAvoidanceApp" pc="268437248" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="23" parent="globals/HandAvoidanceApp" pc="268437274" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="11" parent="globals/HandAvoidanceSettings" pc="268437293" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="12" parent="globals/HandAvoidanceSettings" pc="268437295" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="15" parent="globals/HandAvoidanceSettings" pc="268437314" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="16" parent="globals/HandAvoidanceSettings" pc="268437316" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="17" parent="globals/HandAvoidanceSettings" pc="268437338" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="18" parent="globals/HandAvoidanceSettings" pc="268437350" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="19" parent="globals/HandAvoidanceSettings" pc="268437372" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="59" parent="globals/SettingsMenuDelegate" pc="268437422" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="60" parent="globals/SettingsMenuDelegate" pc="268437424" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="65" parent="globals/SettingsMenuDelegate" pc="268437443" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="66" parent="globals/SettingsMenuDelegate" pc="268437447" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="67" parent="globals/SettingsMenuDelegate" pc="268437465" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="68" parent="globals/SettingsMenuDelegate" pc="268437478" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="69" parent="globals/SettingsMenuDelegate" pc="268437489" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="70" parent="globals/SettingsMenuDelegate" pc="268437508" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="71" parent="globals/SettingsMenuDelegate" pc="268437519" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="73" parent="globals/SettingsMenuDelegate" pc="268437529" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="75" parent="globals/SettingsMenuDelegate" pc="268437539" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="76" parent="globals/SettingsMenuDelegate" pc="268437559" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="77" parent="globals/SettingsMenuDelegate" pc="268437585" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="78" parent="globals/SettingsMenuDelegate" pc="268437596" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="79" parent="globals/SettingsMenuDelegate" pc="268437615" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="80" parent="globals/SettingsMenuDelegate" pc="268437626" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="82" parent="globals/SettingsMenuDelegate" pc="268437636" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="84" parent="globals/SettingsMenuDelegate" pc="268437646" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="85" parent="globals/SettingsMenuDelegate" pc="268437666" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="86" parent="globals/SettingsMenuDelegate" pc="268437717" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="87" parent="globals/SettingsMenuDelegate" pc="268437728" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="88" parent="globals/SettingsMenuDelegate" pc="268437747" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="89" parent="globals/SettingsMenuDelegate" pc="268437752" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="90" parent="globals/SettingsMenuDelegate" pc="268437772" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="223" parent="globals/HandAvoidanceView" pc="268437827" symbol="updateIcon"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="21" lineNum="50" parent="globals/HandAvoidanceView" pc="268437830" symbol="onLayout"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="21" lineNum="51" parent="globals/HandAvoidanceView" pc="268437832" symbol="onLayout"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="22" lineNum="219" parent="globals/HandAvoidanceView" pc="268437874" symbol="updateLabel"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="23" lineNum="45" parent="globals/HandAvoidanceView" pc="268437877" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="23" lineNum="46" parent="globals/HandAvoidanceView" pc="268437879" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="66" parent="globals/HandAvoidanceView" pc="268437898" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="68" parent="globals/HandAvoidanceView" pc="268437902" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="69" parent="globals/HandAvoidanceView" pc="268437939" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="70" parent="globals/HandAvoidanceView" pc="268437983" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="71" parent="globals/HandAvoidanceView" pc="268438027" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="72" parent="globals/HandAvoidanceView" pc="268438064" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="73" parent="globals/HandAvoidanceView" pc="268438086" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="74" parent="globals/HandAvoidanceView" pc="268438105" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="75" parent="globals/HandAvoidanceView" pc="268438187" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="78" parent="globals/HandAvoidanceView" pc="268438194" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="79" parent="globals/HandAvoidanceView" pc="268438237" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="80" parent="globals/HandAvoidanceView" pc="268438262" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="81" parent="globals/HandAvoidanceView" pc="268438287" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="82" parent="globals/HandAvoidanceView" pc="268438312" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="83" parent="globals/HandAvoidanceView" pc="268438337" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="84" parent="globals/HandAvoidanceView" pc="268438362" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="85" parent="globals/HandAvoidanceView" pc="268438387" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="86" parent="globals/HandAvoidanceView" pc="268438412" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="89" parent="globals/HandAvoidanceView" pc="268438437" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="90" parent="globals/HandAvoidanceView" pc="268438454" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="91" parent="globals/HandAvoidanceView" pc="268438484" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="92" parent="globals/HandAvoidanceView" pc="268438494" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="93" parent="globals/HandAvoidanceView" pc="268438501" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="93" parent="globals/HandAvoidanceView" pc="268438512" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="94" parent="globals/HandAvoidanceView" pc="268438522" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="94" parent="globals/HandAvoidanceView" pc="268438533" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="95" parent="globals/HandAvoidanceView" pc="268438543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="95" parent="globals/HandAvoidanceView" pc="268438554" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="96" parent="globals/HandAvoidanceView" pc="268438564" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="99" parent="globals/HandAvoidanceView" pc="268438571" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="100" parent="globals/HandAvoidanceView" pc="268438588" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="101" parent="globals/HandAvoidanceView" pc="268438612" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="104" parent="globals/HandAvoidanceView" pc="268438619" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="105" parent="globals/HandAvoidanceView" pc="268438636" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="106" parent="globals/HandAvoidanceView" pc="268438660" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="109" parent="globals/HandAvoidanceView" pc="268438667" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="110" parent="globals/HandAvoidanceView" pc="268438684" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="111" parent="globals/HandAvoidanceView" pc="268438691" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="112" parent="globals/HandAvoidanceView" pc="268438711" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="114" parent="globals/HandAvoidanceView" pc="268438738" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="117" parent="globals/HandAvoidanceView" pc="268438745" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="118" parent="globals/HandAvoidanceView" pc="268438767" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="119" parent="globals/HandAvoidanceView" pc="268438789" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="121" parent="globals/HandAvoidanceView" pc="268438811" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="122" parent="globals/HandAvoidanceView" pc="268438833" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="123" parent="globals/HandAvoidanceView" pc="268438840" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="123" parent="globals/HandAvoidanceView" pc="268438845" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="129" parent="globals/HandAvoidanceView" pc="268438855" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="130" parent="globals/HandAvoidanceView" pc="268438883" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="133" parent="globals/HandAvoidanceView" pc="268438897" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="134" parent="globals/HandAvoidanceView" pc="268438925" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="135" parent="globals/HandAvoidanceView" pc="268438939" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="136" parent="globals/HandAvoidanceView" pc="268438955" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="137" parent="globals/HandAvoidanceView" pc="268438969" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="139" parent="globals/HandAvoidanceView" pc="268438983" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="140" parent="globals/HandAvoidanceView" pc="268439011" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="141" parent="globals/HandAvoidanceView" pc="268439025" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="142" parent="globals/HandAvoidanceView" pc="268439047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="143" parent="globals/HandAvoidanceView" pc="268439061" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="146" parent="globals/HandAvoidanceView" pc="268439075" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="147" parent="globals/HandAvoidanceView" pc="268439103" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="148" parent="globals/HandAvoidanceView" pc="268439117" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="149" parent="globals/HandAvoidanceView" pc="268439133" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="150" parent="globals/HandAvoidanceView" pc="268439147" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="150" parent="globals/HandAvoidanceView" pc="268439158" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="151" parent="globals/HandAvoidanceView" pc="268439175" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="151" parent="globals/HandAvoidanceView" pc="268439186" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="152" parent="globals/HandAvoidanceView" pc="268439203" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="152" parent="globals/HandAvoidanceView" pc="268439214" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="153" parent="globals/HandAvoidanceView" pc="268439231" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="153" parent="globals/HandAvoidanceView" pc="268439242" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="154" parent="globals/HandAvoidanceView" pc="268439259" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="154" parent="globals/HandAvoidanceView" pc="268439270" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="155" parent="globals/HandAvoidanceView" pc="268439287" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="157" parent="globals/HandAvoidanceView" pc="268439304" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="158" parent="globals/HandAvoidanceView" pc="268439332" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="159" parent="globals/HandAvoidanceView" pc="268439346" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="160" parent="globals/HandAvoidanceView" pc="268439365" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="161" parent="globals/HandAvoidanceView" pc="268439379" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="161" parent="globals/HandAvoidanceView" pc="268439390" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="162" parent="globals/HandAvoidanceView" pc="268439407" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="162" parent="globals/HandAvoidanceView" pc="268439418" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="163" parent="globals/HandAvoidanceView" pc="268439435" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="163" parent="globals/HandAvoidanceView" pc="268439446" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="164" parent="globals/HandAvoidanceView" pc="268439463" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="164" parent="globals/HandAvoidanceView" pc="268439474" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="165" parent="globals/HandAvoidanceView" pc="268439491" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="165" parent="globals/HandAvoidanceView" pc="268439502" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="166" parent="globals/HandAvoidanceView" pc="268439519" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="169" parent="globals/HandAvoidanceView" pc="268439536" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="170" parent="globals/HandAvoidanceView" pc="268439564" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="171" parent="globals/HandAvoidanceView" pc="268439578" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="172" parent="globals/HandAvoidanceView" pc="268439600" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="173" parent="globals/HandAvoidanceView" pc="268439614" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="173" parent="globals/HandAvoidanceView" pc="268439625" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="174" parent="globals/HandAvoidanceView" pc="268439642" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="174" parent="globals/HandAvoidanceView" pc="268439653" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="175" parent="globals/HandAvoidanceView" pc="268439670" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="175" parent="globals/HandAvoidanceView" pc="268439681" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="176" parent="globals/HandAvoidanceView" pc="268439698" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="176" parent="globals/HandAvoidanceView" pc="268439709" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="177" parent="globals/HandAvoidanceView" pc="268439726" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="177" parent="globals/HandAvoidanceView" pc="268439737" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="178" parent="globals/HandAvoidanceView" pc="268439754" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="180" parent="globals/HandAvoidanceView" pc="268439771" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="181" parent="globals/HandAvoidanceView" pc="268439799" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="182" parent="globals/HandAvoidanceView" pc="268439813" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="183" parent="globals/HandAvoidanceView" pc="268439838" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="184" parent="globals/HandAvoidanceView" pc="268439852" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="184" parent="globals/HandAvoidanceView" pc="268439863" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="185" parent="globals/HandAvoidanceView" pc="268439880" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="185" parent="globals/HandAvoidanceView" pc="268439891" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="186" parent="globals/HandAvoidanceView" pc="268439908" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="186" parent="globals/HandAvoidanceView" pc="268439919" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="187" parent="globals/HandAvoidanceView" pc="268439936" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="187" parent="globals/HandAvoidanceView" pc="268439947" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="188" parent="globals/HandAvoidanceView" pc="268439964" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="188" parent="globals/HandAvoidanceView" pc="268439975" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="189" parent="globals/HandAvoidanceView" pc="268439992" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="192" parent="globals/HandAvoidanceView" pc="268440009" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="193" parent="globals/HandAvoidanceView" pc="268440037" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="194" parent="globals/HandAvoidanceView" pc="268440051" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="195" parent="globals/HandAvoidanceView" pc="268440073" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="196" parent="globals/HandAvoidanceView" pc="268440087" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="196" parent="globals/HandAvoidanceView" pc="268440098" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="197" parent="globals/HandAvoidanceView" pc="268440115" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="197" parent="globals/HandAvoidanceView" pc="268440126" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="198" parent="globals/HandAvoidanceView" pc="268440143" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="198" parent="globals/HandAvoidanceView" pc="268440154" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="199" parent="globals/HandAvoidanceView" pc="268440171" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="199" parent="globals/HandAvoidanceView" pc="268440182" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="200" parent="globals/HandAvoidanceView" pc="268440199" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="200" parent="globals/HandAvoidanceView" pc="268440210" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="201" parent="globals/HandAvoidanceView" pc="268440227" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="203" parent="globals/HandAvoidanceView" pc="268440244" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="204" parent="globals/HandAvoidanceView" pc="268440272" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="205" parent="globals/HandAvoidanceView" pc="268440286" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="206" parent="globals/HandAvoidanceView" pc="268440311" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="207" parent="globals/HandAvoidanceView" pc="268440325" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="207" parent="globals/HandAvoidanceView" pc="268440336" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="208" parent="globals/HandAvoidanceView" pc="268440353" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="208" parent="globals/HandAvoidanceView" pc="268440364" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="209" parent="globals/HandAvoidanceView" pc="268440381" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="209" parent="globals/HandAvoidanceView" pc="268440392" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="210" parent="globals/HandAvoidanceView" pc="268440409" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="210" parent="globals/HandAvoidanceView" pc="268440420" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="211" parent="globals/HandAvoidanceView" pc="268440437" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="211" parent="globals/HandAvoidanceView" pc="268440448" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="212" parent="globals/HandAvoidanceView" pc="268440465" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="215" parent="globals/HandAvoidanceView" pc="268440482" symbol="onUpdate"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="50" parent="globals/SettingsMenu" pc="268440507" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="51" parent="globals/SettingsMenu" pc="268440509" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="26" lineNum="25" parent="globals/HandAvoidanceSettingsDelegate" pc="268440547" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="26" lineNum="26" parent="globals/HandAvoidanceSettingsDelegate" pc="268440549" symbol="initialize"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="29" parent="globals/HandAvoidanceSettingsDelegate" pc="268440568" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="30" parent="globals/HandAvoidanceSettingsDelegate" pc="268440572" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="31" parent="globals/HandAvoidanceSettingsDelegate" pc="268440600" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="32" parent="globals/HandAvoidanceSettingsDelegate" pc="268440622" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="33" parent="globals/HandAvoidanceSettingsDelegate" pc="268440682" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="34" parent="globals/HandAvoidanceSettingsDelegate" pc="268440704" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="35" parent="globals/HandAvoidanceSettingsDelegate" pc="268440764" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="36" parent="globals/HandAvoidanceSettingsDelegate" pc="268440786" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="37" parent="globals/HandAvoidanceSettingsDelegate" pc="268440846" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="38" parent="globals/HandAvoidanceSettingsDelegate" pc="268440868" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="39" parent="globals/HandAvoidanceSettingsDelegate" pc="268440953" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="40" parent="globals/HandAvoidanceSettingsDelegate" pc="268440975" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="42" parent="globals/HandAvoidanceSettingsDelegate" pc="268441060" symbol="onSelect"/>
-<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="43" parent="globals/HandAvoidanceSettingsDelegate" pc="268441109" symbol="onSelect"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="28" lineNum="11" parent="globals/Rez/Drawables/BackgroundShape" pc="268441112" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="38" parent="globals/Rez/Layouts" pc="268441131" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="39" parent="globals/Rez/Layouts" pc="268441143" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="40" parent="globals/Rez/Layouts" pc="268441184" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="41" parent="globals/Rez/Layouts" pc="268441225" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="42" parent="globals/Rez/Layouts" pc="268441266" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="43" parent="globals/Rez/Layouts" pc="268441306" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="44" parent="globals/Rez/Layouts" pc="268441318" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="47" parent="globals/Rez/Layouts" pc="268441334" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="49" parent="globals/Rez/Layouts" pc="268441391" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="51" parent="globals/Rez/Layouts" pc="268441448" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="53" parent="globals/Rez/Layouts" pc="268441505" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="55" parent="globals/Rez/Layouts" pc="268441562" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="57" parent="globals/Rez/Layouts" pc="268441619" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="59" parent="globals/Rez/Layouts" pc="268441676" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="61" parent="globals/Rez/Layouts" pc="268441733" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="63" parent="globals/Rez/Layouts" pc="268441790" symbol="WatchFaceLayout"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="30" lineNum="13" parent="globals/Rez/Drawables/BackgroundShape" pc="268441887" symbol="initialize"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="30" lineNum="14" parent="globals/Rez/Drawables/BackgroundShape" pc="268441889" symbol="initialize"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Drawables/BackgroundShape" pc="268441914" symbol="draw"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Drawables/BackgroundShape" pc="268441916" symbol="draw"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="19" parent="globals/Rez/Drawables/BackgroundShape" pc="268441927" symbol="draw"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Drawables/BackgroundShape" pc="268441939" symbol="draw"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Drawables/BackgroundShape" pc="268441946" symbol="draw"/>
-<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="26" parent="globals/Rez/Drawables/BackgroundShape" pc="268441968" symbol="draw"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="43" parent="globals/HandAvoidanceView" pc="268436642" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="44" parent="globals/HandAvoidanceView" pc="268436747" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="45" parent="globals/HandAvoidanceView" pc="268436852" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="46" parent="globals/HandAvoidanceView" pc="268436957" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="47" parent="globals/HandAvoidanceView" pc="268437062" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="48" parent="globals/HandAvoidanceView" pc="268437167" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="49" parent="globals/HandAvoidanceView" pc="268437272" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="50" parent="globals/HandAvoidanceView" pc="268437377" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="51" parent="globals/HandAvoidanceView" pc="268437482" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="52" parent="globals/HandAvoidanceView" pc="268437587" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="53" parent="globals/HandAvoidanceView" pc="268437692" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="54" parent="globals/HandAvoidanceView" pc="268437797" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="8" lineNum="56" parent="globals/HandAvoidanceView" pc="268437902" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="9" lineNum="48" parent="globals/SettingsMenu" pc="268437919" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="10" lineNum="24" parent="globals/HandAvoidanceSettingsDelegate" pc="268437938" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268437957" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="12" lineNum="31" parent="globals/HandAvoidanceApp" pc="268437981" symbol="getSettingsView"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="12" lineNum="32" parent="globals/HandAvoidanceApp" pc="268437983" symbol="getSettingsView"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="14" lineNum="27" parent="globals/HandAvoidanceApp" pc="268438058" symbol="getInitialView"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="14" lineNum="28" parent="globals/HandAvoidanceApp" pc="268438060" symbol="getInitialView"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="7" parent="globals/HandAvoidanceApp" pc="268438101" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="8" parent="globals/HandAvoidanceApp" pc="268438103" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="9" parent="globals/HandAvoidanceApp" pc="268438164" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="11" parent="globals/HandAvoidanceApp" pc="268438193" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="12" parent="globals/HandAvoidanceApp" pc="268438254" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="14" parent="globals/HandAvoidanceApp" pc="268438283" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="15" parent="globals/HandAvoidanceApp" pc="268438344" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="17" parent="globals/HandAvoidanceApp" pc="268438373" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="18" parent="globals/HandAvoidanceApp" pc="268438434" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="20" parent="globals/HandAvoidanceApp" pc="268438463" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="21" parent="globals/HandAvoidanceApp" pc="268438524" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceApp.mc" id="15" lineNum="23" parent="globals/HandAvoidanceApp" pc="268438550" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="11" parent="globals/HandAvoidanceSettings" pc="268438569" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="16" lineNum="12" parent="globals/HandAvoidanceSettings" pc="268438571" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="15" parent="globals/HandAvoidanceSettings" pc="268438590" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="16" parent="globals/HandAvoidanceSettings" pc="268438592" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="17" parent="globals/HandAvoidanceSettings" pc="268438614" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="18" parent="globals/HandAvoidanceSettings" pc="268438626" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="17" lineNum="19" parent="globals/HandAvoidanceSettings" pc="268438648" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="59" parent="globals/SettingsMenuDelegate" pc="268438698" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="18" lineNum="60" parent="globals/SettingsMenuDelegate" pc="268438700" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="65" parent="globals/SettingsMenuDelegate" pc="268438719" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="66" parent="globals/SettingsMenuDelegate" pc="268438723" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="67" parent="globals/SettingsMenuDelegate" pc="268438741" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="68" parent="globals/SettingsMenuDelegate" pc="268438754" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="69" parent="globals/SettingsMenuDelegate" pc="268438765" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="70" parent="globals/SettingsMenuDelegate" pc="268438784" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="71" parent="globals/SettingsMenuDelegate" pc="268438795" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="73" parent="globals/SettingsMenuDelegate" pc="268438805" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="75" parent="globals/SettingsMenuDelegate" pc="268438815" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="76" parent="globals/SettingsMenuDelegate" pc="268438835" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="77" parent="globals/SettingsMenuDelegate" pc="268438861" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="78" parent="globals/SettingsMenuDelegate" pc="268438872" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="79" parent="globals/SettingsMenuDelegate" pc="268438891" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="80" parent="globals/SettingsMenuDelegate" pc="268438902" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="82" parent="globals/SettingsMenuDelegate" pc="268438912" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="84" parent="globals/SettingsMenuDelegate" pc="268438922" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="85" parent="globals/SettingsMenuDelegate" pc="268438942" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="86" parent="globals/SettingsMenuDelegate" pc="268438993" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="87" parent="globals/SettingsMenuDelegate" pc="268439004" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="88" parent="globals/SettingsMenuDelegate" pc="268439023" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="89" parent="globals/SettingsMenuDelegate" pc="268439028" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="19" lineNum="90" parent="globals/SettingsMenuDelegate" pc="268439048" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="63" parent="globals/HandAvoidanceView" pc="268439103" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="64" parent="globals/HandAvoidanceView" pc="268439107" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="65" parent="globals/HandAvoidanceView" pc="268439148" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="66" parent="globals/HandAvoidanceView" pc="268439165" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="67" parent="globals/HandAvoidanceView" pc="268439175" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="67" parent="globals/HandAvoidanceView" pc="268439186" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="68" parent="globals/HandAvoidanceView" pc="268439205" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="68" parent="globals/HandAvoidanceView" pc="268439216" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="69" parent="globals/HandAvoidanceView" pc="268439235" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="69" parent="globals/HandAvoidanceView" pc="268439246" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="70" parent="globals/HandAvoidanceView" pc="268439265" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="70" parent="globals/HandAvoidanceView" pc="268439276" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="71" parent="globals/HandAvoidanceView" pc="268439295" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="71" parent="globals/HandAvoidanceView" pc="268439306" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="72" parent="globals/HandAvoidanceView" pc="268439325" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="72" parent="globals/HandAvoidanceView" pc="268439336" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="73" parent="globals/HandAvoidanceView" pc="268439355" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="73" parent="globals/HandAvoidanceView" pc="268439366" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="74" parent="globals/HandAvoidanceView" pc="268439385" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="74" parent="globals/HandAvoidanceView" pc="268439396" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="75" parent="globals/HandAvoidanceView" pc="268439415" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="75" parent="globals/HandAvoidanceView" pc="268439426" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="76" parent="globals/HandAvoidanceView" pc="268439445" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="76" parent="globals/HandAvoidanceView" pc="268439456" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="77" parent="globals/HandAvoidanceView" pc="268439475" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="77" parent="globals/HandAvoidanceView" pc="268439486" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="78" parent="globals/HandAvoidanceView" pc="268439505" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="78" parent="globals/HandAvoidanceView" pc="268439516" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="79" parent="globals/HandAvoidanceView" pc="268439535" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="20" lineNum="79" parent="globals/HandAvoidanceView" pc="268439546" symbol="onLayout"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="21" lineNum="253" parent="globals/HandAvoidanceView" pc="268439566" symbol="updateIcon"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="22" lineNum="249" parent="globals/HandAvoidanceView" pc="268439569" symbol="updateLabel"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="23" lineNum="58" parent="globals/HandAvoidanceView" pc="268439572" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="23" lineNum="59" parent="globals/HandAvoidanceView" pc="268439574" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="93" parent="globals/HandAvoidanceView" pc="268439593" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="98" parent="globals/HandAvoidanceView" pc="268439597" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="99" parent="globals/HandAvoidanceView" pc="268439634" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="100" parent="globals/HandAvoidanceView" pc="268439665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="101" parent="globals/HandAvoidanceView" pc="268439709" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="102" parent="globals/HandAvoidanceView" pc="268439746" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="103" parent="globals/HandAvoidanceView" pc="268439768" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="104" parent="globals/HandAvoidanceView" pc="268439787" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="105" parent="globals/HandAvoidanceView" pc="268439869" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="108" parent="globals/HandAvoidanceView" pc="268439876" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="109" parent="globals/HandAvoidanceView" pc="268439919" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="110" parent="globals/HandAvoidanceView" pc="268439944" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="111" parent="globals/HandAvoidanceView" pc="268439969" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="112" parent="globals/HandAvoidanceView" pc="268439994" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="113" parent="globals/HandAvoidanceView" pc="268440019" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="114" parent="globals/HandAvoidanceView" pc="268440044" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="115" parent="globals/HandAvoidanceView" pc="268440069" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="116" parent="globals/HandAvoidanceView" pc="268440094" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="119" parent="globals/HandAvoidanceView" pc="268440119" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="120" parent="globals/HandAvoidanceView" pc="268440136" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="121" parent="globals/HandAvoidanceView" pc="268440166" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="122" parent="globals/HandAvoidanceView" pc="268440176" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="123" parent="globals/HandAvoidanceView" pc="268440183" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="123" parent="globals/HandAvoidanceView" pc="268440194" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="124" parent="globals/HandAvoidanceView" pc="268440204" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="124" parent="globals/HandAvoidanceView" pc="268440215" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="125" parent="globals/HandAvoidanceView" pc="268440225" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="125" parent="globals/HandAvoidanceView" pc="268440236" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="126" parent="globals/HandAvoidanceView" pc="268440246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="129" parent="globals/HandAvoidanceView" pc="268440253" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="130" parent="globals/HandAvoidanceView" pc="268440270" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="131" parent="globals/HandAvoidanceView" pc="268440294" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="134" parent="globals/HandAvoidanceView" pc="268440301" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="135" parent="globals/HandAvoidanceView" pc="268440318" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="136" parent="globals/HandAvoidanceView" pc="268440342" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="139" parent="globals/HandAvoidanceView" pc="268440349" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="140" parent="globals/HandAvoidanceView" pc="268440366" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="141" parent="globals/HandAvoidanceView" pc="268440373" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="142" parent="globals/HandAvoidanceView" pc="268440393" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="144" parent="globals/HandAvoidanceView" pc="268440420" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="147" parent="globals/HandAvoidanceView" pc="268440427" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="148" parent="globals/HandAvoidanceView" pc="268440449" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="149" parent="globals/HandAvoidanceView" pc="268440471" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="151" parent="globals/HandAvoidanceView" pc="268440493" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="152" parent="globals/HandAvoidanceView" pc="268440515" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="153" parent="globals/HandAvoidanceView" pc="268440522" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="153" parent="globals/HandAvoidanceView" pc="268440527" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="159" parent="globals/HandAvoidanceView" pc="268440537" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="160" parent="globals/HandAvoidanceView" pc="268440565" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="163" parent="globals/HandAvoidanceView" pc="268440579" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="164" parent="globals/HandAvoidanceView" pc="268440607" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="165" parent="globals/HandAvoidanceView" pc="268440621" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="166" parent="globals/HandAvoidanceView" pc="268440637" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="167" parent="globals/HandAvoidanceView" pc="268440651" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="169" parent="globals/HandAvoidanceView" pc="268440665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="170" parent="globals/HandAvoidanceView" pc="268440693" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="171" parent="globals/HandAvoidanceView" pc="268440707" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="172" parent="globals/HandAvoidanceView" pc="268440729" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="173" parent="globals/HandAvoidanceView" pc="268440743" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="176" parent="globals/HandAvoidanceView" pc="268440757" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="177" parent="globals/HandAvoidanceView" pc="268440785" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="178" parent="globals/HandAvoidanceView" pc="268440799" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="179" parent="globals/HandAvoidanceView" pc="268440815" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="180" parent="globals/HandAvoidanceView" pc="268440829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="180" parent="globals/HandAvoidanceView" pc="268440840" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="181" parent="globals/HandAvoidanceView" pc="268440857" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="181" parent="globals/HandAvoidanceView" pc="268440868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="182" parent="globals/HandAvoidanceView" pc="268440885" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="182" parent="globals/HandAvoidanceView" pc="268440896" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="183" parent="globals/HandAvoidanceView" pc="268440913" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="183" parent="globals/HandAvoidanceView" pc="268440924" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="184" parent="globals/HandAvoidanceView" pc="268440941" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="184" parent="globals/HandAvoidanceView" pc="268440952" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="185" parent="globals/HandAvoidanceView" pc="268440969" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="187" parent="globals/HandAvoidanceView" pc="268440986" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="188" parent="globals/HandAvoidanceView" pc="268441014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="189" parent="globals/HandAvoidanceView" pc="268441028" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="190" parent="globals/HandAvoidanceView" pc="268441047" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="191" parent="globals/HandAvoidanceView" pc="268441061" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="191" parent="globals/HandAvoidanceView" pc="268441072" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="192" parent="globals/HandAvoidanceView" pc="268441089" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="192" parent="globals/HandAvoidanceView" pc="268441100" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="193" parent="globals/HandAvoidanceView" pc="268441117" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="193" parent="globals/HandAvoidanceView" pc="268441128" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="194" parent="globals/HandAvoidanceView" pc="268441145" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="194" parent="globals/HandAvoidanceView" pc="268441156" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="195" parent="globals/HandAvoidanceView" pc="268441173" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="195" parent="globals/HandAvoidanceView" pc="268441184" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="196" parent="globals/HandAvoidanceView" pc="268441201" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="199" parent="globals/HandAvoidanceView" pc="268441218" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="200" parent="globals/HandAvoidanceView" pc="268441246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="201" parent="globals/HandAvoidanceView" pc="268441260" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="202" parent="globals/HandAvoidanceView" pc="268441282" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="203" parent="globals/HandAvoidanceView" pc="268441296" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="203" parent="globals/HandAvoidanceView" pc="268441307" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="204" parent="globals/HandAvoidanceView" pc="268441324" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="204" parent="globals/HandAvoidanceView" pc="268441335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="205" parent="globals/HandAvoidanceView" pc="268441352" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="205" parent="globals/HandAvoidanceView" pc="268441363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="206" parent="globals/HandAvoidanceView" pc="268441380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="206" parent="globals/HandAvoidanceView" pc="268441391" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="207" parent="globals/HandAvoidanceView" pc="268441408" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="207" parent="globals/HandAvoidanceView" pc="268441419" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="208" parent="globals/HandAvoidanceView" pc="268441436" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="210" parent="globals/HandAvoidanceView" pc="268441453" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="211" parent="globals/HandAvoidanceView" pc="268441481" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="212" parent="globals/HandAvoidanceView" pc="268441495" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="213" parent="globals/HandAvoidanceView" pc="268441520" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="214" parent="globals/HandAvoidanceView" pc="268441534" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="214" parent="globals/HandAvoidanceView" pc="268441545" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="215" parent="globals/HandAvoidanceView" pc="268441562" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="215" parent="globals/HandAvoidanceView" pc="268441573" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="216" parent="globals/HandAvoidanceView" pc="268441590" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="216" parent="globals/HandAvoidanceView" pc="268441601" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="217" parent="globals/HandAvoidanceView" pc="268441618" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="217" parent="globals/HandAvoidanceView" pc="268441629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="218" parent="globals/HandAvoidanceView" pc="268441646" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="218" parent="globals/HandAvoidanceView" pc="268441657" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="219" parent="globals/HandAvoidanceView" pc="268441674" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="222" parent="globals/HandAvoidanceView" pc="268441691" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="223" parent="globals/HandAvoidanceView" pc="268441719" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="224" parent="globals/HandAvoidanceView" pc="268441733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="225" parent="globals/HandAvoidanceView" pc="268441755" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="226" parent="globals/HandAvoidanceView" pc="268441769" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="226" parent="globals/HandAvoidanceView" pc="268441780" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="227" parent="globals/HandAvoidanceView" pc="268441797" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="227" parent="globals/HandAvoidanceView" pc="268441808" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="228" parent="globals/HandAvoidanceView" pc="268441825" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="228" parent="globals/HandAvoidanceView" pc="268441836" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="229" parent="globals/HandAvoidanceView" pc="268441853" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="229" parent="globals/HandAvoidanceView" pc="268441864" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="230" parent="globals/HandAvoidanceView" pc="268441881" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="230" parent="globals/HandAvoidanceView" pc="268441892" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="231" parent="globals/HandAvoidanceView" pc="268441909" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="233" parent="globals/HandAvoidanceView" pc="268441926" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="234" parent="globals/HandAvoidanceView" pc="268441954" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="235" parent="globals/HandAvoidanceView" pc="268441968" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="236" parent="globals/HandAvoidanceView" pc="268441993" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="237" parent="globals/HandAvoidanceView" pc="268442007" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="237" parent="globals/HandAvoidanceView" pc="268442018" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="238" parent="globals/HandAvoidanceView" pc="268442035" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="238" parent="globals/HandAvoidanceView" pc="268442046" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="239" parent="globals/HandAvoidanceView" pc="268442063" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="239" parent="globals/HandAvoidanceView" pc="268442074" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="240" parent="globals/HandAvoidanceView" pc="268442091" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="240" parent="globals/HandAvoidanceView" pc="268442102" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="241" parent="globals/HandAvoidanceView" pc="268442119" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="241" parent="globals/HandAvoidanceView" pc="268442130" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="242" parent="globals/HandAvoidanceView" pc="268442147" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceView.mc" id="24" lineNum="245" parent="globals/HandAvoidanceView" pc="268442164" symbol="onUpdate"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="50" parent="globals/SettingsMenu" pc="268442189" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="25" lineNum="51" parent="globals/SettingsMenu" pc="268442191" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="26" lineNum="25" parent="globals/HandAvoidanceSettingsDelegate" pc="268442229" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="26" lineNum="26" parent="globals/HandAvoidanceSettingsDelegate" pc="268442231" symbol="initialize"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="29" parent="globals/HandAvoidanceSettingsDelegate" pc="268442250" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="30" parent="globals/HandAvoidanceSettingsDelegate" pc="268442254" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="31" parent="globals/HandAvoidanceSettingsDelegate" pc="268442282" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="32" parent="globals/HandAvoidanceSettingsDelegate" pc="268442304" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="33" parent="globals/HandAvoidanceSettingsDelegate" pc="268442364" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="34" parent="globals/HandAvoidanceSettingsDelegate" pc="268442386" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="35" parent="globals/HandAvoidanceSettingsDelegate" pc="268442446" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="36" parent="globals/HandAvoidanceSettingsDelegate" pc="268442468" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="37" parent="globals/HandAvoidanceSettingsDelegate" pc="268442528" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="38" parent="globals/HandAvoidanceSettingsDelegate" pc="268442550" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="39" parent="globals/HandAvoidanceSettingsDelegate" pc="268442635" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="40" parent="globals/HandAvoidanceSettingsDelegate" pc="268442657" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="42" parent="globals/HandAvoidanceSettingsDelegate" pc="268442742" symbol="onSelect"/>
+<entry filename="C:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\source\\HandAvoidanceSettings.mc" id="27" lineNum="43" parent="globals/HandAvoidanceSettingsDelegate" pc="268442791" symbol="onSelect"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="28" lineNum="11" parent="globals/Rez/Drawables/BackgroundShape" pc="268442794" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="38" parent="globals/Rez/Layouts" pc="268442813" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="39" parent="globals/Rez/Layouts" pc="268442825" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="40" parent="globals/Rez/Layouts" pc="268442866" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="41" parent="globals/Rez/Layouts" pc="268442907" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="42" parent="globals/Rez/Layouts" pc="268442948" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="43" parent="globals/Rez/Layouts" pc="268442988" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="44" parent="globals/Rez/Layouts" pc="268443000" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="47" parent="globals/Rez/Layouts" pc="268443016" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="49" parent="globals/Rez/Layouts" pc="268443073" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="51" parent="globals/Rez/Layouts" pc="268443130" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="53" parent="globals/Rez/Layouts" pc="268443187" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="55" parent="globals/Rez/Layouts" pc="268443244" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="57" parent="globals/Rez/Layouts" pc="268443301" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="59" parent="globals/Rez/Layouts" pc="268443358" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="61" parent="globals/Rez/Layouts" pc="268443415" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="29" lineNum="63" parent="globals/Rez/Layouts" pc="268443472" symbol="WatchFaceLayout"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="30" lineNum="13" parent="globals/Rez/Drawables/BackgroundShape" pc="268443569" symbol="initialize"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="30" lineNum="14" parent="globals/Rez/Drawables/BackgroundShape" pc="268443571" symbol="initialize"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Drawables/BackgroundShape" pc="268443596" symbol="draw"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Drawables/BackgroundShape" pc="268443598" symbol="draw"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="19" parent="globals/Rez/Drawables/BackgroundShape" pc="268443609" symbol="draw"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Drawables/BackgroundShape" pc="268443621" symbol="draw"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Drawables/BackgroundShape" pc="268443628" symbol="draw"/>
+<entry filename="c:\\Users\\pfreyerm\\cernbox\\Documents\\MonkeyC\\HandAvoidance\\bin\\gen\\006-B4155-00\\source\\Rez.mcgen" id="31" lineNum="26" parent="globals/Rez/Drawables/BackgroundShape" pc="268443650" symbol="draw"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="18" symbol="dayofweekENG"/>
 <entry id="7" object="true" symbol="HandAvoidanceApp"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry field="true" id="27" symbol="textFont"/>
+<entry field="true" id="40" symbol="textFont"/>
+<entry field="true" id="23" symbol="dayofweekKOR"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="11" object="true" symbol="SettingsMenu"/>
 <entry id="8390424" module="true" symbol="Storage"/>
 <entry id="12" object="true" symbol="SettingsMenuDelegate"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="28" symbol="AppName"/>
+<entry field="true" id="17" symbol="dayofweekDEU"/>
+<entry field="true" id="22" symbol="dayofweekJPN"/>
+<entry field="true" id="41" symbol="AppName"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
 <entry id="6" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry id="24" method="true" symbol="WatchFaceLayout"/>
+<entry id="37" method="true" symbol="WatchFaceLayout"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="24" symbol="dayofweekPOL"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="16" symbol="dayofweekCHS"/>
+<entry field="true" id="21" symbol="dayofweekITA"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="18" symbol="q3"/>
-<entry field="true" id="17" symbol="q2"/>
-<entry field="true" id="16" symbol="q1"/>
-<entry field="true" id="15" symbol="q0"/>
+<entry field="true" id="31" symbol="q3"/>
+<entry field="true" id="30" symbol="q2"/>
+<entry field="true" id="29" symbol="q1"/>
+<entry field="true" id="28" symbol="q0"/>
 <entry id="8" object="true" symbol="HandAvoidanceSettings"/>
 <entry field="true" id="8391300" method="true" symbol="isVisible"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="9" object="true" symbol="HandAvoidanceSettingsDelegate"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="27" symbol="dayofweekUKR"/>
 <entry id="10" object="true" symbol="HandAvoidanceView"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry id="22" object="true" symbol="BackgroundShape"/>
+<entry id="35" object="true" symbol="BackgroundShape"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="26" symbol="iconFont"/>
-<entry field="true" id="25" symbol="bigNumberFont"/>
+<entry field="true" id="39" symbol="iconFont"/>
+<entry field="true" id="38" symbol="bigNumberFont"/>
 <entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="15" symbol="dayofweek"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="23" symbol="LauncherIcon"/>
+<entry field="true" id="36" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
+<entry field="true" id="20" symbol="dayofweekGRE"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="19" method="true" symbol="updateIcon"/>
+<entry id="32" method="true" symbol="updateIcon"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8391703" method="true" symbol="getSettingsView"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="21" module="true" symbol="Layouts"/>
+<entry field="true" id="26" symbol="dayofweekSPA"/>
+<entry field="true" id="19" symbol="dayofweekFRE"/>
+<entry id="34" module="true" symbol="Layouts"/>
 <entry field="true" id="13" symbol="options"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-<entry id="20" method="true" symbol="updateLabel"/>
+<entry id="33" method="true" symbol="updateLabel"/>
+<entry field="true" id="25" symbol="dayofweekRUS"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8389642" symbol="title"/>
 <entry field="true" id="14" symbol="coordinates"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268437421" name="dc" stackId="1" startPc="268437314"/>
-<entry arg="true" endPc="268437826" name="menuItem" stackId="1" startPc="268437443"/>
-<entry endPc="268437822" name="id" stackId="2" startPc="268437465"/>
-<entry endPc="268437581" name="fieldOption" stackId="3" startPc="268437489"/>
-<entry endPc="268437713" name="fieldOption" stackId="4" startPc="268437596"/>
-<entry endPc="268437819" name="fieldOption" stackId="5" startPc="268437728"/>
-<entry arg="true" endPc="268437873" name="dc" stackId="1" startPc="268437830"/>
-<entry arg="true" endPc="268440506" name="dc" stackId="1" startPc="268437898"/>
-<entry endPc="268440505" name="today" stackId="2" startPc="268437902"/>
-<entry endPc="268440505" name="dateString" stackId="3" startPc="268437902"/>
-<entry endPc="268440505" name="dayString" stackId="4" startPc="268437902"/>
-<entry endPc="268440505" name="todayUTC" stackId="5" startPc="268437902"/>
-<entry endPc="268440505" name="offset" stackId="6" startPc="268437902"/>
-<entry endPc="268440505" name="timeZoneHour" stackId="7" startPc="268437902"/>
-<entry endPc="268440505" name="utcString" stackId="8" startPc="268437902"/>
-<entry endPc="268440505" name="utcIconString" stackId="9" startPc="268437902"/>
-<entry endPc="268440505" name="coordinatesIdx" stackId="10" startPc="268437902"/>
-<entry endPc="268440505" name="x1" stackId="11" startPc="268437902"/>
-<entry endPc="268440505" name="y1" stackId="12" startPc="268437902"/>
-<entry endPc="268440505" name="j1" stackId="13" startPc="268437902"/>
-<entry endPc="268440505" name="o1" stackId="14" startPc="268437902"/>
-<entry endPc="268440505" name="x2" stackId="15" startPc="268437902"/>
-<entry endPc="268440505" name="y2" stackId="16" startPc="268437902"/>
-<entry endPc="268440505" name="j2" stackId="17" startPc="268437902"/>
-<entry endPc="268440505" name="o2" stackId="18" startPc="268437902"/>
-<entry endPc="268440505" name="sys" stackId="19" startPc="268437902"/>
-<entry endPc="268440505" name="batteryString" stackId="20" startPc="268437902"/>
-<entry endPc="268440505" name="batteryPercentage" stackId="21" startPc="268437902"/>
-<entry endPc="268440505" name="batteryIconString" stackId="22" startPc="268437902"/>
-<entry endPc="268440505" name="settings" stackId="23" startPc="268437902"/>
-<entry endPc="268440505" name="notificationString" stackId="24" startPc="268437902"/>
-<entry endPc="268440505" name="notificationIconString" stackId="25" startPc="268437902"/>
-<entry endPc="268440505" name="info" stackId="26" startPc="268437902"/>
-<entry endPc="268440505" name="stepString" stackId="27" startPc="268437902"/>
-<entry endPc="268440505" name="stepIconString" stackId="28" startPc="268437902"/>
-<entry endPc="268440505" name="info2" stackId="29" startPc="268437902"/>
-<entry endPc="268440505" name="heartRateString" stackId="30" startPc="268437902"/>
-<entry endPc="268440505" name="heartRateIconString" stackId="31" startPc="268437902"/>
-<entry endPc="268440505" name="field1value" stackId="32" startPc="268437902"/>
-<entry endPc="268440505" name="field2value" stackId="33" startPc="268437902"/>
-<entry endPc="268440505" name="field3value" stackId="34" startPc="268437902"/>
-<entry endPc="268440505" name="invertColor" stackId="35" startPc="268437902"/>
-<entry endPc="268440505" name="textColor" stackId="36" startPc="268437902"/>
-<entry endPc="268440505" name="view" stackId="37" startPc="268437902"/>
-<entry endPc="268441111" name="menu" stackId="1" startPc="268440572"/>
-<entry endPc="268441111" name="fieldOption" stackId="2" startPc="268440572"/>
-<entry arg="true" endPc="268441886" name="dc" stackId="1" startPc="268441131"/>
-<entry endPc="268441886" name="local_Rez_Fonts_textFont" stackId="2" startPc="268441143"/>
-<entry endPc="268441886" name="local_Rez_Fonts_bigNumberFont" stackId="3" startPc="268441143"/>
-<entry endPc="268441886" name="local_Rez_Fonts_iconFont" stackId="4" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_custom_drawable_BackgroundShape" stackId="5" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_DateLabel" stackId="6" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_DayNumberLabel" stackId="7" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field1Icon" stackId="8" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field1Label" stackId="9" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field2Icon" stackId="10" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field2Label" stackId="11" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field3Icon" stackId="12" startPc="268441143"/>
-<entry endPc="268441886" name="rez_cmp_local_text_Field3Label" stackId="13" startPc="268441143"/>
-<entry arg="true" endPc="268442000" name="dc" stackId="1" startPc="268441914"/>
+<entry arg="true" endPc="268438697" name="dc" stackId="1" startPc="268438590"/>
+<entry arg="true" endPc="268439102" name="menuItem" stackId="1" startPc="268438719"/>
+<entry endPc="268439098" name="id" stackId="2" startPc="268438741"/>
+<entry endPc="268438857" name="fieldOption" stackId="3" startPc="268438765"/>
+<entry endPc="268438989" name="fieldOption" stackId="4" startPc="268438872"/>
+<entry endPc="268439095" name="fieldOption" stackId="5" startPc="268439004"/>
+<entry arg="true" endPc="268439565" name="dc" stackId="1" startPc="268439103"/>
+<entry endPc="268439564" name="watchSettings" stackId="2" startPc="268439107"/>
+<entry endPc="268439564" name="watchLanguage" stackId="3" startPc="268439107"/>
+<entry arg="true" endPc="268442188" name="dc" stackId="1" startPc="268439593"/>
+<entry endPc="268442187" name="today" stackId="2" startPc="268439597"/>
+<entry endPc="268442187" name="dateString" stackId="3" startPc="268439597"/>
+<entry endPc="268442187" name="dayString" stackId="4" startPc="268439597"/>
+<entry endPc="268442187" name="todayUTC" stackId="5" startPc="268439597"/>
+<entry endPc="268442187" name="offset" stackId="6" startPc="268439597"/>
+<entry endPc="268442187" name="timeZoneHour" stackId="7" startPc="268439597"/>
+<entry endPc="268442187" name="utcString" stackId="8" startPc="268439597"/>
+<entry endPc="268442187" name="utcIconString" stackId="9" startPc="268439597"/>
+<entry endPc="268442187" name="coordinatesIdx" stackId="10" startPc="268439597"/>
+<entry endPc="268442187" name="x1" stackId="11" startPc="268439597"/>
+<entry endPc="268442187" name="y1" stackId="12" startPc="268439597"/>
+<entry endPc="268442187" name="j1" stackId="13" startPc="268439597"/>
+<entry endPc="268442187" name="o1" stackId="14" startPc="268439597"/>
+<entry endPc="268442187" name="x2" stackId="15" startPc="268439597"/>
+<entry endPc="268442187" name="y2" stackId="16" startPc="268439597"/>
+<entry endPc="268442187" name="j2" stackId="17" startPc="268439597"/>
+<entry endPc="268442187" name="o2" stackId="18" startPc="268439597"/>
+<entry endPc="268442187" name="sys" stackId="19" startPc="268439597"/>
+<entry endPc="268442187" name="batteryString" stackId="20" startPc="268439597"/>
+<entry endPc="268442187" name="batteryPercentage" stackId="21" startPc="268439597"/>
+<entry endPc="268442187" name="batteryIconString" stackId="22" startPc="268439597"/>
+<entry endPc="268442187" name="settings" stackId="23" startPc="268439597"/>
+<entry endPc="268442187" name="notificationString" stackId="24" startPc="268439597"/>
+<entry endPc="268442187" name="notificationIconString" stackId="25" startPc="268439597"/>
+<entry endPc="268442187" name="info" stackId="26" startPc="268439597"/>
+<entry endPc="268442187" name="stepString" stackId="27" startPc="268439597"/>
+<entry endPc="268442187" name="stepIconString" stackId="28" startPc="268439597"/>
+<entry endPc="268442187" name="info2" stackId="29" startPc="268439597"/>
+<entry endPc="268442187" name="heartRateString" stackId="30" startPc="268439597"/>
+<entry endPc="268442187" name="heartRateIconString" stackId="31" startPc="268439597"/>
+<entry endPc="268442187" name="field1value" stackId="32" startPc="268439597"/>
+<entry endPc="268442187" name="field2value" stackId="33" startPc="268439597"/>
+<entry endPc="268442187" name="field3value" stackId="34" startPc="268439597"/>
+<entry endPc="268442187" name="invertColor" stackId="35" startPc="268439597"/>
+<entry endPc="268442187" name="textColor" stackId="36" startPc="268439597"/>
+<entry endPc="268442187" name="view" stackId="37" startPc="268439597"/>
+<entry endPc="268442793" name="menu" stackId="1" startPc="268442254"/>
+<entry endPc="268442793" name="fieldOption" stackId="2" startPc="268442254"/>
+<entry arg="true" endPc="268443568" name="dc" stackId="1" startPc="268442813"/>
+<entry endPc="268443568" name="local_Rez_Fonts_textFont" stackId="2" startPc="268442825"/>
+<entry endPc="268443568" name="local_Rez_Fonts_bigNumberFont" stackId="3" startPc="268442825"/>
+<entry endPc="268443568" name="local_Rez_Fonts_iconFont" stackId="4" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_custom_drawable_BackgroundShape" stackId="5" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_DateLabel" stackId="6" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_DayNumberLabel" stackId="7" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field1Icon" stackId="8" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field1Label" stackId="9" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field2Icon" stackId="10" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field2Label" stackId="11" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field3Icon" stackId="12" startPc="268442825"/>
+<entry endPc="268443568" name="rez_cmp_local_text_Field3Label" stackId="13" startPc="268442825"/>
+<entry arg="true" endPc="268443682" name="dc" stackId="1" startPc="268443596"/>
 </localVars>
 <deviceInfo deviceVersion="4b539e49a861670d65dc65ba400dea167e8109d1" partNumber="006-B4155-00"/>
 <annotations>
@@ -396,14 +452,14 @@
 <dataEntry label="globals/HandAvoidanceSettings" offset="695" parentId="globals" symbolId="HandAvoidanceSettings" type="class"/>
 <dataEntry label="globals/SettingsMenuDelegate" offset="750" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
 <dataEntry label="globals/HandAvoidanceView" offset="805" parentId="globals" symbolId="HandAvoidanceView" type="class"/>
-<dataEntry label="globals/SettingsMenu" offset="924" parentId="globals" symbolId="SettingsMenu" type="class"/>
-<dataEntry label="globals/HandAvoidanceSettingsDelegate" offset="971" parentId="globals" symbolId="HandAvoidanceSettingsDelegate" type="class"/>
-<dataEntry label="globals/Rez" offset="1026" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="1089" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1136" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1175" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1230" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/Drawables/BackgroundShape" offset="1269" parentId="Drawables" symbolId="BackgroundShape" type="class"/>
+<dataEntry label="globals/SettingsMenu" offset="1028" parentId="globals" symbolId="SettingsMenu" type="class"/>
+<dataEntry label="globals/HandAvoidanceSettingsDelegate" offset="1075" parentId="globals" symbolId="HandAvoidanceSettingsDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="1130" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="1193" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1240" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1279" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1334" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Drawables/BackgroundShape" offset="1373" parentId="Drawables" symbolId="BackgroundShape" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435571" name="&lt;init&gt;" parent="HandAvoidanceApp" startPc="268435553">
@@ -415,70 +471,70 @@
 <functionEntry accessMode="public" endPc="268435609" name="&lt;init&gt;" parent="SettingsMenuDelegate" startPc="268435591">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436642" name="&lt;init&gt;" parent="HandAvoidanceView" startPc="268435610">
+<functionEntry accessMode="public" endPc="268437918" name="&lt;init&gt;" parent="HandAvoidanceView" startPc="268435610">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436661" name="&lt;init&gt;" parent="SettingsMenu" startPc="268436643">
+<functionEntry accessMode="public" endPc="268437937" name="&lt;init&gt;" parent="SettingsMenu" startPc="268437919">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436680" name="&lt;init&gt;" parent="HandAvoidanceSettingsDelegate" startPc="268436662">
+<functionEntry accessMode="public" endPc="268437956" name="&lt;init&gt;" parent="HandAvoidanceSettingsDelegate" startPc="268437938">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436704" name="&lt;init&gt;" parent="Rez" startPc="268436681">
+<functionEntry accessMode="public" endPc="268437980" name="&lt;init&gt;" parent="Rez" startPc="268437957">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436781" name="getSettingsView" parent="HandAvoidanceApp" startPc="268436705">
+<functionEntry accessMode="public" endPc="268438057" name="getSettingsView" parent="HandAvoidanceApp" startPc="268437981">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onSettingsChanged" parent="HandAvoidanceApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436824" name="getInitialView" parent="HandAvoidanceApp" startPc="268436782">
+<functionEntry accessMode="public" endPc="268438100" name="getInitialView" parent="HandAvoidanceApp" startPc="268438058">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437292" name="initialize" parent="HandAvoidanceApp" startPc="268436825">
+<functionEntry accessMode="public" endPc="268438568" name="initialize" parent="HandAvoidanceApp" startPc="268438101">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437313" name="initialize" parent="HandAvoidanceSettings" startPc="268437293">
+<functionEntry accessMode="public" endPc="268438589" name="initialize" parent="HandAvoidanceSettings" startPc="268438569">
 <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437421" name="onUpdate" parent="HandAvoidanceSettings" startPc="268437314">
+<functionEntry accessMode="public" endPc="268438697" name="onUpdate" parent="HandAvoidanceSettings" startPc="268438590">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437442" name="initialize" parent="SettingsMenuDelegate" startPc="268437422">
+<functionEntry accessMode="public" endPc="268438718" name="initialize" parent="SettingsMenuDelegate" startPc="268438698">
 <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437826" name="onSelect" parent="SettingsMenuDelegate" startPc="268437443">
+<functionEntry accessMode="public" endPc="268439102" name="onSelect" parent="SettingsMenuDelegate" startPc="268438719">
 <param id="menuItem"/>
 <documentation><![CDATA[<div class="description"> Handle a menu item being selected<br/> <div class="param"> menuItem The menu item selected</div><br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437829" name="updateIcon" parent="HandAvoidanceView" startPc="268437827">
-<param id="view"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437873" name="onLayout" parent="HandAvoidanceView" startPc="268437830">
+<functionEntry accessMode="public" endPc="268439565" name="onLayout" parent="HandAvoidanceView" startPc="268439103">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437876" name="updateLabel" parent="HandAvoidanceView" startPc="268437874">
+<functionEntry accessMode="public" endPc="268439568" name="updateIcon" parent="HandAvoidanceView" startPc="268439566">
 <param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437897" name="initialize" parent="HandAvoidanceView" startPc="268437877">
+<functionEntry accessMode="public" endPc="268439571" name="updateLabel" parent="HandAvoidanceView" startPc="268439569">
+<param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440506" name="onUpdate" parent="HandAvoidanceView" startPc="268437898">
+<functionEntry accessMode="public" endPc="268439592" name="initialize" parent="HandAvoidanceView" startPc="268439572">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442188" name="onUpdate" parent="HandAvoidanceView" startPc="268439593">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440546" name="initialize" parent="SettingsMenu" startPc="268440507">
+<functionEntry accessMode="public" endPc="268442228" name="initialize" parent="SettingsMenu" startPc="268442189">
 <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440567" name="initialize" parent="HandAvoidanceSettingsDelegate" startPc="268440547">
+<functionEntry accessMode="public" endPc="268442249" name="initialize" parent="HandAvoidanceSettingsDelegate" startPc="268442229">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441111" name="onSelect" parent="HandAvoidanceSettingsDelegate" startPc="268440568">
+<functionEntry accessMode="public" endPc="268442793" name="onSelect" parent="HandAvoidanceSettingsDelegate" startPc="268442250">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -493,17 +549,17 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441130" name="&lt;init&gt;" parent="BackgroundShape" startPc="268441112">
+<functionEntry accessMode="public" endPc="268442812" name="&lt;init&gt;" parent="BackgroundShape" startPc="268442794">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441886" name="WatchFaceLayout" parent="Layouts" startPc="268441131">
+<functionEntry accessMode="public" endPc="268443568" name="WatchFaceLayout" parent="Layouts" startPc="268442813">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441913" name="initialize" parent="BackgroundShape" startPc="268441887">
+<functionEntry accessMode="public" endPc="268443595" name="initialize" parent="BackgroundShape" startPc="268443569">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442000" name="draw" parent="BackgroundShape" startPc="268441914">
+<functionEntry accessMode="public" endPc="268443682" name="draw" parent="BackgroundShape" startPc="268443596">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

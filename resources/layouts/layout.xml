@@ -8,4 +8,5 @@
     <label id="Field2Label" font="@Fonts.textFont" />
     <label id="Field3Icon" font="@Fonts.iconFont" />
     <label id="Field3Label" font="@Fonts.textFont" />
+    <label id="Field4Label" font="@Fonts.bigNumberEmptyFont" />
 </layout>

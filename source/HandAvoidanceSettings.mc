@@ -3,7 +3,10 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-const options = ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"] as Array<String>;
+const fieldsOptions = ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"] as Array<String>;
+const dateOptions = ["Day", "Off"] as Array<String>;
+const field4Options = ["Seconds", "Off"] as Array<String>;
+
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
 
@@ -28,16 +31,20 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
 
     public function onSelect() as Boolean {
         var menu = new SettingsMenu();
-        var fieldOption = Storage.getValue(1) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 1 value", options[fieldOption], 1,  null));
-        fieldOption = Storage.getValue(2) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 2 value", options[fieldOption], 2,  null));
-        fieldOption = Storage.getValue(3) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 3 value", options[fieldOption], 3,  null));
-        fieldOption = Storage.getValue(4) as Number;
-        menu.addItem(new WatchUi.MenuItem(" Set time zone", Lang.format("$1$", [fieldOption]), 4,  null));
-        fieldOption = Storage.getValue(5) as Boolean;
-        menu.addItem(new WatchUi.MenuItem(" Invert colors", Lang.format("$1$", [fieldOption]), 5,  null));
+        var setting = Storage.getValue(1) as Number;
+        menu.addItem(new WatchUi.MenuItem("  Field 1 value", fieldsOptions[setting], 1,  null));
+        setting = Storage.getValue(2) as Number;
+        menu.addItem(new WatchUi.MenuItem("  Field 2 value", fieldsOptions[setting], 2,  null));
+        setting = Storage.getValue(3) as Number;
+        menu.addItem(new WatchUi.MenuItem("  Field 3 value", fieldsOptions[setting], 3,  null));
+        setting = Storage.getValue(4) as Number;
+        menu.addItem(new WatchUi.MenuItem(" Set time zone", Lang.format("$1$", [setting]), 4,  null));
+        setting = Storage.getValue(5) as Boolean;
+        menu.addItem(new WatchUi.MenuItem(" Invert colors", Lang.format("$1$", [setting]), 5,  null));
+        setting = Storage.getValue(6) as Number;
+        menu.addItem(new WatchUi.MenuItem(" Date field", dateOptions[setting], 6,  null));
+        setting = Storage.getValue(7) as Number;
+        menu.addItem(new WatchUi.MenuItem(" Field 4", field4Options[setting], 7,  null));
 
         WatchUi.pushView(menu, new SettingsMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
         return true;
@@ -66,28 +73,46 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
         if (menuItem instanceof MenuItem) {
             var id = menuItem.getId() as Number;
             if (id < 4) {
-                var fieldOption = Storage.getValue(id);
-                if (fieldOption >=5) {
-                    fieldOption = 0;
+                var fieldSetting = Storage.getValue(id);
+                if (fieldSetting >=5) {
+                    fieldSetting = 0;
                 } else {
-                    fieldOption++;
+                    fieldSetting++;
                 }
-                Storage.setValue(id, fieldOption);
-                menuItem.setSubLabel(options[fieldOption]);
+                Storage.setValue(id, fieldSetting);
+                menuItem.setSubLabel(fieldsOptions[fieldSetting]);
             } else if (id == 4) {
-                var fieldOption = Storage.getValue(id);
-                if (fieldOption >=12) {
-                    fieldOption = -12;
+                var fieldSetting = Storage.getValue(id);
+                if (fieldSetting >=12) {
+                    fieldSetting = -12;
                 } else {
-                    fieldOption++;
+                    fieldSetting++;
                 }
-                Storage.setValue(id, fieldOption);
-                menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
+                Storage.setValue(id, fieldSetting);
+                menuItem.setSubLabel(Lang.format("$1$", [fieldSetting]));
             } else if (id == 5) {
-                var fieldOption = Storage.getValue(id) as Boolean;
-                fieldOption = !fieldOption;
-                Storage.setValue(id, fieldOption);
-                menuItem.setSubLabel(Lang.format("$1$", [fieldOption]));
+                var invertSetting = Storage.getValue(id) as Boolean;
+                invertSetting = !invertSetting;
+                Storage.setValue(id, invertSetting);
+                menuItem.setSubLabel(Lang.format("$1$", [invertSetting]));
+            } else if (id == 6) {
+                var bigNumberDateSetting = Storage.getValue(id);
+                if (bigNumberDateSetting >=1) {
+                    bigNumberDateSetting = 0;
+                } else {
+                    bigNumberDateSetting++;
+                }
+                Storage.setValue(id, bigNumberDateSetting);
+                menuItem.setSubLabel(dateOptions[bigNumberDateSetting]);
+            } else if (id == 7) {
+                var field4Setting = Storage.getValue(id);
+                if (field4Setting >=1) {
+                    field4Setting = 0;
+                } else {
+                    field4Setting++;
+                }
+                Storage.setValue(id, field4Setting);
+                menuItem.setSubLabel(field4Options[field4Setting]);
             }
         }
     }

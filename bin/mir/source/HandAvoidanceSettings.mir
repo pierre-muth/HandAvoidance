@@ -6,249 +6,253 @@ import Toybox.Graphics;
 import Toybox.Lang;
 [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 6; @position = 6; @symbol_constdef = [options,6,6,13]; ]
-const options;
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 6; @position = 6; @symbol_constdef = [fieldsOptions,6,6,19]; ]
+const fieldsOptions;
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 7; @position = 6; @symbol_constdef = [dateOptions,7,6,17]; ]
+const dateOptions;
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 8; @position = 6; @symbol_constdef = [field4Options,8,6,19]; ]
+const field4Options;
 //! Initial app settings view
-[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 8; @symbol_classdef = [HandAvoidanceSettings,8,6,27]; @symbol_extends<0> = [WatchUi,8,36,43]; @symbol_extends<1> = [View,8,44,48]; ]
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 11; @symbol_classdef = [HandAvoidanceSettings,11,6,27]; @symbol_extends<0> = [WatchUi,11,36,43]; @symbol_extends<1> = [View,11,44,48]; ]
 class HandAvoidanceSettings extends WatchUi.View {
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 8; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 11; ]
     <init> {
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 8; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 11; ]
     static
     <init> {
     }
     //! Constructor
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 11; @symbol_functiondef = [initialize,11,20,30]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 14; @symbol_functiondef = [initialize,14,20,30]; ]
     public
     function initialize() as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_11_33_13_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 12 7 ]
-        symbol [ View %tmp.2 12 7 11 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_14_33_16_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 15 7 ]
+        symbol [ View %tmp.2 15 7 11 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 12 12 22 ];
+        symbol [ initialize %tmp.3 15 12 22 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_11_33_13_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_14_33_16_4_stop:
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 15; @symbol_functiondef = [onUpdate,15,13,21]; @symbol_param<0> = [dc,15,22,24]; @symbol_param<0>_type<0> = [Dc,15,28,30]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 18; @symbol_functiondef = [onUpdate,18,13,21]; @symbol_param<0> = [dc,18,22,24]; @symbol_param<0>_type<0> = [Dc,18,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_15_40_20_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 16 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_18_40_23_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 19 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 16 8 10 ];
-        symbol [ setColor %tmp.2 16 11 19 ];
+        symbol [ dc %tmp.1 19 8 10 ];
+        symbol [ setColor %tmp.2 19 11 19 ];
         %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 16 20 28 ];
+        symbol [ Graphics %tmp.3 19 20 28 ];
         %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.4 16 29 40 ];
+        symbol [ COLOR_BLACK %tmp.4 19 29 40 ];
         %tmp.4 = getv %tmp.3 :COLOR_BLACK;
-        symbol [ Graphics %tmp.5 16 42 50 ];
+        symbol [ Graphics %tmp.5 19 42 50 ];
         %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.6 16 51 62 ];
+        symbol [ COLOR_BLACK %tmp.6 19 51 62 ];
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 17 8 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 20 8 ]
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 17 8 10 ];
-        symbol [ clear %tmp.8 17 11 16 ];
+        symbol [ dc %tmp.7 20 8 10 ];
+        symbol [ clear %tmp.8 20 11 16 ];
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 18 8 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 21 8 ]
         %tmp.9 = lgetv %dc;
-        symbol [ dc %tmp.9 18 8 10 ];
-        symbol [ setColor %tmp.10 18 11 19 ];
+        symbol [ dc %tmp.9 21 8 10 ];
+        symbol [ setColor %tmp.10 21 11 19 ];
         %tmp.10 = getv function %tmp.9 :setColor;
-        symbol [ Graphics %tmp.11 18 20 28 ];
+        symbol [ Graphics %tmp.11 21 20 28 ];
         %tmp.11 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.12 18 29 40 ];
+        symbol [ COLOR_WHITE %tmp.12 21 29 40 ];
         %tmp.12 = getv %tmp.11 :COLOR_WHITE;
-        symbol [ Graphics %tmp.13 18 42 50 ];
+        symbol [ Graphics %tmp.13 21 42 50 ];
         %tmp.13 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.14 18 51 68 ];
+        symbol [ COLOR_TRANSPARENT %tmp.14 21 51 68 ];
         %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
         invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 19 8 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 22 8 ]
         %tmp.15 = lgetv %dc;
-        symbol [ dc %tmp.15 19 8 10 ];
-        symbol [ drawText %tmp.16 19 11 19 ];
+        symbol [ dc %tmp.15 22 8 10 ];
+        symbol [ drawText %tmp.16 22 11 19 ];
         %tmp.16 = getv function %tmp.15 :drawText;
         %tmp.17 = lgetv %dc;
-        symbol [ dc %tmp.17 19 20 22 ];
-        symbol [ getWidth %tmp.18 19 23 31 ];
+        symbol [ dc %tmp.17 22 20 22 ];
+        symbol [ getWidth %tmp.18 22 23 31 ];
         %tmp.18 = getv function %tmp.17 :getWidth;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = 2;
         %tmp.21 = div %tmp.19 %tmp.20;
         %tmp.22 = 1;
-        symbol [ Graphics %tmp.23 19 42 50 ];
+        symbol [ Graphics %tmp.23 22 42 50 ];
         %tmp.23 = getm $.Toybox.Graphics;
-        symbol [ FONT_SMALL %tmp.24 19 51 61 ];
+        symbol [ FONT_SMALL %tmp.24 22 51 61 ];
         %tmp.24 = getv %tmp.23 :FONT_SMALL;
         %tmp.25 = "Press start and\nnavigate with\n\n\nstart/back\nup/down";
-        symbol [ Graphics %tmp.26 19 122 130 ];
+        symbol [ Graphics %tmp.26 22 122 130 ];
         %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 19 131 150 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 22 131 150 ];
         %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.15 %tmp.16(%tmp.21, %tmp.22, %tmp.24, %tmp.25, %tmp.27);
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_15_40_20_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_18_40_23_4_stop:
     }
 }
-[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 24; @symbol_classdef = [HandAvoidanceSettingsDelegate,24,6,35]; @symbol_extends<0> = [WatchUi,24,44,51]; @symbol_extends<1> = [BehaviorDelegate,24,52,68]; ]
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 27; @symbol_classdef = [HandAvoidanceSettingsDelegate,27,6,35]; @symbol_extends<0> = [WatchUi,27,44,51]; @symbol_extends<1> = [BehaviorDelegate,27,52,68]; ]
 class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 24; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 27; ]
     <init> {
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 24; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 27; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 25; @symbol_functiondef = [initialize,25,13,23]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 28; @symbol_functiondef = [initialize,28,13,23]; ]
     function initialize() as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_25_26_27_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 26 8 ]
-        symbol [ BehaviorDelegate %tmp.2 26 8 24 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_28_26_30_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 29 8 ]
+        symbol [ BehaviorDelegate %tmp.2 29 8 24 ];
         %tmp.2 = getv ? :BehaviorDelegate;
-        symbol [ initialize %tmp.3 26 25 35 ];
+        symbol [ initialize %tmp.3 29 25 35 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_25_26_27_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_28_26_30_4_stop:
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 29; @symbol_functiondef = [onSelect,29,20,28]; @symbol_return<0> = [Boolean,29,34,41]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 32; @symbol_functiondef = [onSelect,32,20,28]; @symbol_return<0> = [Boolean,32,34,41]; ]
     public
     function onSelect() as Boolean {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 30 8 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_stop" ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 33 8 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_stop" ]
         %menu.1 = local;
-        symbol [ menu %menu.1 30 12 16 ];
-        symbol [ SettingsMenu %tmp.4 30 23 35 ];
+        symbol [ menu %menu.1 33 12 16 ];
+        symbol [ SettingsMenu %tmp.4 33 23 35 ];
         %tmp.4 = getv ? :SettingsMenu;
         %tmp.1 = newc %tmp.4 ();
         lputv %menu.1 %tmp.1;
-        symbol [ menu %menu.1 30 12 16 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 31 8 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_stop" ]
-        %fieldOption.2 = local;
-        symbol [ fieldOption %fieldOption.2 31 12 23 ];
-        symbol [ Storage %tmp.5 31 26 33 ];
+        symbol [ menu %menu.1 33 12 16 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 34 8 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_stop" ]
+        %setting.2 = local;
+        symbol [ setting %setting.2 34 12 19 ];
+        symbol [ Storage %tmp.5 34 22 29 ];
         %tmp.5 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.6 31 34 42 ];
+        symbol [ getValue %tmp.6 34 30 38 ];
         %tmp.6 = getv function %tmp.5 :getValue;
         %tmp.7 = 1;
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         %tmp.9 = as %tmp.8 Number;
-        symbol [ Number %tmp.9 31 49 55 ];
-        lputv %fieldOption.2 %tmp.9;
-        symbol [ fieldOption %fieldOption.2 31 12 23 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 32 8 ]
+        symbol [ Number %tmp.9 34 45 51 ];
+        lputv %setting.2 %tmp.9;
+        symbol [ setting %setting.2 34 12 19 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 35 8 ]
         %tmp.10 = lgetv %menu.1;
-        symbol [ menu %tmp.10 32 8 12 ];
-        symbol [ addItem %tmp.11 32 13 20 ];
+        symbol [ menu %tmp.10 35 8 12 ];
+        symbol [ addItem %tmp.11 35 13 20 ];
         %tmp.11 = getv function %tmp.10 :addItem;
-        symbol [ WatchUi %tmp.14 32 25 32 ];
+        symbol [ WatchUi %tmp.14 35 25 32 ];
         %tmp.14 = getm $.Toybox.WatchUi;
-        symbol [ MenuItem %tmp.15 32 33 41 ];
+        symbol [ MenuItem %tmp.15 35 33 41 ];
         %tmp.15 = getv function ? %tmp.14 :MenuItem;
         %tmp.16 = "  Field 1 value";
-        symbol [ options %tmp.18 32 61 68 ];
-        %tmp.18 = getv ? :options;
-        %tmp.19 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.19 32 69 80 ];
+        symbol [ fieldsOptions %tmp.18 35 61 74 ];
+        %tmp.18 = getv ? :fieldsOptions;
+        %tmp.19 = lgetv %setting.2;
+        symbol [ setting %tmp.19 35 75 82 ];
         %tmp.20 = agetv %tmp.18 %tmp.19;
         %tmp.21 = 1;
         %tmp.22 = null;
         %tmp.12 = newc %tmp.15 (%tmp.16, %tmp.20, %tmp.21, %tmp.22);
         invoke %tmp.10 %tmp.11(%tmp.12);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 33 8 ]
-        symbol [ Storage %tmp.23 33 22 29 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 36 8 ]
+        symbol [ Storage %tmp.23 36 18 25 ];
         %tmp.23 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.24 33 30 38 ];
+        symbol [ getValue %tmp.24 36 26 34 ];
         %tmp.24 = getv function %tmp.23 :getValue;
         %tmp.25 = 2;
         %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
         %tmp.27 = as %tmp.26 Number;
-        symbol [ Number %tmp.27 33 45 51 ];
-        lputv %fieldOption.2 %tmp.27;
-        symbol [ fieldOption %fieldOption.2 33 8 19 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 34 8 ]
+        symbol [ Number %tmp.27 36 41 47 ];
+        lputv %setting.2 %tmp.27;
+        symbol [ setting %setting.2 36 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 37 8 ]
         %tmp.28 = lgetv %menu.1;
-        symbol [ menu %tmp.28 34 8 12 ];
-        symbol [ addItem %tmp.29 34 13 20 ];
+        symbol [ menu %tmp.28 37 8 12 ];
+        symbol [ addItem %tmp.29 37 13 20 ];
         %tmp.29 = getv function %tmp.28 :addItem;
-        symbol [ WatchUi %tmp.32 34 25 32 ];
+        symbol [ WatchUi %tmp.32 37 25 32 ];
         %tmp.32 = getm $.Toybox.WatchUi;
-        symbol [ MenuItem %tmp.33 34 33 41 ];
+        symbol [ MenuItem %tmp.33 37 33 41 ];
         %tmp.33 = getv function ? %tmp.32 :MenuItem;
         %tmp.34 = "  Field 2 value";
-        symbol [ options %tmp.36 34 61 68 ];
-        %tmp.36 = getv ? :options;
-        %tmp.37 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.37 34 69 80 ];
+        symbol [ fieldsOptions %tmp.36 37 61 74 ];
+        %tmp.36 = getv ? :fieldsOptions;
+        %tmp.37 = lgetv %setting.2;
+        symbol [ setting %tmp.37 37 75 82 ];
         %tmp.38 = agetv %tmp.36 %tmp.37;
         %tmp.39 = 2;
         %tmp.40 = null;
         %tmp.30 = newc %tmp.33 (%tmp.34, %tmp.38, %tmp.39, %tmp.40);
         invoke %tmp.28 %tmp.29(%tmp.30);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 35 8 ]
-        symbol [ Storage %tmp.41 35 22 29 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 38 8 ]
+        symbol [ Storage %tmp.41 38 18 25 ];
         %tmp.41 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.42 35 30 38 ];
+        symbol [ getValue %tmp.42 38 26 34 ];
         %tmp.42 = getv function %tmp.41 :getValue;
         %tmp.43 = 3;
         %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
         %tmp.45 = as %tmp.44 Number;
-        symbol [ Number %tmp.45 35 45 51 ];
-        lputv %fieldOption.2 %tmp.45;
-        symbol [ fieldOption %fieldOption.2 35 8 19 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 36 8 ]
+        symbol [ Number %tmp.45 38 41 47 ];
+        lputv %setting.2 %tmp.45;
+        symbol [ setting %setting.2 38 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 39 8 ]
         %tmp.46 = lgetv %menu.1;
-        symbol [ menu %tmp.46 36 8 12 ];
-        symbol [ addItem %tmp.47 36 13 20 ];
+        symbol [ menu %tmp.46 39 8 12 ];
+        symbol [ addItem %tmp.47 39 13 20 ];
         %tmp.47 = getv function %tmp.46 :addItem;
-        symbol [ WatchUi %tmp.50 36 25 32 ];
+        symbol [ WatchUi %tmp.50 39 25 32 ];
         %tmp.50 = getm $.Toybox.WatchUi;
-        symbol [ MenuItem %tmp.51 36 33 41 ];
+        symbol [ MenuItem %tmp.51 39 33 41 ];
         %tmp.51 = getv function ? %tmp.50 :MenuItem;
         %tmp.52 = "  Field 3 value";
-        symbol [ options %tmp.54 36 61 68 ];
-        %tmp.54 = getv ? :options;
-        %tmp.55 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.55 36 69 80 ];
+        symbol [ fieldsOptions %tmp.54 39 61 74 ];
+        %tmp.54 = getv ? :fieldsOptions;
+        %tmp.55 = lgetv %setting.2;
+        symbol [ setting %tmp.55 39 75 82 ];
         %tmp.56 = agetv %tmp.54 %tmp.55;
         %tmp.57 = 3;
         %tmp.58 = null;
         %tmp.48 = newc %tmp.51 (%tmp.52, %tmp.56, %tmp.57, %tmp.58);
         invoke %tmp.46 %tmp.47(%tmp.48);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 37 8 ]
-        symbol [ Storage %tmp.59 37 22 29 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 40 8 ]
+        symbol [ Storage %tmp.59 40 18 25 ];
         %tmp.59 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.60 37 30 38 ];
+        symbol [ getValue %tmp.60 40 26 34 ];
         %tmp.60 = getv function %tmp.59 :getValue;
         %tmp.61 = 4;
         %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
         %tmp.63 = as %tmp.62 Number;
-        symbol [ Number %tmp.63 37 45 51 ];
-        lputv %fieldOption.2 %tmp.63;
-        symbol [ fieldOption %fieldOption.2 37 8 19 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 38 8 ]
+        symbol [ Number %tmp.63 40 41 47 ];
+        lputv %setting.2 %tmp.63;
+        symbol [ setting %setting.2 40 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 41 8 ]
         %tmp.64 = lgetv %menu.1;
-        symbol [ menu %tmp.64 38 8 12 ];
-        symbol [ addItem %tmp.65 38 13 20 ];
+        symbol [ menu %tmp.64 41 8 12 ];
+        symbol [ addItem %tmp.65 41 13 20 ];
         %tmp.65 = getv function %tmp.64 :addItem;
-        symbol [ WatchUi %tmp.68 38 25 32 ];
+        symbol [ WatchUi %tmp.68 41 25 32 ];
         %tmp.68 = getm $.Toybox.WatchUi;
-        symbol [ MenuItem %tmp.69 38 33 41 ];
+        symbol [ MenuItem %tmp.69 41 33 41 ];
         %tmp.69 = getv function ? %tmp.68 :MenuItem;
         %tmp.70 = " Set time zone";
-        symbol [ Lang %tmp.71 38 60 64 ];
+        symbol [ Lang %tmp.71 41 60 64 ];
         %tmp.71 = getm $.Toybox.Lang;
-        symbol [ format %tmp.72 38 65 71 ];
+        symbol [ format %tmp.72 41 65 71 ];
         %tmp.72 = getv function %tmp.71 :format;
         %tmp.73 = "$1$";
         %tmp.74 = newa 1;
-        %tmp.75 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.75 38 80 91 ];
+        %tmp.75 = lgetv %setting.2;
+        symbol [ setting %tmp.75 41 80 87 ];
         %tmp.76 = dup %tmp.74;
         %tmp.77 = aputv %tmp.76 0 %tmp.75;
         %tmp.78 = invoke %tmp.71 %tmp.72(%tmp.73, %tmp.77);
@@ -256,35 +260,35 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.80 = null;
         %tmp.66 = newc %tmp.69 (%tmp.70, %tmp.78, %tmp.79, %tmp.80);
         invoke %tmp.64 %tmp.65(%tmp.66);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 39 8 ]
-        symbol [ Storage %tmp.81 39 22 29 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 42 8 ]
+        symbol [ Storage %tmp.81 42 18 25 ];
         %tmp.81 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.82 39 30 38 ];
+        symbol [ getValue %tmp.82 42 26 34 ];
         %tmp.82 = getv function %tmp.81 :getValue;
         %tmp.83 = 5;
         %tmp.84 = invoke %tmp.81 %tmp.82(%tmp.83);
         %tmp.85 = as %tmp.84 Boolean;
-        symbol [ Boolean %tmp.85 39 45 52 ];
-        lputv %fieldOption.2 %tmp.85;
-        symbol [ fieldOption %fieldOption.2 39 8 19 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 40 8 ]
+        symbol [ Boolean %tmp.85 42 41 48 ];
+        lputv %setting.2 %tmp.85;
+        symbol [ setting %setting.2 42 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 43 8 ]
         %tmp.86 = lgetv %menu.1;
-        symbol [ menu %tmp.86 40 8 12 ];
-        symbol [ addItem %tmp.87 40 13 20 ];
+        symbol [ menu %tmp.86 43 8 12 ];
+        symbol [ addItem %tmp.87 43 13 20 ];
         %tmp.87 = getv function %tmp.86 :addItem;
-        symbol [ WatchUi %tmp.90 40 25 32 ];
+        symbol [ WatchUi %tmp.90 43 25 32 ];
         %tmp.90 = getm $.Toybox.WatchUi;
-        symbol [ MenuItem %tmp.91 40 33 41 ];
+        symbol [ MenuItem %tmp.91 43 33 41 ];
         %tmp.91 = getv function ? %tmp.90 :MenuItem;
         %tmp.92 = " Invert colors";
-        symbol [ Lang %tmp.93 40 60 64 ];
+        symbol [ Lang %tmp.93 43 60 64 ];
         %tmp.93 = getm $.Toybox.Lang;
-        symbol [ format %tmp.94 40 65 71 ];
+        symbol [ format %tmp.94 43 65 71 ];
         %tmp.94 = getv function %tmp.93 :format;
         %tmp.95 = "$1$";
         %tmp.96 = newa 1;
-        %tmp.97 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.97 40 80 91 ];
+        %tmp.97 = lgetv %setting.2;
+        symbol [ setting %tmp.97 43 80 87 ];
         %tmp.98 = dup %tmp.96;
         %tmp.99 = aputv %tmp.98 0 %tmp.97;
         %tmp.100 = invoke %tmp.93 %tmp.94(%tmp.95, %tmp.99);
@@ -292,351 +296,579 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.102 = null;
         %tmp.88 = newc %tmp.91 (%tmp.92, %tmp.100, %tmp.101, %tmp.102);
         invoke %tmp.86 %tmp.87(%tmp.88);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 42 8 ]
-        symbol [ WatchUi %tmp.103 42 8 15 ];
-        %tmp.103 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.104 42 16 24 ];
-        %tmp.104 = getv function %tmp.103 :pushView;
-        %tmp.105 = lgetv %menu.1;
-        symbol [ menu %tmp.105 42 25 29 ];
-        symbol [ SettingsMenuDelegate %tmp.109 42 35 55 ];
-        %tmp.109 = getv ? :SettingsMenuDelegate;
-        %tmp.106 = newc %tmp.109 ();
-        symbol [ WatchUi %tmp.110 42 59 66 ];
-        %tmp.110 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.111 42 67 82 ];
-        %tmp.111 = getv %tmp.110 :SLIDE_IMMEDIATE;
-        invoke %tmp.103 %tmp.104(%tmp.105, %tmp.106, %tmp.111);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 43 8 ]
-        %tmp.112 = true;
-        ret %tmp.112;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_29_42_44_4_stop:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 44 8 ]
+        symbol [ Storage %tmp.103 44 18 25 ];
+        %tmp.103 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.104 44 26 34 ];
+        %tmp.104 = getv function %tmp.103 :getValue;
+        %tmp.105 = 6;
+        %tmp.106 = invoke %tmp.103 %tmp.104(%tmp.105);
+        %tmp.107 = as %tmp.106 Number;
+        symbol [ Number %tmp.107 44 41 47 ];
+        lputv %setting.2 %tmp.107;
+        symbol [ setting %setting.2 44 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 45 8 ]
+        %tmp.108 = lgetv %menu.1;
+        symbol [ menu %tmp.108 45 8 12 ];
+        symbol [ addItem %tmp.109 45 13 20 ];
+        %tmp.109 = getv function %tmp.108 :addItem;
+        symbol [ WatchUi %tmp.112 45 25 32 ];
+        %tmp.112 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.113 45 33 41 ];
+        %tmp.113 = getv function ? %tmp.112 :MenuItem;
+        %tmp.114 = " Date field";
+        symbol [ dateOptions %tmp.116 45 57 68 ];
+        %tmp.116 = getv ? :dateOptions;
+        %tmp.117 = lgetv %setting.2;
+        symbol [ setting %tmp.117 45 69 76 ];
+        %tmp.118 = agetv %tmp.116 %tmp.117;
+        %tmp.119 = 6;
+        %tmp.120 = null;
+        %tmp.110 = newc %tmp.113 (%tmp.114, %tmp.118, %tmp.119, %tmp.120);
+        invoke %tmp.108 %tmp.109(%tmp.110);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 46 8 ]
+        symbol [ Storage %tmp.121 46 18 25 ];
+        %tmp.121 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.122 46 26 34 ];
+        %tmp.122 = getv function %tmp.121 :getValue;
+        %tmp.123 = 7;
+        %tmp.124 = invoke %tmp.121 %tmp.122(%tmp.123);
+        %tmp.125 = as %tmp.124 Number;
+        symbol [ Number %tmp.125 46 41 47 ];
+        lputv %setting.2 %tmp.125;
+        symbol [ setting %setting.2 46 8 15 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 47 8 ]
+        %tmp.126 = lgetv %menu.1;
+        symbol [ menu %tmp.126 47 8 12 ];
+        symbol [ addItem %tmp.127 47 13 20 ];
+        %tmp.127 = getv function %tmp.126 :addItem;
+        symbol [ WatchUi %tmp.130 47 25 32 ];
+        %tmp.130 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.131 47 33 41 ];
+        %tmp.131 = getv function ? %tmp.130 :MenuItem;
+        %tmp.132 = " Field 4";
+        symbol [ field4Options %tmp.134 47 54 67 ];
+        %tmp.134 = getv ? :field4Options;
+        %tmp.135 = lgetv %setting.2;
+        symbol [ setting %tmp.135 47 68 75 ];
+        %tmp.136 = agetv %tmp.134 %tmp.135;
+        %tmp.137 = 7;
+        %tmp.138 = null;
+        %tmp.128 = newc %tmp.131 (%tmp.132, %tmp.136, %tmp.137, %tmp.138);
+        invoke %tmp.126 %tmp.127(%tmp.128);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 49 8 ]
+        symbol [ WatchUi %tmp.139 49 8 15 ];
+        %tmp.139 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.140 49 16 24 ];
+        %tmp.140 = getv function %tmp.139 :pushView;
+        %tmp.141 = lgetv %menu.1;
+        symbol [ menu %tmp.141 49 25 29 ];
+        symbol [ SettingsMenuDelegate %tmp.145 49 35 55 ];
+        %tmp.145 = getv ? :SettingsMenuDelegate;
+        %tmp.142 = newc %tmp.145 ();
+        symbol [ WatchUi %tmp.146 49 59 66 ];
+        %tmp.146 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.147 49 67 82 ];
+        %tmp.147 = getv %tmp.146 :SLIDE_IMMEDIATE;
+        invoke %tmp.139 %tmp.140(%tmp.141, %tmp.142, %tmp.147);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 50 8 ]
+        %tmp.148 = true;
+        ret %tmp.148;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_32_42_51_4_stop:
     }
 }
-[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 48; @symbol_classdef = [SettingsMenu,48,6,18]; @symbol_extends<0> = [WatchUi,48,27,34]; @symbol_extends<1> = [Menu2,48,35,40]; ]
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 55; @symbol_classdef = [SettingsMenu,55,6,18]; @symbol_extends<0> = [WatchUi,55,27,34]; @symbol_extends<1> = [Menu2,55,35,40]; ]
 class SettingsMenu extends WatchUi.Menu2 {
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 48; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 55; ]
     <init> {
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 48; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 55; ]
     static
     <init> {
     }
     //! Constructor
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 50; @symbol_functiondef = [initialize,50,20,30]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 57; @symbol_functiondef = [initialize,57,20,30]; ]
     public
     function initialize() as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_50_33_52_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 51 8 ]
-        symbol [ Menu2 %tmp.2 51 8 13 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_57_33_59_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 58 8 ]
+        symbol [ Menu2 %tmp.2 58 8 13 ];
         %tmp.2 = getv ? :Menu2;
-        symbol [ initialize %tmp.3 51 14 24 ];
+        symbol [ initialize %tmp.3 58 14 24 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 1;
         %tmp.6 = const :title;
-        symbol [ title %tmp.6 51 27 32 const ];
+        symbol [ title %tmp.6 58 27 32 const ];
         %tmp.7 = "Settings";
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         invoke %tmp.2 %tmp.3(%tmp.9);
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_50_33_52_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_57_33_59_4_stop:
     }
 }
 //! Input handler for the settings menu
-[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 56; @symbol_classdef = [SettingsMenuDelegate,56,6,26]; @symbol_extends<0> = [WatchUi,56,35,42]; @symbol_extends<1> = [Menu2InputDelegate,56,43,61]; ]
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 63; @symbol_classdef = [SettingsMenuDelegate,63,6,26]; @symbol_extends<0> = [WatchUi,63,35,42]; @symbol_extends<1> = [Menu2InputDelegate,63,43,61]; ]
 class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 56; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 63; ]
     <init> {
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 56; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 63; ]
     static
     <init> {
     }
     //! Constructor
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 59; @symbol_functiondef = [initialize,59,20,30]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 66; @symbol_functiondef = [initialize,66,20,30]; ]
     public
     function initialize() as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_59_33_61_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 60 8 ]
-        symbol [ Menu2InputDelegate %tmp.2 60 8 26 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_33_68_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 67 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 67 8 26 ];
         %tmp.2 = getv ? :Menu2InputDelegate;
-        symbol [ initialize %tmp.3 60 27 37 ];
+        symbol [ initialize %tmp.3 67 27 37 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_59_33_61_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_33_68_4_stop:
     }
     //! Handle a menu item being selected
     //! @param menuItem The menu item selected
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 65; @symbol_functiondef = [onSelect,65,20,28]; @symbol_param<0> = [menuItem,65,29,37]; @symbol_param<0>_type<0> = [MenuItem,65,41,49]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 72; @symbol_functiondef = [onSelect,72,20,28]; @symbol_param<0> = [menuItem,72,29,37]; @symbol_param<0>_type<0> = [MenuItem,72,41,49]; ]
     public
     function onSelect(menuItem as MenuItem) as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_65_59_93_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 66 8 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_8_92_8_if_stmt:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_72_59_118_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 73 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_8_117_8_if_stmt:
         %tmp.1 = lgetv %menuItem;
-        symbol [ menuItem %tmp.1 66 12 20 ];
-        symbol [ MenuItem %tmp.3 66 32 40 ];
+        symbol [ menuItem %tmp.1 73 12 20 ];
+        symbol [ MenuItem %tmp.3 73 32 40 ];
         %tmp.3 = getv ? :MenuItem;
         %tmp.4 = isa %tmp.1 %tmp.3;
-        bf %tmp.4 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_8_92_8_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_8_92_8_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_42_92_8_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 67 12 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_42_92_8_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_42_92_8_stop" ]
+        bf %tmp.4 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_8_117_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_8_117_8_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_42_117_8_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 74 12 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_42_117_8_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_42_117_8_stop" ]
         %id.1 = local;
-        symbol [ id %id.1 67 16 18 ];
+        symbol [ id %id.1 74 16 18 ];
         %tmp.5 = lgetv %menuItem;
-        symbol [ menuItem %tmp.5 67 21 29 ];
+        symbol [ menuItem %tmp.5 74 21 29 ];
         %tmp.6 = as %tmp.5 { (MenuItem) };
-        symbol [ getId %tmp.7 67 30 35 ];
+        symbol [ getId %tmp.7 74 30 35 ];
         %tmp.7 = getv function %tmp.6 :getId;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         %tmp.9 = as %tmp.8 Number;
-        symbol [ Number %tmp.9 67 41 47 ];
+        symbol [ Number %tmp.9 74 41 47 ];
         lputv %id.1 %tmp.9;
-        symbol [ id %id.1 67 16 18 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 68 12 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_stmt:
+        symbol [ id %id.1 74 16 18 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 75 12 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_stmt:
         %tmp.10 = lgetv %id.1;
-        symbol [ id %tmp.10 68 16 18 ];
+        symbol [ id %tmp.10 75 16 18 ];
         %tmp.11 = 4;
         %tmp.12 = lt %tmp.10 %tmp.11;
-        bf %tmp.12 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_false;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_24_77_12_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 69 16 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_24_77_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_24_77_12_stop" ]
-        %fieldOption.2 = local;
-        symbol [ fieldOption %fieldOption.2 69 20 31 ];
-        symbol [ Storage %tmp.13 69 34 41 ];
+        bf %tmp.12 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_24_84_12_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 76 16 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_24_84_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_24_84_12_stop" ]
+        %fieldSetting.2 = local;
+        symbol [ fieldSetting %fieldSetting.2 76 20 32 ];
+        symbol [ Storage %tmp.13 76 35 42 ];
         %tmp.13 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.14 69 42 50 ];
+        symbol [ getValue %tmp.14 76 43 51 ];
         %tmp.14 = getv function %tmp.13 :getValue;
         %tmp.15 = lgetv %id.1;
-        symbol [ id %tmp.15 69 51 53 ];
+        symbol [ id %tmp.15 76 52 54 ];
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
-        lputv %fieldOption.2 %tmp.16;
-        symbol [ fieldOption %fieldOption.2 69 20 31 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 70 16 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_stmt:
-        %tmp.17 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.17 70 20 31 ];
+        lputv %fieldSetting.2 %tmp.16;
+        symbol [ fieldSetting %fieldSetting.2 76 20 32 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 77 16 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_stmt:
+        %tmp.17 = lgetv %fieldSetting.2;
+        symbol [ fieldSetting %tmp.17 77 20 32 ];
         %tmp.18 = 5;
         %tmp.19 = gte %tmp.17 %tmp.18;
-        bf %tmp.19 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_else_false;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_37_72_16_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 71 20 ]
+        bf %tmp.19 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_else_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_38_79_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 78 20 ]
         %tmp.20 = 0;
-        lputv %fieldOption.2 %tmp.20;
-        symbol [ fieldOption %fieldOption.2 71 20 31 ];
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_37_72_16_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_else_false:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_72_23_74_16_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 73 20 ]
-        %tmp.23 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.23 73 20 31 ];
+        lputv %fieldSetting.2 %tmp.20;
+        symbol [ fieldSetting %fieldSetting.2 78 20 32 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_38_79_16_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_else_false:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_23_81_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 80 20 ]
+        %tmp.23 = lgetv %fieldSetting.2;
+        symbol [ fieldSetting %tmp.23 80 20 32 ];
         %tmp.24 = add %tmp.23 1;
-        lputv %fieldOption.2 %tmp.24;
-        symbol [ fieldOption %fieldOption.2 73 20 31 ];
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_72_23_74_16_stop:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_70_16_74_16_if_end:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 75 16 ]
-        symbol [ Storage %tmp.25 75 16 23 ];
+        lputv %fieldSetting.2 %tmp.24;
+        symbol [ fieldSetting %fieldSetting.2 80 20 32 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_23_81_16_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_16_81_16_if_end:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 82 16 ]
+        symbol [ Storage %tmp.25 82 16 23 ];
         %tmp.25 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.26 75 24 32 ];
+        symbol [ setValue %tmp.26 82 24 32 ];
         %tmp.26 = getv function %tmp.25 :setValue;
         %tmp.27 = lgetv %id.1;
-        symbol [ id %tmp.27 75 33 35 ];
-        %tmp.28 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.28 75 37 48 ];
+        symbol [ id %tmp.27 82 33 35 ];
+        %tmp.28 = lgetv %fieldSetting.2;
+        symbol [ fieldSetting %tmp.28 82 37 49 ];
         invoke %tmp.25 %tmp.26(%tmp.27, %tmp.28);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 76 16 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 83 16 ]
         %tmp.29 = lgetv %menuItem;
-        symbol [ menuItem %tmp.29 76 16 24 ];
+        symbol [ menuItem %tmp.29 83 16 24 ];
         %tmp.30 = as %tmp.29 { (MenuItem) };
-        symbol [ setSubLabel %tmp.31 76 25 36 ];
+        symbol [ setSubLabel %tmp.31 83 25 36 ];
         %tmp.31 = getv function %tmp.30 :setSubLabel;
-        symbol [ options %tmp.33 76 37 44 ];
-        %tmp.33 = getv ? :options;
-        %tmp.34 = lgetv %fieldOption.2;
-        symbol [ fieldOption %tmp.34 76 45 56 ];
+        symbol [ fieldsOptions %tmp.33 83 37 50 ];
+        %tmp.33 = getv ? :fieldsOptions;
+        %tmp.34 = lgetv %fieldSetting.2;
+        symbol [ fieldSetting %tmp.34 83 51 63 ];
         %tmp.35 = agetv %tmp.33 %tmp.34;
         invoke %tmp.30 %tmp.31(%tmp.35);
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_24_77_12_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_false:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 77 19 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_stmt:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_24_84_12_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_false:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 84 19 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_stmt:
         %tmp.36 = lgetv %id.1;
-        symbol [ id %tmp.36 77 23 25 ];
+        symbol [ id %tmp.36 84 23 25 ];
         %tmp.37 = 4;
         %tmp.38 = eq %tmp.36 %tmp.37;
-        bf %tmp.38 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_false;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_32_86_12_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 78 16 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_32_86_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_32_86_12_stop" ]
-        %fieldOption.3 = local;
-        symbol [ fieldOption %fieldOption.3 78 20 31 ];
-        symbol [ Storage %tmp.39 78 34 41 ];
+        bf %tmp.38 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_32_93_12_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 85 16 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_32_93_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_32_93_12_stop" ]
+        %fieldSetting.3 = local;
+        symbol [ fieldSetting %fieldSetting.3 85 20 32 ];
+        symbol [ Storage %tmp.39 85 35 42 ];
         %tmp.39 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.40 78 42 50 ];
+        symbol [ getValue %tmp.40 85 43 51 ];
         %tmp.40 = getv function %tmp.39 :getValue;
         %tmp.41 = lgetv %id.1;
-        symbol [ id %tmp.41 78 51 53 ];
+        symbol [ id %tmp.41 85 52 54 ];
         %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
-        lputv %fieldOption.3 %tmp.42;
-        symbol [ fieldOption %fieldOption.3 78 20 31 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 79 16 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_stmt:
-        %tmp.43 = lgetv %fieldOption.3;
-        symbol [ fieldOption %tmp.43 79 20 31 ];
+        lputv %fieldSetting.3 %tmp.42;
+        symbol [ fieldSetting %fieldSetting.3 85 20 32 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 86 16 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_stmt:
+        %tmp.43 = lgetv %fieldSetting.3;
+        symbol [ fieldSetting %tmp.43 86 20 32 ];
         %tmp.44 = 12;
         %tmp.45 = gte %tmp.43 %tmp.44;
-        bf %tmp.45 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_else_false;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_38_81_16_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 80 20 ]
+        bf %tmp.45 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_else_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_39_88_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 87 20 ]
         %tmp.46 = -12;
-        lputv %fieldOption.3 %tmp.46;
-        symbol [ fieldOption %fieldOption.3 80 20 31 ];
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_38_81_16_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_else_false:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_81_23_83_16_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 82 20 ]
-        %tmp.49 = lgetv %fieldOption.3;
-        symbol [ fieldOption %tmp.49 82 20 31 ];
+        lputv %fieldSetting.3 %tmp.46;
+        symbol [ fieldSetting %fieldSetting.3 87 20 32 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_39_88_16_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_else_false:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_88_23_90_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 89 20 ]
+        %tmp.49 = lgetv %fieldSetting.3;
+        symbol [ fieldSetting %tmp.49 89 20 32 ];
         %tmp.50 = add %tmp.49 1;
-        lputv %fieldOption.3 %tmp.50;
-        symbol [ fieldOption %fieldOption.3 82 20 31 ];
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_81_23_83_16_stop:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_79_16_83_16_if_end:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 84 16 ]
-        symbol [ Storage %tmp.51 84 16 23 ];
+        lputv %fieldSetting.3 %tmp.50;
+        symbol [ fieldSetting %fieldSetting.3 89 20 32 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_88_23_90_16_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_16_90_16_if_end:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 91 16 ]
+        symbol [ Storage %tmp.51 91 16 23 ];
         %tmp.51 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.52 84 24 32 ];
+        symbol [ setValue %tmp.52 91 24 32 ];
         %tmp.52 = getv function %tmp.51 :setValue;
         %tmp.53 = lgetv %id.1;
-        symbol [ id %tmp.53 84 33 35 ];
-        %tmp.54 = lgetv %fieldOption.3;
-        symbol [ fieldOption %tmp.54 84 37 48 ];
+        symbol [ id %tmp.53 91 33 35 ];
+        %tmp.54 = lgetv %fieldSetting.3;
+        symbol [ fieldSetting %tmp.54 91 37 49 ];
         invoke %tmp.51 %tmp.52(%tmp.53, %tmp.54);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 85 16 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 92 16 ]
         %tmp.55 = lgetv %menuItem;
-        symbol [ menuItem %tmp.55 85 16 24 ];
+        symbol [ menuItem %tmp.55 92 16 24 ];
         %tmp.56 = as %tmp.55 { (MenuItem) };
-        symbol [ setSubLabel %tmp.57 85 25 36 ];
+        symbol [ setSubLabel %tmp.57 92 25 36 ];
         %tmp.57 = getv function %tmp.56 :setSubLabel;
-        symbol [ Lang %tmp.58 85 37 41 ];
+        symbol [ Lang %tmp.58 92 37 41 ];
         %tmp.58 = getm $.Toybox.Lang;
-        symbol [ format %tmp.59 85 42 48 ];
+        symbol [ format %tmp.59 92 42 48 ];
         %tmp.59 = getv function %tmp.58 :format;
         %tmp.60 = "$1$";
         %tmp.61 = newa 1;
-        %tmp.62 = lgetv %fieldOption.3;
-        symbol [ fieldOption %tmp.62 85 57 68 ];
+        %tmp.62 = lgetv %fieldSetting.3;
+        symbol [ fieldSetting %tmp.62 92 57 69 ];
         %tmp.63 = dup %tmp.61;
         %tmp.64 = aputv %tmp.63 0 %tmp.62;
         %tmp.65 = invoke %tmp.58 %tmp.59(%tmp.60, %tmp.64);
         invoke %tmp.56 %tmp.57(%tmp.65);
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_32_86_12_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_false:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 86 19 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_19_91_12_if_stmt:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_32_93_12_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_false:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 93 19 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_stmt:
         %tmp.66 = lgetv %id.1;
-        symbol [ id %tmp.66 86 23 25 ];
+        symbol [ id %tmp.66 93 23 25 ];
         %tmp.67 = 5;
         %tmp.68 = eq %tmp.66 %tmp.67;
-        bf %tmp.68 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_19_91_12_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_19_91_12_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_32_91_12_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 87 16 ]
-        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_32_91_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_32_91_12_stop" ]
-        %fieldOption.4 = local;
-        symbol [ fieldOption %fieldOption.4 87 20 31 ];
-        symbol [ Storage %tmp.69 87 34 41 ];
+        bf %tmp.68 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_32_98_12_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 94 16 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_32_98_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_32_98_12_stop" ]
+        %invertSetting.4 = local;
+        symbol [ invertSetting %invertSetting.4 94 20 33 ];
+        symbol [ Storage %tmp.69 94 36 43 ];
         %tmp.69 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.70 87 42 50 ];
+        symbol [ getValue %tmp.70 94 44 52 ];
         %tmp.70 = getv function %tmp.69 :getValue;
         %tmp.71 = lgetv %id.1;
-        symbol [ id %tmp.71 87 51 53 ];
+        symbol [ id %tmp.71 94 53 55 ];
         %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
         %tmp.73 = as %tmp.72 Boolean;
-        symbol [ Boolean %tmp.73 87 58 65 ];
-        lputv %fieldOption.4 %tmp.73;
-        symbol [ fieldOption %fieldOption.4 87 20 31 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 88 16 ]
-        %tmp.74 = lgetv %fieldOption.4;
-        symbol [ fieldOption %tmp.74 88 31 42 ];
+        symbol [ Boolean %tmp.73 94 60 67 ];
+        lputv %invertSetting.4 %tmp.73;
+        symbol [ invertSetting %invertSetting.4 94 20 33 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 95 16 ]
+        %tmp.74 = lgetv %invertSetting.4;
+        symbol [ invertSetting %tmp.74 95 33 46 ];
         %tmp.75 = not %tmp.74;
-        lputv %fieldOption.4 %tmp.75;
-        symbol [ fieldOption %fieldOption.4 88 16 27 ];
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 89 16 ]
-        symbol [ Storage %tmp.76 89 16 23 ];
+        lputv %invertSetting.4 %tmp.75;
+        symbol [ invertSetting %invertSetting.4 95 16 29 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 96 16 ]
+        symbol [ Storage %tmp.76 96 16 23 ];
         %tmp.76 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.77 89 24 32 ];
+        symbol [ setValue %tmp.77 96 24 32 ];
         %tmp.77 = getv function %tmp.76 :setValue;
         %tmp.78 = lgetv %id.1;
-        symbol [ id %tmp.78 89 33 35 ];
-        %tmp.79 = lgetv %fieldOption.4;
-        symbol [ fieldOption %tmp.79 89 37 48 ];
+        symbol [ id %tmp.78 96 33 35 ];
+        %tmp.79 = lgetv %invertSetting.4;
+        symbol [ invertSetting %tmp.79 96 37 50 ];
         invoke %tmp.76 %tmp.77(%tmp.78, %tmp.79);
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 90 16 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 97 16 ]
         %tmp.80 = lgetv %menuItem;
-        symbol [ menuItem %tmp.80 90 16 24 ];
+        symbol [ menuItem %tmp.80 97 16 24 ];
         %tmp.81 = as %tmp.80 { (MenuItem) };
-        symbol [ setSubLabel %tmp.82 90 25 36 ];
+        symbol [ setSubLabel %tmp.82 97 25 36 ];
         %tmp.82 = getv function %tmp.81 :setSubLabel;
-        symbol [ Lang %tmp.83 90 37 41 ];
+        symbol [ Lang %tmp.83 97 37 41 ];
         %tmp.83 = getm $.Toybox.Lang;
-        symbol [ format %tmp.84 90 42 48 ];
+        symbol [ format %tmp.84 97 42 48 ];
         %tmp.84 = getv function %tmp.83 :format;
         %tmp.85 = "$1$";
         %tmp.86 = newa 1;
-        %tmp.87 = lgetv %fieldOption.4;
-        symbol [ fieldOption %tmp.87 90 57 68 ];
+        %tmp.87 = lgetv %invertSetting.4;
+        symbol [ invertSetting %tmp.87 97 57 70 ];
         %tmp.88 = dup %tmp.86;
         %tmp.89 = aputv %tmp.88 0 %tmp.87;
         %tmp.90 = invoke %tmp.83 %tmp.84(%tmp.85, %tmp.89);
         invoke %tmp.81 %tmp.82(%tmp.90);
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_32_91_12_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_19_91_12_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_86_19_91_12_if_end:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_77_19_91_12_if_end:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_68_12_91_12_if_end:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_42_92_8_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_8_92_8_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_66_8_92_8_if_end:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_65_59_93_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_32_98_12_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_false:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 98 19 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_stmt:
+        %tmp.91 = lgetv %id.1;
+        symbol [ id %tmp.91 98 23 25 ];
+        %tmp.92 = 6;
+        %tmp.93 = eq %tmp.91 %tmp.92;
+        bf %tmp.93 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_32_107_12_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 99 16 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_32_107_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_32_107_12_stop" ]
+        %bigNumberDateSetting.5 = local;
+        symbol [ bigNumberDateSetting %bigNumberDateSetting.5 99 20 40 ];
+        symbol [ Storage %tmp.94 99 43 50 ];
+        %tmp.94 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.95 99 51 59 ];
+        %tmp.95 = getv function %tmp.94 :getValue;
+        %tmp.96 = lgetv %id.1;
+        symbol [ id %tmp.96 99 60 62 ];
+        %tmp.97 = invoke %tmp.94 %tmp.95(%tmp.96);
+        lputv %bigNumberDateSetting.5 %tmp.97;
+        symbol [ bigNumberDateSetting %bigNumberDateSetting.5 99 20 40 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 100 16 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_stmt:
+        %tmp.98 = lgetv %bigNumberDateSetting.5;
+        symbol [ bigNumberDateSetting %tmp.98 100 20 40 ];
+        %tmp.99 = 1;
+        %tmp.100 = gte %tmp.98 %tmp.99;
+        bf %tmp.100 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_else_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_46_102_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 101 20 ]
+        %tmp.101 = 0;
+        lputv %bigNumberDateSetting.5 %tmp.101;
+        symbol [ bigNumberDateSetting %bigNumberDateSetting.5 101 20 40 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_46_102_16_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_else_false:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_102_23_104_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 103 20 ]
+        %tmp.104 = lgetv %bigNumberDateSetting.5;
+        symbol [ bigNumberDateSetting %tmp.104 103 20 40 ];
+        %tmp.105 = add %tmp.104 1;
+        lputv %bigNumberDateSetting.5 %tmp.105;
+        symbol [ bigNumberDateSetting %bigNumberDateSetting.5 103 20 40 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_102_23_104_16_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_end:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 105 16 ]
+        symbol [ Storage %tmp.106 105 16 23 ];
+        %tmp.106 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.107 105 24 32 ];
+        %tmp.107 = getv function %tmp.106 :setValue;
+        %tmp.108 = lgetv %id.1;
+        symbol [ id %tmp.108 105 33 35 ];
+        %tmp.109 = lgetv %bigNumberDateSetting.5;
+        symbol [ bigNumberDateSetting %tmp.109 105 37 57 ];
+        invoke %tmp.106 %tmp.107(%tmp.108, %tmp.109);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 106 16 ]
+        %tmp.110 = lgetv %menuItem;
+        symbol [ menuItem %tmp.110 106 16 24 ];
+        %tmp.111 = as %tmp.110 { (MenuItem) };
+        symbol [ setSubLabel %tmp.112 106 25 36 ];
+        %tmp.112 = getv function %tmp.111 :setSubLabel;
+        symbol [ dateOptions %tmp.114 106 37 48 ];
+        %tmp.114 = getv ? :dateOptions;
+        %tmp.115 = lgetv %bigNumberDateSetting.5;
+        symbol [ bigNumberDateSetting %tmp.115 106 49 69 ];
+        %tmp.116 = agetv %tmp.114 %tmp.115;
+        invoke %tmp.111 %tmp.112(%tmp.116);
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_32_107_12_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_false:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 107 19 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_19_116_12_if_stmt:
+        %tmp.117 = lgetv %id.1;
+        symbol [ id %tmp.117 107 23 25 ];
+        %tmp.118 = 7;
+        %tmp.119 = eq %tmp.117 %tmp.118;
+        bf %tmp.119 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_19_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_19_116_12_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_32_116_12_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 108 16 ]
+        [ "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_32_116_12_start" "C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_32_116_12_stop" ]
+        %field4Setting.6 = local;
+        symbol [ field4Setting %field4Setting.6 108 20 33 ];
+        symbol [ Storage %tmp.120 108 36 43 ];
+        %tmp.120 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.121 108 44 52 ];
+        %tmp.121 = getv function %tmp.120 :getValue;
+        %tmp.122 = lgetv %id.1;
+        symbol [ id %tmp.122 108 53 55 ];
+        %tmp.123 = invoke %tmp.120 %tmp.121(%tmp.122);
+        lputv %field4Setting.6 %tmp.123;
+        symbol [ field4Setting %field4Setting.6 108 20 33 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 109 16 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_stmt:
+        %tmp.124 = lgetv %field4Setting.6;
+        symbol [ field4Setting %tmp.124 109 20 33 ];
+        %tmp.125 = 1;
+        %tmp.126 = gte %tmp.124 %tmp.125;
+        bf %tmp.126 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_else_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_39_111_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 110 20 ]
+        %tmp.127 = 0;
+        lputv %field4Setting.6 %tmp.127;
+        symbol [ field4Setting %field4Setting.6 110 20 33 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_39_111_16_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_else_false:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_111_23_113_16_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 112 20 ]
+        %tmp.130 = lgetv %field4Setting.6;
+        symbol [ field4Setting %tmp.130 112 20 33 ];
+        %tmp.131 = add %tmp.130 1;
+        lputv %field4Setting.6 %tmp.131;
+        symbol [ field4Setting %field4Setting.6 112 20 33 ];
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_111_23_113_16_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_end:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 114 16 ]
+        symbol [ Storage %tmp.132 114 16 23 ];
+        %tmp.132 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.133 114 24 32 ];
+        %tmp.133 = getv function %tmp.132 :setValue;
+        %tmp.134 = lgetv %id.1;
+        symbol [ id %tmp.134 114 33 35 ];
+        %tmp.135 = lgetv %field4Setting.6;
+        symbol [ field4Setting %tmp.135 114 37 50 ];
+        invoke %tmp.132 %tmp.133(%tmp.134, %tmp.135);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 115 16 ]
+        %tmp.136 = lgetv %menuItem;
+        symbol [ menuItem %tmp.136 115 16 24 ];
+        %tmp.137 = as %tmp.136 { (MenuItem) };
+        symbol [ setSubLabel %tmp.138 115 25 36 ];
+        %tmp.138 = getv function %tmp.137 :setSubLabel;
+        symbol [ field4Options %tmp.140 115 37 50 ];
+        %tmp.140 = getv ? :field4Options;
+        %tmp.141 = lgetv %field4Setting.6;
+        symbol [ field4Setting %tmp.141 115 51 64 ];
+        %tmp.142 = agetv %tmp.140 %tmp.141;
+        invoke %tmp.137 %tmp.138(%tmp.142);
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_32_116_12_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_19_116_12_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_107_19_116_12_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_98_19_116_12_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_93_19_116_12_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_84_19_116_12_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_75_12_116_12_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_42_117_8_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_8_117_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_73_8_117_8_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_72_59_118_4_stop:
     }
 }
 [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc"; @line = 1; ]
 <init> {
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 6 6 ]
-    %tmp.91 = newa 6 Array<String>;
-    symbol [ Array %tmp.91 6 90 95 ];
-    symbol [ String %tmp.91 6 96 102 ];
-    %tmp.92 = "Notifications";
-    %tmp.93 = dup %tmp.91;
-    %tmp.94 = aputv %tmp.93 0 %tmp.92;
-    %tmp.95 = "Steps";
-    %tmp.96 = dup %tmp.94;
-    %tmp.97 = aputv %tmp.96 1 %tmp.95;
-    %tmp.98 = "Battery";
-    %tmp.99 = dup %tmp.97;
-    %tmp.100 = aputv %tmp.99 2 %tmp.98;
-    %tmp.101 = "Time Zone";
-    %tmp.102 = dup %tmp.100;
-    %tmp.103 = aputv %tmp.102 3 %tmp.101;
-    %tmp.104 = "Heart Rate";
-    %tmp.105 = dup %tmp.103;
-    %tmp.106 = aputv %tmp.105 4 %tmp.104;
-    %tmp.107 = "Off";
-    %tmp.108 = dup %tmp.106;
-    %tmp.109 = aputv %tmp.108 5 %tmp.107;
-    putv self :options %tmp.109;
+    %tmp.143 = newa 6 Array<String>;
+    symbol [ Array %tmp.143 6 96 101 ];
+    symbol [ String %tmp.143 6 102 108 ];
+    %tmp.144 = "Notifications";
+    %tmp.145 = dup %tmp.143;
+    %tmp.146 = aputv %tmp.145 0 %tmp.144;
+    %tmp.147 = "Steps";
+    %tmp.148 = dup %tmp.146;
+    %tmp.149 = aputv %tmp.148 1 %tmp.147;
+    %tmp.150 = "Battery";
+    %tmp.151 = dup %tmp.149;
+    %tmp.152 = aputv %tmp.151 2 %tmp.150;
+    %tmp.153 = "Time Zone";
+    %tmp.154 = dup %tmp.152;
+    %tmp.155 = aputv %tmp.154 3 %tmp.153;
+    %tmp.156 = "Heart Rate";
+    %tmp.157 = dup %tmp.155;
+    %tmp.158 = aputv %tmp.157 4 %tmp.156;
+    %tmp.159 = "Off";
+    %tmp.160 = dup %tmp.158;
+    %tmp.161 = aputv %tmp.160 5 %tmp.159;
+    putv self :fieldsOptions %tmp.161;
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 7 6 ]
+    %tmp.162 = newa 2 Array<String>;
+    symbol [ Array %tmp.162 7 38 43 ];
+    symbol [ String %tmp.162 7 44 50 ];
+    %tmp.163 = "Day";
+    %tmp.164 = dup %tmp.162;
+    %tmp.165 = aputv %tmp.164 0 %tmp.163;
+    %tmp.166 = "Off";
+    %tmp.167 = dup %tmp.165;
+    %tmp.168 = aputv %tmp.167 1 %tmp.166;
+    putv self :dateOptions %tmp.168;
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 8 6 ]
+    %tmp.169 = newa 2 Array<String>;
+    symbol [ Array %tmp.169 8 44 49 ];
+    symbol [ String %tmp.169 8 50 56 ];
+    %tmp.170 = "Seconds";
+    %tmp.171 = dup %tmp.169;
+    %tmp.172 = aputv %tmp.171 0 %tmp.170;
+    %tmp.173 = "Off";
+    %tmp.174 = dup %tmp.172;
+    %tmp.175 = aputv %tmp.174 1 %tmp.173;
+    putv self :field4Options %tmp.175;
 }

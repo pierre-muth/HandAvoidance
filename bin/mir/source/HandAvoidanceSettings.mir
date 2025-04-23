@@ -154,11 +154,11 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.14 = getm $.Toybox.WatchUi;
         symbol [ MenuItem %tmp.15 35 33 41 ];
         %tmp.15 = getv function ? %tmp.14 :MenuItem;
-        %tmp.16 = "  Field 1 value";
-        symbol [ fieldsOptions %tmp.18 35 61 74 ];
+        %tmp.16 = "  Field 1";
+        symbol [ fieldsOptions %tmp.18 35 55 68 ];
         %tmp.18 = getv ? :fieldsOptions;
         %tmp.19 = lgetv %setting.2;
-        symbol [ setting %tmp.19 35 75 82 ];
+        symbol [ setting %tmp.19 35 69 76 ];
         %tmp.20 = agetv %tmp.18 %tmp.19;
         %tmp.21 = 1;
         %tmp.22 = null;
@@ -184,11 +184,11 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.32 = getm $.Toybox.WatchUi;
         symbol [ MenuItem %tmp.33 37 33 41 ];
         %tmp.33 = getv function ? %tmp.32 :MenuItem;
-        %tmp.34 = "  Field 2 value";
-        symbol [ fieldsOptions %tmp.36 37 61 74 ];
+        %tmp.34 = "  Field 2";
+        symbol [ fieldsOptions %tmp.36 37 55 68 ];
         %tmp.36 = getv ? :fieldsOptions;
         %tmp.37 = lgetv %setting.2;
-        symbol [ setting %tmp.37 37 75 82 ];
+        symbol [ setting %tmp.37 37 69 76 ];
         %tmp.38 = agetv %tmp.36 %tmp.37;
         %tmp.39 = 2;
         %tmp.40 = null;
@@ -214,11 +214,11 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.50 = getm $.Toybox.WatchUi;
         symbol [ MenuItem %tmp.51 39 33 41 ];
         %tmp.51 = getv function ? %tmp.50 :MenuItem;
-        %tmp.52 = "  Field 3 value";
-        symbol [ fieldsOptions %tmp.54 39 61 74 ];
+        %tmp.52 = "  Field 3";
+        symbol [ fieldsOptions %tmp.54 39 55 68 ];
         %tmp.54 = getv ? :fieldsOptions;
         %tmp.55 = lgetv %setting.2;
-        symbol [ setting %tmp.55 39 75 82 ];
+        symbol [ setting %tmp.55 39 69 76 ];
         %tmp.56 = agetv %tmp.54 %tmp.55;
         %tmp.57 = 3;
         %tmp.58 = null;
@@ -244,15 +244,15 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
         %tmp.68 = getm $.Toybox.WatchUi;
         symbol [ MenuItem %tmp.69 41 33 41 ];
         %tmp.69 = getv function ? %tmp.68 :MenuItem;
-        %tmp.70 = " Set time zone";
-        symbol [ Lang %tmp.71 41 60 64 ];
+        %tmp.70 = " Time zone";
+        symbol [ Lang %tmp.71 41 56 60 ];
         %tmp.71 = getm $.Toybox.Lang;
-        symbol [ format %tmp.72 41 65 71 ];
+        symbol [ format %tmp.72 41 61 67 ];
         %tmp.72 = getv function %tmp.71 :format;
         %tmp.73 = "$1$";
         %tmp.74 = newa 1;
         %tmp.75 = lgetv %setting.2;
-        symbol [ setting %tmp.75 41 80 87 ];
+        symbol [ setting %tmp.75 41 76 83 ];
         %tmp.76 = dup %tmp.74;
         %tmp.77 = aputv %tmp.76 0 %tmp.75;
         %tmp.78 = invoke %tmp.71 %tmp.72(%tmp.73, %tmp.77);
@@ -696,7 +696,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_stmt:
         %tmp.98 = lgetv %bigNumberDateSetting.5;
         symbol [ bigNumberDateSetting %tmp.98 100 20 40 ];
-        %tmp.99 = 1;
+        %tmp.99 = 3;
         %tmp.100 = gte %tmp.98 %tmp.99;
         bf %tmp.100 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_else_false;
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_100_16_104_16_if_true:
@@ -768,7 +768,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_stmt:
         %tmp.124 = lgetv %field4Setting.6;
         symbol [ field4Setting %tmp.124 109 20 33 ];
-        %tmp.125 = 1;
+        %tmp.125 = 2;
         %tmp.126 = gte %tmp.124 %tmp.125;
         bf %tmp.126 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_else_false;
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_109_16_113_16_if_true:
@@ -850,25 +850,34 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     %tmp.161 = aputv %tmp.160 5 %tmp.159;
     putv self :fieldsOptions %tmp.161;
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 7 6 ]
-    %tmp.162 = newa 2 Array<String>;
-    symbol [ Array %tmp.162 7 38 43 ];
-    symbol [ String %tmp.162 7 44 50 ];
-    %tmp.163 = "Day";
+    %tmp.162 = newa 4 Array<String>;
+    symbol [ Array %tmp.162 7 79 84 ];
+    symbol [ String %tmp.162 7 85 91 ];
+    %tmp.163 = "Day in big";
     %tmp.164 = dup %tmp.162;
     %tmp.165 = aputv %tmp.164 0 %tmp.163;
-    %tmp.166 = "Off";
+    %tmp.166 = "Day+Seconds";
     %tmp.167 = dup %tmp.165;
     %tmp.168 = aputv %tmp.167 1 %tmp.166;
-    putv self :dateOptions %tmp.168;
+    %tmp.169 = "Day+Seconds low";
+    %tmp.170 = dup %tmp.168;
+    %tmp.171 = aputv %tmp.170 2 %tmp.169;
+    %tmp.172 = "Off";
+    %tmp.173 = dup %tmp.171;
+    %tmp.174 = aputv %tmp.173 3 %tmp.172;
+    putv self :dateOptions %tmp.174;
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 8 6 ]
-    %tmp.169 = newa 2 Array<String>;
-    symbol [ Array %tmp.169 8 44 49 ];
-    symbol [ String %tmp.169 8 50 56 ];
-    %tmp.170 = "Seconds";
-    %tmp.171 = dup %tmp.169;
-    %tmp.172 = aputv %tmp.171 0 %tmp.170;
-    %tmp.173 = "Off";
-    %tmp.174 = dup %tmp.172;
-    %tmp.175 = aputv %tmp.174 1 %tmp.173;
-    putv self :field4Options %tmp.175;
+    %tmp.175 = newa 3 Array<String>;
+    symbol [ Array %tmp.175 8 59 64 ];
+    symbol [ String %tmp.175 8 65 71 ];
+    %tmp.176 = "Off";
+    %tmp.177 = dup %tmp.175;
+    %tmp.178 = aputv %tmp.177 0 %tmp.176;
+    %tmp.179 = "Seconds";
+    %tmp.180 = dup %tmp.178;
+    %tmp.181 = aputv %tmp.180 1 %tmp.179;
+    %tmp.182 = "Seconds low";
+    %tmp.183 = dup %tmp.181;
+    %tmp.184 = aputv %tmp.183 2 %tmp.182;
+    putv self :field4Options %tmp.184;
 }

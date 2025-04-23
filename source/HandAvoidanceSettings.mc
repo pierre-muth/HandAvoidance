@@ -4,8 +4,8 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 const fieldsOptions = ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"] as Array<String>;
-const dateOptions = ["Day", "Off"] as Array<String>;
-const field4Options = ["Seconds", "Off"] as Array<String>;
+const dateOptions = ["Day in big", "Day+Seconds", "Day+Seconds low", "Off"] as Array<String>;
+const field4Options = ["Off", "Seconds", "Seconds low"] as Array<String>;
 
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
@@ -32,13 +32,13 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
     public function onSelect() as Boolean {
         var menu = new SettingsMenu();
         var setting = Storage.getValue(1) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 1 value", fieldsOptions[setting], 1,  null));
+        menu.addItem(new WatchUi.MenuItem("  Field 1", fieldsOptions[setting], 1,  null));
         setting = Storage.getValue(2) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 2 value", fieldsOptions[setting], 2,  null));
+        menu.addItem(new WatchUi.MenuItem("  Field 2", fieldsOptions[setting], 2,  null));
         setting = Storage.getValue(3) as Number;
-        menu.addItem(new WatchUi.MenuItem("  Field 3 value", fieldsOptions[setting], 3,  null));
+        menu.addItem(new WatchUi.MenuItem("  Field 3", fieldsOptions[setting], 3,  null));
         setting = Storage.getValue(4) as Number;
-        menu.addItem(new WatchUi.MenuItem(" Set time zone", Lang.format("$1$", [setting]), 4,  null));
+        menu.addItem(new WatchUi.MenuItem(" Time zone", Lang.format("$1$", [setting]), 4,  null));
         setting = Storage.getValue(5) as Boolean;
         menu.addItem(new WatchUi.MenuItem(" Invert colors", Lang.format("$1$", [setting]), 5,  null));
         setting = Storage.getValue(6) as Number;
@@ -97,7 +97,7 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
                 menuItem.setSubLabel(Lang.format("$1$", [invertSetting]));
             } else if (id == 6) {
                 var bigNumberDateSetting = Storage.getValue(id);
-                if (bigNumberDateSetting >=1) {
+                if (bigNumberDateSetting >=3) {
                     bigNumberDateSetting = 0;
                 } else {
                     bigNumberDateSetting++;
@@ -106,7 +106,7 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
                 menuItem.setSubLabel(dateOptions[bigNumberDateSetting]);
             } else if (id == 7) {
                 var field4Setting = Storage.getValue(id);
-                if (field4Setting >=1) {
+                if (field4Setting >=2) {
                     field4Setting = 0;
                 } else {
                     field4Setting++;

@@ -11,18 +11,18 @@ import Toybox.Application.Storage;
 class HandAvoidanceView extends WatchUi.WatchFace {
 
     // x, y panel coordinate, justification, icon offset, for each 4 watch quadrants
-    const q0 = [95, 1, Graphics.TEXT_JUSTIFY_LEFT, 18];
+    const q0 = [95, 3, Graphics.TEXT_JUSTIFY_LEFT, 18];
     const q1 = [95, 105, Graphics.TEXT_JUSTIFY_LEFT, 18];
     const q2 = [80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18];
-    const q3 = [80, 1, Graphics.TEXT_JUSTIFY_RIGHT, -18];
+    const q3 = [80, 3, Graphics.TEXT_JUSTIFY_RIGHT, -18];
     
     // group 1 (date) and group 2 (3 fields) coordinates to avoid watch hands
     // group 3 might be below hours hand (less intrusive than minutes)
-    //  ---------
+    // .---------.
     // | q3 | q0 |
     // |----o----|
     // | q2 | q1 |
-    //  ---------
+    // '---------'
     // coordinates index is (min/15)+(((hour%12)/3)*4);
 
     const coordinates = [
@@ -89,20 +89,81 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     }
 
-    //! The user has just looked at their watch. Timers and animations may be started here.
+    // The user has just looked at their watch. Timers and animations may be started here.
 	function onExitSleep() {
-		// System.println("Exiting Sleep");
+		// System.println("onExitSleep");
         isSleeping = false;
 	}
-	//! Terminate any active timers and prepare for slow updates.
+	// Terminate any active timers and prepare for slow updates.
 	function onEnterSleep() {
-		// System.println("Entering Sleep");
+		// System.println("onEnterSleep");
         isSleeping = true;
 	}
 
+    // Update a portion of the screen.
+    function onPartialUpdate(dc as Graphics.Dc) as Void {
+        // System.println("onPartialUpdate");
+        // if we display seconds on field 4
+        if( Storage.getValue(7) == 1 ) {
+            var now = System.getClockTime();
+            var coordinatesIdx = (now.min/15)+(((now.hour%12)/3)*4);
+            var x3 = coordinates[coordinatesIdx][2][0];
+            var y3 = coordinates[coordinatesIdx][2][1];
+            var j3 = coordinates[coordinatesIdx][2][2];
+            var invertColor = Storage.getValue(5) as Boolean;
+            var xOffest = 12;
+            if (j3 == Graphics.TEXT_JUSTIFY_RIGHT) {
+                xOffest = -59;
+            }
+            dc.setClip(x3+xOffest, y3+26, 48, 34);
+            var textColor = Graphics.COLOR_WHITE;
+            var bgColor = Graphics.COLOR_BLACK;
+            if (invertColor) {
+                textColor = Graphics.COLOR_BLACK;
+                bgColor = Graphics.COLOR_WHITE;
+            }
+            dc.setColor(bgColor, bgColor);
+            dc.fillRectangle(x3+xOffest, y3+26, 48, 34);
+            var view = View.findDrawableById("Field4Label") as Text;
+            view.setColor(textColor);
+            view.setLocation(x3, y3+10);
+            view.setJustification(j3);
+            view.setText(" " + now.sec.format("%02d")+" ");
+            view.draw(dc);
+        }
+        // if we display seconds on date field
+        if( Storage.getValue(6) == 1 ) {
+            var now = System.getClockTime();
+            var coordinatesIdx = (now.min/15)+(((now.hour%12)/3)*4);
+            var x1 = coordinates[coordinatesIdx][0][0];
+            var y1 = coordinates[coordinatesIdx][0][1];
+            var j1 = coordinates[coordinatesIdx][0][2];
+            var invertColor = Storage.getValue(5) as Boolean;
+            var xOffest = 0;
+            if (j1 == Graphics.TEXT_JUSTIFY_RIGHT) {
+                xOffest = -49;
+            }
+            dc.setClip(x1+xOffest, y1+26, 48, 34);
+            var textColor = Graphics.COLOR_WHITE;
+            var bgColor = Graphics.COLOR_BLACK;
+            if (invertColor) {
+                textColor = Graphics.COLOR_BLACK;
+                bgColor = Graphics.COLOR_WHITE;
+            }
+            dc.setColor(bgColor, bgColor);
+            dc.fillRectangle(x1+xOffest, y1+26, 48, 34);
+            var view = View.findDrawableById("DayNumberLabel") as Text;
+            view.setColor(textColor);
+            view.setLocation(x1, y1+10);
+            view.setJustification(j1);
+            view.setText(now.sec.format("%02d"));
+            view.draw(dc);
+        }
+    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
-
+        
         //------------ Compute values ------------
 
         // Get the settings
@@ -138,12 +199,18 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         if (dateFieldOption == 0) {
             dateString = dayofweek[(today.day_of_week-1)%7];
             bigNumberDateString = today.day.format("%2d");
+        } else if(dateFieldOption == 1 || dateFieldOption == 2) {
+            dateString = dayofweek[(today.day_of_week-1)%7]+ today.day.format("%2d");
+            if (!isSleeping) {
+                bigNumberDateString = today.sec.format("%02d");
+            }
         }
 
-        var field4String = "";
-        if (field4option == 0) {
+        // Make the string for field 4
+        var field4BigString = "";
+        if (field4option == 1 || field4option == 2) {
             if (!isSleeping) {
-                field4String = today.sec.format("%02d");
+                field4BigString = " " + today.sec.format("%02d")+" ";
             }
         }
 
@@ -186,6 +253,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         if (invertColor) { textColor = Graphics.COLOR_BLACK; }
 
         //------------ drawing ------------
+        
+        dc.clearClip();
         var view;
 
         // paint the background in white if inverted colors
@@ -208,9 +277,9 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw field 4 
         view = View.findDrawableById("Field4Label") as Text;
         view.setColor(textColor);
-        view.setLocation(x3, y3);
+        view.setLocation(x3, y3+10);
         view.setJustification(j3);
-        view.setText(field4String);
+        view.setText(field4BigString);
 
         // draw field 1 ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"]
         view = View.findDrawableById("Field1Icon") as Text;

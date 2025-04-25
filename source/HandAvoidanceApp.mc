@@ -4,6 +4,9 @@ import Toybox.WatchUi;
 
 class HandAvoidanceApp extends Application.AppBase {
 
+    var initialView as $.HandAvoidanceView? = null;
+    var delegate as $.HandAvoidanceDelegate? = null;
+
     function initialize() {
         // Field 1 setting
         if (Storage.getValue(1) == null || !(Storage.getValue(1) instanceof Number)) {
@@ -37,16 +40,18 @@ class HandAvoidanceApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView()  {
-        return [ new HandAvoidanceView() ] ;
+    function getInitialView()  as [Views] or [Views, InputDelegates] {
+        if (WatchUi has :WatchFaceDelegate) {
+            initialView = new $.HandAvoidanceView();
+            delegate = new $.HandAvoidanceDelegate(initialView);
+            return [initialView, delegate];
+        } else {
+            return [new $.HandAvoidanceView()];
+        }
     }
 
-    public function getSettingsView()  {
-        return [new HandAvoidanceSettings(), new HandAvoidanceSettingsDelegate()] ;
-    }
-
-    function onSettingsChanged() {
-        // System.println("Settings Changed");
+    public function getSettingsView()  as [Views] or [Views, InputDelegates] or Null {
+        return [new HandAvoidanceSettings(), new HandAvoidanceSettingsDelegate(initialView)] ;
     }
 
 }

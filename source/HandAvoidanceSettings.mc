@@ -3,9 +3,9 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-const fieldsOptions = ["Notifications", "Steps", "Battery", "Time Zone","Heart Rate", "Off"] as Array<String>;
-const dateOptions = ["Day in big", "Day+Seconds", "Day+Seconds low", "Off"] as Array<String>;
-const field4Options = ["Off", "Seconds", "Seconds low"] as Array<String>;
+const fieldsOptions = ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"] as Array<String>;
+const dateOptions = ["Day in big", "Day+Seconds always", "Day+Seconds low power", "Off"] as Array<String>;
+const field4Options = ["Off", "Seconds always", "Seconds low power"] as Array<String>;
 
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
@@ -25,7 +25,10 @@ class HandAvoidanceSettings extends WatchUi.View {
 }
 
 class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
-    function initialize() {
+    var initialView as $.HandAvoidanceView? = null;
+
+    function initialize(view as HandAvoidanceView) {
+        initialView = view;
         BehaviorDelegate.initialize();
     }
 
@@ -46,7 +49,7 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
         setting = Storage.getValue(7) as Number;
         menu.addItem(new WatchUi.MenuItem(" Field 4", field4Options[setting], 7,  null));
 
-        WatchUi.pushView(menu, new SettingsMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
+        WatchUi.pushView(menu, new SettingsMenuDelegate(initialView), WatchUi.SLIDE_IMMEDIATE);
         return true;
     }
 
@@ -61,9 +64,10 @@ class SettingsMenu extends WatchUi.Menu2 {
 
 //! Input handler for the settings menu
 class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
-
+var initialView as $.HandAvoidanceView? = null;
     //! Constructor
-    public function initialize() {
+    public function initialize(view as HandAvoidanceView) {
+        initialView = view;
         Menu2InputDelegate.initialize();
     }
 
@@ -74,7 +78,7 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             var id = menuItem.getId() as Number;
             if (id < 4) {
                 var fieldSetting = Storage.getValue(id);
-                if (fieldSetting >=5) {
+                if (fieldSetting >=7) {
                     fieldSetting = 0;
                 } else {
                     fieldSetting++;
@@ -114,6 +118,8 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
                 Storage.setValue(id, field4Setting);
                 menuItem.setSubLabel(field4Options[field4Setting]);
             }
+
+            initialView.onSettingsChanged();
         }
     }
 }

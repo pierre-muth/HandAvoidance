@@ -784,7 +784,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_113_16_117_16_if_stmt:
         %tmp.124 = lgetv %field4Setting.6;
         symbol [ field4Setting %tmp.124 113 20 33 ];
-        %tmp.125 = 2;
+        %tmp.125 = 5;
         %tmp.126 = gte %tmp.124 %tmp.125;
         bf %tmp.126 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_113_16_117_16_if_else_false;
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSettings_mc_113_16_117_16_if_true:
@@ -895,9 +895,9 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     %tmp.183 = aputv %tmp.182 3 %tmp.181;
     putv self :dateOptions %tmp.183;
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 8 6 ]
-    %tmp.184 = newa 3 Array<String>;
-    symbol [ Array %tmp.184 8 72 77 ];
-    symbol [ String %tmp.184 8 78 84 ];
+    %tmp.184 = newa 6 Array<String>;
+    symbol [ Array %tmp.184 8 128 133 ];
+    symbol [ String %tmp.184 8 134 140 ];
     %tmp.185 = "Off";
     %tmp.186 = dup %tmp.184;
     %tmp.187 = aputv %tmp.186 0 %tmp.185;
@@ -907,5 +907,14 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     %tmp.191 = "Seconds low power";
     %tmp.192 = dup %tmp.190;
     %tmp.193 = aputv %tmp.192 2 %tmp.191;
-    putv self :field4Options %tmp.193;
+    %tmp.194 = "Weather now";
+    %tmp.195 = dup %tmp.193;
+    %tmp.196 = aputv %tmp.195 3 %tmp.194;
+    %tmp.197 = "Weather next Hour";
+    %tmp.198 = dup %tmp.196;
+    %tmp.199 = aputv %tmp.198 4 %tmp.197;
+    %tmp.200 = "Weather Tomorrow";
+    %tmp.201 = dup %tmp.199;
+    %tmp.202 = aputv %tmp.201 5 %tmp.200;
+    putv self :field4Options %tmp.202;
 }

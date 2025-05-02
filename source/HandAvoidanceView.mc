@@ -2,15 +2,15 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
-import Toybox.System;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.ActivityMonitor;
 import Toybox.Application.Storage;
+import Toybox.Weather;
 
 class HandAvoidanceView extends WatchUi.WatchFace {
 
-    //for each 4 watch quadrants: x, y panel coordinate, justification, icon offset, x, y 4th field
+    //for each 4 watch quadrants: x, y panel coordinate, justification, icon offset, x, y of 4th field
     const q0 = [95, 3, Graphics.TEXT_JUSTIFY_LEFT, 18, 110, 0];
     const q1 = [95, 105, Graphics.TEXT_JUSTIFY_LEFT, 18, 110, 110];
     const q2 = [80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18, 20, 110];
@@ -26,26 +26,26 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     // coordinates index is (min/15)+(((hour%12)/3)*4);
 
     const coordinates = [
-                        [q3, q1, q2],   //e.g. 02:10
-                        [q3, q2, q0],   //e.g. 02:20
-                        [q3, q1, q0],   //e.g. 02:40
-                        [q2, q1, q0],   //e.g. 02:50
+        [q3, q1, q2],   //e.g. 02:10
+        [q3, q2, q0],   //e.g. 02:20
+        [q3, q1, q0],   //e.g. 02:40
+        [q2, q1, q0],   //e.g. 02:50
 
-                        [q3, q2, q1],   //e.g. 04:10
-                        [q2, q0, q3],   //e.g. 04:20
-                        [q3, q0, q1],   //e.g. 04:40
-                        [q2, q0, q1],   //e.g. 04:50
+        [q3, q2, q1],   //e.g. 04:10
+        [q2, q0, q3],   //e.g. 04:20
+        [q3, q0, q1],   //e.g. 04:40
+        [q2, q0, q1],   //e.g. 04:50
 
-                        [q3, q1, q2],   //e.g. 08:10
-                        [q3, q0, q2],   //e.g. 08:20
-                        [q3, q1, q0],   //e.g. 08:40
-                        [q1, q0, q2],   //e.g. 08:50
-                        
-                        [q1, q2, q3],   //e.g. 10:10
-                        [q0, q2, q3],   //e.g. 10:20
-                        [q0, q1, q3],   //e.g. 10:40
-                        [q0, q2, q1]    //e.g. 10:50
-                        ];
+        [q3, q1, q2],   //e.g. 08:10
+        [q3, q0, q2],   //e.g. 08:20
+        [q3, q1, q0],   //e.g. 08:40
+        [q1, q0, q2],   //e.g. 08:50
+        
+        [q1, q2, q3],   //e.g. 10:10
+        [q0, q2, q3],   //e.g. 10:20
+        [q0, q1, q3],   //e.g. 10:40
+        [q0, q2, q1]    //e.g. 10:50
+    ];
 
     const dayofweekENG = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];     
     const dayofweekGRE = ["Κυρ", "Δευ", "Τρι", "Τετ", "Πέμ", "Παρ", "Σαβ"];
@@ -60,8 +60,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     const dayofweekITA = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];  
     const dayofweekSPA = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];  
 
-    var dayofweek as Array<String> = dayofweekENG;
-    var secondsFontEmpty as Graphics.FontType? = null;
+    var daysOftheWeek as Array<String> = dayofweekENG;
+    var secondsFontGray as Graphics.FontType? = null;
     var secondsFontFull as Graphics.FontType? = null;
     var isSleeping = false;
 
@@ -73,6 +73,28 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     var settingDateField as Number = 0;
     var settingField4 as Number = 0;
 
+    var watchTemperatureUnit as System.UnitsSystem = System.UNIT_METRIC;
+    var watchLanguage as System.Language = System.LANGUAGE_ENG;
+
+    var bigNumberDateString = "";
+    var dateString = "";
+    var field4BigString = "";
+    var timeZoneIconString = "H";
+    var timeZoneString = "";
+    var batteryIconString = "D";
+    var batteryString = "";
+    var batteryPercentageString = "";
+    var notificationIconString = "F";
+    var notificationString = "";
+    var stepIconString = "E";
+    var stepString = ""; 
+    var floorIconString = "I";
+    var floorString = "";
+    var heartRateIconString = "G";
+    var heartRateString = "";
+    var weatherIconString = "";
+    var weatherTempString = "";
+
     function initialize() {
         onSettingsChanged();
         WatchFace.initialize();
@@ -80,24 +102,29 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+
         setLayout(Rez.Layouts.WatchFaceLayout(dc));
+
         var watchSettings = System.getDeviceSettings();
-        var watchLanguage = watchSettings.systemLanguage;
-        if(watchLanguage == System.LANGUAGE_ENG) { dayofweek = dayofweekENG; }
-        if(watchLanguage == System.LANGUAGE_GRE) { dayofweek = dayofweekGRE; }
-        if(watchLanguage == System.LANGUAGE_CHS) { dayofweek = dayofweekCHS; }
-        if(watchLanguage == System.LANGUAGE_CHT) { dayofweek = dayofweekCHS; }
-        if(watchLanguage == System.LANGUAGE_FRE) { dayofweek = dayofweekFRE; }
-        if(watchLanguage == System.LANGUAGE_JPN) { dayofweek = dayofweekJPN; }
-        if(watchLanguage == System.LANGUAGE_KOR) { dayofweek = dayofweekKOR; }
-        if(watchLanguage == System.LANGUAGE_UKR) { dayofweek = dayofweekUKR; }
-        if(watchLanguage == System.LANGUAGE_RUS) { dayofweek = dayofweekRUS; }
-        if(watchLanguage == System.LANGUAGE_POL) { dayofweek = dayofweekPOL; }
-        if(watchLanguage == System.LANGUAGE_DEU) { dayofweek = dayofweekDEU; }
-        if(watchLanguage == System.LANGUAGE_ITA) { dayofweek = dayofweekITA; }
-        if(watchLanguage == System.LANGUAGE_SPA) { dayofweek = dayofweekSPA; }
-        secondsFontEmpty = WatchUi.loadResource(Rez.Fonts.bigNumberEmptyFont) as Graphics.FontType;
+        watchLanguage = watchSettings.systemLanguage;
+        if(watchLanguage == System.LANGUAGE_ENG) { daysOftheWeek = dayofweekENG; }
+        if(watchLanguage == System.LANGUAGE_GRE) { daysOftheWeek = dayofweekGRE; }
+        if(watchLanguage == System.LANGUAGE_CHS) { daysOftheWeek = dayofweekCHS; }
+        if(watchLanguage == System.LANGUAGE_CHT) { daysOftheWeek = dayofweekCHS; }
+        if(watchLanguage == System.LANGUAGE_FRE) { daysOftheWeek = dayofweekFRE; }
+        if(watchLanguage == System.LANGUAGE_JPN) { daysOftheWeek = dayofweekJPN; }
+        if(watchLanguage == System.LANGUAGE_KOR) { daysOftheWeek = dayofweekKOR; }
+        if(watchLanguage == System.LANGUAGE_UKR) { daysOftheWeek = dayofweekUKR; }
+        if(watchLanguage == System.LANGUAGE_RUS) { daysOftheWeek = dayofweekRUS; }
+        if(watchLanguage == System.LANGUAGE_POL) { daysOftheWeek = dayofweekPOL; }
+        if(watchLanguage == System.LANGUAGE_DEU) { daysOftheWeek = dayofweekDEU; }
+        if(watchLanguage == System.LANGUAGE_ITA) { daysOftheWeek = dayofweekITA; }
+        if(watchLanguage == System.LANGUAGE_SPA) { daysOftheWeek = dayofweekSPA; }
+
+        secondsFontGray = WatchUi.loadResource(Rez.Fonts.bigNumberEmptyFont) as Graphics.FontType;
         secondsFontFull = WatchUi.loadResource(Rez.Fonts.bigNumberFont) as Graphics.FontType;
+
+        watchTemperatureUnit = watchSettings.temperatureUnits;
     }
 
     // The user has just looked at their watch. Timers and animations may be started here.
@@ -130,7 +157,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
             dc.setColor(bgColor, bgColor);
             dc.fillRectangle(x3, y3+16, 48, 34);
             dc.setColor(textColor, bgColor);
-            dc.drawText(x3, y3, secondsFontEmpty, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(x3, y3, secondsFontGray, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
         }
         // if we display seconds on date field
         if (settingDateField == 1) {
@@ -159,14 +186,13 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        
         //------------ Compute values ------------
 
-        // get today
-        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        // get now time
+        var timeNOW = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         
         // Determine coordinate for hands avoidance
-        var coordinatesIdx = (today.min/15)+(((today.hour%12)/3)*4);
+        var coordinatesIdx = (timeNOW.min/15)+(((timeNOW.hour%12)/3)*4);
         var x1 = coordinates[coordinatesIdx][0][0];
         var y1 = coordinates[coordinatesIdx][0][1];
         var j1 = coordinates[coordinatesIdx][0][2];
@@ -178,71 +204,159 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         var x3 = coordinates[coordinatesIdx][2][4];
         var y3 = coordinates[coordinatesIdx][2][5];
+
+        var xw = coordinates[coordinatesIdx][2][0];
+        var yw = coordinates[coordinatesIdx][2][1];
+        var jw = coordinates[coordinatesIdx][2][2];
         
         // Make the strings for dates
-        var bigNumberDateString = "";
-        var dateString = "";
         if (settingDateField == 0) {
-            dateString = dayofweek[(today.day_of_week-1)%7];
-            bigNumberDateString = today.day.format("%2d");
+            dateString = daysOftheWeek[(timeNOW.day_of_week-1)%7];
+            bigNumberDateString = timeNOW.day.format("%2d");
         } else if(settingDateField == 1) {
-            dateString = dayofweek[(today.day_of_week-1)%7] + today.day.format("%2d");
-                bigNumberDateString = today.sec.format("%02d");
+            dateString = daysOftheWeek[(timeNOW.day_of_week-1)%7] + timeNOW.day.format("%2d");
+            bigNumberDateString = timeNOW.sec.format("%02d");
         } else if(settingDateField == 2) {
-            dateString = dayofweek[(today.day_of_week-1)%7] + today.day.format("%2d");
+            dateString = daysOftheWeek[(timeNOW.day_of_week-1)%7] + timeNOW.day.format("%2d");
             if (!isSleeping) {
-                bigNumberDateString = today.sec.format("%02d");
+                bigNumberDateString = timeNOW.sec.format("%02d");
+            } else {
+                bigNumberDateString = "";
             }
+        } else {
+            bigNumberDateString = "";
+            dateString = "";
         }
 
-        // Make the string for field 4
-        var field4BigString = "";
+        // Make the Second string for field 4
         if (settingField4 == 1) {
-                field4BigString = today.sec.format("%02d");
+                field4BigString = timeNOW.sec.format("%02d");
         } else if (settingField4 == 2){
             if (!isSleeping) {
-                field4BigString = today.sec.format("%02d");
+                field4BigString = timeNOW.sec.format("%02d");
+            } else {
+                field4BigString = "";
+            }
+        } else {
+            field4BigString = "";
+        }
+
+        // Make Time Zone string
+        if (settingField1 == 4 || settingField2 == 4 || settingField3 == 4) {
+            var todayUTC = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
+            var timeZoneHour = (todayUTC.hour + settingTimeZone)%24;
+            timeZoneString =  Lang.format("$1$:$2$", [timeZoneHour.format("%02d"), todayUTC.min.format("%02d")]);
+        }
+
+        // get battery info in days
+        if (settingField1 == 2 || settingField2 == 2 || settingField3 == 2) {
+            var sys = System.getSystemStats();
+            batteryString = sys.batteryInDays.format("%.0f")+"d";
+            var batteryPercentage = sys.battery;
+            if (batteryPercentage > 80 ) {batteryIconString = "A";}
+            else if (batteryPercentage > 60 ) {batteryIconString = "B";}
+            else if (batteryPercentage > 21 ) {batteryIconString = "C";}
+            else {batteryIconString = "D";}
+        }
+
+        // get battery info in %
+        if (settingField1 == 3 || settingField2 == 3 || settingField3 == 3) {
+            var sys = System.getSystemStats();
+            var batteryPercentage = sys.battery;
+            batteryPercentageString = batteryPercentage.format("%i")+"%";
+            if (batteryPercentage > 80 ) {batteryIconString = "A";}
+            else if (batteryPercentage > 60 ) {batteryIconString = "B";}
+            else if (batteryPercentage > 21 ) {batteryIconString = "C";}
+            else {batteryIconString = "D";}
+        }
+
+        // Get notifications count
+        if (settingField1 == 0 || settingField2 == 0 || settingField3 == 0) {
+            var settings = System.getDeviceSettings();
+            notificationString = settings.notificationCount.format("%i");
+        }
+
+        // Get step count
+        if (settingField1 == 1 || settingField2 == 1 || settingField3 == 1) {
+            var info = ActivityMonitor.getInfo();
+            stepString = info.steps.format("%i");
+        }
+
+        // Get floor count
+        if (settingField1 == 6 || settingField2 == 6 || settingField3 == 6) {
+            var info = ActivityMonitor.getInfo();
+            floorString = info.floorsClimbed.format("%i");
+        }
+
+        // Get heart rate
+        if (settingField1 == 5 || settingField2 == 5 || settingField3 == 5) {
+            var info2 = Activity.getActivityInfo();
+            if (info2 != null && info2.currentHeartRate != null) {
+                heartRateString = info2.currentHeartRate.format("%i");
+            } else {
+                heartRateString = "n.a.";
             }
         }
 
-        // get UTC info
-        var todayUTC = Gregorian.utcInfo(Time.now(), Time.FORMAT_MEDIUM);
-        var timeZoneHour = (todayUTC.hour + settingTimeZone)%24;
-        var utcString =  Lang.format("$1$:$2$", [timeZoneHour.format("%02d"), todayUTC.min.format("%02d")]);
-        var utcIconString = "H";
+        // Make the strings for weather info
+        if (settingField4 == 3 || settingField4 == 4 || settingField4 == 5){
+            var weather = Weather.getCurrentConditions();
+            if (settingField4 == 4){
+                weather = Weather.getHourlyForecast()[0];
+            } else if (settingField4 == 5){
+                weather = Weather.getDailyForecast()[0];
+            }
 
-        // get battery info
-        var sys = System.getSystemStats();
-        var batteryString = sys.batteryInDays.format("%.0f")+"d";
-        var batteryPercentage = sys.battery;
-        var batteryPercentageString = batteryPercentage.format("%i")+"%";
-        var batteryIconString = "D";
-        if (batteryPercentage > 80 ) {batteryIconString = "A";}
-        else if (batteryPercentage > 60 ) {batteryIconString = "B";}
-        else if (batteryPercentage > 21 ) {batteryIconString = "C";}
-        else {batteryIconString = "D";}
+            var condition = weather.condition;
+            weatherIconString = "f";
+            if (condition == Weather.CONDITION_CLEAR) {
+                weatherIconString = "j";
+            }
+            if (condition == Weather.CONDITION_CLOUDY || condition == Weather.CONDITION_MOSTLY_CLOUDY) {
+                weatherIconString = "a";
+            }
+            if (condition == Weather.CONDITION_RAIN || condition == Weather.CONDITION_RAIN_SNOW || condition == Weather.CONDITION_HEAVY_RAIN
+                || condition == Weather.CONDITION_HEAVY_RAIN_SNOW || condition == Weather.CONDITION_FREEZING_RAIN  ) {
+                weatherIconString = "g";
+            }
+            if (condition == Weather.CONDITION_LIGHT_RAIN || condition == Weather.CONDITION_LIGHT_RAIN_SNOW || condition == Weather.CONDITION_LIGHT_SHOWERS 
+                || condition == Weather.CONDITION_SCATTERED_SHOWERS) {
+                weatherIconString = "b";
+            }
+            if (condition == Weather.CONDITION_SNOW || condition == Weather.CONDITION_ICE_SNOW || condition == Weather.CONDITION_HEAVY_SNOW 
+                || condition == Weather.CONDITION_LIGHT_SNOW ) {
+                weatherIconString = "h";
+            }
+            if (condition == Weather.CONDITION_FOG || condition == Weather.CONDITION_MIST ) {
+                weatherIconString = "c";
+            }
+            if (condition == Weather.CONDITION_THUNDERSTORMS || condition == Weather.CONDITION_TROPICAL_STORM || condition == Weather.CONDITION_TORNADO ) {
+                weatherIconString = "i";
+            }
 
-        // Get notifications count
-        var settings = System.getDeviceSettings();
-        var notificationString = settings.notificationCount.format("%i");
-        var notificationIconString = "F";
+            if (settingField4 == 3 || settingField4 == 4) {
+                if (watchTemperatureUnit == System.UNIT_STATUTE) {
+                    weatherTempString = (32+(weather.temperature * 1.8)).format("%i") + ")";
+                } else {
+                    weatherTempString = weather.temperature.format("%i") + "(";
+                }
+            }
 
-        // Get step count
-        var info = ActivityMonitor.getInfo();
-        var stepString = info.steps.format("%i");
-        var stepIconString = "E";
-
-        // Get floor count
-        var floorString = info.floorsClimbed.format("%i");
-        var floorIconString = "I";
-
-        // Get heart rate
-        var info2 = Activity.getActivityInfo();
-        var heartRateString = "n.a.";
-        if (info2 != null && info2.currentHeartRate != null) {
-            heartRateString = info2.currentHeartRate.format("%i");
+            if (settingField4 == 5){
+                if (watchTemperatureUnit == System.UNIT_STATUTE) { 
+                    var minT = (32+(weather.lowTemperature * 1.8)).format("%i");
+                    var maxT = (32+(weather.highTemperature * 1.8)).format("%i");
+                    weatherTempString =  minT + "'" + maxT + ")";
+                } else {
+                    var minT = weather.lowTemperature.format("%i");
+                    var maxT = weather.highTemperature.format("%i");
+                    weatherTempString =  minT + "'" + maxT + "(";
+                }
+            }
+        } else {
+            weatherIconString = "";
+            weatherTempString = "";
         }
-        var heartRateIconString = "G";
 
         // Set colors according inverted setting 
         var textColor = Graphics.COLOR_WHITE;
@@ -263,7 +377,6 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setLocation(x1, y1);
         view.setJustification(j1);
         view.setText(dateString);
-
         view = View.findDrawableById("DayNumberLabel") as Text;
         view.setColor(textColor);
         view.setLocation(x1, y1+10);
@@ -276,6 +389,18 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setLocation(x3, y3);
         view.setJustification(Graphics.TEXT_JUSTIFY_LEFT);
         view.setText(field4BigString);
+        
+        // draw Weather
+        view = View.findDrawableById("WeatherLabel") as Text;
+        view.setColor(textColor);
+        view.setLocation(xw, yw);
+        view.setJustification(jw);
+        view.setText(weatherTempString);
+        view = View.findDrawableById("WeatherIcon") as Text;
+        view.setColor(textColor);
+        view.setLocation(xw, yw+17);
+        view.setJustification(jw);
+        view.setText(weatherIconString);
 
         // draw field 1  ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field1Icon") as Text;
@@ -286,7 +411,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField1 == 1) { view.setText(stepIconString); }
         else if (settingField1 == 2) { view.setText(batteryIconString); }
         else if (settingField1 == 3) { view.setText(batteryIconString); }
-        else if (settingField1 == 4) { view.setText(utcIconString); }
+        else if (settingField1 == 4) { view.setText(timeZoneIconString); }
         else if (settingField1 == 5) { view.setText(heartRateIconString); }
         else if (settingField1 == 6) { view.setText(floorIconString); }
         else { view.setText(""); }
@@ -299,7 +424,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField1 == 1) { view.setText(stepString); }
         else if (settingField1 == 2) { view.setText(batteryString); }
         else if (settingField1 == 3) { view.setText(batteryPercentageString); }
-        else if (settingField1 == 4) { view.setText(utcString); }
+        else if (settingField1 == 4) { view.setText(timeZoneString); }
         else if (settingField1 == 5) { view.setText(heartRateString); }
         else if (settingField1 == 6) { view.setText(floorString); }
         else { view.setText(""); }
@@ -313,7 +438,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField2 == 1) { view.setText(stepIconString); }
         else if (settingField2 == 2) { view.setText(batteryIconString); }
         else if (settingField2 == 3) { view.setText(batteryIconString); }
-        else if (settingField2 == 4) { view.setText(utcIconString); }
+        else if (settingField2 == 4) { view.setText(timeZoneIconString); }
         else if (settingField2 == 5) { view.setText(heartRateIconString); }
         else if (settingField2 == 6) { view.setText(floorIconString); }
         else { view.setText(""); }
@@ -326,7 +451,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField2 == 1) { view.setText(stepString); }
         else if (settingField2 == 2) { view.setText(batteryString); }
         else if (settingField2 == 3) { view.setText(batteryPercentageString); }
-        else if (settingField2 == 4) { view.setText(utcString); }
+        else if (settingField2 == 4) { view.setText(timeZoneString); }
         else if (settingField2 == 5) { view.setText(heartRateString); }
         else if (settingField2 == 6) { view.setText(floorString); }
         else { view.setText(""); }
@@ -340,7 +465,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField3 == 1) { view.setText(stepIconString); }
         else if (settingField3 == 2) { view.setText(batteryIconString); }
         else if (settingField3 == 3) { view.setText(batteryIconString); }
-        else if (settingField3 == 4) { view.setText(utcIconString); }
+        else if (settingField3 == 4) { view.setText(timeZoneIconString); }
         else if (settingField3 == 5) { view.setText(heartRateIconString); }
         else if (settingField3 == 6) { view.setText(floorIconString); }
         else { view.setText(""); }
@@ -353,7 +478,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         else if (settingField3 == 1) { view.setText(stepString); }
         else if (settingField3 == 2) { view.setText(batteryString); }
         else if (settingField3 == 3) { view.setText(batteryPercentageString); }
-        else if (settingField3 == 4) { view.setText(utcString); }
+        else if (settingField3 == 4) { view.setText(timeZoneString); }
         else if (settingField3 == 5) { view.setText(heartRateString); }
         else if (settingField3 == 6) { view.setText(floorString); }
         else { view.setText(""); }

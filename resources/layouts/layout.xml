@@ -9,4 +9,6 @@
     <label id="Field3Icon" font="@Fonts.iconFont" />
     <label id="Field3Label" font="@Fonts.textFont" />
     <label id="Field4Label" font="@Fonts.bigNumberEmptyFont" />
+    <label id="WeatherIcon" font="@Fonts.weatherFont" />
+    <label id="WeatherLabel" font="@Fonts.textFont" />
 </layout>

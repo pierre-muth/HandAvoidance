@@ -5,7 +5,7 @@ import Toybox.WatchUi;
 
 const fieldsOptions = ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"] as Array<String>;
 const dateOptions = ["Day in big", "Day+Seconds always", "Day+Seconds low power", "Off"] as Array<String>;
-const field4Options = ["Off", "Seconds always", "Seconds low power"] as Array<String>;
+const field4Options = ["Off", "Seconds always", "Seconds low power", "Weather now", "Weather next Hour", "Weather Tomorrow"] as Array<String>;
 
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
@@ -110,7 +110,7 @@ var initialView as $.HandAvoidanceView? = null;
                 menuItem.setSubLabel(dateOptions[bigNumberDateSetting]);
             } else if (id == 7) {
                 var field4Setting = Storage.getValue(id);
-                if (field4Setting >=2) {
+                if (field4Setting >=5) {
                     field4Setting = 0;
                 } else {
                     field4Setting++;

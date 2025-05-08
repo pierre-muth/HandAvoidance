@@ -143,472 +143,475 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
         var iconFont as ResourceId;
         [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [bigNumberFont,34,27,40]; @symbol_type<0> = [ResourceId,34,44,54]; ]
         var bigNumberFont as ResourceId;
-        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [bigNumberEmptyFont,35,27,45]; @symbol_type<0> = [ResourceId,35,49,59]; ]
-        var bigNumberEmptyFont as ResourceId;
-        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [weatherFont,36,27,38]; @symbol_type<0> = [ResourceId,36,42,52]; ]
+        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [weatherFont,35,27,38]; @symbol_type<0> = [ResourceId,35,42,52]; ]
         var weatherFont as ResourceId;
     }
-    [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 39; @symbol_moduledef = [Layouts,39,11,18]; ]
+    [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 38; @symbol_moduledef = [Layouts,38,11,18]; ]
     module Layouts {
-        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 39; ]
+        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 38; ]
         <init> {
         }
-        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 40; @symbol_functiondef = [WatchFaceLayout,40,17,32]; @symbol_param<0> = [dc,40,33,35]; @symbol_param<0>_type<0> = [Graphics,40,39,47]; @symbol_param<0>_type<1> = [Dc,40,48,50]; @symbol_return<0> = [Array,40,55,60]; @symbol_return<1> = [WatchUi,40,61,68]; @symbol_return<2> = [Drawable,40,69,77]; ]
+        [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 39; @symbol_functiondef = [WatchFaceLayout,39,17,32]; @symbol_param<0> = [dc,39,33,35]; @symbol_param<0>_type<0> = [Graphics,39,39,47]; @symbol_param<0>_type<1> = [Dc,39,48,50]; @symbol_return<0> = [Array,39,55,60]; @symbol_return<1> = [WatchUi,39,61,68]; @symbol_return<2> = [Drawable,39,69,77]; ]
         function WatchFaceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start:
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 41 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start:
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 40 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
             %local_Rez_Fonts_textFont.1 = local;
-            symbol [ local_Rez_Fonts_textFont %local_Rez_Fonts_textFont.1 41 16 40 ];
-            symbol [ WatchUi %tmp.1 41 44 51 ];
+            symbol [ local_Rez_Fonts_textFont %local_Rez_Fonts_textFont.1 40 16 40 ];
+            symbol [ WatchUi %tmp.1 40 44 51 ];
             %tmp.1 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.2 41 52 64 ];
+            symbol [ loadResource %tmp.2 40 52 64 ];
             %tmp.2 = getv function %tmp.1 :loadResource;
-            symbol [ $ %tmp.3 41 65 66 ];
+            symbol [ $ %tmp.3 40 65 66 ];
             %tmp.3 = getm $;
-            symbol [ Rez %tmp.4 41 67 70 ];
+            symbol [ Rez %tmp.4 40 67 70 ];
             %tmp.4 = getv %tmp.3 :Rez;
-            symbol [ Fonts %tmp.5 41 71 76 ];
+            symbol [ Fonts %tmp.5 40 71 76 ];
             %tmp.5 = getv %tmp.4 :Fonts;
-            symbol [ textFont %tmp.6 41 77 85 ];
+            symbol [ textFont %tmp.6 40 77 85 ];
             %tmp.6 = getv %tmp.5 :textFont;
             %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
             %tmp.8 = as %tmp.7 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.8 41 90 97 ];
-            symbol [ FontResource %tmp.8 41 98 110 ];
+            symbol [ WatchUi %tmp.8 40 90 97 ];
+            symbol [ FontResource %tmp.8 40 98 110 ];
             lputv %local_Rez_Fonts_textFont.1 %tmp.8;
-            symbol [ local_Rez_Fonts_textFont %local_Rez_Fonts_textFont.1 41 16 40 ];
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 42 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %local_Rez_Fonts_bigNumberEmptyFont.2 = local;
-            symbol [ local_Rez_Fonts_bigNumberEmptyFont %local_Rez_Fonts_bigNumberEmptyFont.2 42 16 50 ];
-            symbol [ WatchUi %tmp.9 42 54 61 ];
+            symbol [ local_Rez_Fonts_textFont %local_Rez_Fonts_textFont.1 40 16 40 ];
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 41 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %local_Rez_Fonts_weatherFont.2 = local;
+            symbol [ local_Rez_Fonts_weatherFont %local_Rez_Fonts_weatherFont.2 41 16 43 ];
+            symbol [ WatchUi %tmp.9 41 47 54 ];
             %tmp.9 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.10 42 62 74 ];
+            symbol [ loadResource %tmp.10 41 55 67 ];
             %tmp.10 = getv function %tmp.9 :loadResource;
-            symbol [ $ %tmp.11 42 75 76 ];
+            symbol [ $ %tmp.11 41 68 69 ];
             %tmp.11 = getm $;
-            symbol [ Rez %tmp.12 42 77 80 ];
+            symbol [ Rez %tmp.12 41 70 73 ];
             %tmp.12 = getv %tmp.11 :Rez;
-            symbol [ Fonts %tmp.13 42 81 86 ];
+            symbol [ Fonts %tmp.13 41 74 79 ];
             %tmp.13 = getv %tmp.12 :Fonts;
-            symbol [ bigNumberEmptyFont %tmp.14 42 87 105 ];
-            %tmp.14 = getv %tmp.13 :bigNumberEmptyFont;
+            symbol [ weatherFont %tmp.14 41 80 91 ];
+            %tmp.14 = getv %tmp.13 :weatherFont;
             %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
             %tmp.16 = as %tmp.15 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.16 42 110 117 ];
-            symbol [ FontResource %tmp.16 42 118 130 ];
-            lputv %local_Rez_Fonts_bigNumberEmptyFont.2 %tmp.16;
-            symbol [ local_Rez_Fonts_bigNumberEmptyFont %local_Rez_Fonts_bigNumberEmptyFont.2 42 16 50 ];
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 43 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %local_Rez_Fonts_weatherFont.3 = local;
-            symbol [ local_Rez_Fonts_weatherFont %local_Rez_Fonts_weatherFont.3 43 16 43 ];
-            symbol [ WatchUi %tmp.17 43 47 54 ];
+            symbol [ WatchUi %tmp.16 41 96 103 ];
+            symbol [ FontResource %tmp.16 41 104 116 ];
+            lputv %local_Rez_Fonts_weatherFont.2 %tmp.16;
+            symbol [ local_Rez_Fonts_weatherFont %local_Rez_Fonts_weatherFont.2 41 16 43 ];
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 42 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %local_Rez_Fonts_bigNumberFont.3 = local;
+            symbol [ local_Rez_Fonts_bigNumberFont %local_Rez_Fonts_bigNumberFont.3 42 16 45 ];
+            symbol [ WatchUi %tmp.17 42 49 56 ];
             %tmp.17 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.18 43 55 67 ];
+            symbol [ loadResource %tmp.18 42 57 69 ];
             %tmp.18 = getv function %tmp.17 :loadResource;
-            symbol [ $ %tmp.19 43 68 69 ];
+            symbol [ $ %tmp.19 42 70 71 ];
             %tmp.19 = getm $;
-            symbol [ Rez %tmp.20 43 70 73 ];
+            symbol [ Rez %tmp.20 42 72 75 ];
             %tmp.20 = getv %tmp.19 :Rez;
-            symbol [ Fonts %tmp.21 43 74 79 ];
+            symbol [ Fonts %tmp.21 42 76 81 ];
             %tmp.21 = getv %tmp.20 :Fonts;
-            symbol [ weatherFont %tmp.22 43 80 91 ];
-            %tmp.22 = getv %tmp.21 :weatherFont;
+            symbol [ bigNumberFont %tmp.22 42 82 95 ];
+            %tmp.22 = getv %tmp.21 :bigNumberFont;
             %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
             %tmp.24 = as %tmp.23 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.24 43 96 103 ];
-            symbol [ FontResource %tmp.24 43 104 116 ];
-            lputv %local_Rez_Fonts_weatherFont.3 %tmp.24;
-            symbol [ local_Rez_Fonts_weatherFont %local_Rez_Fonts_weatherFont.3 43 16 43 ];
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 44 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %local_Rez_Fonts_bigNumberFont.4 = local;
-            symbol [ local_Rez_Fonts_bigNumberFont %local_Rez_Fonts_bigNumberFont.4 44 16 45 ];
-            symbol [ WatchUi %tmp.25 44 49 56 ];
+            symbol [ WatchUi %tmp.24 42 100 107 ];
+            symbol [ FontResource %tmp.24 42 108 120 ];
+            lputv %local_Rez_Fonts_bigNumberFont.3 %tmp.24;
+            symbol [ local_Rez_Fonts_bigNumberFont %local_Rez_Fonts_bigNumberFont.3 42 16 45 ];
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 43 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %local_Rez_Fonts_iconFont.4 = local;
+            symbol [ local_Rez_Fonts_iconFont %local_Rez_Fonts_iconFont.4 43 16 40 ];
+            symbol [ WatchUi %tmp.25 43 44 51 ];
             %tmp.25 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.26 44 57 69 ];
+            symbol [ loadResource %tmp.26 43 52 64 ];
             %tmp.26 = getv function %tmp.25 :loadResource;
-            symbol [ $ %tmp.27 44 70 71 ];
+            symbol [ $ %tmp.27 43 65 66 ];
             %tmp.27 = getm $;
-            symbol [ Rez %tmp.28 44 72 75 ];
+            symbol [ Rez %tmp.28 43 67 70 ];
             %tmp.28 = getv %tmp.27 :Rez;
-            symbol [ Fonts %tmp.29 44 76 81 ];
+            symbol [ Fonts %tmp.29 43 71 76 ];
             %tmp.29 = getv %tmp.28 :Fonts;
-            symbol [ bigNumberFont %tmp.30 44 82 95 ];
-            %tmp.30 = getv %tmp.29 :bigNumberFont;
+            symbol [ iconFont %tmp.30 43 77 85 ];
+            %tmp.30 = getv %tmp.29 :iconFont;
             %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.30);
             %tmp.32 = as %tmp.31 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.32 44 100 107 ];
-            symbol [ FontResource %tmp.32 44 108 120 ];
-            lputv %local_Rez_Fonts_bigNumberFont.4 %tmp.32;
-            symbol [ local_Rez_Fonts_bigNumberFont %local_Rez_Fonts_bigNumberFont.4 44 16 45 ];
+            symbol [ WatchUi %tmp.32 43 90 97 ];
+            symbol [ FontResource %tmp.32 43 98 110 ];
+            lputv %local_Rez_Fonts_iconFont.4 %tmp.32;
+            symbol [ local_Rez_Fonts_iconFont %local_Rez_Fonts_iconFont.4 43 16 40 ];
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 44 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_custom_drawable_BackgroundShape.5 = local;
+            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %rez_cmp_local_custom_drawable_BackgroundShape.5 44 16 61 ];
+            symbol [ $ %tmp.36 44 68 69 ];
+            %tmp.36 = getm $;
+            symbol [ Rez %tmp.37 44 70 73 ];
+            %tmp.37 = getv %tmp.36 :Rez;
+            symbol [ Drawables %tmp.38 44 74 83 ];
+            %tmp.38 = getv %tmp.37 :Drawables;
+            symbol [ BackgroundShape %tmp.39 44 84 99 ];
+            %tmp.39 = getv function ? %tmp.38 :BackgroundShape;
+            %tmp.33 = newc %tmp.39 ();
+            lputv %rez_cmp_local_custom_drawable_BackgroundShape.5 %tmp.33;
+            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %rez_cmp_local_custom_drawable_BackgroundShape.5 44 16 61 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 45 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %local_Rez_Fonts_iconFont.5 = local;
-            symbol [ local_Rez_Fonts_iconFont %local_Rez_Fonts_iconFont.5 45 16 40 ];
-            symbol [ WatchUi %tmp.33 45 44 51 ];
-            %tmp.33 = getm $.Toybox.WatchUi;
-            symbol [ loadResource %tmp.34 45 52 64 ];
-            %tmp.34 = getv function %tmp.33 :loadResource;
-            symbol [ $ %tmp.35 45 65 66 ];
-            %tmp.35 = getm $;
-            symbol [ Rez %tmp.36 45 67 70 ];
-            %tmp.36 = getv %tmp.35 :Rez;
-            symbol [ Fonts %tmp.37 45 71 76 ];
-            %tmp.37 = getv %tmp.36 :Fonts;
-            symbol [ iconFont %tmp.38 45 77 85 ];
-            %tmp.38 = getv %tmp.37 :iconFont;
-            %tmp.39 = invoke %tmp.33 %tmp.34(%tmp.38);
-            %tmp.40 = as %tmp.39 WatchUi.FontResource;
-            symbol [ WatchUi %tmp.40 45 90 97 ];
-            symbol [ FontResource %tmp.40 45 98 110 ];
-            lputv %local_Rez_Fonts_iconFont.5 %tmp.40;
-            symbol [ local_Rez_Fonts_iconFont %local_Rez_Fonts_iconFont.5 45 16 40 ];
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 46 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_custom_drawable_BackgroundShape.6 = local;
-            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %rez_cmp_local_custom_drawable_BackgroundShape.6 46 16 61 ];
-            symbol [ $ %tmp.44 46 68 69 ];
-            %tmp.44 = getm $;
-            symbol [ Rez %tmp.45 46 70 73 ];
-            %tmp.45 = getv %tmp.44 :Rez;
-            symbol [ Drawables %tmp.46 46 74 83 ];
-            %tmp.46 = getv %tmp.45 :Drawables;
-            symbol [ BackgroundShape %tmp.47 46 84 99 ];
-            %tmp.47 = getv function ? %tmp.46 :BackgroundShape;
-            %tmp.41 = newc %tmp.47 ();
-            lputv %rez_cmp_local_custom_drawable_BackgroundShape.6 %tmp.41;
-            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %rez_cmp_local_custom_drawable_BackgroundShape.6 46 16 61 ];
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 47 12 ]
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_12_49_12_if_stmt:
-            %tmp.48 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.6;
-            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.48 47 16 61 ];
-            symbol [ identifier %tmp.49 47 62 72 ];
-            %tmp.49 = getv %tmp.48 :identifier;
-            %tmp.50 = null;
-            %tmp.51 = eq %tmp.49 %tmp.50;
-            bf %tmp.51 @c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_12_49_12_if_end;
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_12_49_12_if_true:
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_82_49_12_start:
-[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 48 16 ]
-            %tmp.52 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.6;
-            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.52 48 16 61 ];
-            %tmp.53 = "BackgroundShape";
-            symbol [ identifier ? 48 62 72 ];
-            putv %tmp.52 :identifier %tmp.53;
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_82_49_12_stop:
-            goto @c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_12_49_12_if_end;
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_47_12_49_12_if_end:
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_12_47_12_if_stmt:
+            %tmp.40 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.5;
+            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.40 45 16 61 ];
+            symbol [ identifier %tmp.41 45 62 72 ];
+            %tmp.41 = getv %tmp.40 :identifier;
+            %tmp.42 = null;
+            %tmp.43 = eq %tmp.41 %tmp.42;
+            bf %tmp.43 @c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_12_47_12_if_end;
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_12_47_12_if_true:
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_82_47_12_start:
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 46 16 ]
+            %tmp.44 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.5;
+            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.44 46 16 61 ];
+            %tmp.45 = "BackgroundShape";
+            symbol [ identifier ? 46 62 72 ];
+            putv %tmp.44 :identifier %tmp.45;
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_82_47_12_stop:
+            goto @c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_12_47_12_if_end;
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_45_12_47_12_if_end:
+[ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 49 12 ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_DateLabel.6 = local;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.6 49 16 44 ];
+            symbol [ WatchUi %tmp.48 49 51 58 ];
+            %tmp.48 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.49 49 59 63 ];
+            %tmp.49 = getv function ? %tmp.48 :Text;
+            %tmp.50 = newd 2;
+            %tmp.52 = const :identifier;
+            symbol [ identifier %tmp.52 49 66 76 const ];
+            %tmp.53 = "DateLabel";
+            %tmp.54 = dup %tmp.50;
+            %tmp.55 = aputv %tmp.54 %tmp.52 %tmp.53;
+            %tmp.57 = const :font;
+            symbol [ font %tmp.57 49 92 96 const ];
+            %tmp.58 = lgetv %local_Rez_Fonts_textFont.1;
+            symbol [ local_Rez_Fonts_textFont %tmp.58 49 98 122 ];
+            %tmp.59 = dup %tmp.55;
+            %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
+            %tmp.46 = newc %tmp.49 (%tmp.60);
+            lputv %rez_cmp_local_text_DateLabel.6 %tmp.46;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.6 49 16 44 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 51 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_DateLabel.7 = local;
-            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.7 51 16 44 ];
-            symbol [ WatchUi %tmp.56 51 51 58 ];
-            %tmp.56 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.57 51 59 63 ];
-            %tmp.57 = getv function ? %tmp.56 :Text;
-            %tmp.58 = newd 2;
-            %tmp.60 = const :identifier;
-            symbol [ identifier %tmp.60 51 66 76 const ];
-            %tmp.61 = "DateLabel";
-            %tmp.62 = dup %tmp.58;
-            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
-            %tmp.65 = const :font;
-            symbol [ font %tmp.65 51 92 96 const ];
-            %tmp.66 = lgetv %local_Rez_Fonts_textFont.1;
-            symbol [ local_Rez_Fonts_textFont %tmp.66 51 98 122 ];
-            %tmp.67 = dup %tmp.63;
-            %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
-            %tmp.54 = newc %tmp.57 (%tmp.68);
-            lputv %rez_cmp_local_text_DateLabel.7 %tmp.54;
-            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.7 51 16 44 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_DayNumberLabel.7 = local;
+            symbol [ rez_cmp_local_text_DayNumberLabel %rez_cmp_local_text_DayNumberLabel.7 51 16 49 ];
+            symbol [ WatchUi %tmp.63 51 56 63 ];
+            %tmp.63 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.64 51 64 68 ];
+            %tmp.64 = getv function ? %tmp.63 :Text;
+            %tmp.65 = newd 2;
+            %tmp.67 = const :identifier;
+            symbol [ identifier %tmp.67 51 71 81 const ];
+            %tmp.68 = "DayNumberLabel";
+            %tmp.69 = dup %tmp.65;
+            %tmp.70 = aputv %tmp.69 %tmp.67 %tmp.68;
+            %tmp.72 = const :font;
+            symbol [ font %tmp.72 51 102 106 const ];
+            %tmp.73 = lgetv %local_Rez_Fonts_bigNumberFont.3;
+            symbol [ local_Rez_Fonts_bigNumberFont %tmp.73 51 108 137 ];
+            %tmp.74 = dup %tmp.70;
+            %tmp.75 = aputv %tmp.74 %tmp.72 %tmp.73;
+            %tmp.61 = newc %tmp.64 (%tmp.75);
+            lputv %rez_cmp_local_text_DayNumberLabel.7 %tmp.61;
+            symbol [ rez_cmp_local_text_DayNumberLabel %rez_cmp_local_text_DayNumberLabel.7 51 16 49 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 53 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_DayNumberLabel.8 = local;
-            symbol [ rez_cmp_local_text_DayNumberLabel %rez_cmp_local_text_DayNumberLabel.8 53 16 49 ];
-            symbol [ WatchUi %tmp.71 53 56 63 ];
-            %tmp.71 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.72 53 64 68 ];
-            %tmp.72 = getv function ? %tmp.71 :Text;
-            %tmp.73 = newd 2;
-            %tmp.75 = const :identifier;
-            symbol [ identifier %tmp.75 53 71 81 const ];
-            %tmp.76 = "DayNumberLabel";
-            %tmp.77 = dup %tmp.73;
-            %tmp.78 = aputv %tmp.77 %tmp.75 %tmp.76;
-            %tmp.80 = const :font;
-            symbol [ font %tmp.80 53 102 106 const ];
-            %tmp.81 = lgetv %local_Rez_Fonts_bigNumberFont.4;
-            symbol [ local_Rez_Fonts_bigNumberFont %tmp.81 53 108 137 ];
-            %tmp.82 = dup %tmp.78;
-            %tmp.83 = aputv %tmp.82 %tmp.80 %tmp.81;
-            %tmp.69 = newc %tmp.72 (%tmp.83);
-            lputv %rez_cmp_local_text_DayNumberLabel.8 %tmp.69;
-            symbol [ rez_cmp_local_text_DayNumberLabel %rez_cmp_local_text_DayNumberLabel.8 53 16 49 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field1Icon.8 = local;
+            symbol [ rez_cmp_local_text_Field1Icon %rez_cmp_local_text_Field1Icon.8 53 16 45 ];
+            symbol [ WatchUi %tmp.78 53 52 59 ];
+            %tmp.78 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.79 53 60 64 ];
+            %tmp.79 = getv function ? %tmp.78 :Text;
+            %tmp.80 = newd 2;
+            %tmp.82 = const :identifier;
+            symbol [ identifier %tmp.82 53 67 77 const ];
+            %tmp.83 = "Field1Icon";
+            %tmp.84 = dup %tmp.80;
+            %tmp.85 = aputv %tmp.84 %tmp.82 %tmp.83;
+            %tmp.87 = const :font;
+            symbol [ font %tmp.87 53 94 98 const ];
+            %tmp.88 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.88 53 100 124 ];
+            %tmp.89 = dup %tmp.85;
+            %tmp.90 = aputv %tmp.89 %tmp.87 %tmp.88;
+            %tmp.76 = newc %tmp.79 (%tmp.90);
+            lputv %rez_cmp_local_text_Field1Icon.8 %tmp.76;
+            symbol [ rez_cmp_local_text_Field1Icon %rez_cmp_local_text_Field1Icon.8 53 16 45 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 55 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field1Icon.9 = local;
-            symbol [ rez_cmp_local_text_Field1Icon %rez_cmp_local_text_Field1Icon.9 55 16 45 ];
-            symbol [ WatchUi %tmp.86 55 52 59 ];
-            %tmp.86 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.87 55 60 64 ];
-            %tmp.87 = getv function ? %tmp.86 :Text;
-            %tmp.88 = newd 2;
-            %tmp.90 = const :identifier;
-            symbol [ identifier %tmp.90 55 67 77 const ];
-            %tmp.91 = "Field1Icon";
-            %tmp.92 = dup %tmp.88;
-            %tmp.93 = aputv %tmp.92 %tmp.90 %tmp.91;
-            %tmp.95 = const :font;
-            symbol [ font %tmp.95 55 94 98 const ];
-            %tmp.96 = lgetv %local_Rez_Fonts_iconFont.5;
-            symbol [ local_Rez_Fonts_iconFont %tmp.96 55 100 124 ];
-            %tmp.97 = dup %tmp.93;
-            %tmp.98 = aputv %tmp.97 %tmp.95 %tmp.96;
-            %tmp.84 = newc %tmp.87 (%tmp.98);
-            lputv %rez_cmp_local_text_Field1Icon.9 %tmp.84;
-            symbol [ rez_cmp_local_text_Field1Icon %rez_cmp_local_text_Field1Icon.9 55 16 45 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field1Label.9 = local;
+            symbol [ rez_cmp_local_text_Field1Label %rez_cmp_local_text_Field1Label.9 55 16 46 ];
+            symbol [ WatchUi %tmp.93 55 53 60 ];
+            %tmp.93 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.94 55 61 65 ];
+            %tmp.94 = getv function ? %tmp.93 :Text;
+            %tmp.95 = newd 2;
+            %tmp.97 = const :identifier;
+            symbol [ identifier %tmp.97 55 68 78 const ];
+            %tmp.98 = "Field1Label";
+            %tmp.99 = dup %tmp.95;
+            %tmp.100 = aputv %tmp.99 %tmp.97 %tmp.98;
+            %tmp.102 = const :font;
+            symbol [ font %tmp.102 55 96 100 const ];
+            %tmp.103 = lgetv %local_Rez_Fonts_textFont.1;
+            symbol [ local_Rez_Fonts_textFont %tmp.103 55 102 126 ];
+            %tmp.104 = dup %tmp.100;
+            %tmp.105 = aputv %tmp.104 %tmp.102 %tmp.103;
+            %tmp.91 = newc %tmp.94 (%tmp.105);
+            lputv %rez_cmp_local_text_Field1Label.9 %tmp.91;
+            symbol [ rez_cmp_local_text_Field1Label %rez_cmp_local_text_Field1Label.9 55 16 46 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 57 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field1Label.10 = local;
-            symbol [ rez_cmp_local_text_Field1Label %rez_cmp_local_text_Field1Label.10 57 16 46 ];
-            symbol [ WatchUi %tmp.101 57 53 60 ];
-            %tmp.101 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.102 57 61 65 ];
-            %tmp.102 = getv function ? %tmp.101 :Text;
-            %tmp.103 = newd 2;
-            %tmp.105 = const :identifier;
-            symbol [ identifier %tmp.105 57 68 78 const ];
-            %tmp.106 = "Field1Label";
-            %tmp.107 = dup %tmp.103;
-            %tmp.108 = aputv %tmp.107 %tmp.105 %tmp.106;
-            %tmp.110 = const :font;
-            symbol [ font %tmp.110 57 96 100 const ];
-            %tmp.111 = lgetv %local_Rez_Fonts_textFont.1;
-            symbol [ local_Rez_Fonts_textFont %tmp.111 57 102 126 ];
-            %tmp.112 = dup %tmp.108;
-            %tmp.113 = aputv %tmp.112 %tmp.110 %tmp.111;
-            %tmp.99 = newc %tmp.102 (%tmp.113);
-            lputv %rez_cmp_local_text_Field1Label.10 %tmp.99;
-            symbol [ rez_cmp_local_text_Field1Label %rez_cmp_local_text_Field1Label.10 57 16 46 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field2Icon.10 = local;
+            symbol [ rez_cmp_local_text_Field2Icon %rez_cmp_local_text_Field2Icon.10 57 16 45 ];
+            symbol [ WatchUi %tmp.108 57 52 59 ];
+            %tmp.108 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.109 57 60 64 ];
+            %tmp.109 = getv function ? %tmp.108 :Text;
+            %tmp.110 = newd 2;
+            %tmp.112 = const :identifier;
+            symbol [ identifier %tmp.112 57 67 77 const ];
+            %tmp.113 = "Field2Icon";
+            %tmp.114 = dup %tmp.110;
+            %tmp.115 = aputv %tmp.114 %tmp.112 %tmp.113;
+            %tmp.117 = const :font;
+            symbol [ font %tmp.117 57 94 98 const ];
+            %tmp.118 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.118 57 100 124 ];
+            %tmp.119 = dup %tmp.115;
+            %tmp.120 = aputv %tmp.119 %tmp.117 %tmp.118;
+            %tmp.106 = newc %tmp.109 (%tmp.120);
+            lputv %rez_cmp_local_text_Field2Icon.10 %tmp.106;
+            symbol [ rez_cmp_local_text_Field2Icon %rez_cmp_local_text_Field2Icon.10 57 16 45 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 59 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field2Icon.11 = local;
-            symbol [ rez_cmp_local_text_Field2Icon %rez_cmp_local_text_Field2Icon.11 59 16 45 ];
-            symbol [ WatchUi %tmp.116 59 52 59 ];
-            %tmp.116 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.117 59 60 64 ];
-            %tmp.117 = getv function ? %tmp.116 :Text;
-            %tmp.118 = newd 2;
-            %tmp.120 = const :identifier;
-            symbol [ identifier %tmp.120 59 67 77 const ];
-            %tmp.121 = "Field2Icon";
-            %tmp.122 = dup %tmp.118;
-            %tmp.123 = aputv %tmp.122 %tmp.120 %tmp.121;
-            %tmp.125 = const :font;
-            symbol [ font %tmp.125 59 94 98 const ];
-            %tmp.126 = lgetv %local_Rez_Fonts_iconFont.5;
-            symbol [ local_Rez_Fonts_iconFont %tmp.126 59 100 124 ];
-            %tmp.127 = dup %tmp.123;
-            %tmp.128 = aputv %tmp.127 %tmp.125 %tmp.126;
-            %tmp.114 = newc %tmp.117 (%tmp.128);
-            lputv %rez_cmp_local_text_Field2Icon.11 %tmp.114;
-            symbol [ rez_cmp_local_text_Field2Icon %rez_cmp_local_text_Field2Icon.11 59 16 45 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field2Label.11 = local;
+            symbol [ rez_cmp_local_text_Field2Label %rez_cmp_local_text_Field2Label.11 59 16 46 ];
+            symbol [ WatchUi %tmp.123 59 53 60 ];
+            %tmp.123 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.124 59 61 65 ];
+            %tmp.124 = getv function ? %tmp.123 :Text;
+            %tmp.125 = newd 2;
+            %tmp.127 = const :identifier;
+            symbol [ identifier %tmp.127 59 68 78 const ];
+            %tmp.128 = "Field2Label";
+            %tmp.129 = dup %tmp.125;
+            %tmp.130 = aputv %tmp.129 %tmp.127 %tmp.128;
+            %tmp.132 = const :font;
+            symbol [ font %tmp.132 59 96 100 const ];
+            %tmp.133 = lgetv %local_Rez_Fonts_textFont.1;
+            symbol [ local_Rez_Fonts_textFont %tmp.133 59 102 126 ];
+            %tmp.134 = dup %tmp.130;
+            %tmp.135 = aputv %tmp.134 %tmp.132 %tmp.133;
+            %tmp.121 = newc %tmp.124 (%tmp.135);
+            lputv %rez_cmp_local_text_Field2Label.11 %tmp.121;
+            symbol [ rez_cmp_local_text_Field2Label %rez_cmp_local_text_Field2Label.11 59 16 46 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 61 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field2Label.12 = local;
-            symbol [ rez_cmp_local_text_Field2Label %rez_cmp_local_text_Field2Label.12 61 16 46 ];
-            symbol [ WatchUi %tmp.131 61 53 60 ];
-            %tmp.131 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.132 61 61 65 ];
-            %tmp.132 = getv function ? %tmp.131 :Text;
-            %tmp.133 = newd 2;
-            %tmp.135 = const :identifier;
-            symbol [ identifier %tmp.135 61 68 78 const ];
-            %tmp.136 = "Field2Label";
-            %tmp.137 = dup %tmp.133;
-            %tmp.138 = aputv %tmp.137 %tmp.135 %tmp.136;
-            %tmp.140 = const :font;
-            symbol [ font %tmp.140 61 96 100 const ];
-            %tmp.141 = lgetv %local_Rez_Fonts_textFont.1;
-            symbol [ local_Rez_Fonts_textFont %tmp.141 61 102 126 ];
-            %tmp.142 = dup %tmp.138;
-            %tmp.143 = aputv %tmp.142 %tmp.140 %tmp.141;
-            %tmp.129 = newc %tmp.132 (%tmp.143);
-            lputv %rez_cmp_local_text_Field2Label.12 %tmp.129;
-            symbol [ rez_cmp_local_text_Field2Label %rez_cmp_local_text_Field2Label.12 61 16 46 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field3Icon.12 = local;
+            symbol [ rez_cmp_local_text_Field3Icon %rez_cmp_local_text_Field3Icon.12 61 16 45 ];
+            symbol [ WatchUi %tmp.138 61 52 59 ];
+            %tmp.138 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.139 61 60 64 ];
+            %tmp.139 = getv function ? %tmp.138 :Text;
+            %tmp.140 = newd 2;
+            %tmp.142 = const :identifier;
+            symbol [ identifier %tmp.142 61 67 77 const ];
+            %tmp.143 = "Field3Icon";
+            %tmp.144 = dup %tmp.140;
+            %tmp.145 = aputv %tmp.144 %tmp.142 %tmp.143;
+            %tmp.147 = const :font;
+            symbol [ font %tmp.147 61 94 98 const ];
+            %tmp.148 = lgetv %local_Rez_Fonts_iconFont.4;
+            symbol [ local_Rez_Fonts_iconFont %tmp.148 61 100 124 ];
+            %tmp.149 = dup %tmp.145;
+            %tmp.150 = aputv %tmp.149 %tmp.147 %tmp.148;
+            %tmp.136 = newc %tmp.139 (%tmp.150);
+            lputv %rez_cmp_local_text_Field3Icon.12 %tmp.136;
+            symbol [ rez_cmp_local_text_Field3Icon %rez_cmp_local_text_Field3Icon.12 61 16 45 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 63 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field3Icon.13 = local;
-            symbol [ rez_cmp_local_text_Field3Icon %rez_cmp_local_text_Field3Icon.13 63 16 45 ];
-            symbol [ WatchUi %tmp.146 63 52 59 ];
-            %tmp.146 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.147 63 60 64 ];
-            %tmp.147 = getv function ? %tmp.146 :Text;
-            %tmp.148 = newd 2;
-            %tmp.150 = const :identifier;
-            symbol [ identifier %tmp.150 63 67 77 const ];
-            %tmp.151 = "Field3Icon";
-            %tmp.152 = dup %tmp.148;
-            %tmp.153 = aputv %tmp.152 %tmp.150 %tmp.151;
-            %tmp.155 = const :font;
-            symbol [ font %tmp.155 63 94 98 const ];
-            %tmp.156 = lgetv %local_Rez_Fonts_iconFont.5;
-            symbol [ local_Rez_Fonts_iconFont %tmp.156 63 100 124 ];
-            %tmp.157 = dup %tmp.153;
-            %tmp.158 = aputv %tmp.157 %tmp.155 %tmp.156;
-            %tmp.144 = newc %tmp.147 (%tmp.158);
-            lputv %rez_cmp_local_text_Field3Icon.13 %tmp.144;
-            symbol [ rez_cmp_local_text_Field3Icon %rez_cmp_local_text_Field3Icon.13 63 16 45 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_Field3Label.13 = local;
+            symbol [ rez_cmp_local_text_Field3Label %rez_cmp_local_text_Field3Label.13 63 16 46 ];
+            symbol [ WatchUi %tmp.153 63 53 60 ];
+            %tmp.153 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.154 63 61 65 ];
+            %tmp.154 = getv function ? %tmp.153 :Text;
+            %tmp.155 = newd 2;
+            %tmp.157 = const :identifier;
+            symbol [ identifier %tmp.157 63 68 78 const ];
+            %tmp.158 = "Field3Label";
+            %tmp.159 = dup %tmp.155;
+            %tmp.160 = aputv %tmp.159 %tmp.157 %tmp.158;
+            %tmp.162 = const :font;
+            symbol [ font %tmp.162 63 96 100 const ];
+            %tmp.163 = lgetv %local_Rez_Fonts_textFont.1;
+            symbol [ local_Rez_Fonts_textFont %tmp.163 63 102 126 ];
+            %tmp.164 = dup %tmp.160;
+            %tmp.165 = aputv %tmp.164 %tmp.162 %tmp.163;
+            %tmp.151 = newc %tmp.154 (%tmp.165);
+            lputv %rez_cmp_local_text_Field3Label.13 %tmp.151;
+            symbol [ rez_cmp_local_text_Field3Label %rez_cmp_local_text_Field3Label.13 63 16 46 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 65 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field3Label.14 = local;
-            symbol [ rez_cmp_local_text_Field3Label %rez_cmp_local_text_Field3Label.14 65 16 46 ];
-            symbol [ WatchUi %tmp.161 65 53 60 ];
-            %tmp.161 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.162 65 61 65 ];
-            %tmp.162 = getv function ? %tmp.161 :Text;
-            %tmp.163 = newd 2;
-            %tmp.165 = const :identifier;
-            symbol [ identifier %tmp.165 65 68 78 const ];
-            %tmp.166 = "Field3Label";
-            %tmp.167 = dup %tmp.163;
-            %tmp.168 = aputv %tmp.167 %tmp.165 %tmp.166;
-            %tmp.170 = const :font;
-            symbol [ font %tmp.170 65 96 100 const ];
-            %tmp.171 = lgetv %local_Rez_Fonts_textFont.1;
-            symbol [ local_Rez_Fonts_textFont %tmp.171 65 102 126 ];
-            %tmp.172 = dup %tmp.168;
-            %tmp.173 = aputv %tmp.172 %tmp.170 %tmp.171;
-            %tmp.159 = newc %tmp.162 (%tmp.173);
-            lputv %rez_cmp_local_text_Field3Label.14 %tmp.159;
-            symbol [ rez_cmp_local_text_Field3Label %rez_cmp_local_text_Field3Label.14 65 16 46 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_SecondTenthLabel.14 = local;
+            symbol [ rez_cmp_local_text_SecondTenthLabel %rez_cmp_local_text_SecondTenthLabel.14 65 16 51 ];
+            symbol [ WatchUi %tmp.168 65 58 65 ];
+            %tmp.168 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.169 65 66 70 ];
+            %tmp.169 = getv function ? %tmp.168 :Text;
+            %tmp.170 = newd 2;
+            %tmp.172 = const :identifier;
+            symbol [ identifier %tmp.172 65 73 83 const ];
+            %tmp.173 = "SecondTenthLabel";
+            %tmp.174 = dup %tmp.170;
+            %tmp.175 = aputv %tmp.174 %tmp.172 %tmp.173;
+            %tmp.177 = const :font;
+            symbol [ font %tmp.177 65 106 110 const ];
+            %tmp.178 = lgetv %local_Rez_Fonts_bigNumberFont.3;
+            symbol [ local_Rez_Fonts_bigNumberFont %tmp.178 65 112 141 ];
+            %tmp.179 = dup %tmp.175;
+            %tmp.180 = aputv %tmp.179 %tmp.177 %tmp.178;
+            %tmp.166 = newc %tmp.169 (%tmp.180);
+            lputv %rez_cmp_local_text_SecondTenthLabel.14 %tmp.166;
+            symbol [ rez_cmp_local_text_SecondTenthLabel %rez_cmp_local_text_SecondTenthLabel.14 65 16 51 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 67 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
-            %rez_cmp_local_text_Field4Label.15 = local;
-            symbol [ rez_cmp_local_text_Field4Label %rez_cmp_local_text_Field4Label.15 67 16 46 ];
-            symbol [ WatchUi %tmp.176 67 53 60 ];
-            %tmp.176 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.177 67 61 65 ];
-            %tmp.177 = getv function ? %tmp.176 :Text;
-            %tmp.178 = newd 2;
-            %tmp.180 = const :identifier;
-            symbol [ identifier %tmp.180 67 68 78 const ];
-            %tmp.181 = "Field4Label";
-            %tmp.182 = dup %tmp.178;
-            %tmp.183 = aputv %tmp.182 %tmp.180 %tmp.181;
-            %tmp.185 = const :font;
-            symbol [ font %tmp.185 67 96 100 const ];
-            %tmp.186 = lgetv %local_Rez_Fonts_bigNumberEmptyFont.2;
-            symbol [ local_Rez_Fonts_bigNumberEmptyFont %tmp.186 67 102 136 ];
-            %tmp.187 = dup %tmp.183;
-            %tmp.188 = aputv %tmp.187 %tmp.185 %tmp.186;
-            %tmp.174 = newc %tmp.177 (%tmp.188);
-            lputv %rez_cmp_local_text_Field4Label.15 %tmp.174;
-            symbol [ rez_cmp_local_text_Field4Label %rez_cmp_local_text_Field4Label.15 67 16 46 ];
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
+            %rez_cmp_local_text_SecondUnitLabel.15 = local;
+            symbol [ rez_cmp_local_text_SecondUnitLabel %rez_cmp_local_text_SecondUnitLabel.15 67 16 50 ];
+            symbol [ WatchUi %tmp.183 67 57 64 ];
+            %tmp.183 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.184 67 65 69 ];
+            %tmp.184 = getv function ? %tmp.183 :Text;
+            %tmp.185 = newd 2;
+            %tmp.187 = const :identifier;
+            symbol [ identifier %tmp.187 67 72 82 const ];
+            %tmp.188 = "SecondUnitLabel";
+            %tmp.189 = dup %tmp.185;
+            %tmp.190 = aputv %tmp.189 %tmp.187 %tmp.188;
+            %tmp.192 = const :font;
+            symbol [ font %tmp.192 67 104 108 const ];
+            %tmp.193 = lgetv %local_Rez_Fonts_bigNumberFont.3;
+            symbol [ local_Rez_Fonts_bigNumberFont %tmp.193 67 110 139 ];
+            %tmp.194 = dup %tmp.190;
+            %tmp.195 = aputv %tmp.194 %tmp.192 %tmp.193;
+            %tmp.181 = newc %tmp.184 (%tmp.195);
+            lputv %rez_cmp_local_text_SecondUnitLabel.15 %tmp.181;
+            symbol [ rez_cmp_local_text_SecondUnitLabel %rez_cmp_local_text_SecondUnitLabel.15 67 16 50 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 69 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
             %rez_cmp_local_text_WeatherIcon.16 = local;
             symbol [ rez_cmp_local_text_WeatherIcon %rez_cmp_local_text_WeatherIcon.16 69 16 46 ];
-            symbol [ WatchUi %tmp.191 69 53 60 ];
-            %tmp.191 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.192 69 61 65 ];
-            %tmp.192 = getv function ? %tmp.191 :Text;
-            %tmp.193 = newd 2;
-            %tmp.195 = const :identifier;
-            symbol [ identifier %tmp.195 69 68 78 const ];
-            %tmp.196 = "WeatherIcon";
-            %tmp.197 = dup %tmp.193;
-            %tmp.198 = aputv %tmp.197 %tmp.195 %tmp.196;
-            %tmp.200 = const :font;
-            symbol [ font %tmp.200 69 96 100 const ];
-            %tmp.201 = lgetv %local_Rez_Fonts_weatherFont.3;
-            symbol [ local_Rez_Fonts_weatherFont %tmp.201 69 102 129 ];
-            %tmp.202 = dup %tmp.198;
-            %tmp.203 = aputv %tmp.202 %tmp.200 %tmp.201;
-            %tmp.189 = newc %tmp.192 (%tmp.203);
-            lputv %rez_cmp_local_text_WeatherIcon.16 %tmp.189;
+            symbol [ WatchUi %tmp.198 69 53 60 ];
+            %tmp.198 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.199 69 61 65 ];
+            %tmp.199 = getv function ? %tmp.198 :Text;
+            %tmp.200 = newd 2;
+            %tmp.202 = const :identifier;
+            symbol [ identifier %tmp.202 69 68 78 const ];
+            %tmp.203 = "WeatherIcon";
+            %tmp.204 = dup %tmp.200;
+            %tmp.205 = aputv %tmp.204 %tmp.202 %tmp.203;
+            %tmp.207 = const :font;
+            symbol [ font %tmp.207 69 96 100 const ];
+            %tmp.208 = lgetv %local_Rez_Fonts_weatherFont.2;
+            symbol [ local_Rez_Fonts_weatherFont %tmp.208 69 102 129 ];
+            %tmp.209 = dup %tmp.205;
+            %tmp.210 = aputv %tmp.209 %tmp.207 %tmp.208;
+            %tmp.196 = newc %tmp.199 (%tmp.210);
+            lputv %rez_cmp_local_text_WeatherIcon.16 %tmp.196;
             symbol [ rez_cmp_local_text_WeatherIcon %rez_cmp_local_text_WeatherIcon.16 69 16 46 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 71 12 ]
-            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop" ]
+            [ "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_start" "c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop" ]
             %rez_cmp_local_text_WeatherLabel.17 = local;
             symbol [ rez_cmp_local_text_WeatherLabel %rez_cmp_local_text_WeatherLabel.17 71 16 47 ];
-            symbol [ WatchUi %tmp.206 71 54 61 ];
-            %tmp.206 = getm $.Toybox.WatchUi;
-            symbol [ Text %tmp.207 71 62 66 ];
-            %tmp.207 = getv function ? %tmp.206 :Text;
-            %tmp.208 = newd 2;
-            %tmp.210 = const :identifier;
-            symbol [ identifier %tmp.210 71 69 79 const ];
-            %tmp.211 = "WeatherLabel";
-            %tmp.212 = dup %tmp.208;
-            %tmp.213 = aputv %tmp.212 %tmp.210 %tmp.211;
-            %tmp.215 = const :font;
-            symbol [ font %tmp.215 71 98 102 const ];
-            %tmp.216 = lgetv %local_Rez_Fonts_textFont.1;
-            symbol [ local_Rez_Fonts_textFont %tmp.216 71 104 128 ];
-            %tmp.217 = dup %tmp.213;
-            %tmp.218 = aputv %tmp.217 %tmp.215 %tmp.216;
-            %tmp.204 = newc %tmp.207 (%tmp.218);
-            lputv %rez_cmp_local_text_WeatherLabel.17 %tmp.204;
+            symbol [ WatchUi %tmp.213 71 54 61 ];
+            %tmp.213 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.214 71 62 66 ];
+            %tmp.214 = getv function ? %tmp.213 :Text;
+            %tmp.215 = newd 2;
+            %tmp.217 = const :identifier;
+            symbol [ identifier %tmp.217 71 69 79 const ];
+            %tmp.218 = "WeatherLabel";
+            %tmp.219 = dup %tmp.215;
+            %tmp.220 = aputv %tmp.219 %tmp.217 %tmp.218;
+            %tmp.222 = const :font;
+            symbol [ font %tmp.222 71 98 102 const ];
+            %tmp.223 = lgetv %local_Rez_Fonts_textFont.1;
+            symbol [ local_Rez_Fonts_textFont %tmp.223 71 104 128 ];
+            %tmp.224 = dup %tmp.220;
+            %tmp.225 = aputv %tmp.224 %tmp.222 %tmp.223;
+            %tmp.211 = newc %tmp.214 (%tmp.225);
+            lputv %rez_cmp_local_text_WeatherLabel.17 %tmp.211;
             symbol [ rez_cmp_local_text_WeatherLabel %rez_cmp_local_text_WeatherLabel.17 71 16 47 ];
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 73 12 ]
-            %tmp.219 = newa 12 Array<WatchUi.Drawable>;
-            symbol [ Array %tmp.219 73 421 426 ];
-            symbol [ WatchUi %tmp.219 73 427 434 ];
-            symbol [ Drawable %tmp.219 73 435 443 ];
-            %tmp.220 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.6;
-            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.220 73 20 65 ];
-            %tmp.221 = dup %tmp.219;
-            %tmp.222 = aputv %tmp.221 0 %tmp.220;
-            %tmp.223 = lgetv %rez_cmp_local_text_DateLabel.7;
-            symbol [ rez_cmp_local_text_DateLabel %tmp.223 73 67 95 ];
-            %tmp.224 = dup %tmp.222;
-            %tmp.225 = aputv %tmp.224 1 %tmp.223;
-            %tmp.226 = lgetv %rez_cmp_local_text_DayNumberLabel.8;
-            symbol [ rez_cmp_local_text_DayNumberLabel %tmp.226 73 97 130 ];
-            %tmp.227 = dup %tmp.225;
-            %tmp.228 = aputv %tmp.227 2 %tmp.226;
-            %tmp.229 = lgetv %rez_cmp_local_text_Field1Icon.9;
-            symbol [ rez_cmp_local_text_Field1Icon %tmp.229 73 132 161 ];
-            %tmp.230 = dup %tmp.228;
-            %tmp.231 = aputv %tmp.230 3 %tmp.229;
-            %tmp.232 = lgetv %rez_cmp_local_text_Field1Label.10;
-            symbol [ rez_cmp_local_text_Field1Label %tmp.232 73 163 193 ];
-            %tmp.233 = dup %tmp.231;
-            %tmp.234 = aputv %tmp.233 4 %tmp.232;
-            %tmp.235 = lgetv %rez_cmp_local_text_Field2Icon.11;
-            symbol [ rez_cmp_local_text_Field2Icon %tmp.235 73 195 224 ];
-            %tmp.236 = dup %tmp.234;
-            %tmp.237 = aputv %tmp.236 5 %tmp.235;
-            %tmp.238 = lgetv %rez_cmp_local_text_Field2Label.12;
-            symbol [ rez_cmp_local_text_Field2Label %tmp.238 73 226 256 ];
-            %tmp.239 = dup %tmp.237;
-            %tmp.240 = aputv %tmp.239 6 %tmp.238;
-            %tmp.241 = lgetv %rez_cmp_local_text_Field3Icon.13;
-            symbol [ rez_cmp_local_text_Field3Icon %tmp.241 73 258 287 ];
-            %tmp.242 = dup %tmp.240;
-            %tmp.243 = aputv %tmp.242 7 %tmp.241;
-            %tmp.244 = lgetv %rez_cmp_local_text_Field3Label.14;
-            symbol [ rez_cmp_local_text_Field3Label %tmp.244 73 289 319 ];
-            %tmp.245 = dup %tmp.243;
-            %tmp.246 = aputv %tmp.245 8 %tmp.244;
-            %tmp.247 = lgetv %rez_cmp_local_text_Field4Label.15;
-            symbol [ rez_cmp_local_text_Field4Label %tmp.247 73 321 351 ];
-            %tmp.248 = dup %tmp.246;
-            %tmp.249 = aputv %tmp.248 9 %tmp.247;
-            %tmp.250 = lgetv %rez_cmp_local_text_WeatherIcon.16;
-            symbol [ rez_cmp_local_text_WeatherIcon %tmp.250 73 353 383 ];
-            %tmp.251 = dup %tmp.249;
-            %tmp.252 = aputv %tmp.251 10 %tmp.250;
-            %tmp.253 = lgetv %rez_cmp_local_text_WeatherLabel.17;
-            symbol [ rez_cmp_local_text_WeatherLabel %tmp.253 73 385 416 ];
-            %tmp.254 = dup %tmp.252;
-            %tmp.255 = aputv %tmp.254 11 %tmp.253;
-            ret %tmp.255;
-c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_40_79_74_8_stop:
+            %tmp.226 = newa 13 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.226 73 462 467 ];
+            symbol [ WatchUi %tmp.226 73 468 475 ];
+            symbol [ Drawable %tmp.226 73 476 484 ];
+            %tmp.227 = lgetv %rez_cmp_local_custom_drawable_BackgroundShape.5;
+            symbol [ rez_cmp_local_custom_drawable_BackgroundShape %tmp.227 73 20 65 ];
+            %tmp.228 = dup %tmp.226;
+            %tmp.229 = aputv %tmp.228 0 %tmp.227;
+            %tmp.230 = lgetv %rez_cmp_local_text_DateLabel.6;
+            symbol [ rez_cmp_local_text_DateLabel %tmp.230 73 67 95 ];
+            %tmp.231 = dup %tmp.229;
+            %tmp.232 = aputv %tmp.231 1 %tmp.230;
+            %tmp.233 = lgetv %rez_cmp_local_text_DayNumberLabel.7;
+            symbol [ rez_cmp_local_text_DayNumberLabel %tmp.233 73 97 130 ];
+            %tmp.234 = dup %tmp.232;
+            %tmp.235 = aputv %tmp.234 2 %tmp.233;
+            %tmp.236 = lgetv %rez_cmp_local_text_Field1Icon.8;
+            symbol [ rez_cmp_local_text_Field1Icon %tmp.236 73 132 161 ];
+            %tmp.237 = dup %tmp.235;
+            %tmp.238 = aputv %tmp.237 3 %tmp.236;
+            %tmp.239 = lgetv %rez_cmp_local_text_Field1Label.9;
+            symbol [ rez_cmp_local_text_Field1Label %tmp.239 73 163 193 ];
+            %tmp.240 = dup %tmp.238;
+            %tmp.241 = aputv %tmp.240 4 %tmp.239;
+            %tmp.242 = lgetv %rez_cmp_local_text_Field2Icon.10;
+            symbol [ rez_cmp_local_text_Field2Icon %tmp.242 73 195 224 ];
+            %tmp.243 = dup %tmp.241;
+            %tmp.244 = aputv %tmp.243 5 %tmp.242;
+            %tmp.245 = lgetv %rez_cmp_local_text_Field2Label.11;
+            symbol [ rez_cmp_local_text_Field2Label %tmp.245 73 226 256 ];
+            %tmp.246 = dup %tmp.244;
+            %tmp.247 = aputv %tmp.246 6 %tmp.245;
+            %tmp.248 = lgetv %rez_cmp_local_text_Field3Icon.12;
+            symbol [ rez_cmp_local_text_Field3Icon %tmp.248 73 258 287 ];
+            %tmp.249 = dup %tmp.247;
+            %tmp.250 = aputv %tmp.249 7 %tmp.248;
+            %tmp.251 = lgetv %rez_cmp_local_text_Field3Label.13;
+            symbol [ rez_cmp_local_text_Field3Label %tmp.251 73 289 319 ];
+            %tmp.252 = dup %tmp.250;
+            %tmp.253 = aputv %tmp.252 8 %tmp.251;
+            %tmp.254 = lgetv %rez_cmp_local_text_SecondTenthLabel.14;
+            symbol [ rez_cmp_local_text_SecondTenthLabel %tmp.254 73 321 356 ];
+            %tmp.255 = dup %tmp.253;
+            %tmp.256 = aputv %tmp.255 9 %tmp.254;
+            %tmp.257 = lgetv %rez_cmp_local_text_SecondUnitLabel.15;
+            symbol [ rez_cmp_local_text_SecondUnitLabel %tmp.257 73 358 392 ];
+            %tmp.258 = dup %tmp.256;
+            %tmp.259 = aputv %tmp.258 10 %tmp.257;
+            %tmp.260 = lgetv %rez_cmp_local_text_WeatherIcon.16;
+            symbol [ rez_cmp_local_text_WeatherIcon %tmp.260 73 394 424 ];
+            %tmp.261 = dup %tmp.259;
+            %tmp.262 = aputv %tmp.261 11 %tmp.260;
+            %tmp.263 = lgetv %rez_cmp_local_text_WeatherLabel.17;
+            symbol [ rez_cmp_local_text_WeatherLabel %tmp.263 73 426 457 ];
+            %tmp.264 = dup %tmp.262;
+            %tmp.265 = aputv %tmp.264 12 %tmp.263;
+            ret %tmp.265;
+c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_source_Rez_mcgen_39_79_74_8_stop:
         }
     }
     [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 77; @symbol_moduledef = [Strings,77,11,18]; ]
@@ -715,22 +718,22 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 125; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 126 18 ]
-                symbol [ Graphics %tmp.256 126 34 42 ];
-                %tmp.256 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.257 126 43 62 ];
-                %tmp.257 = getv %tmp.256 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.258 126 63 71 ];
-                %tmp.258 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.259 126 72 92 ];
-                %tmp.259 = getv %tmp.258 :TEXT_JUSTIFY_VCENTER;
-                %tmp.260 = bitor %tmp.257 %tmp.259;
-                putv self :justification %tmp.260;
+                symbol [ Graphics %tmp.266 126 34 42 ];
+                %tmp.266 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.267 126 43 62 ];
+                %tmp.267 = getv %tmp.266 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.268 126 63 71 ];
+                %tmp.268 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.269 126 72 92 ];
+                %tmp.269 = getv %tmp.268 :TEXT_JUSTIFY_VCENTER;
+                %tmp.270 = bitor %tmp.267 %tmp.269;
+                putv self :justification %tmp.270;
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 127 18 ]
-                symbol [ Graphics %tmp.261 127 25 33 ];
-                %tmp.261 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.262 127 34 43 ];
-                %tmp.262 = getv %tmp.261 :FONT_TINY;
-                putv self :font %tmp.262;
+                symbol [ Graphics %tmp.271 127 25 33 ];
+                %tmp.271 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.272 127 34 43 ];
+                %tmp.272 = getv %tmp.271 :FONT_TINY;
+                putv self :font %tmp.272;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [justification,126,18,31]; ]
             const justification;
@@ -766,11 +769,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 142; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 144 18 ]
-                symbol [ Graphics %tmp.263 144 31 39 ];
-                %tmp.263 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.264 144 40 57 ];
-                %tmp.264 = getv %tmp.263 :COLOR_TRANSPARENT;
-                putv self :background %tmp.264;
+                symbol [ Graphics %tmp.273 144 31 39 ];
+                %tmp.273 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.274 144 40 57 ];
+                %tmp.274 = getv %tmp.273 :COLOR_TRANSPARENT;
+                putv self :background %tmp.274;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [color,143,18,23]; @symbol_type<0> = [Number,143,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -820,22 +823,22 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 166; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 167 18 ]
-                symbol [ Graphics %tmp.265 167 34 42 ];
-                %tmp.265 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.266 167 43 62 ];
-                %tmp.266 = getv %tmp.265 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.267 167 63 71 ];
-                %tmp.267 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.268 167 72 92 ];
-                %tmp.268 = getv %tmp.267 :TEXT_JUSTIFY_VCENTER;
-                %tmp.269 = bitor %tmp.266 %tmp.268;
-                putv self :justification %tmp.269;
+                symbol [ Graphics %tmp.275 167 34 42 ];
+                %tmp.275 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.276 167 43 62 ];
+                %tmp.276 = getv %tmp.275 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.277 167 63 71 ];
+                %tmp.277 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.278 167 72 92 ];
+                %tmp.278 = getv %tmp.277 :TEXT_JUSTIFY_VCENTER;
+                %tmp.279 = bitor %tmp.276 %tmp.278;
+                putv self :justification %tmp.279;
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 168 18 ]
-                symbol [ Graphics %tmp.270 168 25 33 ];
-                %tmp.270 = getm $.Toybox.Graphics;
-                symbol [ FONT_TINY %tmp.271 168 34 43 ];
-                %tmp.271 = getv %tmp.270 :FONT_TINY;
-                putv self :font %tmp.271;
+                symbol [ Graphics %tmp.280 168 25 33 ];
+                %tmp.280 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.281 168 34 43 ];
+                %tmp.281 = getv %tmp.280 :FONT_TINY;
+                putv self :font %tmp.281;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [justification,167,18,31]; ]
             const justification;
@@ -877,11 +880,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 186; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 187 18 ]
-                symbol [ WatchUi %tmp.272 187 27 34 ];
-                %tmp.272 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.273 187 35 44 ];
-                %tmp.273 = getv %tmp.272 :KEY_ENTER;
-                putv self :button %tmp.273;
+                symbol [ WatchUi %tmp.282 187 27 34 ];
+                %tmp.282 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.283 187 35 44 ];
+                %tmp.283 = getv %tmp.282 :KEY_ENTER;
+                putv self :button %tmp.283;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [button,187,18,24]; ]
             const button;
@@ -891,22 +894,22 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 190; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 191 18 ]
-                symbol [ Graphics %tmp.274 191 34 42 ];
-                %tmp.274 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.275 191 43 62 ];
-                %tmp.275 = getv %tmp.274 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.276 191 63 71 ];
-                %tmp.276 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.277 191 72 92 ];
-                %tmp.277 = getv %tmp.276 :TEXT_JUSTIFY_VCENTER;
-                %tmp.278 = bitor %tmp.275 %tmp.277;
-                putv self :justification %tmp.278;
+                symbol [ Graphics %tmp.284 191 34 42 ];
+                %tmp.284 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.285 191 43 62 ];
+                %tmp.285 = getv %tmp.284 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.286 191 63 71 ];
+                %tmp.286 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.287 191 72 92 ];
+                %tmp.287 = getv %tmp.286 :TEXT_JUSTIFY_VCENTER;
+                %tmp.288 = bitor %tmp.285 %tmp.287;
+                putv self :justification %tmp.288;
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 192 18 ]
-                symbol [ Graphics %tmp.279 192 25 33 ];
-                %tmp.279 = getm $.Toybox.Graphics;
-                symbol [ FONT_XTINY %tmp.280 192 34 44 ];
-                %tmp.280 = getv %tmp.279 :FONT_XTINY;
-                putv self :font %tmp.280;
+                symbol [ Graphics %tmp.289 192 25 33 ];
+                %tmp.289 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.290 192 34 44 ];
+                %tmp.290 = getv %tmp.289 :FONT_XTINY;
+                putv self :font %tmp.290;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [justification,191,18,31]; ]
             const justification;
@@ -1018,11 +1021,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 245; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 246 18 ]
-                symbol [ WatchUi %tmp.281 246 27 34 ];
-                %tmp.281 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.282 246 35 44 ];
-                %tmp.282 = getv %tmp.281 :KEY_ENTER;
-                putv self :button %tmp.282;
+                symbol [ WatchUi %tmp.291 246 27 34 ];
+                %tmp.291 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.292 246 35 44 ];
+                %tmp.292 = getv %tmp.291 :KEY_ENTER;
+                putv self :button %tmp.292;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [button,246,18,24]; ]
             const button;
@@ -1040,11 +1043,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 253; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 254 18 ]
-                symbol [ WatchUi %tmp.283 254 27 34 ];
-                %tmp.283 = getm $.Toybox.WatchUi;
-                symbol [ KEY_ENTER %tmp.284 254 35 44 ];
-                %tmp.284 = getv %tmp.283 :KEY_ENTER;
-                putv self :button %tmp.284;
+                symbol [ WatchUi %tmp.293 254 27 34 ];
+                %tmp.293 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.294 254 35 44 ];
+                %tmp.294 = getv %tmp.293 :KEY_ENTER;
+                putv self :button %tmp.294;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [button,254,18,24]; ]
             const button;
@@ -1068,11 +1071,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 264; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 266 18 ]
-                symbol [ Graphics %tmp.285 266 31 39 ];
-                %tmp.285 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.286 266 40 57 ];
-                %tmp.286 = getv %tmp.285 :COLOR_TRANSPARENT;
-                putv self :background %tmp.286;
+                symbol [ Graphics %tmp.295 266 31 39 ];
+                %tmp.295 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.296 266 40 57 ];
+                %tmp.296 = getv %tmp.295 :COLOR_TRANSPARENT;
+                putv self :background %tmp.296;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [color,265,18,23]; @symbol_type<0> = [Number,265,27,33]; ]
             const color as Number = 0x000000;
@@ -1106,11 +1109,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 280; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 282 18 ]
-                symbol [ Graphics %tmp.287 282 31 39 ];
-                %tmp.287 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.288 282 40 57 ];
-                %tmp.288 = getv %tmp.287 :COLOR_TRANSPARENT;
-                putv self :background %tmp.288;
+                symbol [ Graphics %tmp.297 282 31 39 ];
+                %tmp.297 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.298 282 40 57 ];
+                %tmp.298 = getv %tmp.297 :COLOR_TRANSPARENT;
+                putv self :background %tmp.298;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [color,281,18,23]; @symbol_type<0> = [Number,281,27,33]; ]
             const color as Number = 0x000000;
@@ -1208,11 +1211,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 328; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 330 18 ]
-                symbol [ Graphics %tmp.289 330 31 39 ];
-                %tmp.289 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.290 330 40 57 ];
-                %tmp.290 = getv %tmp.289 :COLOR_TRANSPARENT;
-                putv self :background %tmp.290;
+                symbol [ Graphics %tmp.299 330 31 39 ];
+                %tmp.299 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.300 330 40 57 ];
+                %tmp.300 = getv %tmp.299 :COLOR_TRANSPARENT;
+                putv self :background %tmp.300;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [color,329,18,23]; @symbol_type<0> = [Number,329,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1224,11 +1227,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 333; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 334 18 ]
-                symbol [ WatchUi %tmp.291 334 27 34 ];
-                %tmp.291 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.292 334 35 43 ];
-                %tmp.292 = getv %tmp.291 :KEY_DOWN;
-                putv self :button %tmp.292;
+                symbol [ WatchUi %tmp.301 334 27 34 ];
+                %tmp.301 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.302 334 35 43 ];
+                %tmp.302 = getv %tmp.301 :KEY_DOWN;
+                putv self :button %tmp.302;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [button,334,18,24]; ]
             const button;
@@ -1262,11 +1265,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 349; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 351 18 ]
-                symbol [ Graphics %tmp.293 351 31 39 ];
-                %tmp.293 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.294 351 40 57 ];
-                %tmp.294 = getv %tmp.293 :COLOR_TRANSPARENT;
-                putv self :background %tmp.294;
+                symbol [ Graphics %tmp.303 351 31 39 ];
+                %tmp.303 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.304 351 40 57 ];
+                %tmp.304 = getv %tmp.303 :COLOR_TRANSPARENT;
+                putv self :background %tmp.304;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [color,350,18,23]; @symbol_type<0> = [Number,350,27,33]; ]
             const color as Number = 0x000000;
@@ -1370,11 +1373,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 400; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 402 18 ]
-                symbol [ Graphics %tmp.295 402 31 39 ];
-                %tmp.295 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.296 402 40 57 ];
-                %tmp.296 = getv %tmp.295 :COLOR_TRANSPARENT;
-                putv self :background %tmp.296;
+                symbol [ Graphics %tmp.305 402 31 39 ];
+                %tmp.305 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.306 402 40 57 ];
+                %tmp.306 = getv %tmp.305 :COLOR_TRANSPARENT;
+                putv self :background %tmp.306;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [color,401,18,23]; @symbol_type<0> = [Number,401,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1386,11 +1389,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 405; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 407 18 ]
-                symbol [ Graphics %tmp.297 407 31 39 ];
-                %tmp.297 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.298 407 40 57 ];
-                %tmp.298 = getv %tmp.297 :COLOR_TRANSPARENT;
-                putv self :background %tmp.298;
+                symbol [ Graphics %tmp.307 407 31 39 ];
+                %tmp.307 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.308 407 40 57 ];
+                %tmp.308 = getv %tmp.307 :COLOR_TRANSPARENT;
+                putv self :background %tmp.308;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [color,406,18,23]; @symbol_type<0> = [Number,406,27,33]; ]
             const color as Number = 0xFFFFFF;
@@ -1448,11 +1451,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 433; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 435 18 ]
-                symbol [ Graphics %tmp.299 435 31 39 ];
-                %tmp.299 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.300 435 40 57 ];
-                %tmp.300 = getv %tmp.299 :COLOR_TRANSPARENT;
-                putv self :background %tmp.300;
+                symbol [ Graphics %tmp.309 435 31 39 ];
+                %tmp.309 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.310 435 40 57 ];
+                %tmp.310 = getv %tmp.309 :COLOR_TRANSPARENT;
+                putv self :background %tmp.310;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [color,434,18,23]; @symbol_type<0> = [Number,434,27,33]; ]
             const color as Number = 0x000000;
@@ -1706,11 +1709,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 559; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 561 18 ]
-                symbol [ Graphics %tmp.301 561 31 39 ];
-                %tmp.301 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.302 561 40 57 ];
-                %tmp.302 = getv %tmp.301 :COLOR_TRANSPARENT;
-                putv self :background %tmp.302;
+                symbol [ Graphics %tmp.311 561 31 39 ];
+                %tmp.311 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.312 561 40 57 ];
+                %tmp.312 = getv %tmp.311 :COLOR_TRANSPARENT;
+                putv self :background %tmp.312;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [color,560,18,23]; @symbol_type<0> = [Number,560,27,33]; ]
             const color as Number = 0x000000;
@@ -1736,11 +1739,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 571; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 572 18 ]
-                symbol [ WatchUi %tmp.303 572 27 34 ];
-                %tmp.303 = getm $.Toybox.WatchUi;
-                symbol [ KEY_DOWN %tmp.304 572 35 43 ];
-                %tmp.304 = getv %tmp.303 :KEY_DOWN;
-                putv self :button %tmp.304;
+                symbol [ WatchUi %tmp.313 572 27 34 ];
+                %tmp.313 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.314 572 35 43 ];
+                %tmp.314 = getv %tmp.313 :KEY_DOWN;
+                putv self :button %tmp.314;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [button,572,18,24]; ]
             const button;
@@ -1920,13 +1923,13 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 660; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 662 18 ]
-                symbol [ Toybox %tmp.306 662 32 38 ];
-                %tmp.306 = getv ? :Toybox;
-                symbol [ System %tmp.307 662 39 45 ];
-                %tmp.307 = getv %tmp.306 :System;
-                symbol [ SCREEN_SHAPE_SEMI_OCTAGON %tmp.308 662 46 71 ];
-                %tmp.308 = getv %tmp.307 :SCREEN_SHAPE_SEMI_OCTAGON;
-                putv self :screenShape %tmp.308;
+                symbol [ Toybox %tmp.316 662 32 38 ];
+                %tmp.316 = getv ? :Toybox;
+                symbol [ System %tmp.317 662 39 45 ];
+                %tmp.317 = getv %tmp.316 :System;
+                symbol [ SCREEN_SHAPE_SEMI_OCTAGON %tmp.318 662 46 71 ];
+                %tmp.318 = getv %tmp.317 :SCREEN_SHAPE_SEMI_OCTAGON;
+                putv self :screenShape %tmp.318;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [screenWidth,661,18,29]; @symbol_type<0> = [Number,661,33,39]; ]
             const screenWidth as Number = 176;
@@ -1946,22 +1949,22 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 669; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 670 18 ]
-                symbol [ Graphics %tmp.309 670 34 42 ];
-                %tmp.309 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_CENTER %tmp.310 670 43 62 ];
-                %tmp.310 = getv %tmp.309 :TEXT_JUSTIFY_CENTER;
-                symbol [ Graphics %tmp.311 670 63 71 ];
-                %tmp.311 = getm $.Toybox.Graphics;
-                symbol [ TEXT_JUSTIFY_VCENTER %tmp.312 670 72 92 ];
-                %tmp.312 = getv %tmp.311 :TEXT_JUSTIFY_VCENTER;
-                %tmp.313 = bitor %tmp.310 %tmp.312;
-                putv self :justification %tmp.313;
+                symbol [ Graphics %tmp.319 670 34 42 ];
+                %tmp.319 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.320 670 43 62 ];
+                %tmp.320 = getv %tmp.319 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.321 670 63 71 ];
+                %tmp.321 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.322 670 72 92 ];
+                %tmp.322 = getv %tmp.321 :TEXT_JUSTIFY_VCENTER;
+                %tmp.323 = bitor %tmp.320 %tmp.322;
+                putv self :justification %tmp.323;
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 671 18 ]
-                symbol [ Graphics %tmp.314 671 25 33 ];
-                %tmp.314 = getm $.Toybox.Graphics;
-                symbol [ FONT_XTINY %tmp.315 671 34 44 ];
-                %tmp.315 = getv %tmp.314 :FONT_XTINY;
-                putv self :font %tmp.315;
+                symbol [ Graphics %tmp.324 671 25 33 ];
+                %tmp.324 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.325 671 34 44 ];
+                %tmp.325 = getv %tmp.324 :FONT_XTINY;
+                putv self :font %tmp.325;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [justification,670,18,31]; ]
             const justification;
@@ -2021,11 +2024,11 @@ c_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_bin_gen_006_B4155_00_so
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 698; ]
             <init> {
 [ "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen" 700 18 ]
-                symbol [ Graphics %tmp.316 700 31 39 ];
-                %tmp.316 = getm $.Toybox.Graphics;
-                symbol [ COLOR_TRANSPARENT %tmp.317 700 40 57 ];
-                %tmp.317 = getv %tmp.316 :COLOR_TRANSPARENT;
-                putv self :background %tmp.317;
+                symbol [ Graphics %tmp.326 700 31 39 ];
+                %tmp.326 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.327 700 40 57 ];
+                %tmp.327 = getv %tmp.326 :COLOR_TRANSPARENT;
+                putv self :background %tmp.327;
             }
             [ @file = "c:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\bin\gen\006-B4155-00\source\Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [color,699,18,23]; @symbol_type<0> = [Number,699,27,33]; ]
             const color as Number = 0xFFFFFF;

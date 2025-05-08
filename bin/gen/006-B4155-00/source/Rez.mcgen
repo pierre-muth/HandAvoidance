@@ -32,14 +32,12 @@ module Rez {
         (:initialized) var textFont as ResourceId;
         (:initialized) var iconFont as ResourceId;
         (:initialized) var bigNumberFont as ResourceId;
-        (:initialized) var bigNumberEmptyFont as ResourceId;
         (:initialized) var weatherFont as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFaceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var local_Rez_Fonts_textFont = (WatchUi.loadResource($.Rez.Fonts.textFont) as WatchUi.FontResource);
-            var local_Rez_Fonts_bigNumberEmptyFont = (WatchUi.loadResource($.Rez.Fonts.bigNumberEmptyFont) as WatchUi.FontResource);
             var local_Rez_Fonts_weatherFont = (WatchUi.loadResource($.Rez.Fonts.weatherFont) as WatchUi.FontResource);
             var local_Rez_Fonts_bigNumberFont = (WatchUi.loadResource($.Rez.Fonts.bigNumberFont) as WatchUi.FontResource);
             var local_Rez_Fonts_iconFont = (WatchUi.loadResource($.Rez.Fonts.iconFont) as WatchUi.FontResource);
@@ -64,13 +62,15 @@ module Rez {
 
             var rez_cmp_local_text_Field3Label = new WatchUi.Text({:identifier=>"Field3Label", :font=>local_Rez_Fonts_textFont});
 
-            var rez_cmp_local_text_Field4Label = new WatchUi.Text({:identifier=>"Field4Label", :font=>local_Rez_Fonts_bigNumberEmptyFont});
+            var rez_cmp_local_text_SecondTenthLabel = new WatchUi.Text({:identifier=>"SecondTenthLabel", :font=>local_Rez_Fonts_bigNumberFont});
+
+            var rez_cmp_local_text_SecondUnitLabel = new WatchUi.Text({:identifier=>"SecondUnitLabel", :font=>local_Rez_Fonts_bigNumberFont});
 
             var rez_cmp_local_text_WeatherIcon = new WatchUi.Text({:identifier=>"WeatherIcon", :font=>local_Rez_Fonts_weatherFont});
 
             var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :font=>local_Rez_Fonts_textFont});
 
-            return [rez_cmp_local_custom_drawable_BackgroundShape, rez_cmp_local_text_DateLabel, rez_cmp_local_text_DayNumberLabel, rez_cmp_local_text_Field1Icon, rez_cmp_local_text_Field1Label, rez_cmp_local_text_Field2Icon, rez_cmp_local_text_Field2Label, rez_cmp_local_text_Field3Icon, rez_cmp_local_text_Field3Label, rez_cmp_local_text_Field4Label, rez_cmp_local_text_WeatherIcon, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_BackgroundShape, rez_cmp_local_text_DateLabel, rez_cmp_local_text_DayNumberLabel, rez_cmp_local_text_Field1Icon, rez_cmp_local_text_Field1Label, rez_cmp_local_text_Field2Icon, rez_cmp_local_text_Field2Label, rez_cmp_local_text_Field3Icon, rez_cmp_local_text_Field3Label, rez_cmp_local_text_SecondTenthLabel, rez_cmp_local_text_SecondUnitLabel, rez_cmp_local_text_WeatherIcon, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

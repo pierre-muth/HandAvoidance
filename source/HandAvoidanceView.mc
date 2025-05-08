@@ -10,41 +10,46 @@ import Toybox.Weather;
 
 class HandAvoidanceView extends WatchUi.WatchFace {
 
-    //for each 4 watch quadrants: x, y panel coordinate, justification, icon offset, x, y of 4th field
-    const q0 = [95, 3, Graphics.TEXT_JUSTIFY_LEFT, 18, 110, 0];
-    const q1 = [95, 105, Graphics.TEXT_JUSTIFY_LEFT, 18, 110, 110];
-    const q2 = [80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18, 20, 110];
-    const q3 = [80, 3, Graphics.TEXT_JUSTIFY_RIGHT, -18, 20, 0];
+    // lookup table for tilted font for seconds
+    const oblicNumbers1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
+    const oblicNumbers2 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+    // lookup table for each of the 4 watch quadrants: 
+    // x, y panel coordinate, justification, icon offset, x1, y1, x2, y2, orientation of seconds, x, y of weather icon, x, y of weather label
+    const q0 = [ 95, 3  , Graphics.TEXT_JUSTIFY_LEFT,   18, 118,   5, 137,  23, oblicNumbers2, 128,  25,  95,   3];
+    const q1 = [ 95, 105, Graphics.TEXT_JUSTIFY_LEFT,   18, 119, 136, 137, 117, oblicNumbers1, 128, 115,  95, 150];
+    const q2 = [ 80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18,   5, 119,  24, 137, oblicNumbers2,  50, 115,  80, 150];
+    const q3 = [ 80, 3  , Graphics.TEXT_JUSTIFY_RIGHT, -18,   4,  20,  24,   2, oblicNumbers1,  50,  25,  80,   3];
     
-    // group 1 (date) and group 2 (3 fields) coordinates to avoid watch hands
-    // group 3 might be below hours hand (less intrusive than minutes)
+    // index 0 (the date) and index 1 (the 3 fields) are coordinates of free quadrant
+    // index 2 (seconds) is free or where the hours hand is (free space on top of the hand)
     // .---------.
     // | q3 | q0 |
     // |----o----|
     // | q2 | q1 |
     // '---------'
-    // coordinates index is (min/15)+(((hour%12)/3)*4);
 
+    // coordinates array index is (min/15)+(((hour%12)/3)*4);
+    // * = 3 quadrants are free, both hand on the same quadrant
     const coordinates = [
-        [q3, q1, q2],   //e.g. 02:10
+        [q3, q1, q2],   //e.g. 02:10*
         [q3, q2, q0],   //e.g. 02:20
         [q3, q1, q0],   //e.g. 02:40
         [q2, q1, q0],   //e.g. 02:50
 
         [q3, q2, q1],   //e.g. 04:10
-        [q2, q0, q3],   //e.g. 04:20
+        [q2, q0, q3],   //e.g. 04:20*
         [q3, q0, q1],   //e.g. 04:40
         [q2, q0, q1],   //e.g. 04:50
 
         [q3, q1, q2],   //e.g. 08:10
         [q3, q0, q2],   //e.g. 08:20
-        [q3, q1, q0],   //e.g. 08:40
+        [q3, q1, q0],   //e.g. 08:40*
         [q1, q0, q2],   //e.g. 08:50
         
         [q1, q2, q3],   //e.g. 10:10
         [q0, q2, q3],   //e.g. 10:20
         [q0, q1, q3],   //e.g. 10:40
-        [q0, q2, q1]    //e.g. 10:50
+        [q0, q2, q1]    //e.g. 10:50*
     ];
 
     const dayofweekENG = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];     
@@ -78,7 +83,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     var bigNumberDateString = "";
     var dateString = "";
-    var field4BigString = "";
+    var secondUnitString = "";
+    var secondTenthString = "";
     var timeZoneIconString = "H";
     var timeZoneString = "";
     var batteryIconString = "D";
@@ -121,7 +127,6 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         if(watchLanguage == System.LANGUAGE_ITA) { daysOftheWeek = dayofweekITA; }
         if(watchLanguage == System.LANGUAGE_SPA) { daysOftheWeek = dayofweekSPA; }
 
-        secondsFontGray = WatchUi.loadResource(Rez.Fonts.bigNumberEmptyFont) as Graphics.FontType;
         secondsFontFull = WatchUi.loadResource(Rez.Fonts.bigNumberFont) as Graphics.FontType;
 
         watchTemperatureUnit = watchSettings.temperatureUnits;
@@ -140,24 +145,36 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
     // Update a portion of the screen.
     function onPartialUpdate(dc as Graphics.Dc) as Void {
-        // System.println("onPartialUpdate");
         // if we display seconds on field 4
         if (settingField4 == 1) {
             var now = System.getClockTime();
             var coordinatesIdx = (now.min/15)+(((now.hour%12)/3)*4);
             var x3 = coordinates[coordinatesIdx][2][4];
             var y3 = coordinates[coordinatesIdx][2][5];
+            if (x3 > coordinates[coordinatesIdx][2][6]) {
+                x3 = coordinates[coordinatesIdx][2][6];
+            }
+            if (y3 > coordinates[coordinatesIdx][2][7]) {
+                y3 = coordinates[coordinatesIdx][2][7];
+            }
+            var oS  = coordinates[coordinatesIdx][2][8];
             var textColor = Graphics.COLOR_WHITE;
             var bgColor = Graphics.COLOR_BLACK;
             if (settingInvertColors) {
                 textColor = Graphics.COLOR_BLACK;
                 bgColor = Graphics.COLOR_WHITE;
             }
-            dc.setClip(x3, y3+16, 48, 34);
+            dc.setClip(x3, y3, 58, 58);
             dc.setColor(bgColor, bgColor);
-            dc.fillRectangle(x3, y3+16, 48, 34);
-            dc.setColor(textColor, bgColor);
-            dc.drawText(x3, y3, secondsFontGray, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
+            dc.fillRectangle(x3, y3, 58, 58);
+            x3 = coordinates[coordinatesIdx][2][4];
+            y3 = coordinates[coordinatesIdx][2][5];
+            dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x3, y3, secondsFontFull, oS[now.sec/10], Graphics.TEXT_JUSTIFY_LEFT);
+            x3 = coordinates[coordinatesIdx][2][6];
+            y3 = coordinates[coordinatesIdx][2][7];
+            dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x3, y3, secondsFontFull, oS[now.sec%10], Graphics.TEXT_JUSTIFY_LEFT);
         }
         // if we display seconds on date field
         if (settingDateField == 1) {
@@ -193,21 +210,28 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         
         // Determine coordinate for hands avoidance
         var coordinatesIdx = (timeNOW.min/15)+(((timeNOW.hour%12)/3)*4);
-        var x1 = coordinates[coordinatesIdx][0][0];
-        var y1 = coordinates[coordinatesIdx][0][1];
-        var j1 = coordinates[coordinatesIdx][0][2];
-        
-        var x2 = coordinates[coordinatesIdx][1][0];
-        var y2 = coordinates[coordinatesIdx][1][1];
-        var j2 = coordinates[coordinatesIdx][1][2];
-        var o2 = coordinates[coordinatesIdx][1][3];
-
-        var x3 = coordinates[coordinatesIdx][2][4];
-        var y3 = coordinates[coordinatesIdx][2][5];
-
-        var xw = coordinates[coordinatesIdx][2][0];
-        var yw = coordinates[coordinatesIdx][2][1];
-        var jw = coordinates[coordinatesIdx][2][2];
+        // date field
+        var xDate = coordinates[coordinatesIdx][0][0];
+        var yDate = coordinates[coordinatesIdx][0][1];
+        var jDate = coordinates[coordinatesIdx][0][2];
+        // fields 1, 2, 3
+        var xFields = coordinates[coordinatesIdx][1][0];
+        var yFields = coordinates[coordinatesIdx][1][1];
+        var jFields = coordinates[coordinatesIdx][1][2];
+        var oFields = coordinates[coordinatesIdx][1][3];
+        // field 4 seconds
+        var xSt = coordinates[coordinatesIdx][2][4];
+        var ySt = coordinates[coordinatesIdx][2][5];
+        var xSu = coordinates[coordinatesIdx][2][6];
+        var ySu = coordinates[coordinatesIdx][2][7];
+        // second char orientation
+        var oS  = coordinates[coordinatesIdx][2][8];
+        // weather label and icon
+        var xw1 = coordinates[coordinatesIdx][2][9];
+        var yw1 = coordinates[coordinatesIdx][2][10];
+        var xw2 = coordinates[coordinatesIdx][2][11];
+        var yw2 = coordinates[coordinatesIdx][2][12];
+        var jw  = coordinates[coordinatesIdx][2][2];
         
         // Make the strings for dates
         if (settingDateField == 0) {
@@ -228,17 +252,23 @@ class HandAvoidanceView extends WatchUi.WatchFace {
             dateString = "";
         }
 
-        // Make the Second string for field 4
+        // Second string for field 4
         if (settingField4 == 1) {
-                field4BigString = timeNOW.sec.format("%02d");
-        } else if (settingField4 == 2){
+                var sec = timeNOW.sec;
+                secondTenthString = oS[sec/10];
+                secondUnitString = oS[sec%10];
+        } else if (settingField4 == 2) {
             if (!isSleeping) {
-                field4BigString = timeNOW.sec.format("%02d");
+                var sec = timeNOW.sec;
+                secondTenthString = oS[sec/10];
+                secondUnitString = oS[sec%10];
             } else {
-                field4BigString = "";
+                secondTenthString = "";
+                secondUnitString = "";
             }
         } else {
-            field4BigString = "";
+            secondTenthString = "";
+            secondUnitString = "";
         }
 
         // Make Time Zone string
@@ -374,39 +404,44 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw the date
         view = View.findDrawableById("DateLabel") as Text;
         view.setColor(textColor);
-        view.setLocation(x1, y1);
-        view.setJustification(j1);
+        view.setLocation(xDate, yDate);
+        view.setJustification(jDate);
         view.setText(dateString);
         view = View.findDrawableById("DayNumberLabel") as Text;
         view.setColor(textColor);
-        view.setLocation(x1, y1+10);
-        view.setJustification(j1);
+        view.setLocation(xDate, yDate+10);
+        view.setJustification(jDate);
         view.setText(bigNumberDateString);
 
-        // draw field 4 
-        view = View.findDrawableById("Field4Label") as Text;
+        // draw fields Seconds
+        view = View.findDrawableById("SecondTenthLabel") as Text;
         view.setColor(textColor);
-        view.setLocation(x3, y3);
+        view.setLocation(xSt, ySt);
         view.setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-        view.setText(field4BigString);
+        view.setText(secondTenthString);
+        view = View.findDrawableById("SecondUnitLabel") as Text;
+        view.setColor(textColor);
+        view.setLocation(xSu, ySu);
+        view.setJustification(Graphics.TEXT_JUSTIFY_LEFT);
+        view.setText(secondUnitString);
         
         // draw Weather
         view = View.findDrawableById("WeatherLabel") as Text;
         view.setColor(textColor);
-        view.setLocation(xw, yw);
+        view.setLocation(xw2, yw2);
         view.setJustification(jw);
         view.setText(weatherTempString);
         view = View.findDrawableById("WeatherIcon") as Text;
         view.setColor(textColor);
-        view.setLocation(xw, yw+17);
+        view.setLocation(xw1, yw1);
         view.setJustification(jw);
         view.setText(weatherIconString);
 
         // draw field 1  ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field1Icon") as Text;
         view.setColor(textColor);
-        view.setLocation(x2, y2);
-        view.setJustification(j2);
+        view.setLocation(xFields, yFields);
+        view.setJustification(jFields);
         if (settingField1 == 0) { view.setText(notificationIconString); }
         else if (settingField1 == 1) { view.setText(stepIconString); }
         else if (settingField1 == 2) { view.setText(batteryIconString); }
@@ -418,8 +453,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         view = View.findDrawableById("Field1Label") as Text;
         view.setColor(textColor);
-        view.setLocation(x2+o2, y2);
-        view.setJustification(j2);
+        view.setLocation(xFields+oFields, yFields);
+        view.setJustification(jFields);
         if (settingField1 == 0) { view.setText(notificationString); }
         else if (settingField1 == 1) { view.setText(stepString); }
         else if (settingField1 == 2) { view.setText(batteryString); }
@@ -432,8 +467,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw field 2  ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field2Icon") as Text;
         view.setColor(textColor);
-        view.setLocation(x2, y2+20);
-        view.setJustification(j2);
+        view.setLocation(xFields, yFields+20);
+        view.setJustification(jFields);
         if (settingField2 == 0) { view.setText(notificationIconString); }
         else if (settingField2 == 1) { view.setText(stepIconString); }
         else if (settingField2 == 2) { view.setText(batteryIconString); }
@@ -445,8 +480,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         view = View.findDrawableById("Field2Label") as Text;
         view.setColor(textColor);
-        view.setLocation(x2+o2, y2+20);
-        view.setJustification(j2);
+        view.setLocation(xFields+oFields, yFields+20);
+        view.setJustification(jFields);
         if (settingField2 == 0) { view.setText(notificationString); }
         else if (settingField2 == 1) { view.setText(stepString); }
         else if (settingField2 == 2) { view.setText(batteryString); }
@@ -459,8 +494,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw field 3 ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field3Icon") as Text;
         view.setColor(textColor);
-        view.setLocation(x2, y2+40);
-        view.setJustification(j2);
+        view.setLocation(xFields, yFields+40);
+        view.setJustification(jFields);
         if (settingField3 == 0) { view.setText(notificationIconString); }
         else if (settingField3 == 1) { view.setText(stepIconString); }
         else if (settingField3 == 2) { view.setText(batteryIconString); }
@@ -472,8 +507,8 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         view = View.findDrawableById("Field3Label") as Text;
         view.setColor(textColor);
-        view.setLocation(x2+o2, y2+40);
-        view.setJustification(j2);
+        view.setLocation(xFields+oFields, yFields+40);
+        view.setJustification(jFields);
         if (settingField3 == 0) { view.setText(notificationString); }
         else if (settingField3 == 1) { view.setText(stepString); }
         else if (settingField3 == 2) { view.setText(batteryString); }

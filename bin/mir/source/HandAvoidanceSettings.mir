@@ -896,8 +896,8 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     putv self :dateOptions %tmp.183;
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceSettings.mc" 8 6 ]
     %tmp.184 = newa 6 Array<String>;
-    symbol [ Array %tmp.184 8 128 133 ];
-    symbol [ String %tmp.184 8 134 140 ];
+    symbol [ Array %tmp.184 8 125 130 ];
+    symbol [ String %tmp.184 8 131 137 ];
     %tmp.185 = "Off";
     %tmp.186 = dup %tmp.184;
     %tmp.187 = aputv %tmp.186 0 %tmp.185;
@@ -913,7 +913,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     %tmp.197 = "Weather next Hour";
     %tmp.198 = dup %tmp.196;
     %tmp.199 = aputv %tmp.198 4 %tmp.197;
-    %tmp.200 = "Weather Tomorrow";
+    %tmp.200 = "Weather Today";
     %tmp.201 = dup %tmp.199;
     %tmp.202 = aputv %tmp.201 5 %tmp.200;
     putv self :field4Options %tmp.202;

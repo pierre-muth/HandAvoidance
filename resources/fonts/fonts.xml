@@ -2,6 +2,5 @@
     <font id="textFont" filename="textFont.fnt"/>
     <font id="iconFont" filename="iconFont.fnt"/>
     <font id="bigNumberFont" filename="bigNumberFullFont.fnt"/>
-    <font id="bigNumberEmptyFont" filename="bigNumberEmptyFont.fnt"/>
     <font id="weatherFont" filename="weather.fnt"/>
 </fonts>

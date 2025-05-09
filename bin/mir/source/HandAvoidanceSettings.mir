@@ -907,7 +907,7 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceSet
     %tmp.191 = "Seconds low power";
     %tmp.192 = dup %tmp.190;
     %tmp.193 = aputv %tmp.192 2 %tmp.191;
-    %tmp.194 = "Weather now";
+    %tmp.194 = "Weather Now";
     %tmp.195 = dup %tmp.193;
     %tmp.196 = aputv %tmp.195 3 %tmp.194;
     %tmp.197 = "Weather next Hour";

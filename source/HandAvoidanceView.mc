@@ -64,10 +64,10 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     const dayofweekDEU = ["So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."];  
     const dayofweekITA = ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"];  
     const dayofweekSPA = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];  
+    const dayofweekSWE = ["Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör"];  
 
     var daysOftheWeek as Array<String> = dayofweekENG;
-    var secondsFontGray as Graphics.FontType? = null;
-    var secondsFontFull as Graphics.FontType? = null;
+    var fontBigNumbers as Graphics.FontType? = null;
     var isSleeping = false;
 
     var settingField1 as Number = 0;
@@ -126,8 +126,9 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         if(watchLanguage == System.LANGUAGE_DEU) { daysOftheWeek = dayofweekDEU; }
         if(watchLanguage == System.LANGUAGE_ITA) { daysOftheWeek = dayofweekITA; }
         if(watchLanguage == System.LANGUAGE_SPA) { daysOftheWeek = dayofweekSPA; }
+        if(watchLanguage == System.LANGUAGE_SWE) { daysOftheWeek = dayofweekSWE; }
 
-        secondsFontFull = WatchUi.loadResource(Rez.Fonts.bigNumberFont) as Graphics.FontType;
+        fontBigNumbers = WatchUi.loadResource(Rez.Fonts.bigNumberFont) as Graphics.FontType;
 
         watchTemperatureUnit = watchSettings.temperatureUnits;
     }
@@ -170,11 +171,11 @@ class HandAvoidanceView extends WatchUi.WatchFace {
             x3 = coordinates[coordinatesIdx][2][4];
             y3 = coordinates[coordinatesIdx][2][5];
             dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(x3, y3, secondsFontFull, oS[now.sec/10], Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(x3, y3, fontBigNumbers, oS[now.sec/10], Graphics.TEXT_JUSTIFY_LEFT);
             x3 = coordinates[coordinatesIdx][2][6];
             y3 = coordinates[coordinatesIdx][2][7];
             dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(x3, y3, secondsFontFull, oS[now.sec%10], Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(x3, y3, fontBigNumbers, oS[now.sec%10], Graphics.TEXT_JUSTIFY_LEFT);
         }
         // if we display seconds on date field
         if (settingDateField == 1) {
@@ -197,7 +198,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
             dc.setColor(bgColor, bgColor);
             dc.fillRectangle(x1+xOffest, y1+10+16, 48, 34);
             dc.setColor(textColor, bgColor);
-            dc.drawText(x1+xOffest, y1+10, secondsFontFull, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(x1+xOffest, y1+10, fontBigNumbers, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
         }
     }
 
@@ -332,57 +333,64 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         if (settingField4 == 3 || settingField4 == 4 || settingField4 == 5){
             var weather = Weather.getCurrentConditions();
             if (settingField4 == 4){
-                weather = Weather.getHourlyForecast()[0];
+                if (Weather.getHourlyForecast() != null && Weather.getHourlyForecast().size() > 0) {
+                    weather = Weather.getHourlyForecast()[0];
+                } 
             } else if (settingField4 == 5){
-                weather = Weather.getDailyForecast()[0];
-            }
-
-            var condition = weather.condition;
-            weatherIconString = "f";
-            if (condition == Weather.CONDITION_CLEAR) {
-                weatherIconString = "j";
-            }
-            if (condition == Weather.CONDITION_CLOUDY || condition == Weather.CONDITION_MOSTLY_CLOUDY) {
-                weatherIconString = "a";
-            }
-            if (condition == Weather.CONDITION_RAIN || condition == Weather.CONDITION_RAIN_SNOW || condition == Weather.CONDITION_HEAVY_RAIN
-                || condition == Weather.CONDITION_HEAVY_RAIN_SNOW || condition == Weather.CONDITION_FREEZING_RAIN  ) {
-                weatherIconString = "g";
-            }
-            if (condition == Weather.CONDITION_LIGHT_RAIN || condition == Weather.CONDITION_LIGHT_RAIN_SNOW || condition == Weather.CONDITION_LIGHT_SHOWERS 
-                || condition == Weather.CONDITION_SCATTERED_SHOWERS) {
-                weatherIconString = "b";
-            }
-            if (condition == Weather.CONDITION_SNOW || condition == Weather.CONDITION_ICE_SNOW || condition == Weather.CONDITION_HEAVY_SNOW 
-                || condition == Weather.CONDITION_LIGHT_SNOW ) {
-                weatherIconString = "h";
-            }
-            if (condition == Weather.CONDITION_FOG || condition == Weather.CONDITION_MIST ) {
-                weatherIconString = "c";
-            }
-            if (condition == Weather.CONDITION_THUNDERSTORMS || condition == Weather.CONDITION_TROPICAL_STORM || condition == Weather.CONDITION_TORNADO ) {
-                weatherIconString = "i";
-            }
-
-            if (settingField4 == 3 || settingField4 == 4) {
-                if (watchTemperatureUnit == System.UNIT_STATUTE) {
-                    weatherTempString = (32+(weather.temperature * 1.8)).format("%i") + ")";
-                } else {
-                    weatherTempString = weather.temperature.format("%i") + "(";
+                if (Weather.getDailyForecast() != null && Weather.getDailyForecast().size() > 0) {
+                    weather = Weather.getDailyForecast()[0];
                 }
             }
 
-            if (settingField4 == 5){
-                if (watchTemperatureUnit == System.UNIT_STATUTE) { 
-                    var minT = (32+(weather.lowTemperature * 1.8)).format("%i");
-                    var maxT = (32+(weather.highTemperature * 1.8)).format("%i");
-                    weatherTempString =  minT + "'" + maxT + ")";
-                } else {
-                    var minT = weather.lowTemperature.format("%i");
-                    var maxT = weather.highTemperature.format("%i");
-                    weatherTempString =  minT + "'" + maxT + "(";
+            if (weather != null) {
+                var condition = weather.condition;
+                weatherIconString = "f";
+                if (condition == Weather.CONDITION_CLEAR) {
+                    weatherIconString = "j";
+                }
+                if (condition == Weather.CONDITION_CLOUDY || condition == Weather.CONDITION_MOSTLY_CLOUDY) {
+                    weatherIconString = "a";
+                }
+                if (condition == Weather.CONDITION_RAIN || condition == Weather.CONDITION_RAIN_SNOW || condition == Weather.CONDITION_HEAVY_RAIN
+                    || condition == Weather.CONDITION_HEAVY_RAIN_SNOW || condition == Weather.CONDITION_FREEZING_RAIN  ) {
+                    weatherIconString = "g";
+                }
+                if (condition == Weather.CONDITION_LIGHT_RAIN || condition == Weather.CONDITION_LIGHT_RAIN_SNOW || condition == Weather.CONDITION_LIGHT_SHOWERS 
+                    || condition == Weather.CONDITION_SCATTERED_SHOWERS) {
+                    weatherIconString = "b";
+                }
+                if (condition == Weather.CONDITION_SNOW || condition == Weather.CONDITION_ICE_SNOW || condition == Weather.CONDITION_HEAVY_SNOW 
+                    || condition == Weather.CONDITION_LIGHT_SNOW ) {
+                    weatherIconString = "h";
+                }
+                if (condition == Weather.CONDITION_FOG || condition == Weather.CONDITION_MIST ) {
+                    weatherIconString = "c";
+                }
+                if (condition == Weather.CONDITION_THUNDERSTORMS || condition == Weather.CONDITION_TROPICAL_STORM || condition == Weather.CONDITION_TORNADO ) {
+                    weatherIconString = "i";
+                }
+
+                if (settingField4 == 3 || settingField4 == 4) {
+                    if (watchTemperatureUnit == System.UNIT_STATUTE) {
+                        weatherTempString = (32+(weather.temperature * 1.8)).format("%i") + ")";
+                    } else {
+                        weatherTempString = weather.temperature.format("%i") + "(";
+                    }
+                }
+
+                if (settingField4 == 5){
+                    if (watchTemperatureUnit == System.UNIT_STATUTE) { 
+                        var minT = (32+(weather.lowTemperature * 1.8)).format("%i");
+                        var maxT = (32+(weather.highTemperature * 1.8)).format("%i");
+                        weatherTempString =  minT + "'" + maxT + ")";
+                    } else {
+                        var minT = weather.lowTemperature.format("%i");
+                        var maxT = weather.highTemperature.format("%i");
+                        weatherTempString =  minT + "'" + maxT + "(";
+                    }
                 }
             }
+
         } else {
             weatherIconString = "";
             weatherTempString = "";

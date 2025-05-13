@@ -19,7 +19,7 @@ class HandAvoidanceApp extends Application.AppBase {
     var delegate as $.HandAvoidanceDelegate or Null = null;
     [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
     function initialize() as Void {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_10_26_40_4_start:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_10_26_45_4_start:
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 12 8 ]
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_12_8_14_8_if_stmt:
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_12_12_12_82_begin:
@@ -300,94 +300,134 @@ C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_36_85_38_8_stop:
         goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_36_8_38_8_if_end;
 C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_36_8_38_8_if_end:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 39 8 ]
-        symbol [ AppBase %tmp.156 39 8 15 ];
-        %tmp.156 = getv ? :AppBase;
-        symbol [ initialize %tmp.157 39 16 26 ];
-        %tmp.157 = getv function %tmp.156 :initialize;
-        invoke %tmp.156 %tmp.157();
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_10_26_40_4_stop:
-    }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 43; @symbol_functiondef = [getInitialView,43,13,27]; @symbol_return<0> = [Views,43,35,40]; @symbol_return<1> = [Views,43,46,51]; @symbol_return<2> = [InputDelegates,43,53,67]; ]
-    function getInitialView() as [Views] or [Views, InputDelegates] {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_43_69_51_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 40 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_stmt:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_12_40_82_begin:
+        symbol [ Storage %tmp.156 40 12 19 ];
+        %tmp.156 = getv ? :Storage;
+        symbol [ getValue %tmp.157 40 20 28 ];
+        %tmp.157 = getv function %tmp.156 :getValue;
+        %tmp.158 = 8;
+        %tmp.159 = invoke %tmp.156 %tmp.157(%tmp.158);
+        %tmp.160 = null;
+        %tmp.161 = eq %tmp.159 %tmp.160;
+        bt %tmp.161 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_true;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_43_40_82_false:
+        symbol [ Storage %tmp.163 40 45 52 ];
+        %tmp.163 = getv ? :Storage;
+        symbol [ getValue %tmp.164 40 53 61 ];
+        %tmp.164 = getv function %tmp.163 :getValue;
+        %tmp.165 = 8;
+        %tmp.166 = invoke %tmp.163 %tmp.164(%tmp.165);
+        symbol [ Number %tmp.168 40 76 82 ];
+        %tmp.168 = getv ? :Number;
+        %tmp.169 = isa %tmp.166 %tmp.168;
+        %tmp.170 = not %tmp.169;
+        push %tmp.170;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_43_40_82_end:
+        %tmp.171 = phi [%tmp.161 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_12_40_82_begin] [%tmp.170 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_43_40_82_false] [%tmp.171 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_43_40_82_end];
+        bf %tmp.171 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_85_42_8_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 41 12 ]
+        symbol [ Storage %tmp.173 41 12 19 ];
+        %tmp.173 = getv ? :Storage;
+        symbol [ setValue %tmp.174 41 20 28 ];
+        %tmp.174 = getv function %tmp.173 :setValue;
+        %tmp.175 = 8;
+        %tmp.176 = 0;
+        invoke %tmp.173 %tmp.174(%tmp.175, %tmp.176);
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_85_42_8_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_40_8_42_8_if_end:
 [ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 44 8 ]
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_stmt:
-        symbol [ WatchUi %tmp.1 44 12 19 ];
+        symbol [ AppBase %tmp.178 44 8 15 ];
+        %tmp.178 = getv ? :AppBase;
+        symbol [ initialize %tmp.179 44 16 26 ];
+        %tmp.179 = getv function %tmp.178 :initialize;
+        invoke %tmp.178 %tmp.179();
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_10_26_45_4_stop:
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 48; @symbol_functiondef = [getInitialView,48,13,27]; @symbol_return<0> = [Views,48,35,40]; @symbol_return<1> = [Views,48,46,51]; @symbol_return<2> = [InputDelegates,48,53,67]; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_48_69_56_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 49 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_stmt:
+        symbol [ WatchUi %tmp.1 49 12 19 ];
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.3 = const :WatchFaceDelegate;
-        symbol [ WatchFaceDelegate %tmp.3 44 25 42 const ];
+        symbol [ WatchFaceDelegate %tmp.3 49 25 42 const ];
         %tmp.4 = canhazplz %tmp.1 %tmp.3;
-        bf %tmp.4 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_else_false;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_true:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_44_48_8_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 45 12 ]
-        symbol [ $ %tmp.8 45 30 31 ];
+        bf %tmp.4 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_else_false;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_44_53_8_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 50 12 ]
+        symbol [ $ %tmp.8 50 30 31 ];
         %tmp.8 = getm $;
-        symbol [ HandAvoidanceView %tmp.9 45 32 49 ];
+        symbol [ HandAvoidanceView %tmp.9 50 32 49 ];
         %tmp.9 = getv %tmp.8 :HandAvoidanceView;
         %tmp.5 = newc %tmp.9 ();
-        symbol [ initialView ? 45 12 23 ];
+        symbol [ initialView ? 50 12 23 ];
         putv self :initialView %tmp.5;
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 46 12 ]
-        symbol [ $ %tmp.13 46 27 28 ];
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 51 12 ]
+        symbol [ $ %tmp.13 51 27 28 ];
         %tmp.13 = getm $;
-        symbol [ HandAvoidanceDelegate %tmp.14 46 29 50 ];
+        symbol [ HandAvoidanceDelegate %tmp.14 51 29 50 ];
         %tmp.14 = getv %tmp.13 :HandAvoidanceDelegate;
-        symbol [ initialView %tmp.16 46 51 62 ];
+        symbol [ initialView %tmp.16 51 51 62 ];
         %tmp.16 = getv ? :initialView;
         %tmp.10 = newc %tmp.14 (%tmp.16);
-        symbol [ delegate ? 46 12 20 ];
+        symbol [ delegate ? 51 12 20 ];
         putv self :delegate %tmp.10;
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 47 12 ]
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 52 12 ]
         %tmp.17 = newa 2;
-        symbol [ initialView %tmp.19 47 20 31 ];
+        symbol [ initialView %tmp.19 52 20 31 ];
         %tmp.19 = getv ? :initialView;
         %tmp.20 = dup %tmp.17;
         %tmp.21 = aputv %tmp.20 0 %tmp.19;
-        symbol [ delegate %tmp.23 47 33 41 ];
+        symbol [ delegate %tmp.23 52 33 41 ];
         %tmp.23 = getv ? :delegate;
         %tmp.24 = dup %tmp.21;
         %tmp.25 = aputv %tmp.24 1 %tmp.23;
         ret %tmp.25;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_44_48_8_stop:
-        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_end;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_else_false:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_48_15_50_8_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 49 12 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_44_53_8_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_else_false:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_53_15_55_8_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 54 12 ]
         %tmp.26 = newa 1;
-        symbol [ $ %tmp.30 49 24 25 ];
+        symbol [ $ %tmp.30 54 24 25 ];
         %tmp.30 = getm $;
-        symbol [ HandAvoidanceView %tmp.31 49 26 43 ];
+        symbol [ HandAvoidanceView %tmp.31 54 26 43 ];
         %tmp.31 = getv %tmp.30 :HandAvoidanceView;
         %tmp.27 = newc %tmp.31 ();
         %tmp.32 = dup %tmp.26;
         %tmp.33 = aputv %tmp.32 0 %tmp.27;
         ret %tmp.33;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_48_15_50_8_stop:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_44_8_50_8_if_end:
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_43_69_51_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_53_15_55_8_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_49_8_55_8_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_48_69_56_4_stop:
     }
-    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 53; @symbol_functiondef = [getSettingsView,53,20,35]; @symbol_return<0> = [Views,53,43,48]; @symbol_return<1> = [Views,53,54,59]; @symbol_return<2> = [InputDelegates,53,61,75]; ]
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 58; @symbol_functiondef = [getSettingsView,58,20,35]; @symbol_return<0> = [Views,58,43,48]; @symbol_return<1> = [Views,58,54,59]; @symbol_return<2> = [InputDelegates,58,61,75]; ]
     public
     function getSettingsView() as [Views] or [Views, InputDelegates] or Null {
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_53_85_55_4_start:
-[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 54 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_58_85_60_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc" 59 8 ]
         %tmp.1 = newa 2;
-        symbol [ HandAvoidanceSettings %tmp.5 54 20 41 ];
+        symbol [ HandAvoidanceSettings %tmp.5 59 20 41 ];
         %tmp.5 = getv ? :HandAvoidanceSettings;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        symbol [ HandAvoidanceSettingsDelegate %tmp.11 54 49 78 ];
+        symbol [ HandAvoidanceSettingsDelegate %tmp.11 59 49 78 ];
         %tmp.11 = getv ? :HandAvoidanceSettingsDelegate;
-        symbol [ initialView %tmp.13 54 79 90 ];
+        symbol [ initialView %tmp.13 59 79 90 ];
         %tmp.13 = getv ? :initialView;
         %tmp.8 = newc %tmp.11 (%tmp.13);
         %tmp.14 = dup %tmp.7;
         %tmp.15 = aputv %tmp.14 1 %tmp.8;
         ret %tmp.15;
-C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_53_85_55_4_stop:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_HandAvoidanceApp_mc_58_85_60_4_stop:
     }
 }
 [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\HandAvoidanceApp.mc"; @line = 1; ]

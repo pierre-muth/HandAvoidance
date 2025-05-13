@@ -1,0 +1,146 @@
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 4; @symbol_classdef = [SecondHandDrawable,4,6,24]; @symbol_extends<0> = [WatchUi,4,33,40]; @symbol_extends<1> = [Drawable,4,41,49]; ]
+class SecondHandDrawable extends WatchUi.Drawable {
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 6; @position = 16; @symbol_vardef = [_color,6,16,22]; ]
+    private
+    var _color;
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 6; @position = 24; @symbol_vardef = [_xCoord,6,24,31]; ]
+    private
+    var _xCoord;
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 6; @position = 33; @symbol_vardef = [_yCoord,6,33,40]; ]
+    private
+    var _yCoord;
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 7; @position = 16; @symbol_vardef = [_visible,7,16,24]; ]
+    private
+    var _visible = false;
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 9; @symbol_functiondef = [initialize,9,20,30]; @symbol_param<0> = [params,9,31,37]; ]
+    public
+    function initialize(params) as Void {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_9_39_19_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 13 8 ]
+        symbol [ Drawable %tmp.2 13 8 16 ];
+        %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 13 17 27 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 13 28 34 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 16 8 ]
+        %tmp.5 = lgetv %params;
+        symbol [ params %tmp.5 16 17 23 ];
+        symbol [ get %tmp.6 16 24 27 ];
+        %tmp.6 = getv function %tmp.5 :get;
+        %tmp.8 = const :color;
+        symbol [ color %tmp.8 16 29 34 const ];
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        symbol [ _color ? 16 8 14 ];
+        putv self :_color %tmp.9;
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 17 8 ]
+        %tmp.10 = lgetv %params;
+        symbol [ params %tmp.10 17 18 24 ];
+        symbol [ get %tmp.11 17 25 28 ];
+        %tmp.11 = getv function %tmp.10 :get;
+        %tmp.13 = const :x;
+        symbol [ x %tmp.13 17 30 31 const ];
+        %tmp.14 = invoke %tmp.10 %tmp.11(%tmp.13);
+        symbol [ _xCoord ? 17 8 15 ];
+        putv self :_xCoord %tmp.14;
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 18 8 ]
+        %tmp.15 = lgetv %params;
+        symbol [ params %tmp.15 18 18 24 ];
+        symbol [ get %tmp.16 18 25 28 ];
+        %tmp.16 = getv function %tmp.15 :get;
+        %tmp.18 = const :y;
+        symbol [ y %tmp.18 18 30 31 const ];
+        %tmp.19 = invoke %tmp.15 %tmp.16(%tmp.18);
+        symbol [ _yCoord ? 18 8 15 ];
+        putv self :_yCoord %tmp.19;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_9_39_19_4_stop:
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 21; @symbol_functiondef = [draw,21,13,17]; @symbol_param<0> = [dc,21,18,20]; @symbol_param<0>_type<0> = [Dc,21,24,26]; ]
+    function draw(dc as Dc) as Void {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_21_36_26_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 22 8 ]
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_8_25_8_if_stmt:
+        symbol [ _visible %tmp.2 22 12 20 ];
+        %tmp.2 = getv ? :_visible;
+        bf %tmp.2 @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_8_25_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_8_25_8_if_true:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_22_25_8_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 23 12 ]
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 23 12 14 ];
+        symbol [ setColor %tmp.4 23 15 23 ];
+        %tmp.4 = getv function %tmp.3 :setColor;
+        symbol [ _color %tmp.6 23 24 30 ];
+        %tmp.6 = getv ? :_color;
+        symbol [ Graphics %tmp.7 23 32 40 ];
+        %tmp.7 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.8 23 41 58 ];
+        %tmp.8 = getv %tmp.7 :COLOR_TRANSPARENT;
+        invoke %tmp.3 %tmp.4(%tmp.6, %tmp.8);
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 24 12 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 24 12 14 ];
+        symbol [ fillCircle %tmp.10 24 15 25 ];
+        %tmp.10 = getv function %tmp.9 :fillCircle;
+        symbol [ _xCoord %tmp.12 24 26 33 ];
+        %tmp.12 = getv ? :_xCoord;
+        symbol [ _yCoord %tmp.14 24 35 42 ];
+        %tmp.14 = getv ? :_yCoord;
+        %tmp.15 = 6;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14, %tmp.15);
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_22_25_8_stop:
+        goto @C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_8_25_8_if_end;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_22_8_25_8_if_end:
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_21_36_26_4_stop:
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 28; @symbol_functiondef = [setLocation,28,13,24]; @symbol_param<0> = [x,28,25,26]; @symbol_param<0>_type<0> = [$,28,30,31]; @symbol_param<0>_type<1> = [Toybox,28,32,38]; @symbol_param<0>_type<2> = [Lang,28,39,43]; @symbol_param<0>_type<3> = [Numeric,28,44,51]; @symbol_param<1> = [y,28,53,54]; @symbol_param<1>_type<0> = [$,28,58,59]; @symbol_param<1>_type<1> = [Toybox,28,60,66]; @symbol_param<1>_type<2> = [Lang,28,67,71]; @symbol_param<1>_type<3> = [Numeric,28,72,79]; ]
+    function setLocation(x as $.Toybox.Lang.Numeric, y as $.Toybox.Lang.Numeric) as Void {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_28_89_31_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 29 8 ]
+        %tmp.1 = lgetv %x;
+        symbol [ x %tmp.1 29 18 19 ];
+        symbol [ _xCoord ? 29 8 15 ];
+        putv self :_xCoord %tmp.1;
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 30 8 ]
+        %tmp.2 = lgetv %y;
+        symbol [ y %tmp.2 30 18 19 ];
+        symbol [ _yCoord ? 30 8 15 ];
+        putv self :_yCoord %tmp.2;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_28_89_31_4_stop:
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 33; @symbol_functiondef = [setColor,33,13,21]; @symbol_param<0> = [color,33,22,27]; @symbol_param<0>_type<0> = [Toybox,33,32,38]; @symbol_param<0>_type<1> = [Lang,33,39,43]; @symbol_param<0>_type<2> = [Number,33,44,50]; ]
+    function setColor(color as Toybox.Lang.Number) as Void {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_33_60_35_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 34 8 ]
+        %tmp.1 = lgetv %color;
+        symbol [ color %tmp.1 34 17 22 ];
+        symbol [ _color ? 34 8 14 ];
+        putv self :_color %tmp.1;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_33_60_35_4_stop:
+    }
+    [ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 37; @symbol_functiondef = [setVisible,37,13,23]; @symbol_param<0> = [visibility,37,24,34]; @symbol_param<0>_type<0> = [Toybox,37,39,45]; @symbol_param<0>_type<1> = [Lang,37,46,50]; @symbol_param<0>_type<2> = [Boolean,37,51,58]; ]
+    function setVisible(visibility as Toybox.Lang.Boolean) as Void {
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_37_68_39_4_start:
+[ "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc" 38 8 ]
+        %tmp.1 = lgetv %visibility;
+        symbol [ visibility %tmp.1 38 19 29 ];
+        symbol [ _visible ? 38 8 16 ];
+        putv self :_visible %tmp.1;
+C_Users_pfreyerm_cernbox_Documents_MonkeyC_HandAvoidance_source_SecondHandDrawable_mc_37_68_39_4_stop:
+    }
+}
+[ @file = "C:\Users\pfreyerm\cernbox\Documents\MonkeyC\HandAvoidance\source\SecondHandDrawable.mc"; @line = 1; ]
+<init> {
+}

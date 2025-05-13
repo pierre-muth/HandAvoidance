@@ -6,6 +6,7 @@ import Toybox.WatchUi;
 const fieldsOptions = ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"] as Array<String>;
 const dateOptions = ["Day in big", "Day+Seconds always", "Day+Seconds low power", "Off"] as Array<String>;
 const field4Options = ["Off", "Seconds always", "Seconds low power", "Weather Now", "Weather next Hour", "Weather Today"] as Array<String>;
+const secondHandOptions = ["Off", "Always", "Low Power"] as Array<String>;
 
 //! Initial app settings view
 class HandAvoidanceSettings extends WatchUi.View {
@@ -48,6 +49,8 @@ class HandAvoidanceSettingsDelegate extends WatchUi.BehaviorDelegate {
         menu.addItem(new WatchUi.MenuItem(" Date field", dateOptions[setting], 6,  null));
         setting = Storage.getValue(7) as Number;
         menu.addItem(new WatchUi.MenuItem(" Field 4", field4Options[setting], 7,  null));
+        setting = Storage.getValue(8) as Number;
+        menu.addItem(new WatchUi.MenuItem(" Second Hand", secondHandOptions[setting], 8,  null));
 
         WatchUi.pushView(menu, new SettingsMenuDelegate(initialView), WatchUi.SLIDE_IMMEDIATE);
         return true;
@@ -117,6 +120,15 @@ var initialView as $.HandAvoidanceView? = null;
                 }
                 Storage.setValue(id, field4Setting);
                 menuItem.setSubLabel(field4Options[field4Setting]);
+            } else if (id == 8) {
+                var secondHandSetting = Storage.getValue(id);
+                if (secondHandSetting >=2) {
+                    secondHandSetting = 0;
+                } else {
+                    secondHandSetting++;
+                }
+                Storage.setValue(id, secondHandSetting);
+                menuItem.setSubLabel(secondHandOptions[secondHandSetting]);
             }
 
             initialView.onSettingsChanged();

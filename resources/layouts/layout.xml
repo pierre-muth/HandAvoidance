@@ -1,5 +1,10 @@
 <layout id="WatchFaceLayout" >
     <drawable id="BackgroundShape" />
+    <drawable id="SecondHandShape" class="SecondHandDrawable">
+        <param name="color">Gfx.COLOR_WHITE</param>
+        <param name="x">66</param>
+        <param name="y">66</param>
+    </drawable>
     <label id="DateLabel" font="@Fonts.textFont" />
     <label id="DayNumberLabel" font="@Fonts.bigNumberFont" />
     <label id="Field1Icon" font="@Fonts.iconFont" />

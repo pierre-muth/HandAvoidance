@@ -15,10 +15,10 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     const oblicNumbers2 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
     // lookup table for each of the 4 watch quadrants: 
     // x, y panel coordinate, justification, icon offset, x1, y1, x2, y2, orientation of seconds, x, y of weather icon, x, y of weather label
-    const q0 = [ 95, 3  , Graphics.TEXT_JUSTIFY_LEFT,   18, 118,   5, 137,  23, oblicNumbers2, 128,  25,  95,   3];
-    const q1 = [ 95, 105, Graphics.TEXT_JUSTIFY_LEFT,   18, 119, 136, 137, 117, oblicNumbers1, 128, 115,  95, 150];
-    const q2 = [ 80, 105, Graphics.TEXT_JUSTIFY_RIGHT, -18,   5, 119,  24, 137, oblicNumbers2,  50, 115,  80, 150];
-    const q3 = [ 80, 3  , Graphics.TEXT_JUSTIFY_RIGHT, -18,   4,  20,  24,   2, oblicNumbers1,  50,  25,  80,   3];
+    const q0 = [ 94,   0, Graphics.TEXT_JUSTIFY_LEFT,   18, 118,   5, 137,  23, oblicNumbers2, 128,  25,  94,   0];
+    const q1 = [ 94, 115, Graphics.TEXT_JUSTIFY_LEFT,   18, 119, 136, 137, 117, oblicNumbers1, 128, 115,  94, 150];
+    const q2 = [ 81, 115, Graphics.TEXT_JUSTIFY_RIGHT, -18,   5, 119,  24, 137, oblicNumbers2,  50, 115,  81, 150];
+    const q3 = [ 81,   0, Graphics.TEXT_JUSTIFY_RIGHT, -18,   4,  20,  24,   2, oblicNumbers1,  50,  25,  81,   0];
     
     // index 0 (the date) and index 1 (the 3 fields) are coordinates of free quadrant
     // index 2 (seconds) is free or where the hours hand is (free space on top of the hand)
@@ -77,6 +77,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     var settingInvertColors as Boolean = false;
     var settingDateField as Number = 0;
     var settingField4 as Number = 0;
+    var settingSecondHand as Number = 0;
 
     var watchTemperatureUnit as System.UnitsSystem = System.UNIT_METRIC;
     var watchLanguage as System.Language = System.LANGUAGE_ENG;
@@ -100,6 +101,10 @@ class HandAvoidanceView extends WatchUi.WatchFace {
     var heartRateString = "";
     var weatherIconString = "";
     var weatherTempString = "";
+
+    var secondHandColor = Graphics.COLOR_WHITE;
+    var secondHandX = 88;
+    var secondHandY = 88-25;
 
     function initialize() {
         onSettingsChanged();
@@ -200,6 +205,26 @@ class HandAvoidanceView extends WatchUi.WatchFace {
             dc.setColor(textColor, bgColor);
             dc.drawText(x1+xOffest, y1+10, fontBigNumbers, now.sec.format("%02d"), Graphics.TEXT_JUSTIFY_LEFT);
         }
+        // if we display the second hand
+        if (settingSecondHand == 1) {
+            var now = System.getClockTime();
+            var textColor = Graphics.COLOR_WHITE;
+            var bgColor = Graphics.COLOR_BLACK;
+            if (settingInvertColors) {
+                textColor = Graphics.COLOR_BLACK;
+                bgColor = Graphics.COLOR_WHITE;
+            }
+            dc.setClip(53, 53, 69, 69);
+            dc.setColor(bgColor, bgColor);
+            dc.fillCircle(87, 87, 33);
+            dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+            var phase = ((59-now.sec)/60.0)*2.0*Math.PI;
+            var x = 88.0-((Math.sin(phase))*26.0);
+            var y = 88.0-((Math.cos(phase))*26.0);
+            dc.fillCircle(x, y, 6);
+            // dc.drawLine(87,87,x, y);
+        }
+
     }
 
     // Update the view
@@ -417,7 +442,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setText(dateString);
         view = View.findDrawableById("DayNumberLabel") as Text;
         view.setColor(textColor);
-        view.setLocation(xDate, yDate+10);
+        view.setLocation(xDate, yDate+8);
         view.setJustification(jDate);
         view.setText(bigNumberDateString);
 
@@ -444,6 +469,33 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         view.setLocation(xw1, yw1);
         view.setJustification(jw);
         view.setText(weatherIconString);
+
+        // draw the second hand if needed
+        if (settingSecondHand == 1) {
+            view = View.findDrawableById("SecondHandShape") as SecondHandDrawable;
+            var phase = ((59-timeNOW.sec)/60.0)*2.0*Math.PI;
+            var x = 88.0-((Math.sin(phase))*26.0);
+            var y = 88.0-((Math.cos(phase))*26.0);
+            view.setVisible(true);
+            view.setLocation(x, y);
+            view.setColor(textColor);
+        } else if (settingSecondHand == 2) {
+            if (!isSleeping) {
+                view = View.findDrawableById("SecondHandShape") as SecondHandDrawable;
+                var phase = ((59-timeNOW.sec)/60.0)*2.0*Math.PI;
+                var x = 88.0-((Math.sin(phase))*26.0);
+                var y = 88.0-((Math.cos(phase))*26.0);
+                view.setVisible(true);
+                view.setLocation(x, y);
+                view.setColor(textColor);
+            } else {
+                view = View.findDrawableById("SecondHandShape") as SecondHandDrawable;
+                view.setVisible(false);
+            }
+        } else {
+            view = View.findDrawableById("SecondHandShape") as SecondHandDrawable;
+            view.setVisible(false);
+        }
 
         // draw field 1  ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field1Icon") as Text;
@@ -475,7 +527,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw field 2  ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field2Icon") as Text;
         view.setColor(textColor);
-        view.setLocation(xFields, yFields+20);
+        view.setLocation(xFields, yFields+18);
         view.setJustification(jFields);
         if (settingField2 == 0) { view.setText(notificationIconString); }
         else if (settingField2 == 1) { view.setText(stepIconString); }
@@ -488,7 +540,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         view = View.findDrawableById("Field2Label") as Text;
         view.setColor(textColor);
-        view.setLocation(xFields+oFields, yFields+20);
+        view.setLocation(xFields+oFields, yFields+18);
         view.setJustification(jFields);
         if (settingField2 == 0) { view.setText(notificationString); }
         else if (settingField2 == 1) { view.setText(stepString); }
@@ -502,7 +554,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         // draw field 3 ["Notifications", "Steps", "Battery day", "Battery %", "Time Zone","Heart Rate", "Floor Climbed", "Off"]
         view = View.findDrawableById("Field3Icon") as Text;
         view.setColor(textColor);
-        view.setLocation(xFields, yFields+40);
+        view.setLocation(xFields, yFields+36);
         view.setJustification(jFields);
         if (settingField3 == 0) { view.setText(notificationIconString); }
         else if (settingField3 == 1) { view.setText(stepIconString); }
@@ -515,7 +567,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
 
         view = View.findDrawableById("Field3Label") as Text;
         view.setColor(textColor);
-        view.setLocation(xFields+oFields, yFields+40);
+        view.setLocation(xFields+oFields, yFields+36);
         view.setJustification(jFields);
         if (settingField3 == 0) { view.setText(notificationString); }
         else if (settingField3 == 1) { view.setText(stepString); }
@@ -540,6 +592,7 @@ class HandAvoidanceView extends WatchUi.WatchFace {
         settingInvertColors = Storage.getValue(5) as Boolean;
         settingDateField = Storage.getValue(6) as Number;
         settingField4 = Storage.getValue(7) as Number;
+        settingSecondHand = Storage.getValue(8) as Number;
     }
 }
 

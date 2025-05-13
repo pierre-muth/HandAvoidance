@@ -46,6 +46,8 @@ module Rez {
                 rez_cmp_local_custom_drawable_BackgroundShape.identifier = "BackgroundShape";
             }
 
+            var rez_cmp_local_custom_drawable_SecondHandShape = new SecondHandDrawable({:identifier=>"SecondHandShape", :color=>Gfx.COLOR_WHITE, :x=>66, :y=>66});
+
             var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :font=>local_Rez_Fonts_textFont});
 
             var rez_cmp_local_text_DayNumberLabel = new WatchUi.Text({:identifier=>"DayNumberLabel", :font=>local_Rez_Fonts_bigNumberFont});
@@ -70,7 +72,7 @@ module Rez {
 
             var rez_cmp_local_text_WeatherLabel = new WatchUi.Text({:identifier=>"WeatherLabel", :font=>local_Rez_Fonts_textFont});
 
-            return [rez_cmp_local_custom_drawable_BackgroundShape, rez_cmp_local_text_DateLabel, rez_cmp_local_text_DayNumberLabel, rez_cmp_local_text_Field1Icon, rez_cmp_local_text_Field1Label, rez_cmp_local_text_Field2Icon, rez_cmp_local_text_Field2Label, rez_cmp_local_text_Field3Icon, rez_cmp_local_text_Field3Label, rez_cmp_local_text_SecondTenthLabel, rez_cmp_local_text_SecondUnitLabel, rez_cmp_local_text_WeatherIcon, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_BackgroundShape, rez_cmp_local_custom_drawable_SecondHandShape, rez_cmp_local_text_DateLabel, rez_cmp_local_text_DayNumberLabel, rez_cmp_local_text_Field1Icon, rez_cmp_local_text_Field1Label, rez_cmp_local_text_Field2Icon, rez_cmp_local_text_Field2Label, rez_cmp_local_text_Field3Icon, rez_cmp_local_text_Field3Label, rez_cmp_local_text_SecondTenthLabel, rez_cmp_local_text_SecondUnitLabel, rez_cmp_local_text_WeatherIcon, rez_cmp_local_text_WeatherLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
